@@ -76,6 +76,27 @@
 	"energy_increment": -100
   },
   {
+    "id": "shove",
+    "type": "SPELL",
+    "name": "Shove",
+    "description": "You use stamina to push something away from you.",
+    "effect": "directed_push",
+    "valid_targets": [ "hostile", "ally" ],
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "RANDOM_DAMAGE", "SOMATIC" ],
+    "min_range": 3,
+    "max_range": 3,
+    "max_level": 10,
+    "difficulty": -10,
+	"min_damage": 1, 
+	"max_damage": 2, 
+    "base_casting_time": 100,
+	"final_casting_time": 100, 
+	"energy_source": "STAMINA", 
+	"base_energy_cost": 1500,
+	"final_energy_cost": 500, 
+	"energy_increment": -100
+  },
+  {
     "id": "trip",
     "type": "SPELL",
     "name": "Trip",
