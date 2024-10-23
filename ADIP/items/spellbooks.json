@@ -1,0 +1,169 @@
+[
+{
+    "id": "heat_freak_book",
+    "type": "GENERIC",
+    "name": { "str": "alien bingo book", "str_pl": "alien bingo books" },
+    "description": "A small leatherbound book that has been scorched almost unrecognizably. The pages inside are filled with manic writing, at least it's only half written in an alien language. The pieces you do understand seem to point towards the book being used to log experiments on migo's in order to better hunt them, at the sake of the author's sanity it seems. The author's experimentation on the aliens have actually led to some interesting research. It appears the mi-go has an innate ability to reduce it's temperature to near nothing, and the author has reverse engineered this innate ability to an extent.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "?",
+	"looks_like": "book_base", 
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "wheel_of_fire",
+		"leap"
+      ]
+    }
+  },
+  {
+    "id": "iceman_book",
+    "copy-from": "abstractmap",
+    "type": "GENERIC",
+    "name": { "str": "frozen memories" },
+    "description": "A block of black ice with a core of dark water that spirals infintely into itself. Holding this ice is knowing yourself as something, or maybe someone, else. The brass told you to face death itself, thing that are still maddenning just to envision. They were invaders on American Soil, and this is what you had signed up for. When the voices in your head told you to abandon ship, you didn't question it. When they told you to let the creatures pass, or to shoot the same brass that gave you useless guns, you just did as you were told.",
+    "color": "blue",
+    "volume": "10 ml",
+    "weight": "10 g",
+	"looks_like": "grapes",
+	"seed_data": { "plant_name": "frosted growth", "fruit": "divine_fruit_frost", "seeds": false, "grow": "30 days", "required_terrain_flag": "RUBBER" },
+	"flags": [ "PLANTABLE_SEED" ],
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "whispering_darkness",
+		"void_call"
+      ]
+    }
+  },
+  {
+    "id": "shock_jock_book",
+    "type": "GENERIC",
+    "name": { "str": "nervous leech sprout", "str_pl": "nervous leech sprout" },
+    "description": "A leech blossom that has been surgically sewn into the spinal cord and nervous system of what was once a super soldier designed to contain the population, undead or alive. The magitech holding the two together is somehow keeping the stalk in 'sleep mode,' but touching it still gives you a little zap.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "?",
+    "color": "magenta",
+	"looks_like": "mon_leech_stalk",
+	"seed_data": { "plant_name": "recharging leech blossom", "fruit": "recharged_leech_blossom", "seeds": false, "byproducts": [ "withered" ], "grow": "14 days" },
+	"flags": [ "PLANTABLE_SEED" ],
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "jock_shock", 
+		"open_system"
+      ]
+    }
+  },
+  {
+    "id": "lab_geek_book_wormhole",
+    "type": "GENERIC",
+    "name": { "str": "lab journal - Worm", "str_pl": "lab journals - Worm" },
+    "description": "An extremely well maintained and organized lab journal detailing research into both wormholes and the black blob threat the military was so worried about. By the end of the journal the author is so deep in theoretical technical language and potentially world ending scenarios that they can't help but rave themself mad.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "?",
+    "color": "magenta",
+	"looks_like": "book_base",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "wormhole_symbiosis",
+		"lab_geek_slime_trap"
+      ]
+    }
+  },
+  {
+    "id": "lab_geek_book_self_mutation",
+    "type": "GENERIC",
+    "name": { "str": "geek's head", "str_pl": "geek's heads" },
+    "description": "The head of a lab geek, somehow still yapping away about secret mutations and the evolution of humanity. It claims to have had some technology installed in it's head to keep it 'alive' post-partem. It's going on and on about 'above top secret research' that will 'save humanity from itself' and must be carried on. Didn't save them.",
+    "weight": "1 g",
+    "volume": "1 ml",
+	"looks_like": "helmet_motor",
+	"gunmod_data": {
+      "location": "accessories",
+      "mod_targets": [ "acidhead" ],
+	  "damage_modifier": { "damage_type": "acid", "amount": 3 },
+	  "loudness_modifier": 2, 
+      "mode_modifier": [ [ "semi-auto", "auto", 5 ] ]
+    },
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "lab_geek_generator",
+		"catalyst",
+		"alpha_genetics"
+      ]
+    }
+  },
+  {
+    "id": "biohazard_book",
+    "type": "COMESTIBLE",
+    "name": { "str": "radioactive goo", "str_pl": "radioactive goo" },
+    "description": "A single piece of the mass of flesh and goo that was once a 'biohazard,' the military's nuclear option if things went truly south. This looks to be the DNA used to 'start the engine.' A few brave soldiers would sacrifice their lives to become a living ball of never-ending death, hopefully powerful enough to combat the coming threat. A few became too many, and now this is what's left of them. It's still pulsating, giving off who knows what kind of energy and a yeast, fermentable smell.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "?",
+    "color": "magenta",
+	"looks_like": "blood",
+	"brewable": { "time": "24 hours", "results": [ "effervescent_genetics", "yeast" ] },
+	"charges": 1,
+	"flags": [ "RADIOACTIVE", "LEAK_DAM" ], 
+	"container": "flask_glass",
+	"phase": "liquid",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [
+        "living_fusion",
+		"ecdysis"
+      ]
+    }
+  },
+  {
+    "id": "peace_officer_book",
+    "type": "GENERIC",
+    "name": { "str": "palm tattoo", "str_pl": "palm tattoos" },
+    "description": "A dismembered hand with a bar code on the palm. This once denoted someone as a peace officer.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "?",
+    "color": "magenta",
+	"looks_like": "gloves_golf",
+	"seed_data": { "plant_name": "gestating peace officer", "fruit": "peace_officer_egg", "seeds": false, "byproducts": [ "meat_tainted" ], "grow": "3 days", "required_terrain_flag": "CLONING" },
+    "use_action": [
+	{
+      "type": "learn_spell",
+      "spells": [
+        "spawn_firecracker",
+		"shield", 
+		"peace_officer_flashbang"
+      ]
+    }
+	]
+  },
+  {
+    "id": "shield_book",
+    "type": "GENERIC",
+    "name": { "str": "emergency memo", "str_pl": "emergency memo" },
+    "description": "A PSA that didn't reach quite as many soldiers as the military would've hoped. Really, it's just supposed to teach the new guys how to get the hell out of the way. It also details a secret program that will allow almost any soldier to use their enemies' blood as a shield. You just need your ID.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "?",
+	"looks_like": "paper",
+    "color": "magenta",
+    "use_action": [
+	{
+      "type": "learn_spell",
+      "spells": [
+		"shield",
+		"dive"
+      ]
+    }
+	]
+  }
+]

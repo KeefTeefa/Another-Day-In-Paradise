@@ -1,0 +1,67 @@
+[
+{
+    "type": "tool_quality",
+    "id": "DIVINE",
+    "name": { "str": "divine" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "ACCURSED",
+    "name": { "str": "accursed" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "ASCENDED",
+    "name": { "str": "ascended" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "ASCENDED_ANGEL",
+    "name": { "str": "ascended angel" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "RUBBER",
+    "name": { "str": "spiral" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "BIOLOGICAL",
+    "name": { "str": "vigor" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "HEAT",
+    "name": { "str": "fire" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "COLD",
+    "name": { "str": "ice" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "ELECTRICAL",
+    "name": { "str": "charge" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "ACID",
+    "name": { "str": "corrosion" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "HOLO",
+    "name": { "str": "holographic" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "FRACTAL",
+    "name": { "str": "fractal" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "LOVE",
+    "name": { "str": "love" }
+  }
+]

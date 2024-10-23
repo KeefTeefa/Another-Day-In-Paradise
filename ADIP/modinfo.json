@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "anotherdayinparadise",
+    "name": "Another Day In Paradise",
+    "authors": [ "KeefTeefa" ],
+    "maintainers": [ "KeefTeefa" ],
+    "description": "Focused on killing monsters and using their drops to get better at killing monsters. Most power is gained through cooking the monster's parts into special meals that temporarily buff you, requiring ingredients that will need to be home-grown, such as Mandrake's roots which can be found in swamps.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

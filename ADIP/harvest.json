@@ -1,0 +1,124 @@
+[
+  {
+    "id": "hemor",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.1 },
+	  { "drop": "chunk_sulfur", "type": "flesh", "mass_ratio": 0.01 },
+	  { "drop": "hemor_seed", "type": "bionic", "max": 1 },
+      { "drop": "chitin_piece", "type": "bone", "mass_ratio": 0.04 }
+    ]
+  },
+  {
+    "id": "walker",
+    "type": "harvest",
+    "entries": [
+      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.01 },
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.04 },
+	  { "drop": "chunk_sulfur", "type": "flesh", "mass_ratio": 0.04 },
+      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.01 }
+    ]
+  },
+  {
+    "id": "shockjock_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "harvest_maybe_military_heavy", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_human", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_hleather", "type": "skin", "mass_ratio": 0.03 },
+	  { "drop": "shock_jock_book", "type": "bionic", "max": 1 }
+    ]
+  },
+  {
+    "id": "lab_geek_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "harvest_power_storage_civ", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "harvest_bionics_sci", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_human", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_hleather", "type": "skin", "mass_ratio": 0.03 },
+	  { "drop": "lab_geek_book_self_mutation", "type": "bionic", "max": 1 }
+    ]
+  },
+  {
+    "id": "biohazard_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "hstomach", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.001 },
+      { "drop": "bone_human", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "raw_hleather", "type": "skin", "mass_ratio": 0.03 },
+	  { "drop": "hazardous_reactor", "type": "bionic", "max": 1 }
+    ]
+  },
+  {
+    "id": "peace_officer_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
+      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
+	  { "drop": "peace_officer_book", "type": "bionic", "max": 1 },
+      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 }
+    ]
+  },
+  {
+    "id": "accursed_tree_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "log", "type": "bone", "mass_ratio": 0.35 },
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+	  { "drop": "accursed_tree_seed", "type": "bionic", "max": 1 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 }
+    ]
+  },
+  {
+    "id": "mandrake_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+	  { "drop": "mandrake_root", "type": "bionic", "max": 2 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 }
+    ]
+  },
+  {
+    "id": "brineweed_harvest",
+    "type": "harvest",
+    "entries": [
+	  { "drop": "brineweed", "type": "bionic", "max": 1 },
+      { "drop": "pearl", "type": "offal", "mass_ratio": 0.01 }
+    ]
+  },
+  {
+    "id": "secret_sedge_harvest",
+    "type": "harvest",
+    "entries": [
+	  { "drop": "sedge_buds", "type": "bionic", "max": 3 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 }
+    ]
+  },
+  {
+    "id": "yinyang_koi_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "fish", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.08 }
+    ]
+  }
+]

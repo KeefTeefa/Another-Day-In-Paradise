@@ -1,0 +1,187 @@
+[
+{
+    "type": "construction_group",
+    "id": "divine_orchard",
+    "name": "Rubber Orchard"
+  },
+  {
+    "type": "construction_group",
+    "id": "scion_orchard",
+    "name": "Scion Orchard"
+  },
+  {
+    "type": "construction_group",
+    "id": "magitech",
+    "name": "Magitech"
+  },
+  {
+    "type": "construction",
+    "id": "constr_rubber_shrub",
+    "group": "divine_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "survival", 1 ] ],
+    "time": "10 m",
+    "components": [ [ [ "rubber_shrub", 1 ] ], [ [ "material_soil", 25 ] ] ],
+    "pre_terrain": "t_pit_shallow",
+    "post_furniture": "f_rubber_shrub"
+  },
+{
+    "type": "construction",
+    "id": "constr_divine_tree",
+    "group": "divine_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "survival", 2 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "AXE", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ], [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "chunk_sulfur", 100 ] ], [ [ "hemor_seed", 1 ] ] ],
+    "pre_terrain": "t_tree_young",
+    "post_furniture": "f_divine_tree"
+  },
+  {
+    "type": "construction",
+    "id": "constr_accursed_tree",
+    "group": "divine_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "survival", 3 ] ],
+    "time": "31 m",
+    "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+	"tools": [ [ [ "surface_heat", 100, "LIST" ] ] ],
+    "components": [ [ [ "blood", 100 ] ], [ [ "accursed_tree_seed", 1 ] ] ],
+    "pre_furniture": "f_divine_tree",
+    "post_furniture": "f_accursed_tree"
+  },
+  {
+    "type": "construction",
+    "id": "constr_ascended_tree",
+    "group": "divine_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "survival", 4 ] ],
+    "time": "32 m",
+    "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "ascended_seed", 1 ] ], [ [ "royal_jelly", 1 ], [ "robust_brandy", 1 ] ], [ [ "water_clean", 200 ] ], [ [ "gold_small", 300 ] ], [ [ "rose_hips", 10 ] ] ],
+    "pre_furniture": "f_accursed_tree",
+    "post_furniture": "f_ascended_tree"
+  },
+  {
+    "type": "construction",
+    "id": "constr_ascended_angel_tree",
+    "group": "divine_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "survival", 5 ] ],
+    "time": "33 m",
+    "components": [ [ [ "ascended_angel_aura", 1 ] ] ],
+    "pre_furniture": "f_ascended_tree",
+    "post_furniture": "f_ascended_angel_tree"
+  },
+  {
+    "type": "construction",
+    "id": "constr_divine_tree_bio",
+    "group": "scion_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "cooking", 3 ] ],
+    "time": "180 m",
+    "qualities": [ [ { "id": "DISTILL", "level": 1 }, { "id": "DIG", "level": 1 } ] ],
+    "components": [ [ [ "biodiesel", 100 ] ], [ [ "biohazard_book", 1 ] ] ],
+    "pre_furniture": "f_divine_tree",
+    "post_furniture": "f_divine_tree_bio"
+  },
+  {
+    "type": "construction",
+    "id": "constr_divine_tree_heat",
+    "group": "scion_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "fabrication", 3 ] ],
+    "time": "180 m",
+	"tools": [ [ [ "surface_heat", 100, "LIST" ] ] ],
+	"qualities": [ [ { "id": "CHISEL", "level": 1 } ], [ { "id": "AXE", "level": 1 } ] ],
+    "components": [ [ [ "wheel_of_fire_aura", 1 ] ], [ [ "rm451_flamethrower_overheating", 1 ] ] ],
+    "pre_furniture": "f_divine_tree",
+    "post_furniture": "f_divine_tree_heat"
+  },
+  {
+    "type": "construction",
+    "id": "constr_divine_tree_cold",
+    "group": "scion_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "speech", 3 ] ],
+    "time": "180 m",
+	"qualities": [ [ { "id": "CONCENTRATE", "level": 1 } ], [ { "id": "ANESTHESIA", "level": 1 } ] ],
+    "components": [ [ [ "iceman_book", 1 ] ], [ [ "anesthetic", 1000 ] ] ],
+    "pre_furniture": "f_divine_tree",
+    "post_furniture": "f_divine_tree_cold"
+  },
+  {
+    "type": "construction",
+    "id": "constr_divine_tree_acid",
+    "group": "scion_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "traps", 3 ] ],
+    "time": "180 m",
+	"qualities": [ [ { "id": "DRILL", "level": 1 } ], [ { "id": "HOSE", "level": 1 } ] ],
+    "components": [ [ [ "tree_spile", 1 ] ], [ [ "beartrap", 1 ] ], [ [ "lab_geek_book_self_mutation", 1 ] ] ],
+    "pre_furniture": "f_divine_tree",
+    "post_furniture": "f_divine_tree_acid"
+  },
+  {
+    "type": "construction",
+    "id": "constr_divine_tree_electric",
+    "group": "scion_orchard",
+    "category": "OTHER",
+    "required_skills": [ [ "firstaid", 3 ] ],
+    "time": "180 m",
+	"qualities": [ [ { "id": "SEW_CURVED", "level": 1 } ], [ { "id": "SEPARATE", "level": 1 } ] ],
+	"using": [ [ "soldering_standard", 20 ] ],
+    "components": [ [ [ "plant_fibre", 100 ] ], [ [ "cable", 5 ] ], [ [ "recharged_leech_blossom", 1 ] ] ],
+    "pre_furniture": "f_divine_tree",
+    "post_furniture": "f_divine_tree_acid"
+  },
+  {
+    "type": "construction",
+    "id": "constr_NMR_cloning",
+    "group": "magitech",
+    "category": "OTHER",
+    "required_skills": [ [ "electronics", 7 ] ],
+    "time": "60 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "components": [ [ [ "effervescent_genetics", 1 ] ], [ [ "solder_wire", 20 ] ], [ [ "bionic_scanner", 1 ] ], [ [ "analytical_set_basic", 1 ] ] ],
+    "pre_furniture": "f_3d_printer",
+    "post_furniture": "f_NMR_cloning"
+  },
+  {
+    "type": "construction",
+    "id": "constr_fracholo_mirror",
+    "group": "magitech",
+    "category": "OTHER",
+    "required_skills": [ [ "tailor", 5 ] ],
+    "time": "30 h",
+    "components": [ [ [ "glass_shard", 500 ] ], [ [ "superglue", 5 ] ] ],
+    "pre_furniture": "f_bigmirror_b",
+    "post_furniture": "f_fracholo_mirror"
+  },
+  {
+    "type": "construction",
+    "id": "constr_holographic_synthesizer",
+    "group": "magitech",
+    "category": "OTHER",
+    "required_skills": [ [ "electronics", 8 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "SCREW_FINE", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 20 ] ],
+    "components": [ [ [ "holographic_synthesizer", 1 ] ], [ [ "cable", 5 ] ], [ [ "power_supply", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_furniture": "f_holographic_synthesizer"
+  },
+  {
+    "type": "construction",
+    "id": "constr_fractal_simulation_apparatus",
+    "group": "magitech",
+    "category": "OTHER",
+    "required_skills": [ [ "electronics", 8 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "SCREW_FINE", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 20 ] ],
+    "components": [ [ [ "fractal_simulation_apparatus", 1 ] ], [ [ "cable", 5 ] ], [ [ "power_supply", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_furniture": "f_fractal_simulation_apparatus"
+  }
+]

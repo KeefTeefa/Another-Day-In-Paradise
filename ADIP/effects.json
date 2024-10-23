@@ -1,0 +1,211 @@
+[
+  {
+    "type": "effect_type",
+    "id": "wheel_of_fire_slow_eff",
+    "name": [ "Alien Dissipation" ],
+    "desc": [ "This alien heat is actually making you colder, down to the molecular level." ],
+    "speed_name": "Alien Dissipation",
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "speed_mod": [ -5 ] },
+    "base_mods": { "speed_mod": [ -30 ], "dodge_mod": [ -2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "wheel_of_fire_speed_eff",
+    "name": [ "Alien Potential" ],
+    "desc": [ "A foul, bubbly heat is raging inside your very molecules. Makes it hard to stand still." ],
+    "speed_name": "Alien Potential",
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "speed_mod": [ 10 ] },
+    "base_mods": { "speed_mod": [ 30 ], "dodge_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "hemor_high",
+    "name": [ "Divine High" ],
+    "desc": [ "A subtle, all encompassing high that makes you faster, smarter, more perceptive, and makes it harder to feel pain." ],
+    "apply_message": "You notice your connection to the light, and everything appears simply divine..",
+    "int_add_val": 1,
+    "max_intensity": 3,
+    "morale": "morale_high",
+    "base_mods": { "per_mod": [ 3 ], "morale": [ 50 ], "pkill_max_val": [ 40 ], "pkill_tick": [ 120 ], "pkill_min": [ 1 ], "speed_mod": [ 20 ] },
+    "scaling_mods": { "morale": [ 25 ] },
+    "blood_analysis_description": "Genetically Perfect Blood"
+  },
+  {
+    "type": "effect_type",
+    "id": "spiral_fruit_slow_eff",
+    "name": [ "Spiralling" ],
+    "desc": [ "You're spiralling, unsure of where you're going or how you'll get there." ],
+    "speed_name": "Spiralling",
+    "max_intensity": 1,
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "speed_mod": [ -30 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "quicksilver_eff",
+    "name": [ "Quicksilver" ],
+    "desc": [ "You feel quicksilver in your blood, speeding you up by %30 and reducing strength by 2." ],
+    "speed_name": "Quicksilver",
+    "max_intensity": 1,
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "speed_mod": [ 30 ], "str_mod": [ -2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "lovesick",
+    "name": [ "Love Sick" ],
+    "desc": [ "You feel love sick.  Even the thought of betrayal makes you feel sick." ],
+    "remove_message": "You no longer feel love sick.",
+    "rating": "bad",
+    "int_dur_factor": "5 m",
+    "max_intensity": 3,
+    "max_duration": "15 m",
+    "base_mods": { "vomit_chance": [ 90 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "divine_jam_str",
+    "name": [ "Divine Strength" ],
+    "desc": [ "You feel good from eating the divine jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "str_mod": [ 1 ] },
+    "base_mods": { "str_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "divine_jam_dex",
+    "name": [ "Divine Dexterity" ],
+    "desc": [ "You feel good from eating the divine jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "dex_mod": [ 1 ] },
+    "base_mods": { "dex_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "divine_jam_per",
+    "name": [ "Divine Perception" ],
+    "desc": [ "You feel good from eating the divine jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "per_mod": [ 1 ] },
+    "base_mods": { "per_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "divine_jam_int",
+    "name": [ "Divine Intelligence" ],
+    "desc": [ "You feel good from eating the divine jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "int_mod": [ 1 ] },
+    "base_mods": { "int_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascended_jam_str",
+    "name": [ "Ascended Strength" ],
+    "desc": [ "You feel good from eating the ascended jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "str_mod": [ 1 ] },
+    "base_mods": { "str_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascended_jam_dex",
+    "name": [ "Ascended Dexterity" ],
+    "desc": [ "You feel good from eating the ascended jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "dex_mod": [ 1 ] },
+    "base_mods": { "dex_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascended_jam_per",
+    "name": [ "Ascended Perception" ],
+    "desc": [ "You feel good from eating the ascended jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "per_mod": [ 1 ] },
+    "base_mods": { "per_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascended_jam_int",
+    "name": [ "Ascended Intelligence" ],
+    "desc": [ "You feel good from eating the ascended jam." ],
+    "max_intensity": 2,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "int_mod": [ 1 ] },
+    "base_mods": { "int_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "angel_bacon_eff",
+    "name": [ "Angel Bacon" ],
+    "desc": [ "You feel good much less hungry and thirsty after eating that angel bacon." ],
+    "max_intensity": 1,
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "hunger_amount": [ -10 ], "hunger_min": [ -10 ], "thirst_min": [ -10 ], "thirst_amount": [ -10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "lovers_rush",
+    "name": [ "Lover's Rush" ],
+    "desc": [ "Zoinks! Zoinks! Zoinks!" ],
+    "max_intensity": 1,
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "speed_mod": [ 100 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "walkers_bane",
+    "name": [ "Walker's Bane" ],
+    "desc": [ "Your feet are moving faster." ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "speed_mod": [ 10 ] },
+    "base_mods": { "speed_mod": [ 20 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "numb_fingers",
+    "name": [ "Numb Fingers" ],
+    "desc": [ "Your fingers feel kind of numb..." ],
+    "miss_messages": [ [ "You flex your fingers", 4 ] ],
+    "base_mods": { "dex_mod": [ -1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "slime_soup_eff",
+    "name": [ "Slime Soup" ],
+    "desc": [ "That slime stew is really warm in your belly. You feel a little sleepy, but you are healing faster." ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "healing_rate": [ 1 ], "sleep_chance": [ 250 ] },
+	"base_mods": { "healing_rate": [ 2 ], "sleep_chance": [ 501 ] }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "emit_small_fire",
+    "type": "emit",
+    "field": "fd_fire",
+    "qty": 50
+  },
+  {
+    "id": "emit_relax_gas",
+    "type": "emit",
+    "field": "fd_relax_gas",
+    "qty": 50
+  },
+  {
+    "id": "emit_migo_atmosphere",
+    "type": "emit",
+    "field": "fd_migo_atmosphere",
+    "qty": 50
+  },
+  {
+    "id": "emit_nuke_gas",
+    "type": "emit",
+    "field": "fd_nuke_gas",
+    "qty": 50
+  },
+  {
+    "id": "emit_web",
+    "type": "emit",
+    "field": "fd_web",
+    "qty": 50
+  },
+  {
+    "id": "emit_sap",
+    "type": "emit",
+    "field": "fd_sap",
+    "qty": 50
+  },
+  {
+    "id": "emit_gibs_veggy",
+    "type": "emit",
+    "field": "fd_gibs_veggy",
+    "qty": 50
+  },
+  {
+    "id": "emit_dazzling",
+    "type": "emit",
+    "field": "fd_dazzling",
+    "qty": 50
+  },
+  {
+    "id": "emit_cold_air4_stream",
+    "type": "emit",
+    "field": "fd_cold_air4",
+    "intensity": 3,
+    "qty": 50
+  },
+  {
+    "id": "emit_hot_air4_stream",
+    "type": "emit",
+    "field": "fd_hot_air4",
+    "intensity": 3,
+    "qty": 50
+  },
+  {
+    "id": "emit_visuals",
+    "type": "emit",
+    "field": "fd_visuals",
+    "intensity": 1,
+    "qty": 50
+  },
+  {
+    "id": "emit_laser",
+    "type": "emit",
+    "field": "fd_laser",
+    "intensity": 3,
+    "qty": 50
+  }
+]

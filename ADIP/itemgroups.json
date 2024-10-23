@@ -1,0 +1,577 @@
+[
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_heat",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_heat", "prob": 30 },
+	  { "item": "rail_heat", "prob": 25 },
+	  { "item": "grip_heat", "prob": 20 },
+	  { "item": "muzzle_brake_heat", "prob": 15 },
+	  { "item": "heat_sight_1", "prob": 10 },
+	  { "item": "heat_sight_2", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_cold",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_cold", "prob": 30 },
+	  { "item": "rail_cold", "prob": 25 },
+	  { "item": "grip_cold", "prob": 20 },
+	  { "item": "muzzle_brake_cold", "prob": 15 },
+	  { "item": "cold_sight_1", "prob": 10 },
+	  { "item": "cold_sight_2", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_electric",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_electric", "prob": 30 },
+	  { "item": "rail_electric", "prob": 25 },
+	  { "item": "grip_electric", "prob": 20 },
+	  { "item": "muzzle_brake_electric", "prob": 15 },
+	  { "item": "electric_sight_1", "prob": 10 },
+	  { "item": "electric_sight_2", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_acid",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_acid", "prob": 30 },
+	  { "item": "rail_acid", "prob": 25 },
+	  { "item": "grip_acid", "prob": 20 },
+	  { "item": "muzzle_brake_acid", "prob": 15 },
+	  { "item": "acid_sight_1", "prob": 10 },
+	  { "item": "acid_sight_2", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_biological",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_biological", "prob": 30 },
+	  { "item": "rail_biological", "prob": 25 },
+	  { "item": "grip_biological", "prob": 20 },
+	  { "item": "muzzle_brake_biological", "prob": 15 },
+	  { "item": "biological_sight_1", "prob": 10 },
+	  { "item": "biological_sight_2", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier1",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_heat", "prob": 9 },
+	  { "item": "guntrinket_cold", "prob": 9 },
+	  { "item": "guntrinket_electric", "prob": 9 },
+	  { "item": "guntrinket_acid", "prob": 9 },
+	  { "item": "guntrinket_biological", "prob": 9 },
+	  { "item": "guntrinket_handling", "prob": 9 },
+	  { "item": "guntrinket_weight", "prob": 9 },
+	  { "item": "guntrinket_range", "prob": 9 },
+	  { "item": "guntrinket_reload", "prob": 9 },
+	  { "item": "guntrinket_burst", "prob": 9 },
+	  { "item": "guntrinket_dispersion", "prob": 9 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier2",
+    "subtype": "distribution",
+    "items": [
+      { "item": "rail_heat", "prob": 9 },
+	  { "item": "rail_cold", "prob": 9 },
+	  { "item": "rail_electric", "prob": 9 },
+	  { "item": "rail_acid", "prob": 9 },
+	  { "item": "rail_biological", "prob": 9 },
+	  { "item": "rail_handling", "prob": 9 },
+	  { "item": "rail_weight", "prob": 9 },
+	  { "item": "rail_range", "prob": 9 },
+	  { "item": "rail_reload", "prob": 9 },
+	  { "item": "rail_burst", "prob": 9 },
+	  { "item": "rail_dispersion", "prob": 9 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier3",
+    "subtype": "distribution",
+    "items": [
+      { "item": "grip_heat", "prob": 9 },
+	  { "item": "grip_cold", "prob": 9 },
+	  { "item": "grip_electric", "prob": 9 },
+	  { "item": "grip_acid", "prob": 9 },
+	  { "item": "grip_biological", "prob": 9 },
+	  { "item": "grip_handling", "prob": 9 },
+	  { "item": "grip_weight", "prob": 9 },
+	  { "item": "grip_range", "prob": 9 },
+	  { "item": "grip_reload", "prob": 9 },
+	  { "item": "grip_burst", "prob": 9 },
+	  { "item": "grip_dispersion", "prob": 9 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier4",
+    "subtype": "distribution",
+    "items": [
+      { "item": "heat_sight_1", "prob": 9 },
+	  { "item": "cold_sight_1", "prob": 9 },
+	  { "item": "electric_sight_1", "prob": 9 },
+	  { "item": "acid_sight_1", "prob": 9 },
+	  { "item": "acid_sight_1", "prob": 9 },
+	  { "item": "holo_sight_handling", "prob": 9 },
+	  { "item": "holo_sight_weight", "prob": 9 },
+	  { "item": "holo_sight_range", "prob": 9 },
+	  { "item": "holo_sight_reload", "prob": 9 },
+	  { "item": "holo_sight_burst", "prob": 9 },
+	  { "item": "holo_sight_dispersion", "prob": 9 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier5",
+    "subtype": "distribution",
+    "items": [
+      { "item": "heat_sight_2", "prob": 20 },
+	  { "item": "cold_sight_2", "prob": 20 },
+	  { "item": "electric_sight_2", "prob": 20 },
+	  { "item": "acid_sight_2", "prob": 20 },
+	  { "item": "acid_sight_2", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier1and2",
+    "subtype": "distribution",
+    "items": [
+      { "group": "adip_gunmods_tier1", "prob": 66 },
+	  { "group": "adip_gunmods_tier2", "prob": 33 },
+	  { "group": "adip_gunmods_tier3", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier2and3",
+    "subtype": "distribution",
+    "items": [
+      { "group": "adip_gunmods_tier2", "prob": 66 },
+	  { "group": "adip_gunmods_tier3", "prob": 33 },
+	  { "group": "adip_gunmods_tier4", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier3and4",
+    "subtype": "distribution",
+    "items": [
+      { "group": "adip_gunmods_tier3", "prob": 66 },
+	  { "group": "adip_gunmods_tier4", "prob": 33 },
+	  { "group": "adip_gunmods_tier5", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_common",
+    "items": [
+      [ "guntrinket_heat", 10 ],
+	  [ "guntrinket_cold", 10 ],
+	  [ "guntrinket_electric", 10 ],
+	  [ "guntrinket_acid", 10 ],
+	  [ "guntrinket_biological", 10 ],
+	  [ "guntrinket_handling", 10 ],
+	  [ "guntrinket_weight", 10 ],
+	  [ "guntrinket_range", 10 ],
+	  [ "guntrinket_reload", 10 ],
+	  [ "guntrinket_burst", 10 ],
+	  [ "guntrinket_dispersion", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_rare",
+    "items": [
+      [ "rail_heat", 10 ],
+	  [ "rail_cold", 10 ],
+	  [ "rail_electric", 10 ],
+	  [ "rail_acid", 10 ],
+	  [ "rail_biological", 10 ],
+	  [ "rail_handling", 10 ],
+	  [ "rail_weight", 10 ],
+	  [ "rail_range", 10 ],
+	  [ "rail_reload", 10 ],
+	  [ "rail_burst", 10 ],
+	  [ "rail_dispersion", 10 ],
+	  [ "grip_heat", 10 ],
+	  [ "grip_cold", 10 ],
+	  [ "grip_electric", 10 ],
+	  [ "grip_acid", 10 ],
+	  [ "grip_biological", 10 ],
+	  [ "grip_handling", 10 ],
+	  [ "grip_weight", 10 ],
+	  [ "grip_range", 10 ],
+	  [ "grip_reload", 10 ],
+	  [ "grip_burst", 10 ],
+	  [ "grip_dispersion", 10 ],
+	  [ "underbarrel_magic_bayonet", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_milspec",
+    "items": [
+      [ "muzzle_brake_heat", 10 ],
+	  [ "muzzle_brake_cold", 10 ],
+	  [ "muzzle_brake_electric", 10 ],
+	  [ "muzzle_brake_acid", 10 ],
+	  [ "muzzle_brake_biological", 10 ],
+	  [ "muzzle_brake_handling", 10 ],
+	  [ "muzzle_brake_weight", 10 ],
+	  [ "muzzle_brake_range", 10 ],
+	  [ "muzzle_brake_reload", 10 ],
+	  [ "muzzle_brake_burst", 10 ],
+	  [ "muzzle_brake_dispersion", 10 ],
+	  [ "heat_sight_1", 10 ],
+	  [ "heat_sight_2", 10 ],
+	  [ "cold_sight_1", 10 ],
+	  [ "cold_sight_2", 10 ],
+	  [ "acid_sight_1", 10 ],
+	  [ "acid_sight_2", 10 ],
+	  [ "electric_sight_1", 10 ],
+	  [ "electric_sight_2", 10 ],
+	  [ "biological_sight_1", 10 ],
+	  [ "biological_sight_2", 10 ],
+	  [ "holo_sight_weight", 10 ],
+	  [ "holo_sight_handling", 10 ],
+	  [ "holo_sight_range", 10 ],
+	  [ "holo_sight_reload", 10 ],
+	  [ "holo_sight_burst", 10 ],
+	  [ "holo_sight_dispersion", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "items": [
+      [ "guntrinket_heat", 10 ],
+	  [ "guntrinket_cold", 10 ],
+	  [ "guntrinket_electric", 10 ],
+	  [ "guntrinket_acid", 10 ],
+	  [ "guntrinket_biological", 10 ],
+	  [ "guntrinket_handling", 10 ],
+	  [ "guntrinket_weight", 10 ],
+	  [ "guntrinket_range", 10 ],
+	  [ "guntrinket_reload", 10 ],
+	  [ "guntrinket_burst", 10 ],
+	  [ "guntrinket_dispersion", 10 ],
+	  [ "divine_clementine", 1 ], 
+	  [ "stamina_regen_potion_1", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "sopmod",
+	"subtype": "collection", 
+    "items": [
+      [ "rail_heat", 10 ],
+	  [ "rail_cold", 10 ],
+	  [ "rail_electric", 10 ],
+	  [ "rail_acid", 10 ],
+	  [ "rail_biological", 10 ],
+	  [ "rail_handling", 10 ],
+	  [ "rail_weight", 10 ],
+	  [ "rail_range", 10 ],
+	  [ "rail_reload", 10 ],
+	  [ "rail_burst", 10 ],
+	  [ "rail_dispersion", 10 ],
+	  [ "grip_heat", 10 ],
+	  [ "grip_cold", 10 ],
+	  [ "grip_electric", 10 ],
+	  [ "grip_acid", 10 ],
+	  [ "grip_biological", 10 ],
+	  [ "grip_handling", 10 ],
+	  [ "grip_weight", 10 ],
+	  [ "grip_range", 10 ],
+	  [ "grip_reload", 10 ],
+	  [ "grip_burst", 10 ],
+	  [ "grip_dispersion", 10 ],
+	  [ "underbarrel_magic_bayonet", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "sopmod_2",
+	"subtype": "distribution",
+    "items": [
+      [ "muzzle_brake_heat", 10 ],
+	  [ "muzzle_brake_cold", 10 ],
+	  [ "muzzle_brake_electric", 10 ],
+	  [ "muzzle_brake_acid", 10 ],
+	  [ "muzzle_brake_biological", 10 ],
+	  [ "muzzle_brake_handling", 10 ],
+	  [ "muzzle_brake_weight", 10 ],
+	  [ "muzzle_brake_range", 10 ],
+	  [ "muzzle_brake_reload", 10 ],
+	  [ "muzzle_brake_burst", 10 ],
+	  [ "muzzle_brake_dispersion", 10 ],
+	  [ "heat_sight_1", 10 ],
+	  [ "heat_sight_2", 10 ],
+	  [ "cold_sight_1", 10 ],
+	  [ "cold_sight_2", 10 ],
+	  [ "acid_sight_1", 10 ],
+	  [ "acid_sight_2", 10 ],
+	  [ "electric_sight_1", 10 ],
+	  [ "electric_sight_2", 10 ],
+	  [ "biological_sight_1", 10 ],
+	  [ "biological_sight_2", 10 ],
+	  [ "holo_sight_weight", 10 ],
+	  [ "holo_sight_handling", 10 ],
+	  [ "holo_sight_range", 10 ],
+	  [ "holo_sight_reload", 10 ],
+	  [ "holo_sight_burst", 10 ],
+	  [ "holo_sight_dispersion", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "infantry_common_gear",
+	"subtype": "collection",
+    "items": [
+      { "group": "adip_gunmods_tier1and2", "prob": 10 },
+	  { "item": "stamina_regen_potion", "prob": 5 },
+	  { "item": "stamina_regen_potion_1", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "divine_fruits",
+    "subtype": "distribution",
+    "items": [
+      { "item": "divine_blood_fruit", "prob": 10 },
+	  { "item": "divine_fruit_quicksilver", "prob": 25 },
+	  { "item": "divine_fruit_spiral", "prob": 15 },
+	  { "item": "divine_fruit_ascension", "prob": 1 },
+	  { "item": "divine_fruit_bio", "prob": 15 },
+	  { "item": "divine_fruit_love", "prob": 15 },
+	  { "item": "divine_fruit_frost", "prob": 1 },
+	  { "item": "divine_fruit_flame", "prob": 1 },
+	  { "item": "divine_fruit_angel", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "ingredients_paradise",
+    "subtype": "distribution",
+    "items": [
+      { "item": "mandrake_root", "prob": 20 },
+	  { "item": "brineweed", "prob": 15 },
+	  { "item": "sedge_buds", "prob": 10 },
+	  { "item": "divine_clementine", "prob": 10 },
+	  { "item": "yinyang_koi_egg", "prob": 5 },
+	  { "item": "boiled_chitin", "prob": 30 },
+	  { "item": "detoxified_leech_flower", "prob": 3 },
+	  { "item": "smoked_palm", "prob": 5 },
+	  { "item": "razorclaw_caviar", "prob": 5 },
+	  { "item": "hemor_seed", "prob": 1 },
+	  { "item": "ground_wandwood", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "cooked_comestibles",
+    "subtype": "distribution",
+    "items": [
+      { "item": "divine_clementine_jam", "prob": 20 },
+	  { "item": "divine_jam_str", "prob": 10 },
+	  { "item": "divine_jam_dex", "prob": 10 },
+	  { "item": "divine_jam_per", "prob": 10 },
+	  { "item": "divine_jam_int", "prob": 10 },
+	  { "item": "stamina_regen_potion", "prob": 5 },
+	  { "item": "stamina_regen_potion_1", "prob": 10 },
+	  { "item": "stamina_regen_potion_2", "prob": 5 },
+	  { "item": "stamina_regen_potion_3", "prob": 3 },
+	  { "item": "jabberwock_jam", "prob": 10 },
+	  { "item": "jabberwock_jamboree", "prob": 5 },
+	  { "item": "jabberwock_jambalaya", "prob": 1 },
+	  { "item": "detoxified_leech_flower", "prob": 3 },
+	  { "item": "lovers_lollipop", "prob": 3 },
+	  { "item": "lovers_london_broil", "prob": 1 },
+	  { "item": "walkers_bane", "prob": 10 },
+	  { "item": "robust_brandy", "prob": 1 },
+	  { "item": "sedge_mead", "prob": 1 },
+	  { "item": "finger_sandwich", "prob": 1 },
+	  { "item": "chitin_charcuterie", "prob": 1 },
+	  { "item": "chitin_charcuterie_heat", "prob": 1 },
+	  { "item": "chitin_charcuterie_cold", "prob": 1 },
+	  { "item": "chitin_charcuterie_acid", "prob": 1 },
+	  { "item": "chitin_charcuterie_bio", "prob": 1 },
+	  { "item": "chitin_charcuterie_elec", "prob": 1 },
+	  { "item": "slime_soup", "prob": 1 },
+	  { "item": "slime_stew", "prob": 1 },
+	  { "item": "razorclaw_cakes", "prob": 1 },
+	  { "item": "sedge_sticks", "prob": 1 },
+	  { "item": "brineweed_sticks", "prob": 1 },
+	  { "item": "hot_sticks", "prob": 1 },
+	  { "item": "slime_spaghetti", "prob": 1 },
+	  { "item": "naranjachinchi", "prob": 1 }
+    ]
+  },
+  {
+    "id": "farming_tools",
+    "type": "item_group",
+    "items": [
+      { "item": "rubber_shrub", "prob": 3 },
+	  { "item": "wandwood_branch", "prob": 1 }
+    ]
+  },
+  {
+    "id": "forage_spring",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "item": "rubber_shrub", "prob": 10 },
+	  { "item": "hemor_seed", "prob": 2 },
+	  { "item": "mandrake_egg", "prob": 5 }
+    ]
+  },
+  {
+    "id": "forage_summer",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "item": "rubber_shrub", "prob": 20 },
+	  { "item": "hemor_seed", "prob": 5 },
+	  { "item": "mandrake_egg", "prob": 10 },
+	  { "item": "divine_clementine", "prob": 1 }
+    ]
+  },
+  {
+    "id": "forage_autumn",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "item": "rubber_shrub", "prob": 5 },
+	  { "item": "hemor_seed", "prob": 3 },
+	  { "item": "wandwood_branch", "prob": 5 },
+	  { "item": "mandrake_egg", "prob": 2 }
+    ]
+  },
+  {
+    "id": "forage_winter",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "item": "rubber_shrub", "prob": 1 },
+	  { "item": "hemor_seed", "prob": 2 },
+	  { "item": "mandrake_egg", "prob": 3 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "exotic_books",
+    "items": [
+      [ "paradise_cooking", 25 ],
+	  [ "vergery", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "trash_forest",
+    "items": [
+      [ "rubber_shrub", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "trash",
+    "items": [
+      [ "rubber_shrub", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "trash_dumpster",
+	"subtype": "collection", 
+    "items": [
+      [ "rubber_shrub", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "homebooks",
+    "items": [
+      [ "paradise_cooking", 15 ],
+	  [ "vergery", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "tailor_books",
+    "items": [
+	  [ "vergery", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_holobags",
+    "subtype": "distribution",
+    "items": [
+      { "item": "holo_frame", "prob": 25 },
+	  { "item": "holo_space", "prob": 25 },
+	  { "item": "holo_ruck", "prob": 10 },
+	  { "item": "holo_mbag", "prob": 40 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mut_lab",
+    "items": [
+      [ "ascended_seed", 1 ],
+	  [ "rubber_shrub", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "chem_lab",
+    "items": [
+      { "group": "divine_fruits", "prob": 1 },
+	  { "group": "adip_holobags", "prob": 10 },
+	  { "item": "ascended_seed", "prob": 1 },
+	  { "item": "rubber_shrub", "prob": 10 },
+	  { "item": "spiral_stone", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "snacks_fancy",
+	"subtype": "distribution", 
+    "items": [
+      { "group": "cooked_comestibles", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "produce",
+	"subtype": "distribution", 
+    "items": [
+      { "group": "ingredients_paradise", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "produce_fresh",
+	"subtype": "distribution", 
+    "items": [
+      { "group": "ingredients_paradise", "prob": 1 },
+	  { "group": "divine_fruits", "prob": 1 }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+{
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "region_terrain_and_furniture": {
+      "terrain": { "t_region_groundcover_swamp": { "t_tree_wandwood": 1 } } 
+    }
+  }
+]

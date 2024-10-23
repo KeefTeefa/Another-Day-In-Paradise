@@ -1,0 +1,1126 @@
+[
+{
+    "type": "item_group",
+    "id": "hemordrops",
+    "subtype": "collection",
+    "entries": [
+      { "item": "chunk_sulfur", "count": [ 5, 10 ], "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "ascended_drops",
+    "entries": [ { "item": "subsuit_xl" }, { "item": "id_military" }, { "item": "ascended_seed" }, { "item": "hazardous_reactor", "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "angel_drops",
+    "entries": [ { "item": "angel_maw" }, { "item": "spiral_stone" } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "ascended_angel_drops",
+    "entries": [ { "item": "spiral_stone" }, { "item": "ascended_angel_aura" }, { "group": "divine_fruits" } ]
+  },
+  {
+    "id": "mon_zombie_soldier_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ [ "shield_book", 1 ] ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_peace_officer_death_drops",
+    "magazine": 100,
+    "ammo": 60,
+    "entries": [
+      { "group": "infantry_common_gear" },
+	  { "group": "adip_gunmods_tier1and2", "prob": 10 },
+	  { "group": "sopmod", "prob": 25 },
+	  { "group": "sopmod_2", "prob": 5 },
+      { "item": "fn_p90", "prob": 100, "damage": [ 1, 3 ], "dirt": [ 1500, 7050 ] },
+	  { "item": "tie_clipon" },
+	  { "item": "glasses_bal" },
+	  { "item": "suit" },
+      { "item": "holster" },
+      { "group": "carried_guns_pistol_milspec", "prob": 30, "damage": [ 0, 2 ], "dirt": [ 0, 1500 ] },
+      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 50 },
+      { "group": "misc_smoking", "prob": 30 },
+      { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "walker_drops",
+    "ammo": 75,
+    "magazine": 100,
+    "items": [
+      { "item": "cash_card", "prob": 1600, "charges-min": 0, "charges-max": 50000 },
+      [ "cell_phone", 2 ],
+      [ "smart_phone", 400 ],
+	  [ "chunk_sulfur", 400 ],
+	  { "item": "divine_clementine", "prob": 1 },
+      { "item": "cig", "prob": 250, "charges-min": 1, "charges-max": 20 },
+      [ "lighter", 200 ],
+      [ "joint", 10 ],
+      [ "ref_lighter", 50 ],
+      [ "electric_lighter", 50 ],
+      [ "matches", 50 ],
+      { "group": "tobacco_products", "prob": 60 },
+      [ "permanent_marker", 10 ],
+      [ "dog_whistle", 5 ],
+      [ "multitool", 1 ],
+	  [ "rubber_shrub", 10 ],
+      [ "cane", 25 ],
+      [ "pocketwatch", 50 ],
+      [ "pockknife", 50 ],
+      [ "knife_folding", 30 ],
+      [ "knife_swissarmy", 10 ],
+      [ "machete_gimmick", 5 ],
+      [ "teleumbrella", 20 ],
+      [ "umbrella", 20 ],
+      [ "aspirin", 100 ],
+      [ "vitamins", 100 ],
+      [ "eyedrops", 50 ],
+      [ "inhaler", 50 ],
+      [ "flashlight", 50 ],
+      [ "heavy_flashlight", 15 ],
+      [ "camera", 30 ],
+      [ "camera_pro", 5 ],
+      [ "eink_tablet_pc", 30 ],
+      [ "laptop", 15 ],
+      [ "mobile_memory_card", 50 ],
+      [ "usb_drive", 50 ],
+      [ "mp3", 20 ],
+      [ "portable_game", 50 ],
+      [ "vibrator", 5 ],
+      [ "gum", 50 ],
+      { "group": "ammo_pocket_batteries", "prob": 50 },
+      [ "wrapper", 50 ],
+      [ "string_6", 50 ],
+      [ "pocket_firstaid", 5 ],
+      [ "pocket_survival", 5 ],
+      [ "pocket_firearms", 5 ],
+      [ "newest_newspaper", 75 ],
+      [ "flyer", 10 ],
+      [ "thermos", 5 ],
+      [ "hairbrush", 25 ],
+      [ "comb_pocket", 50 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_scav_pistol_drops",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "guns_pistol_milspec", "prob": 5, "damage": [ 1, 4 ] },
+		  { "group": "carried_guns_pistol_common", "prob": 75, "damage": [ 1, 4 ] },
+		  { "group": "guns_pistol_rare", "prob": 10, "damage": [ 1, 4 ] },
+          { "group": "guns_pistol_obscure", "prob": 10, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 25, "damage": [ 2, 4 ] },
+          { "group": "default_zombie_clothes", "prob": 75, "damage": [ 1, 2 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 4 },
+		  { "group": "adip_gunmods_tier1and2", "prob": 1 },
+		  { "group": "gunmod_rare", "prob": 20 },
+          { "group": "gunmod_common", "prob": 75 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 50 },
+		  { "group": "produce_fresh", "prob": 30 },
+		  { "group": "ingredients_paradise", "prob": 15 },
+          { "group": "cooked_comestibles", "prob": 5 }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "group": "science", "prob": 10 },
+		  { "group": "supplies_hardware", "prob": 10 },
+		  { "group": "mut_lab", "prob": 5 },
+		  { "group": "tools_general", "prob": 10 },
+		  { "group": "supplies_plumbing", "prob": 10 },
+		  { "group": "supplies_mechanics", "prob": 10 },
+		  { "group": "tools_hunting", "prob": 10 },
+		  { "group": "trash", "prob": 10 },
+		  { "group": "homebooks", "prob": 15 },
+          { "group": "supplies_electronics", "prob": 10 }
+        ], 
+		"prob": 100
+      },
+      { "group": "default_zombie_items_pockets", "prob": 100 },
+	  {
+        "distribution": [
+          { "item": "duffelbag", "prob": 20, "damage": [ 1, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 1, 4 ] },
+		  { "item": "runner_bag", "prob": 25, "damage": [ 1, 4 ] },
+		  { "item": "mbag", "prob": 25, "damage": [ 1, 4 ] },
+          { "item": "makeshift_sling", "prob": 25, "damage": [ 1, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "restaurantmap", "prob": 19 },
+		  { "item": "touristmap", "prob": 19 },
+		  { "item": "trailmap", "prob": 19 },
+		  { "item": "subwaymap", "prob": 19 },
+          { "item": "roadmap", "prob": 19 },
+		  { "item": "survivormap", "prob": 5 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "rubber_shrub", "prob": 10 },
+	  { "item": "shield_book", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_scav_smg_drops",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "guns_smg_milspec", "prob": 5, "damage": [ 1, 4 ] },
+		  { "group": "carried_guns_smg_common", "prob": 75, "damage": [ 1, 4 ] },
+		  { "group": "guns_smg_rare", "prob": 10, "damage": [ 1, 4 ] },
+          { "group": "guns_smg_obscure", "prob": 10, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 25, "damage": [ 2, 4 ] },
+          { "group": "default_zombie_clothes", "prob": 75, "damage": [ 1, 2 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 4 },
+		  { "group": "adip_gunmods_tier1and2", "prob": 1 },
+		  { "group": "gunmod_rare", "prob": 20 },
+          { "group": "gunmod_common", "prob": 75 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 50 },
+		  { "group": "produce_fresh", "prob": 30 },
+		  { "group": "ingredients_paradise", "prob": 15 },
+          { "group": "cooked_comestibles", "prob": 5 }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "group": "science", "prob": 10 },
+		  { "group": "supplies_hardware", "prob": 10 },
+		  { "group": "mut_lab", "prob": 5 },
+		  { "group": "tools_general", "prob": 10 },
+		  { "group": "supplies_plumbing", "prob": 10 },
+		  { "group": "supplies_mechanics", "prob": 10 },
+		  { "group": "tools_hunting", "prob": 10 },
+		  { "group": "trash", "prob": 10 },
+		  { "group": "homebooks", "prob": 15 },
+          { "group": "supplies_electronics", "prob": 10 }
+        ], 
+		"prob": 100
+      },
+      { "group": "default_zombie_items_pockets", "prob": 100 },
+	  {
+        "distribution": [
+          { "item": "duffelbag", "prob": 20, "damage": [ 1, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 1, 4 ] },
+		  { "item": "runner_bag", "prob": 25, "damage": [ 1, 4 ] },
+		  { "item": "mbag", "prob": 25, "damage": [ 1, 4 ] },
+          { "item": "makeshift_sling", "prob": 25, "damage": [ 1, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "restaurantmap", "prob": 19 },
+		  { "item": "touristmap", "prob": 19 },
+		  { "item": "trailmap", "prob": 19 },
+		  { "item": "subwaymap", "prob": 19 },
+          { "item": "roadmap", "prob": 19 },
+		  { "item": "survivormap", "prob": 5 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "rubber_shrub", "prob": 10 },
+	  { "item": "shield_book", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_scav_shotgun_drops",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "guns_shotgun_milspec", "prob": 5, "damage": [ 1, 4 ] },
+		  { "group": "carried_guns_shotgun_common", "prob": 75, "damage": [ 1, 4 ] },
+		  { "group": "guns_shotgun_rare", "prob": 10, "damage": [ 1, 4 ] },
+          { "group": "guns_shotgun_obscure", "prob": 10, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 25, "damage": [ 2, 4 ] },
+          { "group": "default_zombie_clothes", "prob": 75, "damage": [ 1, 2 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 4 },
+		  { "group": "adip_gunmods_tier1and2", "prob": 1 },
+		  { "group": "gunmod_rare", "prob": 20 },
+          { "group": "gunmod_common", "prob": 75 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 50 },
+		  { "group": "produce_fresh", "prob": 30 },
+		  { "group": "ingredients_paradise", "prob": 15 },
+          { "group": "cooked_comestibles", "prob": 5 }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "group": "science", "prob": 10 },
+		  { "group": "supplies_hardware", "prob": 10 },
+		  { "group": "mut_lab", "prob": 5 },
+		  { "group": "tools_general", "prob": 10 },
+		  { "group": "supplies_plumbing", "prob": 10 },
+		  { "group": "supplies_mechanics", "prob": 10 },
+		  { "group": "tools_hunting", "prob": 10 },
+		  { "group": "trash", "prob": 10 },
+		  { "group": "homebooks", "prob": 15 },
+          { "group": "supplies_electronics", "prob": 10 }
+        ], 
+		"prob": 100
+      },
+      { "group": "default_zombie_items_pockets", "prob": 100 },
+	  {
+        "distribution": [
+          { "item": "duffelbag", "prob": 20, "damage": [ 1, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 1, 4 ] },
+		  { "item": "runner_bag", "prob": 25, "damage": [ 1, 4 ] },
+		  { "item": "mbag", "prob": 25, "damage": [ 1, 4 ] },
+          { "item": "makeshift_sling", "prob": 25, "damage": [ 1, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "restaurantmap", "prob": 19 },
+		  { "item": "touristmap", "prob": 19 },
+		  { "item": "trailmap", "prob": 19 },
+		  { "item": "subwaymap", "prob": 19 },
+          { "item": "roadmap", "prob": 19 },
+		  { "item": "survivormap", "prob": 5 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "rubber_shrub", "prob": 10 },
+	  { "item": "shield_book", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_scav_rifle_drops",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "guns_rifle_milspec", "prob": 5, "damage": [ 1, 4 ] },
+		  { "group": "carried_guns_rifle_common", "prob": 75, "damage": [ 1, 4 ] },
+		  { "group": "guns_rifle_rare", "prob": 10, "damage": [ 1, 4 ] },
+          { "group": "guns_rifle_obscure", "prob": 10, "damage": [ 1, 4 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 25, "damage": [ 2, 4 ] },
+          { "group": "default_zombie_clothes", "prob": 75, "damage": [ 1, 2 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 4 },
+		  { "group": "adip_gunmods_tier1and2", "prob": 1 },
+		  { "group": "gunmod_rare", "prob": 20 },
+          { "group": "gunmod_common", "prob": 75 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 50 },
+		  { "group": "produce_fresh", "prob": 30 },
+		  { "group": "ingredients_paradise", "prob": 15 },
+          { "group": "cooked_comestibles", "prob": 5 }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "group": "science", "prob": 10 },
+		  { "group": "supplies_hardware", "prob": 10 },
+		  { "group": "mut_lab", "prob": 5 },
+		  { "group": "tools_general", "prob": 10 },
+		  { "group": "supplies_plumbing", "prob": 10 },
+		  { "group": "supplies_mechanics", "prob": 10 },
+		  { "group": "tools_hunting", "prob": 10 },
+		  { "group": "trash", "prob": 10 },
+		  { "group": "homebooks", "prob": 15 },
+          { "group": "supplies_electronics", "prob": 10 }
+        ], 
+		"prob": 100
+      },
+      { "group": "default_zombie_items_pockets", "prob": 100 },
+	  {
+        "distribution": [
+          { "item": "duffelbag", "prob": 20, "damage": [ 1, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 1, 4 ] },
+		  { "item": "runner_bag", "prob": 25, "damage": [ 1, 4 ] },
+		  { "item": "mbag", "prob": 25, "damage": [ 1, 4 ] },
+          { "item": "makeshift_sling", "prob": 25, "damage": [ 1, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "restaurantmap", "prob": 19 },
+		  { "item": "touristmap", "prob": 19 },
+		  { "item": "trailmap", "prob": 19 },
+		  { "item": "subwaymap", "prob": 19 },
+          { "item": "roadmap", "prob": 19 },
+		  { "item": "survivormap", "prob": 5 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "rubber_shrub", "prob": 10 },
+	  { "item": "shield_book", "prob": 10 }
+    ]
+  },
+  {
+    "id": "mon_pmc_pistol_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 0,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 0, 1 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 0, 1 ] }
+        ]
+      },
+      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 20 },
+	  { "group": "infantry_common_gear", "count": [ 1, 2 ] },
+      {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 25 },
+		  { "group": "military_patrol_food", "prob": 25 },
+		  { "group": "produce_fresh", "prob": 10 },
+		  { "group": "ingredients_paradise", "prob": 25 },
+          { "group": "cooked_comestibles", "prob": 15 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "group": "guns_pistol_milspec", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_pistol_common_display", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_pistol_rare", "prob": 20, "damage": [ 0, 1 ] },
+          { "group": "guns_pistol_obscure", "prob": 30, "damage": [ 0, 1 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 25 },
+		  { "group": "gunmod_rare", "prob": 25 },
+          { "group": "gunmod_common", "prob": 50 }
+        ], 
+		"prob": 75
+      },
+	  {
+        "distribution": [
+          { "group": "sopmod", "prob": 75 },
+		  { "group": "sopmod_2", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "adip_gunmods_tier1and2", "prob": 75 },
+		  { "group": "adip_gunmods_tier2and3", "prob": 25 }
+        ], 
+		"prob": 25
+      },
+      {
+        "distribution": [
+          { "item": "goggles_nv", "prob": 90, "damage": [ 0, 4 ] },
+		  { "item": "goggles_ir", "prob": 10, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "bigback", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "backpack_tactical_large", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "molle_pack", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "holo_ruck", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "holo_mbag", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "rucksack", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "militarymap", "prob": 50 },
+		  { "item": "divine_blood_fruit", "prob": 25 },
+		  { "item": "labmap", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
+	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "group": "infantry_medical_gear", "prob": 75 },
+	  { "group": "exotic_books", "prob": 25 },
+	  { "group": "chem_lab", "prob": 75 },
+	  { "group": "military" },
+      { "item": "mask_gas", "prob": 5, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "two_way_radio", "prob": 15, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "knife_combat", "prob": 100, "damage": [ 3, 4 ] },
+      { "group": "misc_smoking", "prob": 75 }
+    ]
+  },
+  {
+    "id": "mon_pmc_smg_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 0,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 0, 1 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 0, 1 ] }
+        ]
+      },
+      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 20 },
+	  { "group": "infantry_common_gear", "count": [ 1, 2 ], "prob": 75 },
+      {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 25 },
+		  { "group": "military_patrol_food", "prob": 25 },
+		  { "group": "produce_fresh", "prob": 10 },
+		  { "group": "ingredients_paradise", "prob": 25 },
+          { "group": "cooked_comestibles", "prob": 15 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "group": "guns_smg_milspec", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_common_display", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_rare", "prob": 20, "damage": [ 0, 1 ] },
+          { "group": "guns_smg_obscure", "prob": 30, "damage": [ 0, 1 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 25 },
+		  { "group": "gunmod_rare", "prob": 25 },
+          { "group": "gunmod_common", "prob": 50 }
+        ], 
+		"prob": 75
+      },
+	  {
+        "distribution": [
+          { "group": "sopmod", "prob": 75 },
+		  { "group": "sopmod_2", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "adip_gunmods_tier1and2", "prob": 75 },
+		  { "group": "adip_gunmods_tier2and3", "prob": 25 }
+        ], 
+		"prob": 25
+      },
+      {
+        "distribution": [
+          { "item": "goggles_nv", "prob": 90, "damage": [ 0, 4 ] },
+		  { "item": "goggles_ir", "prob": 10, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "bigback", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "backpack_tactical_large", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "molle_pack", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "holo_ruck", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "holo_mbag", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "rucksack", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "militarymap", "prob": 50 },
+		  { "item": "divine_blood_fruit", "prob": 25 },
+		  { "item": "labmap", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
+	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "group": "infantry_medical_gear", "prob": 75 },
+	  { "group": "exotic_books", "prob": 25 },
+	  { "group": "chem_lab", "prob": 75 },
+	  { "group": "military" },
+      { "item": "mask_gas", "prob": 5, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "two_way_radio", "prob": 15, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "knife_combat", "prob": 100, "damage": [ 3, 4 ] },
+      { "group": "misc_smoking", "prob": 30 }
+    ]
+  },
+  {
+    "id": "mon_pmc_shotgun_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 0,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 0, 1 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 0, 1 ] }
+        ]
+      },
+      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 20 },
+	  { "group": "infantry_common_gear", "count": [ 1, 2 ], "prob": 75 },
+      {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 25 },
+		  { "group": "military_patrol_food", "prob": 25 },
+		  { "group": "produce_fresh", "prob": 10 },
+		  { "group": "ingredients_paradise", "prob": 25 },
+          { "group": "cooked_comestibles", "prob": 15 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "group": "guns_shotgun_milspec", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_shotgun_common_display", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_shotgun_rare", "prob": 20, "damage": [ 0, 1 ] },
+          { "group": "guns_shotgun_obscure", "prob": 30, "damage": [ 0, 1 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 25 },
+		  { "group": "gunmod_rare", "prob": 25 },
+          { "group": "gunmod_common", "prob": 50 }
+        ], 
+		"prob": 75
+      },
+	  {
+        "distribution": [
+          { "group": "sopmod", "prob": 75 },
+		  { "group": "sopmod_2", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "adip_gunmods_tier1and2", "prob": 75 },
+		  { "group": "adip_gunmods_tier2and3", "prob": 25 }
+        ], 
+		"prob": 25
+      },
+      {
+        "distribution": [
+          { "item": "goggles_nv", "prob": 90, "damage": [ 0, 4 ] },
+		  { "item": "goggles_ir", "prob": 10, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "bigback", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "backpack_tactical_large", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "molle_pack", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "holo_ruck", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "holo_mbag", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "rucksack", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "militarymap", "prob": 50 },
+		  { "item": "divine_blood_fruit", "prob": 25 },
+		  { "item": "labmap", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
+	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "group": "infantry_medical_gear", "prob": 75 },
+	  { "group": "exotic_books", "prob": 25 },
+	  { "group": "chem_lab", "prob": 75 },
+	  { "group": "military" },
+      { "item": "mask_gas", "prob": 5, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "two_way_radio", "prob": 15, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "knife_combat", "prob": 100, "damage": [ 3, 4 ] },
+      { "group": "misc_smoking", "prob": 30 }
+    ]
+  },
+  {
+    "id": "mon_pmc_rifle_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 0,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 0, 1 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 0, 1 ] }
+        ]
+      },
+      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 20 },
+	  { "group": "infantry_common_gear", "count": [ 1, 2 ], "prob": 75 },
+      {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 25 },
+		  { "group": "military_patrol_food", "prob": 25 },
+		  { "group": "produce_fresh", "prob": 10 },
+		  { "group": "ingredients_paradise", "prob": 25 },
+          { "group": "cooked_comestibles", "prob": 15 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "group": "guns_rifle_milspec", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_rifle_common_display", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_rifle_rare", "prob": 20, "damage": [ 0, 1 ] },
+          { "group": "guns_rifle_obscure", "prob": 30, "damage": [ 0, 1 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 25 },
+		  { "group": "gunmod_rare", "prob": 25 },
+          { "group": "gunmod_common", "prob": 50 }
+        ], 
+		"prob": 75
+      },
+	  {
+        "distribution": [
+          { "group": "sopmod", "prob": 75 },
+		  { "group": "sopmod_2", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "adip_gunmods_tier1and2", "prob": 75 },
+		  { "group": "adip_gunmods_tier2and3", "prob": 25 }
+        ], 
+		"prob": 25
+      },
+      {
+        "distribution": [
+          { "item": "goggles_nv", "prob": 90, "damage": [ 0, 4 ] },
+		  { "item": "goggles_ir", "prob": 10, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "bigback", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "backpack_tactical_large", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "molle_pack", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "holo_ruck", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "holo_mbag", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "rucksack", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "militarymap", "prob": 50 },
+		  { "item": "divine_blood_fruit", "prob": 25 },
+		  { "item": "labmap", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
+	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "group": "infantry_medical_gear", "prob": 75 },
+	  { "group": "exotic_books", "prob": 25 },
+	  { "group": "chem_lab", "prob": 75 },
+	  { "group": "military" },
+      { "item": "mask_gas", "prob": 5, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "two_way_radio", "prob": 15, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "knife_combat", "prob": 100, "damage": [ 3, 4 ] },
+      { "group": "misc_smoking", "prob": 30 }
+    ]
+  },
+  {
+    "id": "mon_contract_killer_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 0,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 25 },
+		  { "item": "exosuit_military", "prob": 25 },
+          { "group": "clothing_soldier_winter_set", "prob": 50 }
+        ]
+      },
+      { "group": "military_standard_grenades", "count": [ 3, 7 ], "prob": 100 },
+	  { "group": "infantry_common_gear", "count": [ 1, 2 ], "prob": 100 },
+      {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 25 },
+		  { "group": "military_patrol_food", "prob": 25 },
+		  { "group": "ingredients_paradise", "prob": 25 },
+          { "group": "cooked_comestibles", "prob": 25 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "group": "nested_m107a1", "prob": 20, "damage": [ 0, 1 ] },
+		  { "group": "nested_tac50", "prob": 10, "damage": [ 0, 1 ] },
+		  { "group": "nested_m2010", "prob": 10, "damage": [ 0, 1 ] },
+		  { "group": "nested_bfg50", "prob": 10, "damage": [ 0, 1 ] },
+		  { "group": "nested_trex_gun", "prob": 15, "damage": [ 0, 1 ] },
+		  { "group": "nested_as50", "prob": 15, "damage": [ 0, 1 ] },
+          { "group": "nested_rm11b_sniper_rifle", "prob": 20, "damage": [ 0, 1 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 25 },
+		  { "group": "gunmod_rare", "prob": 25 },
+          { "group": "gunmod_common", "prob": 50 }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "group": "sopmod", "prob": 75 },
+		  { "group": "sopmod_2", "prob": 25 }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "group": "adip_gunmods_tier1and2", "prob": 50 },
+		  { "group": "adip_gunmods_tier2and3", "prob": 50 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "item": "goggles_nv", "prob": 50, "damage": [ 0, 2 ] },
+		  { "item": "goggles_ir", "prob": 50, "damage": [ 0, 2 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "bigback", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "holo_ruck", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "holo_mbag", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "rucksack", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "militarymap", "prob": 50 },
+		  { "item": "labmap", "prob": 50 }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "group": "divine_fruits", "prob": 25 },
+		  { "item": "hemor_seed", "prob": 25, "count": [ 1, 3 ] },
+		  { "item": "heat_freak_book", "prob": 10 },
+		  { "item": "iceman_book", "prob": 10 },
+		  { "item": "lab_geek_book_self_mutation", "prob": 7 },
+		  { "item": "lab_geek_book_wormhole", "prob": 3 },
+		  { "item": "shock_jock_book", "prob": 10 },
+		  { "item": "biohazard_book", "prob": 10 }
+        ], 
+		"prob": 90
+      },
+	  {
+        "distribution": [
+		  { "item": "rm451_flamethrower_overheating", "prob": 10 },
+		  { "item": "icey_acr_300blk", "prob": 15 },
+		  { "item": "shockgun", "prob": 10 },
+		  { "item": "acidhead", "prob": 10 },
+		  { "item": "hazardous_reactor", "prob": 5 },
+		  { "item": "accursed_tree_seed", "prob": 40 },
+		  { "item": "angel_maw", "prob": 10 }
+        ], 
+		"prob": 50
+      },
+	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
+	  { "item": "pmc_dogtag", "prob": 100, "count": [ 1, 3 ] },
+	  { "group": "infantry_medical_gear", "prob": 100 },
+	  { "group": "exotic_books", "prob": 100 },
+	  { "group": "chem_lab", "prob": 100 },
+	  { "group": "military" },
+      { "item": "mask_gas", "prob": 5, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "two_way_radio", "prob": 15, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "knife_combat", "prob": 100, "damage": [ 3, 4 ] },
+      { "group": "misc_smoking", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_heat_freak_death_drops",
+    "entries": [
+      { "group": "fireman_torso", "damage": [ 1, 4 ] },
+      { "group": "fireman_pants", "damage": [ 1, 4 ] },
+      { "group": "fireman_gloves", "damage": [ 1, 4 ] },
+      { "group": "fireman_boots", "damage": [ 1, 4 ] },
+      { "group": "fireman_mask", "damage": [ 1, 4 ] },
+      { "group": "fireman_head", "damage": [ 1, 4 ] },
+      { "group": "hazmat_eyes", "damage": [ 1, 4 ], "prob": 33 },
+	  { "item": "rm451_flamethrower_overheating", "prob": 5 },
+	  { "item": "heat_freak_book", "prob": 25 },
+	  { "item": "migomap", "prob": 50 },
+	  { "item": "divine_clementine", "prob": 2 },
+	  { "group": "adip_gunmods_tier1and2" },
+	  { "item": "stamina_regen_potion_1", "prob": 50, "count": [ 1, 3 ] },
+	  { "item": "fetid_goop", "prob": 100, "count": [ 1, 3 ] },
+	  { "group": "adip_gunmods_heat", "prob": 100 },
+      { "distribution": [ { "group": "fireman_gear", "prob": 1 } ] },
+      { "item": "cash_card", "charges-min": 0, "charges-max": 50000 }
+    ]
+  },
+  {
+    "id": "mon_iceman_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 60,
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 1, 4 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 1, 4 ] }
+        ]
+      },
+      { "group": "infantry_common_gear" },
+	  { "group": "adip_gunmods_tier1and2" },
+	  { "group": "adip_gunmods_tier2and3", "prob": 75 },
+	  { "item": "stamina_regen_potion_1", "prob": 33 },
+	  { "item": "divine_clementine", "prob": 2 },
+	  { "group": "sopmod", "prob": 75 },
+	  { "group": "sopmod_2", "prob": 50 },
+	  { "group": "adip_gunmods_cold" },
+	  { "item": "ice_badge", "prob": 50 },
+      { "group": "military_standard_guns", "prob": 10, "damage": [ 0, 3 ], "dirt": [ 1500, 7050 ] },
+      { "item": "holster" },
+	  { "item": "stamina_regen_potion_1", "prob": 33 },
+	  { "item": "icey_acr_300blk", "prob": 10 },
+	  { "item": "iceman_book", "prob": 25 },
+	  { "item": "300blk", "prob": 100, "count": [ 1, 3 ] },
+      { "group": "military_standard_pistols", "prob": 30, "damage": [ 0, 2 ], "dirt": [ 0, 1500 ] },
+      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 20 },
+      { "group": "military_patrol_food" },
+      { "distribution": [ { "group": "infantry_officer_gear" }, { "group": "infantry_medical_gear" } ], "prob": 25 },
+      { "item": "cash_card", "prob": 10, "charges": [ 0, 50000 ] },
+      { "group": "misc_smoking", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_shock_jock_death_drops",
+    "entries": [
+      {
+        "distribution": [
+          {
+            "collection": [
+              { "item": "power_armor_basic", "damage": [ 1, 4 ] },
+              { "item": "power_armor_helmet_basic", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 10
+          },
+          {
+            "collection": [
+              { "item": "power_armor_light", "damage": [ 1, 4 ] },
+              { "item": "power_armor_helmet_light", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 10
+          },
+          {
+            "collection": [
+              { "item": "power_armor_heavy", "damage": [ 1, 4 ] },
+              { "item": "power_armor_helmet_heavy", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 5
+          },
+          {
+            "collection": [
+              {
+                "distribution": [
+                  {
+                    "collection": [
+                      { "item": "steel_armor", "count": [ 1, 10 ], "prob": 50 },
+                      { "item": "power_supply", "count": [ 1, 7 ], "prob": 50 },
+                      { "item": "element", "count": [ 1, 3 ], "prob": 50 },
+                      { "item": "circuit", "count": [ 1, 8 ], "prob": 50 },
+                      { "item": "small_lcd_screen", "count": [ 1, 2 ], "prob": 50 }
+                    ],
+                    "prob": 10
+                  },
+                  {
+                    "collection": [
+                      { "item": "alloy_sheet", "count": [ 1, 6 ], "prob": 50 },
+                      { "item": "power_supply", "count": [ 1, 4 ], "prob": 50 },
+                      { "item": "element", "count": [ 1, 2 ], "prob": 50 },
+                      { "item": "circuit", "count": [ 1, 7 ], "prob": 50 },
+                      { "item": "e_scrap", "count": [ 1, 4 ], "prob": 50 }
+                    ],
+                    "prob": 10
+                  },
+                  {
+                    "collection": [
+                      { "item": "hard_steel_armor", "count": [ 1, 14 ], "prob": 50 },
+                      { "item": "steel_armor", "count": [ 1, 7 ], "prob": 50 },
+                      { "item": "power_supply", "count": [ 1, 11 ], "prob": 50 },
+                      { "item": "element", "count": [ 1, 3 ], "prob": 50 },
+                      { "item": "circuit", "count": [ 1, 8 ], "prob": 50 },
+                      { "item": "small_lcd_screen", "count": [ 1, 2 ], "prob": 50 }
+                    ],
+                    "prob": 5
+                  }
+                ]
+              },
+              { "item": "cable", "charges": [ 1, 12 ], "prob": 50 },
+              { "item": "transponder", "prob": 50 },
+              { "item": "RAM", "prob": 50 },
+              { "item": "depowered_armor", "damage": [ 1, 4 ] },
+              { "item": "depowered_helmet", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 75
+          }
+        ]
+      },
+      { "group": "military_specops_guns", "prob": 10, "damage": [ 0, 3 ], "dirt": [ 1500, 7050 ] },
+	  { "item": "shockgun", "prob": 25 },
+	  { "item": "divine_clementine", "prob": 2 },
+	  { "group": "adip_gunmods_tier1and2" },
+	  { "group": "adip_gunmods_electric" },
+	  { "item": "militarymap", "prob": 75 },
+	  { "item": "stamina_regen_potion_1", "prob": 33, "count": [ 1, 6 ] },
+	  { "group": "adip_gunmods_tier2and3", "prob": 25 },
+	  { "group": "adip_gunmods_tier3and4", "prob": 10 },
+	  { "item": "shock_jock_book", "prob": 25 },
+      { "group": "pwr_armor_acc", "damage": [ 1, 4 ], "prob": 90 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_lab_geek_death_drops",
+    "entries": [
+      { "group": "lab_shoes", "damage": [ 1, 4 ] },
+      { "group": "lab_torso", "damage": [ 1, 4 ] },
+      { "group": "lab_pants", "damage": [ 1, 4 ] },
+      { "group": "underwear", "damage": [ 1, 4 ] },
+      {
+        "collection": [
+          { "group": "harddrugs", "prob": 25 },
+          { "group": "chem_lab", "prob": 60 },
+          { "group": "teleport", "prob": 6 },
+          { "group": "goo", "prob": 20 },
+          { "group": "cloning_vat", "prob": 1 },
+          { "group": "dissection", "prob": 50 },
+          { "group": "electronics", "prob": 40 },
+          { "group": "bionics", "prob": 10 },
+          { "group": "radio", "prob": 15 },
+          { "group": "textbooks", "prob": 25 },
+          { "group": "autodoc_installation_programs", "prob": 5 }
+        ]
+      },
+      { "item": "id_science", "prob": 5 },
+	  { "item": "divine_clementine", "prob": 2 },
+	  { "item": "mutagen", "prob": 75, "count": [ 1, 3 ] },
+	  { "item": "iv_mutagen", "prob": 100, "count": [ 1, 3 ] },
+	  { "item": "lab_geek_book_wormhole", "prob": 25 },
+	  { "item": "lab_geek_book_self_mutation", "prob": 25 },
+	  { "item": "acidhead", "prob": 10 },
+	  { "item": "labmap", "prob": 15 },
+	  { "group": "adip_gunmods_tier1and2" },
+	  { "group": "adip_gunmods_acid" },
+	  { "item": "stamina_regen_potion_1", "prob": 33, "count": [ 1, 6 ] },
+      { "item": "cash_card", "charges-min": 0, "charges-max": 50000 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "biohazard_death_drops",
+    "entries": [
+      { "group": "default_zombie_clothes" },
+      { "group": "default_zombie_items", "prob": 50 },
+	  { "item": "divine_clementine", "prob": 2 },
+	  { "item": "biohazard_book", "prob": 75 },
+	  { "item": "arm", "count": [ 1, 5 ], "prob": 50 },
+	  { "item": "leg", "count": [ 1, 5 ], "prob": 50 },
+	  { "item": "biohazard_map", "prob": 10 },
+	  { "item": "blood", "count": [ 1, 5 ] },
+	  { "group": "adip_gunmods_biological" },
+	  { "group": "adip_gunmods_tier1and2", "prob": 50 },
+      { "item": "cash_card", "prob": 10, "charges-min": 0, "charges-max": 50000 }
+    ]
+  }
+]

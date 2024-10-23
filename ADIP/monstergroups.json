@@ -1,0 +1,400 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ALL_NETHER_ADIP",
+	"default": "mon_null",
+    "monsters": [
+      { "monster": "mon_hemor", "freq": 50, "cost_multiplier": 1 },
+	  { "monster": "mon_iceman", "freq": 10, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ALL_MUTANT_ANIMALS",
+	"default": "mon_cat_mutant_prism",
+    "monsters": [
+      { "monster": "mon_cat_mutant_prism", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_cat_mutant_kitten_prism", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_cat_void_kitten", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_cat_void", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_bear_armored", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_bear_mutant_3headed", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_beaver_mutant_huge", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_beaver_mutant_avian", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_coyote_mutant_shark", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_coyote_mutant_venom", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_wolf_mutant_huge", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_deer_mutant_spider", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_deer_mutant_spider_fawn", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_dog_mutant_mongrel", "freq": 10, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_HEMOR",
+	"default": "mon_hemor",
+    "monsters": [
+      { "monster": "mon_hemor", "freq": 100, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_PEACE_OFFICER",
+	"default": "mon_peace_officer",
+    "monsters": [
+      { "monster": "mon_peace_officer", "freq": 100, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ASCENDED",
+	"default": "mon_ascended",
+    "monsters": [
+      { "monster": "mon_ascended", "freq": 100, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MUTANT_EVOLVED",
+	"default": "mon_mutant_evolved",
+    "monsters": [
+      { "monster": "mon_mutant_evolved", "freq": 100, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MANDRAKE",
+	"default": "mon_mandrake",
+    "monsters": [
+      { "monster": "mon_mandrake", "freq": 100, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_YINYANG",
+	"default": "mon_yinyang_koi",
+    "monsters": [
+      { "monster": "mon_yinyang_koi", "freq": 100, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_NETHER",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_hemor", "freq": 15, "cost_multiplier": 1 },
+	  { "monster": "mon_iceman", "freq": 10, "cost_multiplier": 3 }
+    ]
+  },
+  {
+    "name": "GROUP_FOREST",
+    "type": "monstergroup",
+    "monsters": [
+	  { "monster": "mon_hemor", "freq": 35, "cost_multiplier": 1 },
+	  { "monster": "mon_mandrake", "freq": 55, "cost_multiplier": 1 },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10, "starts": 1440 },
+      { "monster": "mon_accursed_tree", "freq": 15, "cost_multiplier": 1, "conditions": [ "NIGHT" ] }
+    ]
+  },
+  {
+    "name": "GROUP_SWAMP",
+    "type": "monstergroup",
+    "monsters": [ 
+	  { "monster": "mon_hemor", "freq": 60, "cost_multiplier": 1 },
+      { "monster": "mon_accursed_tree", "freq": 30, "cost_multiplier": 5 },
+	  { "monster": "mon_accursed_tree", "freq": 30, "cost_multiplier": 5, "starts": 1440 },
+	  { "monster": "mon_mandrake", "freq": 90, "cost_multiplier": 1 },
+	  { "monster": "mon_angel", "freq": 1, "cost_multiplier": 10, "conditions": [ "NIGHT" ] },
+	  { "monster": "mon_contract_killer", "freq": 2, "cost_multiplier": 10, "starts": 1440 },
+	  { "monster": "mon_angel", "freq": 1, "cost_multiplier": 10, "starts": 1440 }
+    ]
+  },
+  {
+    "name": "GROUP_RIVER",
+    "type": "monstergroup",
+    "monsters": [ 
+	  { "monster": "mon_brineweed_barnacle", "freq": 180, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_CAVE",
+    "type": "monstergroup",
+    "monsters": [ 
+	  { "monster": "mon_secret_sedge", "freq": 300, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_POND_FISH",
+    "type": "monstergroup",
+    "monsters": [ 
+	  { "monster": "mon_yinyang_koi", "freq": 15, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_MI-GO_CAMP_OM",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_heat_freak", "freq": 25, "cost_multiplier": 1 },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10 }
+    ]
+  },
+  {
+    "name": "GROUP_ELECTRO",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_shock_jock", "freq": 25, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_MALL",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_shock_jock", "freq": 25, "cost_multiplier": 1 },
+	  { "monster": "mon_peace_officer", "freq": 35, "cost_multiplier": 2 },
+	  { "monster": "mon_peace_officer", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_scav_pistol", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_pistol", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_smg", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_smg", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1,32 ] },
+	  { "monster": "mon_scav_shotgun", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_shotgun", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_rifle", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_rifle", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_pistol", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_pistol", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_pmc_smg", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_smg", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_pmc_shotgun", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_shotgun", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_pmc_rifle", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_rifle", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10 }
+    ]
+  },
+  {
+    "name": "GROUP_MICROLAB",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_biohazard", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10 }
+    ]
+  },
+  {
+    "name": "GROUP_TRIFFID_HEARTGUARDS",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_ascended", "freq": 150, "cost_multiplier": 5 },
+	  { "monster": "mon_contract_killer", "freq": 35, "cost_multiplier": 3 }
+    ]
+  },
+  {
+    "name": "GROUP_AIRCRAFT_CARRIER",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_ascended", "freq": 25, "cost_multiplier": 5 },
+	  { "monster": "mon_biohazard", "freq": 25, "cost_multiplier": 3 },
+	  { "monster": "mon_peace_officer", "freq": 125, "cost_multiplier": 1 },
+	  { "monster": "mon_peace_officer", "freq": 100, "cost_multiplier": 2 },
+	  { "monster": "mon_peace_officer", "freq": 100, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_pistol", "freq": 100, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_pistol", "freq": 100, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_smg", "freq": 100, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_smg", "freq": 100, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_shotgun", "freq": 100, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_shotgun", "freq": 100, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_rifle", "freq": 100, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_rifle", "freq": 100, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_pistol", "freq": 75, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_pistol", "freq": 75, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_smg", "freq": 75, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_smg", "freq": 75, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_shotgun", "freq": 75, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_shotgun", "freq": 75, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_rifle", "freq": 75, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_rifle", "freq": 75, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_shock_jock", "freq": 50, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE",
+    "monsters": [
+	  { "monster": "mon_walker", "freq": 25, "cost_multiplier": 10, "pack_size": [ 25, 40 ] },
+	  { "monster": "mon_heat_freak", "freq": 1, "cost_multiplier": 5 },
+	  { "monster": "mon_peace_officer", "freq": 35, "cost_multiplier": 2 },
+	  { "monster": "mon_peace_officer", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_pistol", "freq": 35, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_pistol", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_smg", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_smg", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_scav_shotgun", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_shotgun", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_scav_rifle", "freq": 35, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_rifle", "freq": 5, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_pmc_pistol", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_pistol", "freq": 1, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_pmc_smg", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_smg", "freq": 1, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_pmc_shotgun", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_shotgun", "freq": 1, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_pmc_rifle", "freq": 10, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_rifle", "freq": 1, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10, "starts": 1440 },
+	  { "monster": "mon_iceman", "freq": 1, "cost_multiplier": 5 },
+	  { "monster": "mon_shock_jock", "freq": 5, "cost_multiplier": 5 },
+	  { "monster": "mon_lab_geek", "freq": 1, "cost_multiplier": 5 },
+	  { "monster": "mon_biohazard", "freq": 1, "cost_multiplier": 5 },
+	  { "monster": "mon_heat_freak", "freq": 1, "cost_multiplier": 5, "starts": 1080 },
+	  { "monster": "mon_peace_officer", "freq": 15, "cost_multiplier": 3, "starts": 1080 },
+	  { "monster": "mon_iceman", "freq": 1, "cost_multiplier": 5, "starts": 1080 },
+	  { "monster": "mon_shock_jock", "freq": 5, "cost_multiplier": 5, "starts": 1080 },
+	  { "monster": "mon_lab_geek", "freq": 1, "cost_multiplier": 5, "starts": 1080 },
+	  { "monster": "mon_biohazard", "freq": 1, "cost_multiplier": 5, "starts": 1080 },
+	  { "monster": "mon_feral_labsecurity_9mm", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_feral_labsecurity_flashlight", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_feral_fancy_crossbow", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_feral_prepper", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_feral_jackboot", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_feral_labsecurity_9mm", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ] },
+	  { "monster": "mon_feral_labsecurity_flashlight", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ] },
+	  { "monster": "mon_feral_fancy_crossbow", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ] },
+	  { "monster": "mon_feral_prepper", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ] },
+	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ] },
+	  { "monster": "mon_feral_jackboot", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ]},
+	  { "monster": "mon_feral_labsecurity_9mm", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
+	  { "monster": "mon_feral_labsecurity_flashlight", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
+	  { "monster": "mon_feral_fancy_crossbow", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
+	  { "monster": "mon_feral_prepper", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
+	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
+	  { "monster": "mon_feral_jackboot", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
+	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "starts": 2160, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "starts": 3600, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "starts": 5760, "pack_size": [ 2, 4 ] },
+	  { "monster": "mon_hemor", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_hemor", "freq": 10, "cost_multiplier": 3, "conditions": [ "NIGHT" ] },
+	  { "monster": "mon_hemor", "freq": 30, "cost_multiplier": 3, "starts": 1440 },
+	  { "monster": "mon_hemor", "freq": 30, "cost_multiplier": 3, "conditions": [ "NIGHT" ], "starts": 1440 },
+	  { "monster": "mon_hemor", "freq": 30, "cost_multiplier": 3, "starts": 2880 },
+	  { "monster": "mon_hemor", "freq": 30, "cost_multiplier": 3, "conditions": [ "NIGHT" ], "starts": 2880 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_STRONG",
+    "monsters": [
+	  { "monster": "mon_heat_freak", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_peace_officer", "freq": 5, "cost_multiplier": 1 },
+	  { "monster": "mon_scav_pistol", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_smg", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_shotgun", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_rifle", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_pistol", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_smg", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_shotgun", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_rifle", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_iceman", "freq": 15, "cost_multiplier": 3 },
+	  { "monster": "mon_shock_jock", "freq": 30, "cost_multiplier": 3 },
+	  { "monster": "mon_lab_geek", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_biohazard", "freq": 15, "cost_multiplier": 3 },
+	  { "monster": "mon_ascended", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_hemor", "freq": 10, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_BASE",
+    "monsters": [
+	  { "monster": "mon_heat_freak", "freq": 1, "cost_multiplier": 3 },
+	  { "monster": "mon_peace_officer", "freq": 30, "cost_multiplier": 1 },
+	  { "monster": "mon_scav_pistol", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_smg", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_shotgun", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_rifle", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_pistol", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_smg", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_shotgun", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_rifle", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_iceman", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_shock_jock", "freq": 15, "cost_multiplier": 3 },
+	  { "monster": "mon_lab_geek", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_biohazard", "freq": 1, "cost_multiplier": 3 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB",
+    "monsters": [
+	  { "monster": "mon_heat_freak", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_iceman", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_peace_officer", "freq": 25, "cost_multiplier": 1 },
+	  { "monster": "mon_scav_pistol", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_smg", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_shotgun", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_rifle", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_pistol", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_smg", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_shotgun", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_rifle", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_shock_jock", "freq": 10, "cost_multiplier": 3 },
+	  { "monster": "mon_lab_geek", "freq": 30, "cost_multiplier": 3 },
+	  { "monster": "mon_biohazard", "freq": 30, "cost_multiplier": 3 },
+	  { "monster": "mon_ascended", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_ascended", "freq": 5, "cost_multiplier": 10, "starts": 2160 },
+	  { "monster": "mon_hemor", "freq": 10, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_POLICE",
+    "monsters": [
+	  { "monster": "mon_peace_officer", "freq": 30, "cost_multiplier": 3 },
+	  { "monster": "mon_peace_officer", "freq": 30, "cost_multiplier": 3, "starts": 1080 },
+	  { "monster": "mon_scav_pistol", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_smg", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_shotgun", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_scav_rifle", "freq": 45, "cost_multiplier": 2 },
+	  { "monster": "mon_scav_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_pistol", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_pistol", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_smg", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_smg", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_shotgun", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_shotgun", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_pmc_rifle", "freq": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_pmc_rifle", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+	  { "monster": "mon_contract_killer", "freq": 1, "cost_multiplier": 10, "starts": 1440 },
+	  { "monster": "mon_shock_jock", "freq": 5, "cost_multiplier": 5 }
+    ]
+  }
+]

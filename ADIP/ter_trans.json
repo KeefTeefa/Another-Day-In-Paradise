@@ -1,0 +1,7 @@
+[
+  {
+    "type": "ter_furn_transform",
+    "id": "ter_trans_rine_stone",
+    "terrain": [ { "result": "t_tree_young" } ]
+  }
+]

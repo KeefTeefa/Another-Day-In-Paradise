@@ -1,0 +1,1789 @@
+[
+  {
+    "type": "recipe",
+    "result": "guntrinket_heat",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HEAT", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_cold",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COLD", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_acid",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "ACID", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_biological",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "BIOLOGICAL", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_electric",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "ELECTRICAL", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_handling",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_weight",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_range",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_reload",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_burst",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "guntrinket_dispersion",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "gun", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "components": [ [ 
+	[ "deck_of_cards", 1 ], 
+	[ "magic_8_ball", 1 ], 
+	[ "cards_magic", 1 ],
+	[ "icon", 1 ],
+	[ "creepy_doll", 1 ],
+	[ "etched_skull", 1 ],
+	[ "pocketwatch", 1 ],
+	[ "pocketwatch_crude", 1 ],
+	[ "bone_flute", 1 ],
+	[ "barometer", 1 ],
+	[ "dog_whistle_wood", 1 ],
+	[ "pmc_dogtag", 1 ],
+	[ "family_photo", 1 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_heat",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ], 
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HEAT", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_cold",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "COLD", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_electric",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "ELECTRICAL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_acid",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "ACID", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_electric",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "ELECTRICAL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_biological",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "BIOLOGICAL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_weight",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_range",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_burst",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_handling",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_dispersion",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rail_reload",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "3 h",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 3 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+	  [
+        [ "light_minus_battery_cell", 1 ],
+        [ "light_minus_disposable_cell", 1 ],
+        [ "light_battery_cell", 1 ],
+        [ "light_disposable_cell", 1 ],
+        [ "light_plus_battery_cell", 1 ]
+      ],
+      [ [ "lens", 1 ], [ "lens_small", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "underbarrel_magic_bayonet",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+	"book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+	"qualities": [ { "id": "HOLO", "level": 1 } ],
+    "difficulty": 5,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": [ [ "gun", 3 ] ],
+    "using": [ [ "cordage", 1 ] ],
+    "components": [ [ [ "knife_carbon", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_heat",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "HEAT", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_cold",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "COLD", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_electric",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "ELECTRICAL", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_acid",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "ACID", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_biological",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "BIOLOGICAL", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_dispersion",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_handling",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_reload",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_burst",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_weight",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "grip_range",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "15 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "plastic_chunk", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_heat",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "12 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "HEAT", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_cold",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "12 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "COLD", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_acid",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "12 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "ACID", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_electric",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "12 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "ELECTRICAL", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_biological",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "1 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "BIOLOGICAL", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_dispersion",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "1 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_weight",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "1 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_reload",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "1 h",
+	"autolearn": [ [ "gun", 4 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_range",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "1 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_burst",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "1 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "muzzle_brake_handling",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 4 ] ],
+    "difficulty": 8,
+    "time": "1 h",
+	"autolearn": [ [ "gun", 7 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "tools": [ [ [ "large_repairkit", 150 ] ], [ [ "swage", -1 ] ] ],
+	"qualities": [ { "id": "RUBBER", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_sight_dispersion",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_sight_handling",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_sight_weight",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_sight_burst",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_sight_reload",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_sight_range",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "heat_sight_1",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "HEAT", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "heat_sight_2",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 8 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "HEAT", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 3 ] ],
+      [ [ "lens", 6 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "cold_sight_1",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "COLD", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "cold_sight_2",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 8 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "COLD", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 3 ] ],
+      [ [ "lens", 6 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "acid_sight_1",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "ACID", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "acid_sight_2",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 8 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "ACID", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 3 ] ],
+      [ [ "lens", 6 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "electric_sight_1",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "ELECTRICAL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "electric_sight_2",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 8 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "ELECTRICAL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 3 ] ],
+      [ [ "lens", 6 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "biological_sight_1",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 4 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "BIOLOGICAL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 2 ] ],
+      [ [ "lens", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "biological_sight_2",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 8 ] ],
+    "time": "15 m",
+    "decomp_learn": 3,
+	"autolearn": [ [ "gun", 8 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 2 ], [ "recipe_caseless", 2 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 }, { "id": "BIOLOGICAL", "level": 1 } ],
+    "tools": [ [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [
+        [ "scrap", 1 ],
+        [ "canister_empty", 1 ],
+        [ "plastic_chunk", 1 ]
+      ],
+      [ [ "lens", 3 ] ],
+      [ [ "lens", 6 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "ascended_egg",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "skills_required": [ "cooking", 9 ],
+    "time": "60 m",
+    "autolearn": [ [ "cooking", 10 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "book_learn": [
+      [ "recipe_creepy", 1 ]
+    ],
+    "components": [ [ [ "evolved_mutant_egg", 1 ] ], [ [ "biohazard_book", 1 ] ] ]
+  },
+  {
+    "result": "holo_cloak",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "25 m",
+    "autolearn": [ [ "tailor", 7 ] ],
+	"qualities": [ { "id": "HOLO", "level": 1 } ],
+    "using": [ [ "sewing_standard", 18 ] ],
+    "components": [ [ [ "alloy_sheet", 200 ] ] ]
+  },
+  {
+    "result": "holo_frame",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": [ [ "tailor", 7 ] ],
+	"qualities": [ { "id": "HOLO", "level": 1 } ],
+	"book_learn": [ [ "vergery", 2 ], [ "tailor_portfolio", 2 ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "components": [ [ [ "sinew", 25 ] ], [ [ "wandwood_branch", 1 ] ] ]
+  },
+  {
+    "result": "holo_space",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": [ [ "tailor", 7 ] ],
+	"qualities": [ { "id": "HOLO", "level": 1 } ],
+	"book_learn": [ [ "vergery", 2 ], [ "tailor_portfolio", 2 ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "components": [ [ [ "sinew", 25 ] ], [ [ "wandwood_branch", 1 ] ] ]
+  },
+  {
+    "result": "holo_ruck",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 8,
+    "time": "3 h",
+    "autolearn": [ [ "tailor", 5 ] ],
+	"qualities": [ { "id": "HOLO", "level": 2 } ],
+	"book_learn": [ [ "vergery", 2 ], [ "tailor_portfolio", 2 ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "components": [ [ [ "holo_mbag", 1 ] ] ]
+  },
+  {
+    "result": "holo_mbag",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "3 h",
+    "autolearn": [ [ "tailor", 5 ] ],
+	"qualities": [ { "id": "HOLO", "level": 1 } ],
+	"book_learn": [ [ "vergery", 2 ], [ "tailor_portfolio", 2 ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "components": [ [ [ "sinew", 25 ] ], [ [ "wandwood_branch", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "holographic_synthesizer",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "electronics", 5 ], [ "mechanics", 5 ] ],
+    "difficulty": 8,
+    "time": "12 h",
+    "book_learn": [ [ "recipe_lab_elec", 5 ], [ "textbook_robots", 5 ] ],
+	"autolearn": [ [ "electronics", 8 ] ],
+    "using": [ [ "soldering_standard", 50 ], [ "welding_standard", 25 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+	  { "id": "CONCENTRATE", "level": 1 },
+	  { "id": "CHROMATOGRAPHY", "level": 1 },
+	  { "id": "EXTRACT", "level": 1 },
+	  { "id": "DISTILL", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "components": [
+      [ [ "alloy_sheet", 4 ] ],
+      [ [ "cable", 2 ] ],
+	  [ [ "ai_module", 1 ] ],
+      [ [ "sensor_module", 1 ] ],
+	  [ [ "omnicamera", 1 ] ],
+	  [ [ "RAM", 16 ] ],
+      [ [ "processor", 4 ] ],
+	  [ [ "focusing_lens", 1 ] ],
+	  [ [ "lens", 8 ] ],
+	  [ [ "pilot_light", 1 ] ],
+      [ [ "memory_module", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "power_supply", 8 ] ],
+      [ [ "amplifier", 8 ] ],
+      [ [ "solar_cell", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "sheet_metal", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fractal_simulation_apparatus",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "electronics", 5 ], [ "mechanics", 5 ] ],
+    "difficulty": 9,
+    "time": "12 h",
+    "book_learn": [ [ "recipe_lab_elec", 5 ] ],
+	"autolearn": [ [ "electronics", 9 ] ],
+	"tools": [ [ [ "electrolysis_kit", 750 ] ] ],
+    "using": [ [ "soldering_standard", 50 ], [ "welding_standard", 25 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+	  { "id": "ANALYSIS", "level": 1 },
+	  { "id": "CHROMATOGRAPHY", "level": 1 },
+	  { "id": "FILTER", "level": 1 },
+	  { "id": "FINE_DISTILL", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "components": [
+      [ [ "alloy_sheet", 4 ] ],
+      [ [ "cable", 2 ] ],
+	  [ [ "ai_module", 3 ] ],
+      [ [ "sensor_module", 1 ] ],
+	  [ [ "omnicamera", 3 ] ],
+	  [ [ "fetus", 1 ] ],
+	  [ [ "RAM", 36 ] ],
+      [ [ "processor", 4 ] ],
+	  [ [ "pathfinding_module", 1 ] ],
+      [ [ "targeting_module", 1 ] ],
+      [ [ "identification_module", 1 ] ],
+      [ [ "memory_module", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "power_supply", 8 ] ],
+      [ [ "amplifier", 8 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "sheet_metal", 2 ] ]
+    ]
+  },
+  {
+    "result": "switch_wandwood",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+    "difficulty": 3,
+	"book_learn": [ [ "vergery", 1 ] ],
+    "time": "10 m",
+    "autolearn": [ [ "tailor", 6 ] ],
+	"qualities": [
+      { "id": "RUBBER", "level": 2 }
+    ],
+    "components": [ [ [ "wandwood_branch", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_branch",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "autolearn": [ [ "tailor", 6 ] ],
+	"qualities": [
+      { "id": "RUBBER", "level": 2 }
+    ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "wandwood_heat",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "HEAT", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "wandwood_cold",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "COLD", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "wandwood_acid",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ACID", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "wandwood_bio",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "BIOLOGICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "wandwood_elec",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ELECTRICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 3 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "switch_heat",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "HEAT", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "switch_cold",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "COLD", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "switch_acid",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ACID", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "switch_elec",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ELECTRICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "switch_bio",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "BIOLOGICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
+  }
+]

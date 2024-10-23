@@ -1,0 +1,163 @@
+[
+ {
+    "type": "mutation",
+    "id": "ICHOR1",
+    "name": { "str": "Light Ichor" },
+    "points": 2,
+    "description": "Divine blood flows through your veins, increasing your stamina and it's recovery.",
+    "starting_trait": false,
+    "valid": false,
+    "cancels": [ "BADCARDIO" ],
+    "changes_to": [ "ICHOR2" ],
+    "category": [ "ALPHA" ],
+	"stamina_regen_modifier": 0.2,
+    "max_stamina_modifier": 1.5
+  },
+  {
+    "type": "mutation",
+    "id": "ICHOR2",
+    "name": { "str": "Middling Ichor" },
+    "points": 2,
+    "description": "Divine blood flows through your veins, increasing your stamina and it's recovery.",
+    "starting_trait": false,
+    "valid": false,
+    "cancels": [ "BADCARDIO", "ICHOR1" ],
+    "changes_to": [ "ICHOR3" ],
+    "category": [ "ALPHA" ],
+	"stamina_regen_modifier": 0.4,
+    "max_stamina_modifier": 2.5
+  },
+  {
+    "type": "mutation",
+    "id": "ICHOR3",
+    "name": { "str": "Solid Ichor" },
+    "points": 2,
+    "description": "Divine blood flows through your veins, increasing your stamina and it's recovery.",
+    "starting_trait": false,
+    "valid": false,
+    "cancels": [ "BADCARDIO", "ICHOR1" ],
+    "changes_to": [ "ICHOR4" ],
+    "category": [ "ALPHA" ],
+	"stamina_regen_modifier": 0.6,
+    "max_stamina_modifier": 3.5
+  },
+  {
+    "type": "mutation",
+    "id": "ICHOR4",
+    "name": { "str": "True Ichor" },
+    "points": 2,
+    "description": "Divine blood flows through your veins, increasing your stamina and it's recovery.",
+    "starting_trait": false,
+    "valid": false,
+    "cancels": [ "BADCARDIO", "ICHOR1" ],
+    "category": [ "ALPHA" ],
+	"stamina_regen_modifier": 0.8,
+    "max_stamina_modifier": 4.5
+  },
+  {
+    "type": "mutation",
+    "id": "LOVELY",
+    "name": { "str": "Lovely" },
+    "points": -1,
+    "visibility": 10,
+    "ugliness": -2,
+    "description": "You have a very large pair of brightly-colored, very beautiful wings.  They can't lift you, and they make balancing tricky, but they certainly catch air and attention!",
+    "valid": false,
+    "purifiable": false,
+    "social_modifiers": { "lie": 15, "persuade": 15, "intimidate": -20 }
+  },
+  {
+    "type": "mutation",
+    "id": "NOHUNGER",
+    "name": { "str": "World Devourer" },
+    "points": 2,
+    "description": "Divine blood flows through your veins, and you draw everything that you need to eat directly from the natural energies of the world around you.",
+    "starting_trait": false,
+    "valid": false,
+	"metabolism_modifier": 0.0
+  },
+  {
+    "type": "mutation",
+    "id": "ULTRAFAT",
+    "name": { "str": "Subdermal Blubber" },
+    "points": -1,
+    "visibility": 1,
+    "description": "You've got some stuff under your skin that really seems to absorb blows.",
+    "armor": [ { "parts": "ALL", "physical": 5 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "SMALL_OK_NO_HP",
+    "name": { "str": "Unassuming" },
+    "points": 3,
+    "mixed_effect": true,
+    "description": "You've mastered your tiny form!  Item encumbrance and carry weight penalties are reduced, and you've learned to use your increased nimbleness to offset your reduced capacity to absorb damage.",
+    "types": [ "SIZE" ],
+    "cancels": [ "LIGHTSTEP", "CLUMSY" ],
+    "valid": false,
+    "purifiable": false,
+    "dodge_modifier": 2,
+    "weight_capacity_modifier": 0.7,
+    "noise_modifier": 0,
+    "body_size": "TINY"
+  }, 
+  {
+    "type": "mutation",
+    "id": "ANGELPUDDING",
+    "name": { "str": "Angel Pudding" },
+    "points": 0,
+    "description": "You ate the pudding, and you feel like you can carry about %50 more now.",
+    "valid": false,
+    "purifiable": false,
+    "weight_capacity_modifier": 1.5
+  },
+  {
+    "type": "mutation",
+    "id": "FULLANGLISH",
+    "name": { "str": "Full Anglish" },
+    "points": 0,
+    "description": "You ate the full anglish breakfast, and you feel like you can carry about twice as much while also only not needing to eat or drink anything.",
+    "valid": false,
+    "purifiable": false,
+    "weight_capacity_modifier": 2.0, 
+	"metabolism_modifier": 0.0
+  },
+  {
+    "type": "mutation",
+    "id": "SEDGEMEAD",
+    "name": { "str": "Sedge Drunk" },
+    "points": 0,
+    "description": "You drank sedge mead and don't need to provide verbal components for spells.",
+    "valid": false,
+    "purifiable": false, 
+	"flags": [ "SILENT_SPELL" ]
+  },
+  {
+    "type": "mutation",
+    "id": "FINGERSANDWICH",
+    "name": { "str": "Fingers" },
+    "points": 0,
+    "description": "You ate some finger sandwiches and don't need to provide somatic components for spells.",
+    "valid": false,
+    "purifiable": false, 
+	"flags": [ "SUBTLE_SPELL" ]
+  },
+  {
+    "type": "mutation",
+    "id": "NARANJACHINCHI",
+    "name": { "str": "Naranjachinchi" },
+    "points": 0,
+    "description": "You are slightly buzzed off that nara, and attack about %30 faster for it.",
+    "starting_trait": false,
+    "attackcost_modifier": 0.7
+  },
+  {
+    "type": "mutation",
+    "id": "ASCENDED_NARANJACHINCHI",
+    "name": { "str": "Ascended Naranjachinchi" },
+    "points": 0,
+    "description": "You are straight drunk off that nara, and attack about %50 faster for it.",
+    "starting_trait": false,
+    "attackcost_modifier": 0.5
+  }
+]

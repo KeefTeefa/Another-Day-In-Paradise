@@ -1,0 +1,64 @@
+[
+  {
+    "id": "DIVINE",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "ACCURSED",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "ASCENDED",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "ASCENDED_ANGEL",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "RUBBER",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "BIO",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "HEAT",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "COLD",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "ACID",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "ELEC",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
+    "id": "holoframed",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been placed in a holographic frame to <good>decrease encumbrance."
+  },
+  {
+    "id": "holospaced",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has had a holographic space attached to <good>increase storage space."
+  }
+]

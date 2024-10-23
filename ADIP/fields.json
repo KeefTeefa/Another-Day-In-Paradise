@@ -1,0 +1,28 @@
+[
+{
+    "id": "fd_visuals",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "ranting and raving",
+        "sym": "5",
+        "color": "yellow",
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "visuals",
+            "body_part": "torso",
+            "intensity": 1,
+            "min_duration": "2 seconds",
+            "max_duration": "2 seconds",
+            "immune_in_vehicle": true,
+            "is_environmental": false,
+            "message": "The acidhead's rantings start getting into your head.",
+            "message_npc": "The ravings get to <npcname>!",
+            "message_type": "bad"
+          }
+        ]
+      }
+  ]
+}
+]
