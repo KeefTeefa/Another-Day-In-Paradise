@@ -207,5 +207,15 @@
     "part_descs": true,
 	"scaling_mods": { "healing_rate": [ 1 ], "sleep_chance": [ 250 ] },
 	"base_mods": { "healing_rate": [ 2 ], "sleep_chance": [ 501 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "steak_pizza_eff",
+    "name": [ "Sunday Brunch" ],
+    "desc": [ "You had a delicious sunday brunch of steak pizzaoila, and now you're ready to run! Stamina will regenerate faster." ],
+    "apply_message": "Mm, mm, mm!",
+    "base_mods": { 
+	  "stamina_amount": [ 5 ],
+      "stamina_chance": [ 1 ] }
   }
 ]

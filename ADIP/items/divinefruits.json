@@ -113,7 +113,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "name": { "str": "divine angel fruit", "str_pl": "divine angel fruit" },
-    "description": "A divine fruit, it's ornate exterior covered in spirals. Eating this would surely empower you in some way.",
+    "description": "A divine fruit, it's ornate exterior covered in spirals. Eating this would surely empower you.",
     "weight": "120 kg",
     "volume": "92500 ml",
     "price": "34 USD",

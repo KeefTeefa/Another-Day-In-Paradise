@@ -5,14 +5,12 @@
     "name": "Mandrake teleport",
     "description": "Mandrake teleports",
     "effect": "target_attack",
-    "valid_targets": [ "ground" ],
-    "flags": [ "SILENT", "VERBAL", "SWAP_POS", "RANDOM_TARGET" ],
+    "valid_targets": [ "ground", "hostile" ],
+    "flags": [ "SILENT", "SWAP_POS", "RANDOM_TARGET" ],
     "min_range": 10,
     "max_range": 10,
     "max_level": 10,
     "difficulty": -10,
-	"min_aoe": 1, 
-	"max_aoe": 1, 
     "base_casting_time": 0,
 	"final_casting_time": 0
   },
@@ -48,7 +46,6 @@
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
     "special_attacks": [ 
-	  [ "EAT_FOOD", 40 ], 
 	  [ "SHRIEK_STUN", 7 ],
 	  {
         "type": "spell",
@@ -171,6 +168,42 @@
     "difficulty": 3
   },
   {
+    "id": "mon_fungal_fighter",
+    "type": "MONSTER",
+    "name": { "str": "fungal fighter" },
+    "description": "A stout woody plant that can dig through the ground and flick spines from its branches.  The thorns carry a fungicidal compound with paralytic effects.",
+    "default_faction": "triffid",
+    "species": [ "PLANT" ],
+    "volume": "30000 ml",
+    "weight": "40750 g",
+	"copy-from": "mon_fungal_fighter", 
+	"zombify_into": "mon_hemor"
+  },
+  {
+    "id": "mon_triffid_flower",
+    "type": "MONSTER",
+    "name": { "str": "triffid flower" },
+    "description": "A giant plant with a thick stalk adorned by a purple flower.  Its petals are open with ominous shine in center.",
+    "default_faction": "triffid",
+    "species": [ "PLANT" ],
+    "volume": "100 L",
+    "weight": "150 kg",
+	"copy-from": "mon_triffid_flower", 
+	"zombify_into": "mon_accursed_tree"
+  },
+  {
+    "id": "mon_triffid_heart",
+    "type": "MONSTER",
+    "name": { "str": "triffid heart" },
+    "description": "A knot of tubular roots, flowing with sap and beating like a heart.  Strands of vascular tissue reach out to the surrounding root walls.",
+    "default_faction": "triffid",
+    "species": [ "PLANT" ],
+    "volume": "875000 ml",
+    "weight": "200 kg",
+	"copy-from": "mon_triffid_heart", 
+	"zombify_into": "mon_angel"
+  },
+  {
     "id": "mon_hemor",
     "type": "MONSTER",
     "name": "hemor",
@@ -193,7 +226,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 8,
     "melee_damage": [ { "damage_type": "cut", "amount": 4 } ],
-	"upgrades": { "half_life": 35, "into": "mon_accursed_tree" },
+	"upgrades": { "age_grow": 720, "into": "mon_accursed_tree" },
     "dodge": 7,
 	"armor_cut": 5, 
 	"armor_stab": 5, 
@@ -208,21 +241,24 @@
       { "emit_id": "emit_swamp_gas_leak", "delay": "5 s" }
     ],
     "harvest": "hemor",
+	"attack_effs": [
+      { "id": "paralyzepoison", "duration": 33 }
+    ],
     "special_attacks": [
       {
         "type": "spell",
         "spell_data": { "id": "hemorstaminadrain", "min_level": 1 },
-        "cooldown": 5,
-        "monster_message": "The hemor goes to it's haunches and it's antenna reel forward and whip at your mind itself, each crack a tear in your will to go on."
-      },
+        "cooldown": 10,
+        "monster_message": "The hemor's antennae flex and absorb energy from something!"
+	  },
 	  [ "RANGED_PULL", 12 ],
 	  [ "GROW_VINE", 16 ],
-	  [ "PULL_METAL_WEAPON", 10 ],
+	  [ "PARA_STING", 12 ],
 	  [ "GRAB", 3 ], 
 	  [ "GRAB_DRAG", 2 ]
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "STALK", "PLAYER_WEAK", "PLAYER_CLOSE" ],
-	"fear_triggers": [ "HURT" ],
+	"fear_triggers": [ "HURT", "FIRE" ],
     "flags": [
       "SEES",
       "SMELLS",
@@ -231,8 +267,6 @@
       "CLIMBS",
 	  "HIT_AND_RUN", 
 	  "HARDTOSHOOT",
-      "FIREY",
-      "FIREPROOF",
       "PATH_AVOID_DANGER_1",
       "NO_BREATHE",
       "PUSH_MON"
@@ -295,6 +329,10 @@
 	"vision_night": 50, 
 	"upgrades": { "half_life": 70, "into": "mon_angel" },
     "harvest": "accursed_tree",
+	"attack_effs": [
+      { "id": "paralyzepoison", "duration": 33 },
+	  { "id": "paralyzepoison", "duration": 33 }
+    ],
 	"emit_fields": [
       { "emit_id": "emit_toxic_leak", "delay": "3 s" },
 	  { "emit_id": "emit_swamp_gas_leak", "delay": "3 s" },
@@ -304,6 +342,7 @@
     ],
     "special_attacks": [ 
 	[ "GROW_VINE", 5 ],
+	[ "PARA_STING", 10 ],
 	[ "RANGED_PULL", 3 ],
 	{
         "type": "spell",
@@ -368,13 +407,19 @@
 	"armor_bash": 5, 
 	"armor_cut": 5, 
 	"armor_cold": 5,
-    "reproduction": { "baby_egg": "spiral_stone", "baby_count": 1, "baby_timer": 3 },	
+    "reproduction": { "baby_egg": "spiral_stone", "baby_count": 1, "baby_timer": 7 },	
 	"baby_flags": [ "WINTER", "AUTUMN" ],
     "melee_cut": 0,
     "dodge": 2,
     "harvest": "exempt",
+	"attack_effs": [
+      { "id": "paralyzepoison", "duration": 33 },
+	  { "id": "paralyzepoison", "duration": 33 },
+	  { "id": "paralyzepoison", "duration": 33 }
+    ],
 	"special_attacks": [
 	[ "FEAR_PARALYZE", 0 ], 
+	[ "PARA_STING", 5 ],
 	[ "STARE", 12 ],
 	{ "type": "bite", "cooldown": 5 },
 	{

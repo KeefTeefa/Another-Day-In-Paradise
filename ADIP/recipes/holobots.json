@@ -1,0 +1,482 @@
+[
+{
+    "type": "recipe",
+    "result": "holo_EMP_hack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_EMP_hack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_c4_hack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_c4_hack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_flashbang_hack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_flashbang_hack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_gasbomb_hack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_gasbomb_hack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_grenade_hack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_grenade_hack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_laserturret",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_laserturret", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_manhack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_manhack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_mininuke_hack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_mininuke_hack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_turret_riot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_turret_riot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_secubot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_secubot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_talon_m202a1",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_talon_m202a1", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_nursebot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_nursebot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_grocerybot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_grocerybot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_groceryholo_busted",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_groceryholo_busted", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_broken_cyborg",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_broken_cyborg", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_prototype_cyborg",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_prototype_cyborg", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_copbot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_copbot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_eyebot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_eyebot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_hazmatbot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_hazmatbot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_haulerbot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_haulerbot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_molebot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_molebot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_riotbot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_riotbot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_skitterbot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_skitterbot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_science_bot",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_science_bot", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_turret_searchlight",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_turret_searchlight", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_dispatch",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_dispatch", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_dispatch_military",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_dispatch_military", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_turret_light",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_turret_light", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_turret_medium",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_turret_medium", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_turret_longrange",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "tailor", 6 ], [ "fabrication", 6 ] ],
+    "difficulty": 8,
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+    "book_learn": [ [ "textbook_robots", 1 ] ],
+    "qualities": [ { "id": "HOLO", "level": 2 } ],
+    "components": [
+      [ [ "bot_turret_longrange", 1 ] ]
+    ]
+  }
+]

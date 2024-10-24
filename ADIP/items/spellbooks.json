@@ -140,8 +140,7 @@
       "type": "learn_spell",
       "spells": [
         "spawn_firecracker",
-		"shield", 
-		"peace_officer_flashbang"
+		"shield"
       ]
     }
 	]

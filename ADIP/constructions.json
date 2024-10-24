@@ -143,7 +143,7 @@
     "required_skills": [ [ "electronics", 7 ] ],
     "time": "60 m",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
-    "components": [ [ [ "effervescent_genetics", 1 ] ], [ [ "solder_wire", 20 ] ], [ [ "bionic_scanner", 1 ] ], [ [ "analytical_set_basic", 1 ] ] ],
+    "components": [ [ [ "effervescent_genetics", 1 ], [ "ascended_seed", 1 ] ], [ [ "solder_wire", 20 ] ], [ [ "bionic_scanner", 1 ] ], [ [ "analytical_set_basic", 1 ] ] ],
     "pre_furniture": "f_3d_printer",
     "post_furniture": "f_NMR_cloning"
   },
@@ -183,5 +183,18 @@
     "components": [ [ [ "fractal_simulation_apparatus", 1 ] ], [ [ "cable", 5 ] ], [ [ "power_supply", 1 ] ] ],
     "pre_special": "check_empty",
     "post_furniture": "f_fractal_simulation_apparatus"
+  },
+  {
+    "type": "construction",
+    "id": "constr_brass_bed",
+    "group": "magitech",
+    "category": "OTHER",
+    "required_skills": [ [ "survival", 3 ] ],
+    "time": "15 m",
+    "tools": [ [ [ "press", 1 ] ] ],
+	"qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "leadbelly", 1 ], [ "blood", 25 ] ], [ [ "chunk_sulfur", 1 ] ] ],
+    "pre_terrain": "t_dirtmound",
+    "post_furniture": "f_brass_bed"
   }
 ]

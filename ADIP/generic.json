@@ -636,6 +636,7 @@
     "encumbrance": 0,
     "storage": "80 L",
     "warmth": 10,
+	"weight_capacity_bonus": "50 kg",
     "material_thickness": 2,
     "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_COMPATIBLE" ]
   },
@@ -662,6 +663,7 @@
     "max_encumbrance": 0,
     "storage": "6 L",
     "material_thickness": 1,
+	"weight_capacity_bonus": "25 kg",
     "valid_mods": [ "resized_large" ],
     "flags": [ "BELTED", "COMPACT", "WATER_FRIENDLY", "ONLY_ONE", "POWERARMOR_COMPATIBLE" ]
   },

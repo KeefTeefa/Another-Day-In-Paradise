@@ -381,6 +381,7 @@
 	  { "item": "smoked_palm", "prob": 5 },
 	  { "item": "razorclaw_caviar", "prob": 5 },
 	  { "item": "hemor_seed", "prob": 1 },
+	  { "item": "leadbelly", "prob": 1 },
 	  { "item": "ground_wandwood", "prob": 1 }
     ]
   },
@@ -402,6 +403,7 @@
 	  { "item": "jabberwock_jamboree", "prob": 5 },
 	  { "item": "jabberwock_jambalaya", "prob": 1 },
 	  { "item": "detoxified_leech_flower", "prob": 3 },
+	  { "item": "aldente_leadbelly", "prob": 3 },
 	  { "item": "lovers_lollipop", "prob": 3 },
 	  { "item": "lovers_london_broil", "prob": 1 },
 	  { "item": "walkers_bane", "prob": 10 },
@@ -421,7 +423,45 @@
 	  { "item": "brineweed_sticks", "prob": 1 },
 	  { "item": "hot_sticks", "prob": 1 },
 	  { "item": "slime_spaghetti", "prob": 1 },
+	  { "item": "steak_pizzaoila", "prob": 25 },
 	  { "item": "naranjachinchi", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "holo_bots",
+    "subtype": "distribution",
+    "items": [
+      { "item": "holo_EMP_hack", "prob": 3 },
+	  { "item": "holo_c4_hack", "prob": 3 },
+	  { "item": "holo_flashbang_hack", "prob": 8 },
+	  { "item": "holo_gasbomb_hack", "prob": 3 },
+	  { "item": "holo_grenade_hack", "prob": 8 },
+	  { "item": "holo_laserturret", "prob": 3 },
+	  { "item": "holo_manhack", "prob": 5 },
+	  { "item": "holo_mininuke_hack", "prob": 1 },
+	  { "item": "holo_turret_riot", "prob": 3 },
+	  { "item": "holo_secubot", "prob": 5 },
+	  { "item": "holo_talon_m202a1", "prob": 1 },
+	  { "item": "holo_nursebot", "prob": 3 },
+	  { "item": "holo_grocerybot", "prob": 3 },
+	  { "item": "holo_groceryholo_busted", "prob": 3 },
+	  { "item": "holo_broken_cyborg", "prob": 3 },
+	  { "item": "holo_prototype_cyborg", "prob": 3 },
+	  { "item": "holo_copbot", "prob": 3 },
+	  { "item": "holo_eyebot", "prob": 3 },
+	  { "item": "holo_hazmatbot", "prob": 3 },
+	  { "item": "holo_haulerbot", "prob": 3 },
+	  { "item": "holo_molebot", "prob": 3 },
+	  { "item": "holo_riotbot", "prob": 3 },
+	  { "item": "holo_skitterbot", "prob": 3 },
+	  { "item": "holo_science_bot", "prob": 3 },
+	  { "item": "holo_turret_searchlight", "prob": 3 },
+	  { "item": "holo_dispatch", "prob": 5 },
+	  { "item": "holo_dispatch_military", "prob": 1 },
+	  { "item": "holo_turret_light", "prob": 5 },
+	  { "item": "holo_turret_medium", "prob": 3 },
+	  { "item": "holo_turret_longrange", "prob": 1 }
     ]
   },
   {
@@ -429,7 +469,8 @@
     "type": "item_group",
     "items": [
       { "item": "rubber_shrub", "prob": 3 },
-	  { "item": "wandwood_branch", "prob": 1 }
+	  { "item": "wandwood_branch", "prob": 2 },
+	  { "item": "wandwood_switch", "prob": 1 }
     ]
   },
   {
@@ -543,10 +584,11 @@
     "id": "chem_lab",
     "items": [
       { "group": "divine_fruits", "prob": 1 },
+	  { "group": "holo_bots", "prob": 10 },
 	  { "group": "adip_holobags", "prob": 10 },
 	  { "item": "ascended_seed", "prob": 1 },
 	  { "item": "rubber_shrub", "prob": 10 },
-	  { "item": "spiral_stone", "prob": 5 }
+	  { "item": "spiral_stone", "prob": 3 }
     ]
   },
   {
@@ -572,6 +614,26 @@
     "items": [
       { "group": "ingredients_paradise", "prob": 1 },
 	  { "group": "divine_fruits", "prob": 1 }
+    ]
+  },
+  {
+    "id": "digging_iron_200L",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "material_soil", "count": [ 32, 40 ] },
+      { "group": "digging_soil_extras", "count": 4 },
+	  { "item": "leadbelly", "prob": 75 },
+      { "item": "iron_ore", "count": [ 14, 16 ] }
+    ]
+  },
+  {
+    "id": "digging_grave",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "material_soil", "count": [ 32, 40 ] },
+	  { "item": "leadbelly", "prob": 50 }
     ]
   }
 ]

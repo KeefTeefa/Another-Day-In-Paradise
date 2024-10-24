@@ -1211,5 +1211,29 @@
     "charges": 1,
     "fun": 10,
     "flags": [ "USE_EAT_VERB", "EATEN_HOT" ]
+  },
+  {
+    "id": "steak_pizzaoila",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": "'steak pizzaoila'",
+    "color": "blue",
+    "weight": "10 g",
+    "volume": "100 ml",
+	"looks_like": "glass_plate",
+    "symbol": "%",
+	"calories": 1800,
+    "spoils_in": "2 days",
+    "description": "A seared cut of seasoned meat served with a tangy red sauce and a side of noodles. Filling, healthy, and leaves you feeling ready to hit the ground running.",
+    "healthy": 10,
+	"charges": 1,
+	"use_action": {
+      "type": "consume_drug",
+      "activation_message": "A twirl of noodles covered in red sauce with a chunk of savory meat hits the spot.",
+      "effects": [ { "id": "steak_pizza_eff", "duration": "12 hours" } ]
+    },
+    "price_postapoc": "10 cent",
+    "fun": 25,
+    "flags": [ "NUTRIENT_OVERRIDE" ]
   }
 ]

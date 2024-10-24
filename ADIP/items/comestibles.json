@@ -14,6 +14,32 @@
     "color": "magenta"
   },
   {
+    "id": "leadbelly",
+    "type": "COMESTIBLE",
+    "name": { "str": "leadbelly", "str_pl": "leadbellies" },
+    "description": "A wriggling grub that has a hard metallic carapace, making it near impossible to eat. It's fat little body tunnels into dirt and searches for metal to eat. It has also been observed to live inside of large enough chunks of metal, consuming them entirely and then replicating them two-fold.",
+    "weight": "1 g",
+    "volume": "1 ml",
+	"looks_like": "blood", 
+    "symbol": "?",
+	"calories": 500,
+	"fun": -10,
+    "color": "magenta"
+  },
+  {
+    "id": "aldente_leadbelly",
+    "type": "COMESTIBLE",
+    "name": { "str": "al dente leadbelly", "str_pl": "al dente leadbellies" },
+    "description": "A leadbelly that has been plucked from it's metallic shell and sliced into thin rivets like spaghetti, then boiled to the tooth. It has a slight metallic aftertaste, and no matter how long you boil it will still have a slight crunch.",
+    "weight": "1 g",
+    "volume": "1 ml",
+	"looks_like": "blood", 
+    "symbol": "?",
+	"calories": 500,
+	"fun": 1,
+    "color": "magenta"
+  },
+  {
     "id": "mandrake_root",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
@@ -146,7 +172,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "name": { "str": "hemorrhage", "str_pl": "hemorrhages" },
-    "description": "A clot of a strange substance similar to a small seed in size and shape, with a sheen like oil on it's exterior that has blood-red spirals dancing in it. The explorer Cook once described these as 'God's blood,' but no one really knows where it came from. It is pulsating with life, almost wriggling in your palm.",
+    "description": "A clot of a strange substance similar to a small seed in size and shape, with a sheen like oil on it's exterior that has blood-red spirals dancing in it. The explorer Cook once described these as 'God's blood,' but no one really knows where it came from. It is pulsating with life, almost wriggling in your palm. You can't wait to taste it.",
     "weight": "12 g",
     "volume": "10 ml",
 	"looks_like": "onion", 
@@ -161,7 +187,7 @@
 	"use_action": {
       "type": "consume_drug",
       "activation_message": "You crack the hemorrhage between your teeth and sweet, warm blood fills your mouth.",
-      "effects": [ { "id": "hemor_high", "duration": "5 minutes" } ],
+      "effects": [ { "id": "hemor_high", "duration": "20 minutes" } ],
       "stat_adjustments": { "hunger": -50 }
     },
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "PLANTABLE_SEED" ]
@@ -178,17 +204,19 @@
     "color": "magenta",
 	"looks_like": "tomato", 
 	"spoils_in": "14 days",
-	"fun": 30, 
-	"stim": 30,
 	"rot_spawn": "GROUP_HEMOR",
     "rot_spawn_chance": 90,
 	"flags": [ "PLANTABLE_SEED" ], 
 	"seed_data": { "plant_name": "petrifying blood fruit", "fruit": "hemor_seed_3", "seeds": true, "grow": "3 days", "required_terrain_flag": "ACCURSED" },
 	"use_action": {
-      "type": "consume_drug",
-      "activation_message": "You crack the hemor sprout between your teeth and sweet, warm blood fills your mouth.",
-      "effects": [ { "id": "hemor_high", "duration": "60 minutes" } ],
-      "stat_adjustments": { "hunger": -25 }
+      "type": "place_monster",
+      "monster_id": "mon_hemor",
+      "friendly_msg": "You carefully peel back the hemor's shell and allow it to sprout into a beautiful, lively little creature.",
+      "hostile_msg": "You crack the hemor sprout between your teeth and it sprouts into a fully grown hemor!",
+      "difficulty": 10,
+      "moves": 150,
+      "place_randomly": true,
+      "skills": [ "cooking" ]
     }
   },
   {
@@ -196,7 +224,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "name": { "str": "rind stone", "str_pl": "rind stone" },
-    "description": "A divine blood fruit that has rotted into a hard, dead stone. Something has sapped it's energy, leaving it with only a slight red hue. Maybe there's something out there that could bring it up out of it's malaise.",
+    "description": "A divine blood fruit that has rotted into a hard, dead stone. Something has sapped it's energy, leaving it with only a slight red hue. Still, eating it would probably make you tougher somehow. Maybe there's something out there that could revive it from it's malaise.",
     "weight": "12 g",
     "volume": "10 ml",
     "price": "34 USD",
@@ -465,6 +493,8 @@
     "max_range": 3,
 	"min_damage": 1, 
 	"max_damage": 1, 
+	"min_aoe": 3, 
+	"max_aoe": 3, 
     "max_level": 10,
     "difficulty": -10,
     "base_casting_time": 0,
@@ -481,7 +511,7 @@
     "price_postapoc": "10 USD",
 	"looks_like": "grenade", 
     "material": "flesh",
-	"seed_data": { "plant_name": "petrifying seed", "fruit": "spiral_stone", "seeds": true, "grow": "14 days", "required_terrain_flag": "ACCURSED" },
+	"seed_data": { "plant_name": "petrifying seed", "fruit": "spiral_stone", "seeds": true, "grow": "7 days", "required_terrain_flag": "ACCURSED" },
     "symbol": ".",
     "color": "red",
 	"explode_in_fire": true,

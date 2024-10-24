@@ -508,6 +508,7 @@
       },
 	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
 	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
 	  { "group": "infantry_medical_gear", "prob": 75 },
 	  { "group": "exotic_books", "prob": 25 },
 	  { "group": "chem_lab", "prob": 75 },
@@ -605,6 +606,7 @@
 	  { "group": "infantry_medical_gear", "prob": 75 },
 	  { "group": "exotic_books", "prob": 25 },
 	  { "group": "chem_lab", "prob": 75 },
+	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
 	  { "group": "military" },
       { "item": "mask_gas", "prob": 5, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
       { "item": "two_way_radio", "prob": 15, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
@@ -696,6 +698,7 @@
       },
 	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
 	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
 	  { "group": "infantry_medical_gear", "prob": 75 },
 	  { "group": "exotic_books", "prob": 25 },
 	  { "group": "chem_lab", "prob": 75 },
@@ -790,6 +793,7 @@
       },
 	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
 	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
 	  { "group": "infantry_medical_gear", "prob": 75 },
 	  { "group": "exotic_books", "prob": 25 },
 	  { "group": "chem_lab", "prob": 75 },
@@ -814,7 +818,7 @@
           { "group": "clothing_soldier_winter_set", "prob": 50 }
         ]
       },
-      { "group": "military_standard_grenades", "count": [ 3, 7 ], "prob": 100 },
+      { "item": "bot_grenade_hack", "prob": 100, "count": [ 3, 7 ] },
 	  { "group": "infantry_common_gear", "count": [ 1, 2 ], "prob": 100 },
       {
         "distribution": [

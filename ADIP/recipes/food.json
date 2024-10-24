@@ -1,6 +1,25 @@
 [
 {
     "type": "recipe",
+    "result": "hemor_seed",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PARADISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "skills_required": [ "cooking", 5 ],
+    "time": "60 m",
+    "autolearn": [ [ "cooking", 5 ] ],
+	"contained": false,  
+    "book_learn": [
+	  [ "paradise_cooking", 1 ],
+	  [ "isherwood_herbal_remedies", 1 ]
+    ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 1 }, { "id": "DISTILL", "level": 1 }, { "id": "RUBBER", "level": 2 }],
+    "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
+    "components": [ [ [ "chunk_sulfur", 1 ] ], [ [ "blood", 1 ] ], [ [ "veggy", 1 ] ], [ [ "effervescent_genetics", 1 ] ] ]
+  },
+{
+    "type": "recipe",
     "result": "stamina_regen_potion",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
@@ -550,6 +569,23 @@
   },
   {
     "type": "recipe",
+    "result": "aldente_leadbelly",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PARADISE",
+    "skill_used": "cooking",
+    "difficulty": 3, 
+    "time": "3 h",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 3 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "qualities": [ { "id": "PULL", "level": 2 }, { "id": "CUT_FINE", "level": 1 }, { "id": "BOIL", "level": 1 }  ],
+	"tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
+    "components": [ 
+	[ [ "leadbelly", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
     "result": "ground_wandwood",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
@@ -561,7 +597,7 @@
     "book_learn": [ [ "paradise_cooking", 1 ] ],
     "tools": [ [ [ "food_processor", 10 ] ] ],
     "components": [ 
-	[ [ "wandwood_branch", 1 ] ]
+	[ [ "wandwood_branch", 1 ], [ "wandwood_switch", 1 ] ]
 	]
   },
   {
@@ -625,7 +661,7 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "components": [ 
 	[ [ "shock_jock_book", 1 ], [ "detoxified_leech_flower", 1 ] ], 
-	[ [ "chocolate", 10 ], [ "brineweed", 10 ] ], 
+	[ [ "chocolate", 10 ], [ "brineweed", 1 ] ], 
 	[ [ "mandrake_root", 10 ], [ "horseradish", 10 ], [ "chunk_sulfur", 10 ], [ "ground_wandwood", 10 ] ],
 	[ [ "sugar", 10 ] ]
 	]
@@ -644,10 +680,10 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
     "components": [ 
-	[ [ "fish_cooked_seasoned", 10 ], [ "meat_cooked_seasoned", 10 ] ], 
+	[ [ "fish_cooked_seasoned", 1 ], [ "meat_cooked_seasoned", 1 ] ], 
 	[ [ "cheese_any", 1, "LIST" ] ],
 	[ [ "jam_fruit", 10 ] ], 
-	[ [ "boiled_chitin", 10 ] ]
+	[ [ "boiled_chitin", 1 ] ]
 	]
   },
   {
@@ -664,7 +700,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "HEAT", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 10 ], [ "meat_smoked", 10 ] ],
+	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ],
     [ [ "cheese_any", 1, "LIST" ] ],	
 	[ [ "divine_jam_dex", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -684,7 +720,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "COLD", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 10 ], [ "meat_smoked", 10 ] ], 
+	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
     [ [ "cheese_any", 1, "LIST" ] ],	
 	[ [ "divine_jam_per", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -704,7 +740,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "ACID", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 10 ], [ "meat_smoked", 10 ] ], 
+	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
     [ [ "cheese_any", 1, "LIST" ] ],	
 	[ [ "divine_jam_int", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -724,7 +760,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "BIOLOGICAL", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 10 ], [ "meat_smoked", 10 ] ], 
+	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
 	[ [ "cheese_any", 1, "LIST" ] ],
 	[ [ "divine_clementine_jam", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -744,7 +780,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "ELECTRICAL", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 10 ], [ "meat_smoked", 10 ] ], 
+	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
 	[ [ "cheese_any", 1, "LIST" ] ],
 	[ [ "divine_jam_str", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -892,16 +928,15 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "components": [
-      [ [ "rubber_shrub", 1 ] ],
+      [ [ "spaghetti_cooked", 1 ], [ "aldente_leadbelly", 1 ] ],
       [ [ "slime_scrap", 10 ] ],
 	  [ [ "ground_wandwood", 1 ], [ "mandrake_root", 3 ] ],
+	  [ [ "wild_herbs", 10 ], [ "seasoning_italian", 4 ] ],
       [
-        [ "seasoning_italian", 4 ],
         [ "sauce_red", 2 ],
         [ "tomato", 1 ],
         [ "irradiated_tomato", 1 ],
-        [ "can_tomato", 1 ],
-        [ "wild_herbs", 10 ]
+        [ "can_tomato", 1 ]
       ],
       [
         [ "lung", 1 ],
@@ -1010,6 +1045,46 @@
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "BOIL", "level": 1 } ],
 	"tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "ascended_jam_dex", 1 ] ], [ [ "divine_fruit_flame", 1 ] ], [ [ "sake", 1 ] ] ]
+  },
+  {
+    "result": "steak_pizzaiola",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PARADISE",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": "20 m",
+    "charges": 1,
+    "batch_time_factors": [ 80, 5 ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
+    "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
+    "components": [
+      [ [ "spaghetti_cooked", 1 ], [ "aldente_leadbelly", 1 ] ],
+	  [ [ "wild_herbs", 10 ], [ "seasoning_italian", 1 ] ],
+      [
+        [ "sauce_red", 1 ],
+        [ "tomato", 1 ],
+        [ "irradiated_tomato", 1 ],
+        [ "can_tomato", 1 ],
+        [ "blood", 10 ]
+      ],
+      [
+	    [ "meat_cooked_seasoned", 3 ],
+		[ "fish_cooked_seasoned", 3 ],
+		[ "lung", 1 ],
+        [ "lung", 1 ],
+        [ "liver", 1 ],
+        [ "brain", 1 ],
+		[ "sweetbread", 1 ],
+		[ "boiled_chitin", 1 ],
+		[ "small_stomach_boiled", 1 ],
+		[ "meat_smoked", 1 ],
+		[ "fish_smoked", 1 ],
+		[ "smoked_palm", 1 ],
+        [ "kidney", 1 ]
+	]
+    ]
   },
   {
     "type": "recipe",
