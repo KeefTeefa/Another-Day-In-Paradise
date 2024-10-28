@@ -119,11 +119,14 @@
     "armor_bash": 32,
     "armor_cut": 43,
     "armor_bullet": 64,
-    "armor_acid": 10,
+    "armor_electric": 50,
     "armor_fire": 10,
 	"grab_strength": 12,
 	"special_when_hit": [ "ZAPBACK", 25 ],
     "vision_day": 30,
+	"vision_night": 20, 
+	"regenerates": 3, 
+	"regeneration_modifiers": [ { "effect": "stunned", "base_mod": -3 }, { "effect": "corroding", "base_mod": -2 } ],
 	"starting_ammo": { "shot_flechette": 36 },
 	"special_attacks": [
 	[ "BIO_OP_BIOJUTSU", 5 ], 
@@ -147,7 +150,6 @@
         "no_crits": true
       }
 	],
-    "vision_night": 10,
     "harvest": "shockjock_harvest",
     "death_drops": "mon_shock_jock_death_drops",
     "death_function": [ "NORMAL" ],
@@ -162,6 +164,7 @@
 	"CLIMBS",
 	"PRIORITIZE_TARGETS",
 	"CAN_OPEN_DOORS",
+	"ATTACKMON",
     "PUSH_MON",
     "PATH_AVOID_DANGER_2",
     "DROPS_AMMO",

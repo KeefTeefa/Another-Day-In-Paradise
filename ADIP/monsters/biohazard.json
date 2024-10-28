@@ -21,8 +21,8 @@
     "casting_time_increment": -7,
 	"components": "spell_components_living_fusion", 
     "energy_source": "HP",
-    "base_energy_cost": 10,
-	"final_energy_cost": 10, 
+    "base_energy_cost": 5,
+	"final_energy_cost": 5, 
     "difficulty": -10
   },
   {
@@ -134,7 +134,7 @@
     "id": "mon_biohazard",
     "type": "MONSTER",
     "name": { "str": "biohazard" },
-    "description": "At first this thing looks somewhat familiar, a hundred dying humans all fusing into one, limbs and heads sticking out in odd directions. Then a mouth opens and out pours a radioactive gas, melting the corpses into a red goo and revealing a central nuclear reaction. Soon the red goo reforms into more dying humans, and the reaction continues.",
+    "description": "At first this thing looks somewhat familiar, a hundred dying humans all fusing into one, limbs and heads sticking out in odd directions. Then a fissure opens and out pours a radioactive gas, melting the corpses into a red goo and revealing a central nuclear reaction. Soon the red goo reforms into more dying humans, and the reaction continues.",
     "default_faction": "jabberwock",
     "bodytype": "human",
     "species": [ "HUMAN" ],
@@ -142,7 +142,7 @@
 	"looks_like": "mon_crawler", 
     "volume": "62500 ml",
     "weight": "81500 g",
-    "hp": 500,
+    "hp": 600,
     "speed": 80,
     "material": [ "flesh" ],
     "symbol": "Z",
@@ -153,21 +153,22 @@
     "melee_dice": 3,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-    "armor_bash": 25,
-    "armor_cut": 5,
-    "armor_bullet": 4,
-    "vision_night": 15,
+    "armor_stab": 5,
+    "armor_cut": 25,
+    "armor_bullet": 25,
+	"vision_day": 25,
+    "vision_night": 50,
     "harvest": "biohazard_harvest",
 	"starting_ammo": { "bolt_cf_biohazard": 9 },
 	"emit_fields": [
-	  { "emit_id": "emit_nuke_gas", "delay": "30 s" }
+	  { "emit_id": "emit_nuke_gas", "delay": "10 s" }
     ],
     "special_attacks": [ 
 	[ "GRAB", 7 ], [ "RANGED_PULL", 20 ], [ "ZOMBIE_FUSE", 80 ], [ "FLESH_GOLEM", 10 ], [ "ABSORB_MEAT", 10 ], [ "FEAR_PARALYZE", 10 ], [ "RESURRECT", 10 ],
 	{ "type": "spell", "spell_data": { "id": "ecdysis_mon_version", "min_level": 10 }, "cooldown": 20, "monster_message": "Pieces of your flesh are suddenly attracted to the biohazard like a magnet, tearing them off and turning them into walls of flesh." },
     {
         "type": "gun",
-        "cooldown": 15,
+        "cooldown": 45,
         "move_cost": 80,
         "gun_type": "hazardous_reactor_mon_version",
         "ammo_type": "bolt_cf_biohazard",
@@ -187,7 +188,7 @@
     },
     "death_function": [ "NORMAL" ],
     "regenerates": 3,
-    "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -3 }, { "effect": "corroding", "base_mod": -1 }, { "effect": "slimed", "base_mod": -2 } ],
+    "regeneration_modifiers": [ { "effect": "zapped", "base_mod": -3 }, { "effect": "corroding", "base_mod": -3 }, { "effect": "wheel_of_fire_slow_eff", "base_mod": -3 }, { "effect": "stunned", "base_mod": -3 } ],
     "flags": [
       "SEES",
       "HEARS",

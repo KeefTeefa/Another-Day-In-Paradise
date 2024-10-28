@@ -990,7 +990,7 @@
     "id": "frost_fruit_aura",
     "type": "ARMOR",
     "name": { "str": "divine frost", "str_pl": "divine frost" },
-    "description": "You ate the divine frost fruit, and feel a cold deep in your soul. You've become albino, but can release frozen air from your body at will and are very resistant to cold damage. Activate to let out a cone of cold air in front of you or put out a fire.",
+    "description": "You ate the divine frost fruit, and feel a cold deep in your soul. You've become albino, but can release frozen air from your body at will and are very resistant to cold damage. Activate to let out a cone of freezing air in front of you or put out a fire.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "o",
@@ -1100,6 +1100,39 @@
           "has": "WORN",
           "condition": "ALWAYS",
           "mutations": [ "ANGELPUDDING", "STRONGSTOMACH" ]
+        }
+      ]
+    },
+    "covers": [ "torso" ],
+    "flags": [
+      "AURA",
+      "SEMITANGIBLE",
+      "OVERSIZE",
+      "ONLY_ONE",
+      "TRADER_AVOID",
+      "NO_TAKEOFF",
+      "NONCONDUCTIVE",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "leadbelly_tequila_aura",
+    "type": "ARMOR",
+    "name": { "str": "ate the worm", "str_pl": "ate the worms" },
+    "description": "You took a leadbelly shot straight to the dome, bullets dont mean jack to you.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "o",
+    "color": "blue",
+	"material": [ "lightceramic" ], 
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+		  { "value": "ARMOR_BULLET", "add": -25 }
+		  ]
         }
       ]
     },

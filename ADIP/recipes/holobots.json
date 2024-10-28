@@ -209,7 +209,7 @@
   },
   {
     "type": "recipe",
-    "result": "holo_groceryholo_busted",
+    "result": "holo_grocerybot_busted",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_OTHER",
     "skill_used": "electronics",
@@ -220,7 +220,7 @@
     "book_learn": [ [ "textbook_robots", 1 ] ],
     "qualities": [ { "id": "HOLO", "level": 2 } ],
     "components": [
-      [ [ "bot_groceryholo_busted", 1 ] ]
+      [ [ "bot_grocerybot_busted", 1 ] ]
     ]
   },
   {

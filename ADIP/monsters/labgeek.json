@@ -283,11 +283,11 @@
     "vision_day": 50,
     "vision_night": 50,
 	"armor_acid": 50,
-	"armor_electric": 50, 
+	"armor_cold": 15, 
 	"armor_bullet": 15, 
 	"regenerates": 1, 
-	"regeneration_modifiers": [ { "effect": "zapped", "base_mod": -1 } ],
-    "harvest": "CBM_SCI",
+	"regeneration_modifiers": [ { "effect": "wheel_of_fire_slow_eff", "base_mod": -1 }, { "effect": "zapped", "base_mod": -1 } ],
+    "harvest": "lab_geek_harvest",
 	"starting_ammo": { "bot_c4_hack": 2, "bot_flashbang_hack": 3, "bot_gasbomb_hack": 3, "bot_grenade_hack": 10, "paintball": 200 },
     "path_settings": { "max_dist": 5 },
 	"attack_effs": [
@@ -301,7 +301,7 @@
 	[ "GRENADIER", 25 ],
 	{ "type": "bite", "cooldown": 5 },
 	[ "GENE_STING", 100 ],
-	{ "type": "spell", "spell_data": { "id": "lab_geek_slime_trap_mon_spell", "min_level": 10 }, "cooldown": 20, "monster_message": "The lab geek suddenly slices the air with their arm, and a wormhole opens nearby." },
+	{ "type": "spell", "spell_data": { "id": "lab_geek_slime_trap_mon_spell", "min_level": 10 }, "cooldown": 20, "monster_message": "A wormhole opens and slime comes pouring out!" },
 	{
         "type": "gun",
         "cooldown": 15,

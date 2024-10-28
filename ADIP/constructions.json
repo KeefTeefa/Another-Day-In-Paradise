@@ -1,13 +1,23 @@
 [
 {
     "type": "construction_group",
+    "id": "plant_rubber_shrub",
+    "name": "Rubber Grove"
+  },
+{
+    "type": "construction_group",
     "id": "divine_orchard",
-    "name": "Rubber Orchard"
+    "name": "Divine Orchard"
   },
   {
     "type": "construction_group",
-    "id": "scion_orchard",
-    "name": "Scion Orchard"
+    "id": "accursed_orchard",
+    "name": "Accursed Orchard"
+  },
+  {
+    "type": "construction_group",
+    "id": "ascended_orchard",
+    "name": "Ascended Orchard"
   },
   {
     "type": "construction_group",
@@ -17,7 +27,7 @@
   {
     "type": "construction",
     "id": "constr_rubber_shrub",
-    "group": "divine_orchard",
+    "group": "plant_rubber_shrub",
     "category": "OTHER",
     "required_skills": [ [ "survival", 1 ] ],
     "time": "10 m",
@@ -40,7 +50,7 @@
   {
     "type": "construction",
     "id": "constr_accursed_tree",
-    "group": "divine_orchard",
+    "group": "accursed_orchard",
     "category": "OTHER",
     "required_skills": [ [ "survival", 3 ] ],
     "time": "31 m",
@@ -53,7 +63,7 @@
   {
     "type": "construction",
     "id": "constr_ascended_tree",
-    "group": "divine_orchard",
+    "group": "ascended_orchard",
     "category": "OTHER",
     "required_skills": [ [ "survival", 4 ] ],
     "time": "32 m",
@@ -65,7 +75,7 @@
   {
     "type": "construction",
     "id": "constr_ascended_angel_tree",
-    "group": "divine_orchard",
+    "group": "ascended_orchard",
     "category": "OTHER",
     "required_skills": [ [ "survival", 5 ] ],
     "time": "33 m",
@@ -76,7 +86,7 @@
   {
     "type": "construction",
     "id": "constr_divine_tree_bio",
-    "group": "scion_orchard",
+    "group": "divine_orchard",
     "category": "OTHER",
     "required_skills": [ [ "cooking", 3 ] ],
     "time": "180 m",
@@ -88,7 +98,7 @@
   {
     "type": "construction",
     "id": "constr_divine_tree_heat",
-    "group": "scion_orchard",
+    "group": "divine_orchard",
     "category": "OTHER",
     "required_skills": [ [ "fabrication", 3 ] ],
     "time": "180 m",
@@ -101,7 +111,7 @@
   {
     "type": "construction",
     "id": "constr_divine_tree_cold",
-    "group": "scion_orchard",
+    "group": "divine_orchard",
     "category": "OTHER",
     "required_skills": [ [ "speech", 3 ] ],
     "time": "180 m",
@@ -113,7 +123,7 @@
   {
     "type": "construction",
     "id": "constr_divine_tree_acid",
-    "group": "scion_orchard",
+    "group": "divine_orchard",
     "category": "OTHER",
     "required_skills": [ [ "traps", 3 ] ],
     "time": "180 m",
@@ -125,7 +135,7 @@
   {
     "type": "construction",
     "id": "constr_divine_tree_electric",
-    "group": "scion_orchard",
+    "group": "divine_orchard",
     "category": "OTHER",
     "required_skills": [ [ "firstaid", 3 ] ],
     "time": "180 m",

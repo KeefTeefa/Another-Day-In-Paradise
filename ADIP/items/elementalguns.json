@@ -2,7 +2,7 @@
   {
     "id": "rm451_flamethrower_overheating",
     "type": "TOOL_ARMOR",
-    "name": { "str": "overheating RM451 flamethrower" },
+    "name": { "str": "overheating RM451 flamespitter" },
     "description": "A military-grade combat flamethrower designed by Rivtech, the RM451 flamethrower incorporates a cycling pressure rapid-feed fuel system with a high-speed piezoelectric igniter. This one has been somehow half-built into another world, and has taken on life from that world. It is definitely a creature of some kind, sputtering a foul alien smoke and hissing violently as ultra-hot air escapes it's 'mouth.' The curls of smoke spiral into the air around it, the creature's breathing strained by the sheer heat in it's body.",
     "weight": "1320 g",
     "volume": "3500 ml",
@@ -25,7 +25,7 @@
     },
     "color": "green",
     "covers": [ "torso", "arms" ],
-	"seed_data": { "plant_name": "flaming growth", "fruit": "divine_fruit_flame", "seeds": false, "grow": "30 days", "required_terrain_flag": "RUBBER" },
+	"seed_data": { "plant_name": "flaming growth", "fruit": "divine_fruit_flame", "seeds": false, "grow": "14 days", "required_terrain_flag": "RUBBER" },
     "coverage": 50,
     "encumbrance": 20,
     "warmth": 40,

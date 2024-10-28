@@ -150,6 +150,28 @@
   },
   {
     "type": "item_group",
+    "id": "adip_gunmods_effects",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_wide", "prob": 9 },
+	  { "item": "guntrinket_shot", "prob": 7 },
+	  { "item": "guntrinket_smoke", "prob": 7 },
+	  { "item": "guntrinket_trail", "prob": 7 },
+	  { "item": "guntrinket_stream", "prob": 7 },
+	  { "item": "guntrinket_tangle", "prob": 9 },
+	  { "item": "guntrinket_blinds_eyes", "prob": 5 },
+	  { "item": "guntrinket_beanbag", "prob": 5 },
+	  { "item": "guntrinket_acidbomb", "prob": 7 },
+	  { "item": "guntrinket_flare", "prob": 7 },
+	  { "item": "guntrinket_lightning", "prob": 7 },
+	  { "item": "guntrinket_bounce", "prob": 5 },
+	  { "item": "guntrinket_laser", "prob": 7 },
+	  { "item": "guntrinket_nogib", "prob": 9 },
+	  { "item": "guntrinket_no_item_damage", "prob": 7 }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "adip_gunmods_tier1and2",
     "subtype": "distribution",
     "items": [
@@ -164,7 +186,8 @@
     "subtype": "distribution",
     "items": [
       { "group": "adip_gunmods_tier2", "prob": 66 },
-	  { "group": "adip_gunmods_tier3", "prob": 33 },
+	  { "group": "adip_gunmods_tier3", "prob": 23 },
+	  { "group": "adip_gunmods_effects", "prob": 10 },
 	  { "group": "adip_gunmods_tier4", "prob": 1 }
     ]
   },
@@ -175,6 +198,7 @@
     "items": [
       { "group": "adip_gunmods_tier3", "prob": 66 },
 	  { "group": "adip_gunmods_tier4", "prob": 33 },
+	  { "item": "guntrinket_mininuke_mod", "prob": 1 },
 	  { "group": "adip_gunmods_tier5", "prob": 1 }
     ]
   },
@@ -246,6 +270,7 @@
 	  [ "acid_sight_1", 10 ],
 	  [ "acid_sight_2", 10 ],
 	  [ "electric_sight_1", 10 ],
+	  [ "guntrinket_mininuke_mod", 1 ],
 	  [ "electric_sight_2", 10 ],
 	  [ "biological_sight_1", 10 ],
 	  [ "biological_sight_2", 10 ],
@@ -423,7 +448,7 @@
 	  { "item": "brineweed_sticks", "prob": 1 },
 	  { "item": "hot_sticks", "prob": 1 },
 	  { "item": "slime_spaghetti", "prob": 1 },
-	  { "item": "steak_pizzaoila", "prob": 25 },
+	  { "item": "steak_pizzaiola", "prob": 25 },
 	  { "item": "naranjachinchi", "prob": 1 }
     ]
   },
@@ -445,7 +470,7 @@
 	  { "item": "holo_talon_m202a1", "prob": 1 },
 	  { "item": "holo_nursebot", "prob": 3 },
 	  { "item": "holo_grocerybot", "prob": 3 },
-	  { "item": "holo_groceryholo_busted", "prob": 3 },
+	  { "item": "holo_grocerybot_busted", "prob": 3 },
 	  { "item": "holo_broken_cyborg", "prob": 3 },
 	  { "item": "holo_prototype_cyborg", "prob": 3 },
 	  { "item": "holo_copbot", "prob": 3 },
@@ -470,7 +495,7 @@
     "items": [
       { "item": "rubber_shrub", "prob": 3 },
 	  { "item": "wandwood_branch", "prob": 2 },
-	  { "item": "wandwood_switch", "prob": 1 }
+	  { "item": "switch_wandwood", "prob": 1 }
     ]
   },
   {
@@ -478,7 +503,6 @@
     "type": "item_group",
     "subtype": "distribution",
     "items": [
-      { "item": "rubber_shrub", "prob": 10 },
 	  { "item": "hemor_seed", "prob": 2 },
 	  { "item": "mandrake_egg", "prob": 5 }
     ]
@@ -488,7 +512,6 @@
     "type": "item_group",
     "subtype": "distribution",
     "items": [
-      { "item": "rubber_shrub", "prob": 20 },
 	  { "item": "hemor_seed", "prob": 5 },
 	  { "item": "mandrake_egg", "prob": 10 },
 	  { "item": "divine_clementine", "prob": 1 }
@@ -499,7 +522,6 @@
     "type": "item_group",
     "subtype": "distribution",
     "items": [
-      { "item": "rubber_shrub", "prob": 5 },
 	  { "item": "hemor_seed", "prob": 3 },
 	  { "item": "wandwood_branch", "prob": 5 },
 	  { "item": "mandrake_egg", "prob": 2 }
@@ -510,7 +532,6 @@
     "type": "item_group",
     "subtype": "distribution",
     "items": [
-      { "item": "rubber_shrub", "prob": 1 },
 	  { "item": "hemor_seed", "prob": 2 },
 	  { "item": "mandrake_egg", "prob": 3 }
     ]
@@ -527,14 +548,15 @@
     "type": "item_group",
     "id": "trash_forest",
     "items": [
-      [ "rubber_shrub", 1 ]
+	  [ "scav_signal_code", 1 ]
     ]
   },
   {
     "type": "item_group",
     "id": "trash",
     "items": [
-      [ "rubber_shrub", 1 ]
+      [ "rubber_shrub", 1 ],
+	  [ "scav_signal_code", 1 ]
     ]
   },
   {
@@ -542,7 +564,8 @@
     "id": "trash_dumpster",
 	"subtype": "collection", 
     "items": [
-      [ "rubber_shrub", 1 ]
+      [ "rubber_shrub", 1 ],
+	  [ "scav_signal_code", 1 ]
     ]
   },
   {
@@ -587,6 +610,7 @@
 	  { "group": "holo_bots", "prob": 10 },
 	  { "group": "adip_holobags", "prob": 10 },
 	  { "item": "ascended_seed", "prob": 1 },
+	  { "item": "peace_officer_egg", "prob": 10 },
 	  { "item": "rubber_shrub", "prob": 10 },
 	  { "item": "spiral_stone", "prob": 3 }
     ]

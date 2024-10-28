@@ -3,7 +3,7 @@
     "id": "heat_freak_book",
     "type": "GENERIC",
     "name": { "str": "alien bingo book", "str_pl": "alien bingo books" },
-    "description": "A small leatherbound book that has been scorched almost unrecognizably. The pages inside are filled with manic writing, at least it's only half written in an alien language. The pieces you do understand seem to point towards the book being used to log experiments on migo's in order to better hunt them, at the sake of the author's sanity it seems. The author's experimentation on the aliens have actually led to some interesting research. It appears the mi-go has an innate ability to reduce it's temperature to near nothing, and the author has reverse engineered this innate ability to an extent.",
+    "description": "A small leatherbound book that has been scorched almost unrecognizably. The pages inside are filled with manic writing, at least it's only half written in an alien language. The pieces you do understand seem to point towards the book being used to log experiments on migos in order to better hunt them, at the sake of the author's sanity. The author's experimentation on the aliens has actually led to some interesting research. It appears the mi-go has an innate ability to reduce it's temperature to near nothing, and the author has reverse engineered this innate ability to an extent. The author claims it has some effect on mutational abilities.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "?",
@@ -27,7 +27,7 @@
     "volume": "10 ml",
     "weight": "10 g",
 	"looks_like": "grapes",
-	"seed_data": { "plant_name": "frosted growth", "fruit": "divine_fruit_frost", "seeds": false, "grow": "30 days", "required_terrain_flag": "RUBBER" },
+	"seed_data": { "plant_name": "frosted growth", "fruit": "divine_fruit_frost", "seeds": false, "grow": "14 days", "required_terrain_flag": "RUBBER" },
 	"flags": [ "PLANTABLE_SEED" ],
     "use_action": {
       "type": "learn_spell",
@@ -61,7 +61,7 @@
     "id": "lab_geek_book_wormhole",
     "type": "GENERIC",
     "name": { "str": "lab journal - Worm", "str_pl": "lab journals - Worm" },
-    "description": "An extremely well maintained and organized lab journal detailing research into both wormholes and the black blob threat the military was so worried about. By the end of the journal the author is so deep in theoretical technical language and potentially world ending scenarios that they can't help but rave themself mad.",
+    "description": "An extremely well maintained and organized lab journal detailing research into both wormholes and the black blob threat the military was so worried about. By the end of the journal the author is so deep in theoretical technical language and potentially world ending scenarios that they can't help but rave themself mad. You do notice something about that black slime having an effect on 'spiral creatures,' whatever that means.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "?",
@@ -134,7 +134,7 @@
     "symbol": "?",
     "color": "magenta",
 	"looks_like": "gloves_golf",
-	"seed_data": { "plant_name": "gestating peace officer", "fruit": "peace_officer_egg", "seeds": false, "byproducts": [ "meat_tainted" ], "grow": "3 days", "required_terrain_flag": "CLONING" },
+	"seed_data": { "plant_name": "gestating peace officer", "fruit": "peace_officer_egg", "seeds": false, "byproducts": [ "meat_tainted" ], "grow": "7 days", "required_terrain_flag": "CLONING" },
     "use_action": [
 	{
       "type": "learn_spell",

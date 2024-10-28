@@ -336,7 +336,7 @@
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
-    "id": "holo_groceryholo_busted",
+    "id": "holo_grocerybot_busted",
     "type": "TOOL",
     "name": { "str": "holographic busted grocery bot" },
     "description": "A robot that has had it's unique construction abused to suspend it holographically, reducing it's weight and volume to nearly nothing. This is an inactive grocery bot.  Using this item involves placing it on the ground and reactivating its mechanical body.  If reprogrammed and rewired successfully the grocery bot will then identify you as a friendly, roam around or follow you.",
@@ -351,7 +351,7 @@
     "color": "white",
     "use_action": {
       "type": "place_monster",
-      "monster_id": "mon_groceryholo_busted",
+      "monster_id": "mon_grocerybot_busted",
       "friendly_msg": "The grocery bot beeps affirmatively and awaits orders.",
       "hostile_msg": "You misprogram the grocery bot. It's looking at you funny.",
       "difficulty": 4,

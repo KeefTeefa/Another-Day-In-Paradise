@@ -473,7 +473,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_fog_plume" ],
-    "plant_data": { "transform": "f_divine_tree", "base": "f_divine_tree" }
+    "plant_data": { "transform": "f_divine_tree", "base": "f_divine_tree", "growth_multiplier": 0.5 }
   },
   {
     "type": "furniture",
@@ -489,7 +489,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_fog_plume" ],
-    "plant_data": { "transform": "f_divine_tree_harvestable", "base": "f_divine_tree" }
+    "plant_data": { "transform": "f_divine_tree_harvestable", "base": "f_divine_tree", "growth_multiplier": 0.5 }
   },
   {
     "type": "furniture",
@@ -505,7 +505,7 @@
 	"emissions": [ "emit_fog_plume" ],
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING", "EMITTER" ],
     "examine_action": "aggie_plant",
-    "plant_data": { "transform": "f_divine_tree_mature", "base": "f_divine_tree" }
+    "plant_data": { "transform": "f_divine_tree_mature", "base": "f_divine_tree", "growth_multiplier": 0.5 }
   },
 {
     "type": "furniture",
@@ -545,7 +545,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_swamp_gas_leak" ],
-    "plant_data": { "transform": "f_accursed_tree_seedling", "base": "f_accursed_tree" }
+    "plant_data": { "transform": "f_accursed_tree_seedling", "base": "f_accursed_tree", "growth_multiplier": 2.0 }
   },
   {
     "type": "furniture",
@@ -561,7 +561,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_swamp_gas_leak" ],
-    "plant_data": { "transform": "f_accursed_tree", "base": "f_accursed_tree" }
+    "plant_data": { "transform": "f_accursed_tree", "base": "f_accursed_tree", "growth_multiplier": 2.0 }
   },
   {
     "type": "furniture",
@@ -577,7 +577,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_swamp_gas_leak" ],
-    "plant_data": { "transform": "f_accursed_tree_harvestable", "base": "f_accursed_tree" }
+    "plant_data": { "transform": "f_accursed_tree_harvestable", "base": "f_accursed_tree", "growth_multiplier": 2.0 }
   },
   {
     "type": "furniture",
@@ -593,7 +593,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_swamp_gas_leak" ],
-    "plant_data": { "transform": "f_accursed_tree_mature", "base": "f_accursed_tree" }
+    "plant_data": { "transform": "f_accursed_tree_mature", "base": "f_accursed_tree", "growth_multiplier": 2.0 }
   },
 {
     "type": "furniture",
@@ -633,7 +633,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_dazzling" ],
-    "plant_data": { "transform": "f_ascended_tree_seedling", "base": "f_ascended_tree" }
+    "plant_data": { "transform": "f_ascended_tree_seedling", "base": "f_ascended_tree", "growth_multiplier": 0.1 }
   },
   {
     "type": "furniture",
@@ -665,7 +665,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_dazzling" ],
-    "plant_data": { "transform": "f_ascended_tree_harvestable", "base": "f_ascended_tree" }
+    "plant_data": { "transform": "f_ascended_tree_harvestable", "base": "f_ascended_tree", "growth_multiplier": 0.1 }
   },
   {
     "type": "furniture",
@@ -681,7 +681,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_dazzling" ],
-    "plant_data": { "transform": "f_ascended_tree_mature", "base": "f_ascended_tree" }
+    "plant_data": { "transform": "f_ascended_tree_mature", "base": "f_ascended_tree", "growth_multiplier": 0.1 }
   },
 {
     "type": "furniture",
@@ -721,7 +721,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_dazzling" ],
-    "plant_data": { "transform": "f_ascended_angel_tree_seedling", "base": "f_ascended_angel_tree" }
+    "plant_data": { "transform": "f_ascended_angel_tree_seedling", "base": "f_ascended_angel_tree", "growth_multiplier": 0.1, "harvest_multiplier": 2.0 }
   },
   {
     "type": "furniture",
@@ -737,7 +737,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_dazzling" ],
-    "plant_data": { "transform": "f_ascended_angel_tree", "base": "f_ascended_angel_tree" }
+    "plant_data": { "transform": "f_ascended_angel_tree", "base": "f_ascended_angel_tree", "growth_multiplier": 0.1, "harvest_multiplier": 2.0 }
   },
   {
     "type": "furniture",
@@ -753,7 +753,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_dazzling" ],
-    "plant_data": { "transform": "f_ascended_angel_tree_harvestable", "base": "f_ascended_angel_tree" }
+    "plant_data": { "transform": "f_ascended_angel_tree_harvestable", "base": "f_ascended_angel_tree", "growth_multiplier": 0.1, "harvest_multiplier": 2.0 }
   },
   {
     "type": "furniture",
@@ -769,7 +769,7 @@
     "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING", "EMITTER" ],
     "examine_action": "aggie_plant",
 	"emissions": [ "emit_dazzling" ],
-    "plant_data": { "transform": "f_ascended_angel_tree_mature", "base": "f_ascended_angel_tree" }
+    "plant_data": { "transform": "f_ascended_angel_tree_mature", "base": "f_ascended_angel_tree", "growth_multiplier": 0.1, "harvest_multiplier": 2.0 }
   },
 {
     "type": "furniture",
@@ -1146,7 +1146,7 @@
     "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
     "transforms_into": "t_tree_wandwood_harvested",
     "examine_action": "harvest_ter",
-    "harvest_by_season": [ { "seasons": [ "autumn" ], "entries": [ { "drop": "wandwood_branch", "base_num": [ 1, 2 ], "scale_num": [ 0, 0.1 ] } ] } ],
+    "harvest_by_season": [ { "seasons": [ "autumn", "winter" ], "entries": [ { "drop": "wandwood_branch", "base_num": [ 1, 1 ], "scale_num": [ 0, 0.1 ] } ] } ],
     "bash": {
       "str_min": 1,
       "str_max": 1,
