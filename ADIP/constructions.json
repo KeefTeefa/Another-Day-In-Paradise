@@ -159,6 +159,18 @@
   },
   {
     "type": "construction",
+    "id": "constr_NMR_cloning_vat",
+    "group": "magitech",
+    "category": "OTHER",
+    "required_skills": [ [ "electronics", 7 ] ],
+    "time": "10 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "components": [ [ [ "solder_wire", 20 ] ], [ [ "bionic_scanner", 1 ] ] ],
+    "pre_terrain": "t_vat",
+    "post_furniture": "f_NMR_cloning"
+  },
+  {
+    "type": "construction",
     "id": "constr_fracholo_mirror",
     "group": "magitech",
     "category": "OTHER",

@@ -63,5 +63,10 @@
     "type": "tool_quality",
     "id": "LOVE",
     "name": { "str": "love" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "LAW",
+    "name": { "str": "law" }
   }
 ]

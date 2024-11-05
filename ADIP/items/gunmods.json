@@ -175,7 +175,7 @@
     "symbol": ":",
 	"install_time": "5 m",
     "color": "dark_gray",
-	"ammo_effects": [ "FLARE" ],
+	"ammo_effects": [ "FLAME" ],
     "location": "accessories",
 	"flags": [ "IRREMOVABLE" ]
   },
@@ -216,10 +216,10 @@
 	"flags": [ "IRREMOVABLE" ]
   },
   {
-    "id": "guntrinket_laser",
+    "id": "guntrinket_plasma",
     "type": "GUNMOD",
-    "name": { "str": "laser trinket" },
-    "description": "A small trinket that causes a weapon's projectiles to leave a laser trail behind them.",
+    "name": { "str": "plasma trinket" },
+    "description": "A small trinket that causes a weapon's projectiles to leave a plasma trail behind them.",
     "weight": "6 g",
     "volume": "250 ml",
     "integral_volume": "0 ml",
@@ -229,7 +229,7 @@
     "symbol": ":",
 	"install_time": "5 m",
     "color": "dark_gray",
-	"ammo_effects": [ "LASER" ],
+	"ammo_effects": [ "PLASMA" ],
     "location": "accessories",
 	"flags": [ "IRREMOVABLE" ]
   },

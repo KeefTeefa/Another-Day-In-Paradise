@@ -50,6 +50,11 @@
     "type": "json_flag"
   },
   {
+    "id": "WANDWOOD",
+    "context": [  ],
+    "type": "json_flag"
+  },
+  {
     "id": "holoframed",
     "type": "json_flag",
     "context": [ "ARMOR", "TOOL_ARMOR" ],

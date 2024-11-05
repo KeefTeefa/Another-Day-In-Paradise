@@ -1,0 +1,1454 @@
+[
+ {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"It burns good!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"Give us a huff!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"More hot, more stink, more, more, more!!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"Just being an alien creature doesn't mean it's intelligent!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"Keep spittin', slave!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"Just because it doesn't look like you doesn't mean that it isn't.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"Do you smoke?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"Shit!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"We's shmovin!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_heat_freak",
+    "sound": "\"Them's touched it, we's burn it!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "an indecipherable whispering.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a whispered voice that sounds like your mother's.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a word you heard whispered before you were born.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a voice whispering the words 'I love you.'",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a whispered voice that you'll never be anything without.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a whispering of words you can't make out, but still hurt your head to hear.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a whisper from someone who you once loved.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a whisper from a dead friend.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_iceman",
+    "sound": "a voice that tells you to let go and join them.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_biohazard",
+    "sound":  "\"LET ME DIE!!! AAUurghhhh...\"",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_biohazard",
+    "sound":  "\"NOOOOOOOOOOOOOOOO!!!\"",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_biohazard",
+    "sound":  "\"AAAAAAAAAHHHHH!!!\"",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_biohazard",
+    "sound":  "a scream that changes from a woman's to a man's and back again.",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_biohazard",
+    "sound":  "bones crunching and soup sloshing.",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_biohazard",
+    "sound":  "a release of air like a bad burp.",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Hmm, a perfect opportunity to test my prototype...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"I am the ultimate life form!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"You could do with some adjustments...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"A simple tweak of the fractal holographic mainframe and voila...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Wormholes, bitch!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Oh, ye rubber spiral!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Ah yes, the pathopsychological tendencies of a lower lifeform. It's been so long since I was a normal that I had forgotten what that was like! How humorous.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Where to begin on the wonders of the Alpha complex and it's affect on the human genome? Oh, that's right, with myself!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Wormhole research is practical, but it's not all that exciting. I much prefer endeavors in mutational fields, such as Alp-ouch! My bunion!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"The actual yield of this catalyst surpasses that of even sulphuric acid! Noted.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Oh wow, these visuals are most astounding! Perhaps it's time for another tablet...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"ALERT! ALERT! Oh, nope, it's just another normal. False alarm, everybody. I'll take care of this.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"This is almost as interesting as when I discovered the self-replicating nature of those stinky jeans!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Maybe paintballs aren't an effective enough projectile? If I'm switching to bullets then I better start digging up graves, wouldn't want to run out of brass...\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Ugh, damnable machines! If I'd a strip of mutant flesh or even a chunk of alien fungus, all of your contracts would be terminated! Clones, that's where the money is...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "\"Bullets! How barbaric! I'll simply fire from outside of their range, or better yet, from the cover of shadow...\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_lab_geek",
+    "sound":  "arbitrary scientific muttering.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Heh! Too easy.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Another one bites the dust.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Keep 'em coming!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"I win! Again! Shocker!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"What the fuck was that?\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"C'mon you damn ficus! Do the thing!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Load 'em up, I'll knock 'em down!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Bitch.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Dumbass.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Die, you dumb motherfuckers!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Ahahahaha! AHAHAHAHAHA!\"",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"This was just work, but there's nothing wrong with loving what you do!\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"All business.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Work, work, work...\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "\"Nothing personal.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "high-pitched giggling.",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "a fart and a dumb chuckle.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "a sloppy burp.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_shock_jock",
+    "sound":  "the sound of crackling lightning.",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"YARRR!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"X marks the spot!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"Where be me booty?!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"Step right up ye scallywags!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"Honk! Die Mutineers!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"Hoist the black flag and bring me my brown pants!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"Tear 'em asunder! Honk!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"What'd you expect? A flag that says 'Bang?'\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_circus",
+    "sound": "\"Load the cannons!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_samurai",
+    "sound": "\"HIYAH!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_samurai",
+    "sound": "\"Let us die together on this beautiful battlefield!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_samurai",
+    "sound": "\"Kuso!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_samurai",
+    "sound": "\"Tatakai!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_samurai",
+    "sound": "a sword slashing and being resheathed instantaneously.",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "\"Burn, sinner!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "\"God's light will cleanse all!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "\"Love and light!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "\"Peace be with you!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "\"The kingdom of heaven is within you!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "\"Burn, burn, burn!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "\"Allow yourself to be baptised in the lord's light!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "gospel singing.",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_priest",
+    "sound": "a verse from a religious text, ringing loud and true.",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "someone licking their lips.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"You'd go well with a nice Chianti...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Like hunting mandrakes... wish I had a shotgun shell...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Tasty...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Let's eat!\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"It hides in darkness like a sedge...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"They're springing up like hemors around here...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Maybe more horesradish...?\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Where's that recipe...?\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Ugh, lunch rush...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Cook did it, so can I...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Dinner!\"",
+    "volume": 25
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Let's see how you taste!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Delicious!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Scrumptious!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Did I forget to plant that platinum ring? No. Surely not...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Something stinks! I thought I was out of the swamp...\"",
+    "volume": 25
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Can I get a free sample?\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "\"Let's dig in!\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_cook",
+    "sound": "a burp.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"When life itself seems lunatic, who knows where madness lies? Perhaps to be too practical is madness. To surrender dreams — this may be madness. Too much sanity may be madness — and maddest of all: to see life as it is, and not as it should be!!\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"En garde!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"To arms!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"Where is my steed??\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"Q'uest que c'est?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"Die, vermin!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"Pee eww! Quite the odor.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"C'est bon!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"This battle is poetry in motion!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "\"Quench this blade of mine's thirst!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_knight",
+    "sound": "the jangling of armor.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "the jingling of armor.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Erm, sir, are you sure about this?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"For honor!!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"To battle!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Oh darn I ripped my breeches again...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Ow!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Sorry!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"I wanna go home!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Tis a squire's duty to die in their master's place!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Aaaaaaahhh!!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"I don't wanna die!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Let's have a good fight!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Don't go easy on me!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_squire",
+    "sound": "\"Please go easy on me!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_werewolf",
+    "sound": "\"AWOOOOOOOOO!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_werewolf",
+    "sound": "a dog panting heavily.",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_werewolf",
+    "sound": "a low growl.",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "a low moan.",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"They're here!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"The babies!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"Needs to be clean...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"Must... protect... children...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"Please don't hurt them!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"They're not ready for the world!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"STAY AWAY!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"AWAY! AWAY WITH YOU!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_psycho_germaphobe",
+    "sound": "\"You're gonna get us sick...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Terminating.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "TARGETING SYSTEM; ONLINE",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"DIE FREAKS!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Target located.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"None leave the slaughterhouse!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Blood for blood.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Damn!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "a loud burp.",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Head hurts...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"TIME DILATION; CRITICAL MASS\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"I crave the strength and certainty of steel.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Let's fuck!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"I'm harder than steel!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"No flesh thing can kill me!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Mortal scum.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Rage against the machine!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Itches...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "a squeak as the superpsycho takes a step.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Leaking again...\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Leakin' bad...\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Can't see shit!\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Damn these knees!\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Which arm would you prefer up your ass?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Let's see what's behind those eyes.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Gonna cut your fuckin' face off, freak!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Freak!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Fuck your face!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Put your head under my boot.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Killing you is a waste of my time.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Die faster, blood sack!\"",
+    "volume": 20
+  },
+   {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Did you defecate in your meat sleeve, bleeder?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"Smells like a bleeder.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_superpsycho",
+    "sound": "\"There's no room for freaks in the next stage of humanity.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"I alone am weaved of blood!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"I am no mere tailor.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"Vergery is an art as ancient as time. I will teach you to respect it!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"All life is the domain of vergery!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"I am master of this black chaos!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"You will not intefere with my masterpiece!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"I am the architect of this world!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"The psychos are a rambunctious sort, all the better to destroy this world so that I may build in it's place!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"This ancient art of mine will be passed down for generations to come! The world will bow before the might of the vergists!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_tailor",
+    "sound": "\"Still, you cannot understand! Vergery alone can master this black blob and weave life of it's endless nothing! This apocalypse of ours is no disaster, it's a miracle! We see fit now to become God, creating and destroying as we see fit!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Hands must remain visible at all times!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Seek shelter!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"You are under arrest!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Remain calm!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Present yourself for inspection immediately!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"I am the law!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"My glasses! I can't live without my glasses!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"This is an announcement of public service!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Just following orders.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Keeping the peace.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Do not resist.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"We are all one.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Visible firearms will be met with lethal force.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Employing lethal force!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"There is no academy that can prepare you for this.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"No partial ID!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "\"Move it or lose it!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "a flapping of skin.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_peace_officer",
+    "sound": "a whirr from the peace officer's sunglasses. Perhaps their vision is part of their power.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_contract_killer",
+    "sound": "a whistle.",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "a crunching of chips.",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "\"Get ratted!\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "giggling like a schoolgirl.",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "\"One tapped.\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "\"Now where my cheese at?\"",
+    "volume": 5
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "\"Oh shit!\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "\"We in the trees baby.\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_stank_rat",
+    "sound": "\"Help, there's a psycho over here!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Is that a cap?? No, that ain't a cap.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Well, is there anybody around here or not?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"What's up with this horseshit?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Where's the loot?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Fuckin' kill that motherfucker!!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"What the fuck was that for?\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"After I stash this loot, I'm hitting the strip bar...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Fuckin' kill that motherfucker!!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Gotta fence this shit and heal up.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Good game, easy!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Oh, my homie told me about this place.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Oh, little pussies on a balloon!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Oh yeah, my buddy was smoking when he told me about this place.\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"First the loot, then the scoot!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Not a bad day!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"One, two, put one in the head...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Fuckin' kill that motherfucker!!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"I see that bitch!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"There! There! There! There! There!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Oh shit! A rat!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"I just shit my fancy pants... How serendipitous...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"I just want to watch!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Divide my cheeks!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Piss your fucking bloody eyes out and spit on your rancid corpse! Go fuck yourself!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Ahaha! AHAhahHAHAHHHA!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Yes! Kill! Kill! Kill!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"And dick of mine has been tap dancing, hammering yang in naked yin, cool down, cool down!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"Christ on a cracker!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
+    "sound": "\"You fucking bastard, come here you piece of dogshit, you want to come at me you smelly fucking asshole? Come on try to fuck me up, I’ll fuck you up myself you motherfucker, you goddamn wanker. GO TO HELL, come on idiot, ill fuck you and your entire family up. FUCKING DOGSHIT PUTRID SLOB, you turd, bitch, bastard, COME HERE you scoundrel, scum, shitstain COME HERE you FUCKING ASSHOLE!\"",
+    "volume": 50
+  }
+]

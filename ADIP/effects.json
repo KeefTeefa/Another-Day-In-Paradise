@@ -72,6 +72,42 @@
   },
   {
     "type": "effect_type",
+    "id": "mandrake_dexterity",
+    "name": [ "Mandrake Dexterity" ],
+    "desc": [ "You feel more dexterous from eating mandrake root." ],
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "dex_mod": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "brineweed_strength",
+    "name": [ "Brineweed Strength" ],
+    "desc": [ "You feel strong from eating brineweed." ],
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "str_mod": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "sedge_perception",
+    "name": [ "Sedge Perception" ],
+    "desc": [ "You feel more perceptive from eating sedge buds." ],
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "per_mod": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "yinyang_intelligence",
+    "name": [ "Yinyang Intelligence" ],
+    "desc": [ "You feel smarter from eating yinyang koi." ],
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "int_mod": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
     "id": "divine_jam_str",
     "name": [ "Divine Strength" ],
     "desc": [ "You feel good from eating the divine jam." ],
@@ -217,5 +253,93 @@
     "base_mods": { 
 	  "stamina_amount": [ 5 ],
       "stamina_chance": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "monster_meat",
+    "name": [ "Monster Meat" ],
+    "desc": [ "That monster pie gave you a monster pump!" ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "str_mod": [ 1 ] },
+    "base_mods": { "str_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascended_meat",
+    "name": [ "Ascended Meat" ],
+    "desc": [ "That ascended pie gave you an ascended pump!" ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "str_mod": [ 1 ] },
+    "base_mods": { "str_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "wellington_whimsy",
+    "name": [ "Wellington Whimsy" ],
+    "desc": [ "The delicate flavor of that wellington has you floating!" ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "dex_mod": [ 1 ] },
+    "base_mods": { "dex_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascended_whimsy",
+    "name": [ "Ascended Whimsy" ],
+    "desc": [ "The ascended flavor of that wellington has you floating!" ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "dex_mod": [ 1 ] },
+    "base_mods": { "dex_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "pink_leopard",
+    "name": [ "Pink Leopard" ],
+    "desc": [ "You got blowed by that pink drink." ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "per_mod": [ 1 ] },
+    "base_mods": { "per_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascended_leopard",
+    "name": [ "Ascended Leopard" ],
+    "desc": [ "You got blowed by that ascended drink." ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "per_mod": [ 1 ] },
+    "base_mods": { "per_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "stillness_of_mind",
+    "name": [ "Stillness of Mind" ],
+    "desc": [ "That smooth texture of zen calms you to this very moment." ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "int_mod": [ 1 ] },
+    "base_mods": { "int_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ascension_of_mind",
+    "name": [ "Ascension of Mind" ],
+    "desc": [ "That ascended texture of zen calms you to this very moment." ],
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+	"scaling_mods": { "int_mod": [ 1 ] },
+    "base_mods": { "int_mod": [ 2 ] }
   }
 ]

@@ -1,0 +1,599 @@
+[
+{
+    "result": "switch_wandwood",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+    "difficulty": 6,
+	"book_learn": [ [ "vergery", 1 ] ],
+    "time": "3 h",
+	"reversible": true,
+    "autolearn": [ [ "tailor", 6 ] ],
+	"qualities": [
+      { "id": "RUBBER", "level": 2 }
+    ],
+    "components": [ [ [ "wandwood_branch", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_heat",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "HEAT", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "wandwood_cold",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "COLD", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "wandwood_acid",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ACID", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "wandwood_bio",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "BIOLOGICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "wandwood_elec",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ELECTRICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 3 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "switch_heat",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "HEAT", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "switch_cold",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "COLD", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "switch_acid",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ACID", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "switch_elec",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "ELECTRICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "switch_bio",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 3,
+    "time": "3 h",
+	"qualities": [
+      { "id": "BIOLOGICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 6 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "wandwood_shunt",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 100 ] ], [ [ "divine_blood_fruit", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_wheel",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "wandwood_heat", 1 ] ], [ [ "sinew", 100 ] ], [ [ "heat_freak_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_whisper",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "wandwood_cold", 1 ] ], [ [ "sinew", 100 ] ], [ [ "iceman_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_alpha",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "wandwood_acid", 1 ] ], [ [ "sinew", 100 ] ], [ [ "lab_geek_book_self_mutation", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_jerk",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "wandwood_elec", 1 ] ], [ [ "sinew", 100 ] ], [ [ "shock_jock_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_fuss",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "wandwood_bio", 1 ] ], [ [ "sinew", 100 ] ], [ [ "biohazard_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_shield",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"reversible": true,
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 100 ] ], [ [ "peace_officer_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_jump",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "switch_heat", 1 ] ], [ [ "sinew", 100 ] ], [ [ "heat_freak_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_void",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "switch_cold", 1 ] ], [ [ "sinew", 100 ] ], [ [ "iceman_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_worm",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "switch_acid", 1 ] ], [ [ "sinew", 100 ] ], [ [ "lab_geek_book_wormhole", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_open",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "switch_elec", 1 ] ], [ [ "sinew", 100 ] ], [ [ "shock_jock_book", 1 ] ] ]
+  },
+  {
+    "result": "wandwood_derm",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 6,
+    "time": "12 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "switch_bio", 1 ] ], [ [ "sinew", 100 ] ], [ [ "biohazard_book", 1 ] ] ]
+  },
+  {
+    "result": "vergists_weave",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 8,
+    "time": "8 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 8 ] ],
+    "components": [ [ [ "wandwood_branch", 10 ] ], [ [ "blood", 100 ] ], [ [ "sinew", 1000 ] ] ]
+  },
+  {
+    "result": "tailors_fingers",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 10,
+    "time": "8 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "wandwood_branch", 100 ] ], [ [ "pheromone", 1000 ] ], [ [ "sinew", 1000 ] ] ]
+  },
+  {
+    "result": "illusory_duster",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_cowboy_hat",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_rain_coat",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_ski_mask",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_fedora",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_blanket",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_rm13_combat_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_knit_hat",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_motorcycle_helmet",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  },
+  {
+    "result": "illusory_straw_hat",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 1 ] ],
+    "difficulty": 5,
+    "time": "1 h",
+	"qualities": [
+      { "id": "RUBBER", "level": 2 },
+	  { "id": "HOLO", "level": 2 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 10 ] ],
+    "components": [ [ [ "sinew", 10 ] ] ]
+  }
+]

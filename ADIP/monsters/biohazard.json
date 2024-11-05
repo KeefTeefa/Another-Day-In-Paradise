@@ -26,6 +26,31 @@
     "difficulty": -10
   },
   {
+    "id": "living_fusion_no_comp",
+    "type": "SPELL",
+    "name": "Wandwood Fusion",
+    "description": "All life is really just one creature, it's bits shuffling around to form different shapes. Down to the last drop of blood, you and your enemy are the same beating heart. When blood intertwines, their heart will be yours.",
+    "effect": "charm_monster",
+    "valid_targets": [ "hostile" ],
+    "flags": [ "LOUD", "NO_EXPLOSION_VFX", "VERBAL", "SOMATIC" ],
+    "min_damage": 75, 
+	"max_damage": 100,
+	"damage_increment": 5,
+	"min_range": 1, 
+	"max_range": 3, 
+	"range_increment": 0.2, 
+	"min_duration": 6000, 
+	"max_duration": 6000, 
+    "max_level": 10,
+	"base_casting_time": 300,
+	"final_casting_time": 150,
+    "casting_time_increment": -7,
+    "energy_source": "HP",
+    "base_energy_cost": 5,
+	"final_energy_cost": 5, 
+    "difficulty": -10
+  },
+  {
     "id": "ecdysis",
     "type": "SPELL",
     "name": "Ecdysis",
@@ -33,7 +58,7 @@
     "effect": "summon",
 	"effect_str": "mon_zombie_living_wall", 
     "valid_targets": [ "ground" ],
-    "flags": [ "LOUD", "NO_EXPLOSION_VFX", "SOMATIC", "PERMANENT" ],
+    "flags": [ "LOUD", "NO_EXPLOSION_VFX", "SOMATIC", "PERMANENT", "NO_LEGS" ],
     "min_damage": 1, 
 	"max_damage": 1,
 	"min_range": 1, 
@@ -159,12 +184,13 @@
 	"vision_day": 25,
     "vision_night": 50,
     "harvest": "biohazard_harvest",
+	"upgrades": { "half_life": 365, "into": "mon_ascended" },
 	"starting_ammo": { "bolt_cf_biohazard": 9 },
 	"emit_fields": [
 	  { "emit_id": "emit_nuke_gas", "delay": "10 s" }
     ],
     "special_attacks": [ 
-	[ "GRAB", 7 ], [ "RANGED_PULL", 20 ], [ "ZOMBIE_FUSE", 80 ], [ "FLESH_GOLEM", 10 ], [ "ABSORB_MEAT", 10 ], [ "FEAR_PARALYZE", 10 ], [ "RESURRECT", 10 ],
+	[ "GRAB", 7 ], [ "RANGED_PULL", 20 ], [ "ZOMBIE_FUSE", 80 ], [ "FLESH_GOLEM", 10 ], [ "ABSORB_MEAT", 9 ], [ "FEAR_PARALYZE", 8 ], [ "RESURRECT", 11 ], [ "PARROT_AT_DANGER", 6 ],
 	{ "type": "spell", "spell_data": { "id": "ecdysis_mon_version", "min_level": 10 }, "cooldown": 20, "monster_message": "Pieces of your flesh are suddenly attracted to the biohazard like a magnet, tearing them off and turning them into walls of flesh." },
     {
         "type": "gun",

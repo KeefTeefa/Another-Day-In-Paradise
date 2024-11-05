@@ -4,7 +4,7 @@
     "id": "hemordrops",
     "subtype": "collection",
     "entries": [
-      { "item": "chunk_sulfur", "count": [ 5, 10 ], "prob": 100 }
+      { "item": "chunk_sulfur", "count": [ 0, 3 ], "prob": 100 }
     ]
   },
   {
@@ -35,20 +35,25 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "mon_peace_officer_death_drops",
-    "magazine": 100,
-    "ammo": 60,
     "entries": [
       { "group": "infantry_common_gear" },
 	  { "group": "adip_gunmods_tier1and2", "prob": 10 },
 	  { "group": "sopmod", "prob": 25 },
 	  { "group": "sopmod_2", "prob": 5 },
       { "item": "fn_p90", "prob": 100, "damage": [ 1, 3 ], "dirt": [ 1500, 7050 ] },
+	  { "item": "fnp90mag", "prob": 100, "charges": [ 1, 50 ], "damage": [ 1, 3 ] },
 	  { "item": "tie_clipon" },
-	  { "item": "glasses_bal" },
+	  {
+        "distribution": [
+          { "item": "peace_glasses", "prob": 75, "damage": [ 0, 4 ], "charges": 0 },
+		  { "item": "peace_glasses", "prob": 20, "damage": [ 1, 4 ], "charges": [ 0, 2 ] },
+		  { "item": "peace_glasses", "prob": 5, "damage": [ 0, 2 ], "charges": [ 1, 3 ] }
+        ]
+      },
 	  { "item": "suit" },
       { "item": "holster" },
       { "group": "carried_guns_pistol_milspec", "prob": 30, "damage": [ 0, 2 ], "dirt": [ 0, 1500 ] },
-      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 50 },
+      { "group": "military_standard_grenades", "prob": 25 },
       { "group": "misc_smoking", "prob": 30 },
       { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] }
     ]
@@ -56,8 +61,7 @@
   {
     "type": "item_group",
     "id": "walker_drops",
-    "ammo": 75,
-    "magazine": 100,
+	"subtype": "distribution",
     "items": [
       { "item": "cash_card", "prob": 1600, "charges-min": 0, "charges-max": 50000 },
       [ "cell_phone", 2 ],
@@ -113,6 +117,456 @@
     ]
   },
   {
+    "id": "mon_psycho_circus_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "cutlass", "prob": 100, "damage": [ 0, 2 ] },
+      { "item": "squid", "prob": 100, "damage": [ 0, 2 ] },
+      { "item": "baldric_holster", "damage": [ 0, 2 ] },
+      { "item": "scabbard", "damage": [ 0, 2 ] },
+	  {
+        "distribution": [
+          { "item": "leviathan_tricorne", "prob": 75, "damage": [ 0, 1 ] },
+		  { "item": "tricorne", "prob": 25, "damage": [ 0, 3 ] }
+        ]
+      },
+	  { "item": "clown_nose",  "damage": [ 0, 2 ] },
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "item": "peacoat", "damage": [ 0, 2 ] }, 
+	  { "item": "sweater", "damage": [ 0, 2 ] },
+	  { "item": "stockings_wool", "damage": [ 0, 2 ] },
+	  { "item": "breeches", "damage": [ 0, 2 ] }, 
+	  { "item": "vest_leather", "damage": [ 0, 2 ] }, 
+	  { "item": "clownshoes", "damage": [ 0, 2 ] },
+      { "item": "eyepatch", "damage": [ 0, 2 ] },
+      { "item": "pegleg", "damage": [ 0, 2 ] }
+    ]
+  },
+  {
+    "id": "mon_psycho_samurai_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "sword_carbon", "prob": 100, "damage": [ 0, 2 ] },
+      { "item": "raijin", "prob": 100, "damage": [ 0, 1 ] },
+      { "item": "bscabbard", "damage": [ 0, 2 ] },
+	  { "item": "folding_bicycle", "damage": [ 1, 4 ] },
+	  { "item": "wrist_holster", "damage": [ 0, 2 ] },
+	  { "item": "robofac_enviro_suit", "damage": [ 0, 2 ] },
+	  { "item": "manual_niten", "prob": 45 },
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "item": "kimono", "damage": [ 0, 2 ] }, 
+	  { "item": "tabi_gi", "damage": [ 0, 2 ] }, 
+	  { "item": "sandal_armor", "damage": [ 0, 2 ] }
+    ]
+  },
+  {
+    "id": "mon_psycho_priest_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "redeemer", "prob": 100 },
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "item": "holy_symbol", "damage": [ 0, 2 ] }, 
+	  { "item": "robe", "damage": [ 1, 2 ] }, 
+	  { "item": "socks", "damage": [ 1, 2 ] }, 
+	  { "item": "straw_sandals", "damage": [ 0, 2 ] }
+    ]
+  },
+  {
+    "id": "mon_psycho_cook_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "all_american", "prob": 100 },
+	  { "item": "paradise_cooking", "prob": 100 },
+	  {
+        "distribution": [
+          { "item": "bigback", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "backpack_tactical_large", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "molle_pack", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "holo_ruck", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "holo_mbag", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "rucksack", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "group": "cooked_comestibles", "count": [ 1, 7 ] }, 
+	  { "group": "ascended_comestibles", "prob": 25 }, 
+	  { "group": "ingredients_paradise", "count": [ 1, 7 ] },
+	  { "group": "snacks_fancy" },
+	  { "group": "on_hand_9mm" },
+	  { "item": "slime_stew", "prob": 50 }, 
+	  { "item": "small_repairkit" }, 
+	  { "item": "knife_butcher", "damage": [ 0, 1 ] }, 
+	  {
+        "distribution": [
+          { "item": "lsurvivor_suit", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "survivor_suit", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "swat_armor", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "wsurvivor_suit", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "touring_suit", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "hsurvivor_suit", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "armor_scavenger", "prob": 10, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  { "item": "jacket_chef", "damage": [ 2, 4 ] }, 
+	  { "item": "hat_chef", "damage": [ 2, 4 ] }, 
+	  { "item": "socks", "damage": [ 1, 2 ] }, 
+	  { "item": "boots", "damage": [ 0, 2 ] }
+    ]
+  },
+  {
+    "id": "mon_psycho_knight_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+	  {
+        "distribution": [
+          { "item": "pot_helmet", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "helmet_barbute", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "helmet_chitin", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "helmet_conical", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "helmet_plarmor", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "helmet_plate", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "cap_arming", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "group": "snacks_fancy" },
+	  { "item": "long" },
+      { "item": "quiver_large" }, 	  
+	  {
+        "distribution": [
+          { "item": "chainmail_hauberk", "prob": 25, "damage": [ 0, 3 ] },
+		  { "item": "armor_scrapsuit", "prob": 10, "damage": [ 0, 3 ] },
+		  { "item": "armor_plarmor", "prob": 20, "damage": [ 0, 3 ] },
+		  { "item": "armor_plate", "prob": 5, "damage": [ 0, 3 ] },
+		  { "item": "armor_lightplate", "prob": 25, "damage": [ 0, 3 ] },
+		  { "item": "armor_larmor", "prob": 10, "damage": [ 0, 3 ] },
+		  { "item": "armor_chitin", "prob": 5, "damage": [ 0, 3 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "shield_spiked", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "shield_wooden_large", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "shield_riot", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "shield_leather", "prob": 20, "damage": [ 0, 2 ] },
+		  { "item": "shield_banded", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "shield_welded", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "shield_buckler", "prob": 10, "damage": [ 0, 2 ] }
+        ], 
+		"prob": 100
+      },
+	  { "item": "socks", "damage": [ 1, 2 ] }, 
+	  { "item": "knights_horn", "charges": [ 1, 5 ] }, 
+	  {
+        "distribution": [
+          { "item": "fire_gauntlets", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "chainmail_hands", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "gauntlets_chitin", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "gauntlets_larmor", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "gloves_leather", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "gloves_plate", "prob": 45, "damage": [ 0, 2 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "bastsandals", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "boots_chitin", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "boots_larmor", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "boots_plate", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "boots", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "knee_high_boots", "prob": 25, "damage": [ 0, 2 ] }
+        ], 
+		"prob": 100
+      }
+    ]
+  },
+  {
+    "id": "mon_psycho_squire_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+	  {
+        "distribution": [
+          { "item": "pot_helmet", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "helmet_barbute", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "helmet_chitin", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "helmet_conical", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "helmet_plarmor", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "helmet_plate", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "cap_arming", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 50
+      },
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  {
+        "distribution": [
+          { "item": "arming_sword", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "sword_nail", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "machete", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "estoc", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "cutlass", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "sword_metal", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "longsword", "prob": 5, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "chainmail_hauberk", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "armor_scrapsuit", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "armor_plarmor", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "armor_plate", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "armor_lightplate", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "armor_larmor", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "armor_chitin", "prob": 5, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 90
+      },
+	  {
+        "distribution": [
+          { "item": "shield_spiked", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "shield_wooden_large", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "shield_riot", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "shield_leather", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "shield_banded", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "shield_welded", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "shield_buckler", "prob": 20, "damage": [ 0, 2 ] }
+        ], 
+		"prob": 50
+      },
+	  { "item": "socks", "damage": [ 1, 2 ] }, 
+	  {
+        "distribution": [
+          { "item": "fire_gauntlets", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "chainmail_hands", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "gauntlets_chitin", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "gauntlets_larmor", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "gloves_leather", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "gloves_plate", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "gloves_rubber", "prob": 20, "damage": [ 0, 2 ] }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "item": "bastsandals", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "boots_chitin", "prob": 10, "damage": [ 0, 2 ] },
+		  { "item": "boots_larmor", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "boots_plate", "prob": 5, "damage": [ 0, 2 ] },
+		  { "item": "boots", "prob": 25, "damage": [ 0, 2 ] },
+		  { "item": "boots_rubber", "prob": 20, "damage": [ 0, 2 ] },
+		  { "item": "knee_high_boots", "prob": 5, "damage": [ 0, 2 ] }
+        ], 
+		"prob": 99
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "superpsycho_drops",
+    "entries": [
+      {
+        "distribution": [
+          {
+            "collection": [
+              { "item": "power_armor_basic", "damage": [ 1, 4 ] },
+              { "item": "power_armor_helmet_basic", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 40
+          },
+          {
+            "collection": [
+              { "item": "power_armor_light", "damage": [ 1, 4 ] },
+              { "item": "power_armor_helmet_light", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 10
+          },
+          {
+            "collection": [
+              { "item": "power_armor_heavy", "damage": [ 1, 4 ] },
+              { "item": "power_armor_helmet_heavy", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 25
+          },
+          {
+            "collection": [
+              {
+                "distribution": [
+                  {
+                    "collection": [
+                      { "item": "steel_armor", "count": [ 1, 10 ], "prob": 50 },
+                      { "item": "power_supply", "count": [ 1, 7 ], "prob": 50 },
+                      { "item": "element", "count": [ 1, 3 ], "prob": 50 },
+                      { "item": "circuit", "count": [ 1, 8 ], "prob": 50 },
+                      { "item": "small_lcd_screen", "count": [ 1, 2 ], "prob": 50 }
+                    ],
+                    "prob": 10
+                  },
+                  {
+                    "collection": [
+                      { "item": "alloy_sheet", "count": [ 1, 6 ], "prob": 50 },
+                      { "item": "power_supply", "count": [ 1, 4 ], "prob": 50 },
+                      { "item": "element", "count": [ 1, 2 ], "prob": 50 },
+                      { "item": "circuit", "count": [ 1, 7 ], "prob": 50 },
+                      { "item": "e_scrap", "count": [ 1, 4 ], "prob": 50 }
+                    ],
+                    "prob": 10
+                  },
+                  {
+                    "collection": [
+                      { "item": "hard_steel_armor", "count": [ 1, 14 ], "prob": 50 },
+                      { "item": "steel_armor", "count": [ 1, 7 ], "prob": 50 },
+                      { "item": "power_supply", "count": [ 1, 11 ], "prob": 50 },
+                      { "item": "element", "count": [ 1, 3 ], "prob": 50 },
+                      { "item": "circuit", "count": [ 1, 8 ], "prob": 50 },
+                      { "item": "small_lcd_screen", "count": [ 1, 2 ], "prob": 50 }
+                    ],
+                    "prob": 5
+                  }
+                ]
+              },
+              { "item": "cable", "charges": [ 1, 12 ], "prob": 50 },
+              { "item": "transponder", "prob": 50 },
+              { "item": "RAM", "prob": 50 },
+              { "item": "depowered_armor", "damage": [ 1, 4 ] },
+              { "item": "depowered_helmet", "damage": [ 1, 4 ], "prob": 75 }
+            ],
+            "prob": 25
+          }
+        ]
+      },
+      { "group": "military_specops_guns", "prob": 10, "damage": [ 0, 3 ], "dirt": [ 1500, 7050 ] },
+	  { "item": "divine_clementine", "prob": 2 },
+	  { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "item": "socks", "damage": [ 1, 2 ] },
+	  { "item": "rx12_injector", "count": [ 0, 3 ] },
+	  { "group": "adip_gunmods_tier1and2" },
+	  { "group": "adip_gunmods_electric" },
+	  { "group": "superpsycho_loot" },
+	  { "item": "psycho_mask", "count": [ 3, 13 ] },
+	  { "item": "pocket_doc", "prob": 75 },
+	  { "item": "pheromone", "count": [ 1, 3 ] },
+	  { "item": "militarymap" },
+	  { "item": "stamina_regen_potion_1", "prob": 33, "count": [ 1, 6 ] },
+	  { "group": "adip_gunmods_tier2and3", "prob": 25 },
+	  { "group": "adip_gunmods_tier3and4", "prob": 10 },
+      { "group": "pwr_armor_acc", "damage": [ 1, 4 ], "prob": 90 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "superpsycho_loot",
+    "subtype": "distribution",
+    "items": [
+      { "item": "rm451_flamethrower_overheating", "prob": 5 },
+	  { "item": "icey_acr_300blk", "prob": 5 },
+	  { "item": "shockgun", "prob": 7 },
+	  { "item": "acidhead", "prob": 5 },
+	  { "item": "hazardous_reactor", "prob": 1 },
+	  { "item": "squid", "prob": 5 },
+	  { "item": "wrist_holster", "prob": 5 },
+	  { "item": "raijin", "prob": 5 },
+	  { "item": "redeemer", "prob": 5 },
+	  { "item": "all_american", "prob": 2 },
+	  { "item": "long", "prob": 5 },
+	  { "item": "howlitzer", "prob": 5 },
+	  { "item": "hermit", "prob": 5 },
+	  { "item": "leviathan_tricorne", "prob": 5 },
+	  { "item": "helmet_skull", "prob": 5 },
+	  { "item": "omnigas_recipe", "prob": 5 },
+	  { "item": "psycho_mask", "prob": 25, "count": [ 1, 3 ] }
+    ]
+  },
+  {
+    "id": "stew_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+	  { "item": "stock_pot" },
+	  { "item": "slime_stew" }
+    ]
+  },
+  {
+    "id": "mon_psycho_werewolf_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "item": "wolfsuit", "damage": [ 0, 1 ] }, 
+	  { "item": "iv_mutagen_lupine", "count": [ 0, 2 ] }, 
+	  { "item": "cestus_tooth_wolf", "damage": [ 1, 4 ] }, 
+	  { "item": "helmet_skull", "damage": [ 1, 4 ], "prob": 15 }, 
+	  { "item": "socks", "damage": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "mon_psycho_germaphobe_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "underwear", "damage": [ 0, 2 ] },
+	  { "group": "surgery" },
+	  { "group": "gear_medical", "count": [ 1, 3 ] },
+	  { "group": "chem_lab", "count": [ 1, 3 ] },
+	  {
+        "distribution": [
+          { "item": "aep_suit", "prob": 50, "damage": [ 1, 4 ] },
+		  { "item": "anbc_suit", "prob": 15, "damage": [ 1, 4 ] },
+		  { "item": "hazmat_suit", "prob": 35, "damage": [ 1, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  { "item": "hermit", "damage": [ 1, 2 ] },
+	  { "item": "mask_gas", "damage": [ 1, 4 ] },
+	  { "item": "omnigas_recipe", "damage": [ 0, 4 ] },
+	  { "item": "boots_rubber", "damage": [ 0, 4 ] },
+	  { "item": "socks", "damage": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "mon_tailor_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "underwear" },
+	  { "group": "rings_and_things", "count": [ 2, 10 ] },
+	  { "group": "jewelry_front", "count": [ 1, 5 ] },
+	  { "group": "illusory_clothing" },
+	  { "group": "tailor_books", "count": [ 1, 3 ] },
+	  { "group": "jewelry_back", "count": [ 1, 5 ] },
+	  { "group": "jewelry_accessories", "count": [ 1, 5 ] },
+	  { "item": "psycho_mask", "count": [ 7, 20 ] },
+	  { "item": "wandwood_branch", "count": [ 2, 4 ] },
+	  { "item": "switch_wandwood", "count": [ 1, 3 ] },
+	  { "item": "vergists_weave" }, 
+	  {
+        "distribution": [
+		  { "item": "holo_ruck", "prob": 25 },
+		  { "item": "holo_mbag", "prob": 75 }
+        ], 
+		"prob": 100
+      },
+	  { "item": "holo_space" }, 
+	  { "item": "holo_frame" }, 
+	  { "item": "robe" }, 
+	  { "item": "vergery" }, 
+	  { "item": "knee_high_boots" }, 
+	  { "item": "socks" }
+    ]
+  },
+  {
     "type": "item_group",
     "subtype": "collection",
     "id": "mon_scav_pistol_drops",
@@ -143,11 +597,11 @@
 	  {
         "distribution": [
           { "group": "snacks_fancy", "prob": 50 },
-		  { "group": "produce_fresh", "prob": 30 },
-		  { "group": "ingredients_paradise", "prob": 15 },
-          { "group": "cooked_comestibles", "prob": 5 }
+		  { "group": "produce_fresh", "prob": 40 },
+		  { "group": "ingredients_paradise", "prob": 9 },
+          { "group": "cooked_comestibles", "prob": 1 }
         ], 
-		"prob": 100
+		"prob": 75
       },
 	   {
         "distribution": [
@@ -231,11 +685,11 @@
 	  {
         "distribution": [
           { "group": "snacks_fancy", "prob": 50 },
-		  { "group": "produce_fresh", "prob": 30 },
-		  { "group": "ingredients_paradise", "prob": 15 },
-          { "group": "cooked_comestibles", "prob": 5 }
+		  { "group": "produce_fresh", "prob": 40 },
+		  { "group": "ingredients_paradise", "prob": 9 },
+          { "group": "cooked_comestibles", "prob": 1 }
         ], 
-		"prob": 100
+		"prob": 75
       },
 	  {
         "distribution": [
@@ -284,7 +738,7 @@
         ], 
 		"prob": 50
       },
-	  { "item": "rubber_shrub", "prob": 10 },
+	  { "item": "rubber_shrub", "prob": 1 },
 	  { "item": "shield_book", "prob": 10 }
     ]
   },
@@ -328,11 +782,11 @@
 	  {
         "distribution": [
           { "group": "snacks_fancy", "prob": 50 },
-		  { "group": "produce_fresh", "prob": 30 },
-		  { "group": "ingredients_paradise", "prob": 15 },
-          { "group": "cooked_comestibles", "prob": 5 }
+		  { "group": "produce_fresh", "prob": 40 },
+		  { "group": "ingredients_paradise", "prob": 9 },
+          { "group": "cooked_comestibles", "prob": 1 }
         ], 
-		"prob": 100
+		"prob": 75
       },
 	  {
         "distribution": [
@@ -407,11 +861,11 @@
 	  {
         "distribution": [
           { "group": "snacks_fancy", "prob": 50 },
-		  { "group": "produce_fresh", "prob": 30 },
-		  { "group": "ingredients_paradise", "prob": 15 },
-          { "group": "cooked_comestibles", "prob": 5 }
+		  { "group": "produce_fresh", "prob": 40 },
+		  { "group": "ingredients_paradise", "prob": 9 },
+          { "group": "cooked_comestibles", "prob": 1 }
         ], 
-		"prob": 100
+		"prob": 75
       },
 	  {
         "distribution": [
@@ -465,11 +919,42 @@
     ]
   },
   {
+    "id": "mon_scav_clone_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 0, 1 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 0, 1 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "guns_rifle_milspec", "prob": 1, "damage": [ 1, 4 ] },
+		  { "group": "carried_guns_rifle_common", "prob": 1, "damage": [ 1, 4 ] },
+		  { "group": "guns_rifle_rare", "prob": 1, "damage": [ 1, 4 ] },
+          { "group": "guns_rifle_obscure", "prob": 11, "damage": [ 1, 4 ] },
+		  { "group": "guns_shotgun_milspec", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "carried_guns_shotgun_common", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_shotgun_rare", "prob": 1, "damage": [ 0, 1 ] },
+          { "group": "guns_shotgun_obscure", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_milspec", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "carried_guns_smg_common", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_rare", "prob": 1, "damage": [ 0, 1 ] },
+          { "group": "guns_smg_obscure", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_pistol_milspec", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "carried_guns_pistol_common", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_pistol_rare", "prob": 1, "damage": [ 0, 1 ] },
+          { "group": "guns_pistol_obscure", "prob": 11, "damage": [ 0, 1 ] }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mon_pmc_pistol_drops",
     "type": "item_group",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 0,
     "entries": [
       {
         "distribution": [
@@ -503,14 +988,14 @@
 		  { "group": "gunmod_rare", "prob": 25 },
           { "group": "gunmod_common", "prob": 50 }
         ], 
-		"prob": 75
+		"prob": 25
       },
 	  {
         "distribution": [
           { "group": "sopmod", "prob": 75 },
 		  { "group": "sopmod_2", "prob": 25 }
         ], 
-		"prob": 50
+		"prob": 25
       },
 	  {
         "distribution": [
@@ -556,6 +1041,14 @@
         ], 
 		"prob": 50
       },
+	  {
+        "distribution": [
+          { "item": "peace_glasses", "prob": 75, "damage": [ 0, 4 ], "charges": 0 },
+		  { "item": "peace_glasses", "prob": 20, "damage": [ 1, 4 ], "charges": [ 0, 2 ] },
+		  { "item": "peace_glasses", "prob": 5, "damage": [ 0, 2 ], "charges": [ 1, 3 ] }
+        ],
+		"prob": 50
+      },
 	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
 	  { "item": "pmc_dogtag", "prob": 100 },
 	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
@@ -573,8 +1066,6 @@
     "id": "mon_pmc_smg_drops",
     "type": "item_group",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 0,
     "entries": [
       {
         "distribution": [
@@ -608,14 +1099,14 @@
 		  { "group": "gunmod_rare", "prob": 25 },
           { "group": "gunmod_common", "prob": 50 }
         ], 
-		"prob": 75
+		"prob": 25
       },
 	  {
         "distribution": [
           { "group": "sopmod", "prob": 75 },
 		  { "group": "sopmod_2", "prob": 25 }
         ], 
-		"prob": 50
+		"prob": 25
       },
 	  {
         "distribution": [
@@ -661,6 +1152,14 @@
         ], 
 		"prob": 50
       },
+	  {
+        "distribution": [
+          { "item": "peace_glasses", "prob": 75, "damage": [ 0, 4 ], "charges": 0 },
+		  { "item": "peace_glasses", "prob": 20, "damage": [ 1, 4 ], "charges": [ 0, 2 ] },
+		  { "item": "peace_glasses", "prob": 5, "damage": [ 0, 2 ], "charges": [ 1, 3 ] }
+        ],
+		"prob": 50
+      },
 	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
 	  { "item": "pmc_dogtag", "prob": 100 },
 	  { "group": "infantry_medical_gear", "prob": 75 },
@@ -678,8 +1177,6 @@
     "id": "mon_pmc_shotgun_drops",
     "type": "item_group",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 0,
     "entries": [
       {
         "distribution": [
@@ -713,14 +1210,14 @@
 		  { "group": "gunmod_rare", "prob": 25 },
           { "group": "gunmod_common", "prob": 50 }
         ], 
-		"prob": 75
+		"prob": 25
       },
 	  {
         "distribution": [
           { "group": "sopmod", "prob": 75 },
 		  { "group": "sopmod_2", "prob": 25 }
         ], 
-		"prob": 50
+		"prob": 25
       },
 	  {
         "distribution": [
@@ -766,6 +1263,14 @@
         ], 
 		"prob": 50
       },
+	  {
+        "distribution": [
+          { "item": "peace_glasses", "prob": 75, "damage": [ 0, 4 ], "charges": 0 },
+		  { "item": "peace_glasses", "prob": 20, "damage": [ 1, 4 ], "charges": [ 0, 2 ] },
+		  { "item": "peace_glasses", "prob": 5, "damage": [ 0, 2 ], "charges": [ 1, 3 ] }
+        ],
+		"prob": 50
+      },
 	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
 	  { "item": "pmc_dogtag", "prob": 100 },
 	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
@@ -783,8 +1288,6 @@
     "id": "mon_pmc_rifle_drops",
     "type": "item_group",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 0,
     "entries": [
       {
         "distribution": [
@@ -810,7 +1313,8 @@
 		  { "group": "guns_rifle_common_display", "prob": 25, "damage": [ 0, 1 ] },
 		  { "group": "guns_rifle_rare", "prob": 20, "damage": [ 0, 1 ] },
           { "group": "guns_rifle_obscure", "prob": 30, "damage": [ 0, 1 ] }
-        ]
+        ], 
+		"prob": 25
       },
 	  {
         "distribution": [
@@ -818,14 +1322,14 @@
 		  { "group": "gunmod_rare", "prob": 25 },
           { "group": "gunmod_common", "prob": 50 }
         ], 
-		"prob": 75
+		"prob": 25
       },
 	  {
         "distribution": [
           { "group": "sopmod", "prob": 75 },
 		  { "group": "sopmod_2", "prob": 25 }
         ], 
-		"prob": 50
+		"prob": 25
       },
 	  {
         "distribution": [
@@ -871,6 +1375,14 @@
         ], 
 		"prob": 50
       },
+	  {
+        "distribution": [
+          { "item": "peace_glasses", "prob": 75, "damage": [ 0, 4 ], "charges": 0 },
+		  { "item": "peace_glasses", "prob": 20, "damage": [ 1, 4 ], "charges": [ 0, 2 ] },
+		  { "item": "peace_glasses", "prob": 5, "damage": [ 0, 2 ], "charges": [ 1, 3 ] }
+        ],
+		"prob": 50
+      },
 	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
 	  { "item": "pmc_dogtag", "prob": 100 },
 	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
@@ -885,11 +1397,153 @@
     ]
   },
   {
+    "id": "mon_pmc_clone_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 0, 1 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 0, 1 ] }
+        ]
+      },
+      {
+        "distribution": [
+          { "group": "guns_rifle_milspec", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_rifle_common_display", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_rifle_rare", "prob": 1, "damage": [ 0, 1 ] },
+          { "group": "guns_rifle_obscure", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_shotgun_milspec", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_shotgun_common_display", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_shotgun_rare", "prob": 1, "damage": [ 0, 1 ] },
+          { "group": "guns_shotgun_obscure", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_milspec", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_common_display", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_rare", "prob": 1, "damage": [ 0, 1 ] },
+          { "group": "guns_smg_obscure", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_pistol_milspec", "prob": 1, "damage": [ 0, 1 ] },
+		  { "group": "guns_pistol_common_display", "prob": 11, "damage": [ 0, 1 ] },
+		  { "group": "guns_pistol_rare", "prob": 1, "damage": [ 0, 1 ] },
+          { "group": "guns_pistol_obscure", "prob": 11, "damage": [ 0, 1 ] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stank_rat_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 0, 1 ] },
+          { "group": "clothing_soldier_winter_set", "prob": 35, "damage": [ 0, 1 ] }
+        ]
+      },
+      { "group": "military_standard_grenades", "count": [ 1, 3 ], "prob": 20 },
+	  { "group": "infantry_common_gear", "count": [ 1, 2 ], "prob": 75 },
+      {
+        "distribution": [
+          { "group": "snacks_fancy", "prob": 25 },
+		  { "group": "produce_fresh", "prob": 10 },
+		  { "group": "ingredients_paradise", "prob": 25 },
+          { "group": "cooked_comestibles", "prob": 40 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "group": "guns_smg_milspec", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_common_display", "prob": 25, "damage": [ 0, 1 ] },
+		  { "group": "guns_smg_rare", "prob": 20, "damage": [ 0, 1 ] },
+          { "group": "guns_smg_obscure", "prob": 30, "damage": [ 0, 1 ] }
+        ]
+      },
+	  {
+        "distribution": [
+          { "group": "gunmod_milspec", "prob": 25 },
+		  { "group": "gunmod_rare", "prob": 25 },
+          { "group": "gunmod_common", "prob": 50 }
+        ], 
+		"prob": 75
+      },
+	  {
+        "distribution": [
+          { "group": "sopmod", "prob": 75 },
+		  { "group": "sopmod_2", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "group": "adip_gunmods_tier1and2", "prob": 75 },
+		  { "group": "adip_gunmods_tier2and3", "prob": 25 }
+        ], 
+		"prob": 25
+      },
+	  {
+        "distribution": [
+		  { "item": "suppressor_compact", "prob": 40 },
+          { "item": "suppressor", "prob": 10 },
+		  { "item": "crafted_suppressor", "prob": 45 },
+		  { "item": "filter_suppressor", "prob": 4 },
+          { "item": "bottle_suppressor", "prob": 1 }
+        ], 
+		"prob": 100
+      },
+      {
+        "distribution": [
+          { "item": "goggles_nv", "prob": 90, "damage": [ 0, 4 ] },
+		  { "item": "goggles_ir", "prob": 10, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "bigback", "prob": 25, "damage": [ 0, 4 ] },
+		  { "item": "backpack_tactical_large", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "survivor_duffel_bag", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "molle_pack", "prob": 10, "damage": [ 0, 4 ] },
+		  { "item": "holo_ruck", "prob": 5, "damage": [ 0, 4 ] },
+		  { "item": "holo_mbag", "prob": 20, "damage": [ 0, 4 ] },
+		  { "item": "rucksack", "prob": 25, "damage": [ 0, 4 ] }
+        ], 
+		"prob": 100
+      },
+	  {
+        "distribution": [
+          { "item": "militarymap", "prob": 50 },
+		  { "item": "divine_blood_fruit", "prob": 25 },
+		  { "item": "labmap", "prob": 25 }
+        ], 
+		"prob": 50
+      },
+	  {
+        "distribution": [
+          { "item": "peace_glasses", "prob": 75, "damage": [ 0, 4 ], "charges": 0 },
+		  { "item": "peace_glasses", "prob": 20, "damage": [ 1, 4 ], "charges": [ 0, 2 ] },
+		  { "item": "peace_glasses", "prob": 5, "damage": [ 0, 2 ], "charges": [ 1, 3 ] }
+        ],
+		"prob": 50
+      },
+	  { "item": "pheromone", "prob": 100, "count": [ 1, 4 ] },
+	  { "item": "pmc_dogtag", "prob": 100 },
+	  { "item": "hat_boonie", "prob": 100 },
+	  { "group": "infantry_medical_gear", "prob": 75 },
+	  { "group": "exotic_books", "prob": 25 },
+	  { "group": "chem_lab", "prob": 75 },
+	  { "item": "bot_flashbang_hack", "prob": 25, "count": [ 1, 2 ] },
+	  { "group": "military" },
+      { "item": "mask_gas", "prob": 100, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "two_way_radio", "prob": 15, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+      { "item": "knife_combat", "prob": 100, "damage": [ 3, 4 ] },
+      { "group": "misc_smoking", "prob": 30 }
+    ]
+  },
+  {
     "id": "mon_contract_killer_drops",
     "type": "item_group",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 0,
     "entries": [
       {
         "distribution": [
@@ -898,7 +1552,7 @@
           { "group": "clothing_soldier_winter_set", "prob": 50 }
         ]
       },
-      { "item": "bot_grenade_hack", "prob": 100, "count": [ 3, 7 ] },
+      { "item": "bot_flashbang_hack", "prob": 100, "count": [ 3, 7 ] },
 	  { "group": "infantry_common_gear", "count": [ 1, 2 ], "prob": 100 },
       {
         "distribution": [
@@ -1039,8 +1693,6 @@
     "id": "mon_iceman_death_drops",
     "type": "item_group",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 60,
     "entries": [
       {
         "distribution": [
@@ -1187,6 +1839,7 @@
 	  { "item": "divine_clementine", "prob": 2 },
 	  { "item": "mutagen", "prob": 75, "count": [ 1, 3 ] },
 	  { "item": "iv_mutagen", "prob": 100, "count": [ 1, 3 ] },
+	  { "item": "lsd", "prob": 100, "count": [ 1, 12 ] },
 	  { "item": "lab_geek_book_wormhole", "prob": 25 },
 	  { "item": "lab_geek_book_self_mutation", "prob": 25 },
 	  { "item": "acidhead", "prob": 10 },

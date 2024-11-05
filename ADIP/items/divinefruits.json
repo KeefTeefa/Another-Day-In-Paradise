@@ -152,7 +152,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "name": { "str": "divine flame fruit", "str_pl": "divine flame fruit" },
-    "description": "A divine fruit, it's ornate exterior covered in spirals. Eating this would surely empower you, making you a pyromaniac but more attuned to heat.",
+    "description": "A divine fruit, it's ornate exterior covered in spirals. Eating this would surely empower you for a day, making you a pyromaniac but more attuned to heat.",
     "weight": "1 g",
     "volume": "1 ml",
     "price": "34 USD",

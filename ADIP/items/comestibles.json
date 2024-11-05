@@ -2,13 +2,17 @@
   {
     "id": "effervescent_genetics",
     "type": "COMESTIBLE",
+	"comestible_type": "DRINK", 
+	"phase": "liquid", 
+	"container": "flask_glass", 
     "name": { "str": "effervescent genetics", "str_pl": "effervescent genetics" },
     "description": "Bubbling, frothing blood that has been distilled down to only the most active, life-affirming code. It forms a spiralling pool in your palm.",
     "weight": "1 g",
     "volume": "1 ml",
 	"looks_like": "blood", 
     "symbol": "?",
-    "flags": [ "NUTRIENT_OVERRIDE" ], 
+    "flags": [ "NUTRIENT_OVERRIDE", "PLANTABLE_SEED" ], 
+	"brewable": { "time": "14 days", "results": [ "effervescent_genetics", "effervescent_genetics" ] },
 	"use_action": [ { "type": "cast_spell", "spell_id": "mutate_self_free", "no_fail": true, "level": 10 } ],
 	"seed_data": { "plant_name": "effervescent fruit", "fruit": "divine_fruit_bio", "seeds": false, "grow": "7 days", "required_terrain_flag": "RUBBER" },
     "color": "magenta"
@@ -47,7 +51,7 @@
 	"use_action": {
       "type": "consume_drug",
       "activation_message": "You suck on the mandrake root, calming your tummy.",
-      "effects": [ { "id": "tummy_tablet", "duration": "1 minutes" } ],
+      "effects": [ { "id": "tummy_tablet", "duration": "1 minutes" }, { "id": "mandrake_dexterity", "duration": "8 hours" } ],
       "stat_adjustments": { "hunger": -5 }
     },
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "PLANTABLE_SEED" ]
@@ -72,7 +76,7 @@
 	"use_action": {
       "type": "consume_drug",
       "activation_message": "Without running a knife along it's surface to cut off the bristles, ingesting brineweed will lead to temporary paralysis.",
-      "effects": [ { "id": "zapped", "duration": "1 minutes" } ],
+      "effects": [ { "id": "zapped", "duration": "1 minutes" }, { "id": "brineweed_strength", "duration": "8 hours" } ],
       "stat_adjustments": { "hunger": -5 }
     },
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "PLANTABLE_SEED" ]
@@ -90,7 +94,7 @@
 	"spoils_in": "365 days",
 	"looks_like": "mugwort", 
     "material": "flesh",
-	"seed_data": { "plant_name": "peeking sedge", "fruit": "sedge_buds", "seeds": true, "byproducts": [ "sedge_buds", "sedge_buds" ], "grow": "7 days", "required_terrain_flag": "ACCURSED" },
+	"seed_data": { "plant_name": "peeking sedge", "fruit": "sedge_buds", "seeds": true, "byproducts": [ "sedge_buds", "sedge_buds" ], "grow": "5 days", "required_terrain_flag": "ACCURSED" },
     "symbol": ".",
     "color": "red",
     "fun": 50,
@@ -98,7 +102,7 @@
 	"use_action": {
       "type": "consume_drug",
       "activation_message": "You pop a sedge bud in your mouth, and it's juices sap the light from your eyes.",
-      "effects": [ { "id": "blind", "duration": "1 second" } ],
+      "effects": [ { "id": "blind", "duration": "1 second" }, { "id": "sedge_perception", "duration": "8 hours" } ],
       "stat_adjustments": { "thirst": -5 }
     },
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "PLANTABLE_SEED" ]
@@ -124,8 +128,13 @@
     "material": "egg",
     "volume": "25 ml",
     "stack_size": 1,
+	"use_action": {
+      "type": "consume_drug",
+      "activation_message": "You scoop some roe onto your tongue which melt instantly.",
+      "effects": [ { "id": "yinyang_intelligence", "duration": "8 hours" } ]
+    },
     "fun": 1,
-    "flags": [ "RAW" ]
+    "flags": [ "RAW", "PLANTABLE_SEED" ]
   },
   {
     "id": "divine_clementine",
@@ -247,7 +256,7 @@
     "stim": 30,
     "fun": 10,
 	"use_action": { "type": "cast_spell", "spell_id": "revival_stone_spell", "no_fail": true, "level": 10 },
-    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
+    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "PLANTABLE_SEED" ]
   },
   {
     "id": "revival_stone_spell",
@@ -510,7 +519,7 @@
     "id": "accursed_tree_seed",
     "type": "TOOL",
     "name": { "str": "blackened seed", "str_pl": "blackened seeds" },
-    "description": "A seed that's been blackened to a crisp, all life obviously drawn from it's very center. A horrid void sits in it's place, a kind of energy of it's own.",
+    "description": "A hemmorhage that's been blackened to a crisp, all life obviously drawn from it's very center. A horrid void sits in it's place, a kind of energy of it's own.",
     "weight": "12 g",
     "volume": "10 ml",
     "price": "34 USD",
@@ -531,7 +540,7 @@
       "menu_text": "Crack Seed",
       "type": "transform"
     },
-    "flags": [ "BOMB", "GRENADE" ]
+    "flags": [ "BOMB", "GRENADE", "PLANTABLE_SEED" ]
   },
   {
     "id": "accursed_tree_seed_act",
@@ -570,6 +579,7 @@
 	"looks_like": "mon_vortex",
     "price_postapoc": "10 USD",
     "material": "flesh",
+	"flags": [ "PLANTABLE_SEED" ], 
 	"use_action": { "type": "cast_spell", "spell_id": "ascended_seed_mutations", "no_fail": true, "level": 10 },
 	"seed_data": { "plant_name": "ascended fruit", "fruit": "evolved_mutant_egg", "seeds": false, "grow": "30 days", "required_terrain_flag": "CLONING" },
     "symbol": ".",
@@ -624,6 +634,35 @@
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
   },
   {
+    "id": "experimental_mutant_egg",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "groaning mutant", "str_pl": "groaning mutants" },
+    "description": "A mutated humanoid that's curled up in obvious pain, groaning and clutching their head. Tears stream down their face, they obviously need a doctor. Maybe you could help.",
+    "weight": "81500 g",
+    "volume": "30000 ml",
+    "price": "34 USD",
+    "price_postapoc": "10 USD",
+    "material": "flesh",
+	"spoils_in": "3 days",
+	"rot_spawn": "GROUP_MUTANT_EXPERIMENTAL",
+	"looks_like": "mon_mutant_experimental", 
+    "rot_spawn_chance": 100,
+    "symbol": ".",
+    "color": "red",
+	"use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_mutant_experimental",
+      "friendly_msg": "You calm the mutant's suffering with the right words, ",
+      "hostile_msg": "The mutant's teary eyes fill with rage!",
+      "difficulty": 5,
+      "moves": 160,
+      "place_randomly": false,
+      "skills": [ "firstaid" ]
+    },
+    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
+  },
+  {
     "id": "evolved_mutant_egg",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
@@ -651,6 +690,64 @@
       "skills": [ "firstaid" ]
     },
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
+  },
+  {
+    "id": "zombie_egg",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "smelly poppet", "str_pl": "smelly poppet" },
+    "description": "A roughly humanoid shaped doll made of flesh that's covered in a foul black ooze. The ooze is constantly changing the shape of the doll, you're not really sure what the hell it's supposed to be.",
+    "weight": "6 g",
+    "volume": "10 ml",
+    "price": "34 USD",
+	"spoils_in": "72 hour",
+	"rot_spawn": "GROUP_ZOMBIE",
+    "rot_spawn_chance": 100,
+    "price_postapoc": "10 USD",
+	"looks_like": "mon_zombie",
+    "material": "veggy",
+    "symbol": ".",
+    "color": "red",
+	"use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zombie",
+      "friendly_msg": "You pluck the correct string of muscle and the ooze pours forth into flesh!",
+      "hostile_msg": "You snap a cord of sinew and the doll unravels, black ooze forming a wretched host!",
+      "difficulty": 4,
+      "moves": 50,
+      "place_randomly": false,
+      "skills": [ "tailor" ]
+    },
+    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
+  },
+  {
+    "id": "feral_human_egg",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "hibernating human", "str_pl": "hibernating human" },
+    "description": "A person in torn clothing that's curled around a pipe like it's their baby. They're in some sort of coma, you can't even feel much heat coming off of them. You could try and wake them, if you want.",
+    "weight": "10000 g",
+    "volume": "10 L",
+    "price": "34 USD",
+	"spoils_in": "365 days",
+	"rot_spawn": "GROUP_FERAL_HUMAN_PIPE",
+    "rot_spawn_chance": 100,
+    "price_postapoc": "10 USD",
+    "material": "flesh",
+	"looks_like": "mon_feral_human_pipe", 
+    "symbol": ".",
+    "color": "red",
+	"use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_feral_human_pipe",
+      "friendly_msg": "The person awakans with a crazy look in their eye and starts looking for threats to it's clan.",
+      "hostile_msg": "The person's eyes open bloodshot!",
+      "difficulty": 4,
+      "moves": 60,
+      "place_randomly": true,
+      "skills": [ "speech" ]
+    },
+    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "INEDIBLE" ]
   },
   {
     "id": "ascended_egg",
@@ -709,6 +806,93 @@
       "skills": [ "firstaid" ]
     },
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "INEDIBLE" ]
+  },
+  {
+    "id": "pmc_egg",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "snoozing contractor", "str_pl": "snoozing contractors" },
+    "description": "A sleeping private military contractor. They probably won't stay asleep long.",
+    "weight": "81500 g",
+    "volume": "62500 ml",
+    "price": "34 USD",
+    "price_postapoc": "10 USD",
+    "material": "flesh",
+	"spoils_in": "8 hours",
+	"rot_spawn": "GROUP_PMC",
+	"looks_like": "mon_pmc_rifle", 
+    "rot_spawn_chance": 100,
+    "symbol": ".",
+    "color": "red",
+	"use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_pmc_clone",
+      "friendly_msg": "The contractor wakes up and the two of you work out a contract.",
+      "hostile_msg": "The contractor wakes up and you're unable to reach a peaceful resolution.",
+      "difficulty": 5,
+      "moves": 160,
+      "place_randomly": false,
+      "skills": [ "barter" ]
+    },
+    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
+  },
+  {
+    "id": "psycho_egg",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "nightmaring psycho", "str_pl": "nightmaring psychos" },
+    "description": "A clone of a psychopath, or at least of the thing growing on their face. You're not sure if this is where ALL the psychos came from, but they ARE springing up recently. They're muttering in their sleep, frantically tossing and turning.",
+    "weight": "81500 g",
+    "volume": "62500 ml",
+    "price": "34 USD",
+    "price_postapoc": "10 USD",
+    "material": "flesh",
+	"spoils_in": "1 hour",
+	"rot_spawn": "GROUP_SCAV",
+	"looks_like": "mon_scav_pistol", 
+    "rot_spawn_chance": 100,
+    "symbol": ".",
+    "color": "red",
+	"use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_scav_clone",
+      "friendly_msg": "The psycho wakes up and the two of you become fast friends.",
+      "hostile_msg": "The psycho wakes up screeching and firing their gun.",
+      "difficulty": 5,
+      "moves": 160,
+      "place_randomly": false,
+      "skills": [ "speech" ]
+    },
+    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
+  },
+  {
+    "id": "fungaloid_egg",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "twitching fungal chunk", "str_pl": "twitching fungal chunks" },
+    "description": "A handful of loosely held together fungal spores. They're twitching and multiplying by the second.",
+    "weight": "6 g",
+    "volume": "10 ml",
+    "price": "34 USD",
+	"spoils_in": "1 hour",
+	"rot_spawn": "GROUP_FUNGALOID",
+    "rot_spawn_chance": 100,
+    "price_postapoc": "10 USD",
+	"looks_like": "mon_fungaloid",
+    "material": "veggy",
+    "symbol": ".",
+    "color": "red",
+	"use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_fungaloid",
+      "friendly_msg": "You carefully feather the fungal spores in such a way to allow a swift and natural growth.",
+      "hostile_msg": "You thump the chunk and it starts growing!",
+      "difficulty": 5,
+      "moves": 150,
+      "place_randomly": true,
+      "skills": [ "survival" ]
+    },
+    "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE" ]
   },
   {
     "id": "ascended_angel_egg",

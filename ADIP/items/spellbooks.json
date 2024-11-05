@@ -3,7 +3,7 @@
     "id": "heat_freak_book",
     "type": "GENERIC",
     "name": { "str": "alien bingo book", "str_pl": "alien bingo books" },
-    "description": "A small leatherbound book that has been scorched almost unrecognizably. The pages inside are filled with manic writing, at least it's only half written in an alien language. The pieces you do understand seem to point towards the book being used to log experiments on migos in order to better hunt them, at the sake of the author's sanity. The author's experimentation on the aliens has actually led to some interesting research. It appears the mi-go has an innate ability to reduce it's temperature to near nothing, and the author has reverse engineered this innate ability to an extent. The author claims it has some effect on mutational abilities.",
+    "description": "A small leatherbound book that has been scorched almost unrecognizably. You quickly realize that it's made entirely out of flesh, which for some reason still reacts to stimuli. You hope it isn't still alive. The pages inside are filled with manic writing, at least it's only half written in an alien language. The pieces you do understand seem to point towards the book being used to log experiments on migos in order to better hunt them, at the sake of the author's sanity. The author's experimentation on the aliens has actually led to some interesting research. It appears the mi-go has an innate ability to reduce it's temperature to near nothing, and the author has reverse engineered this innate ability to an extent. The author claims it has some effect on mutational abilities.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "?",
@@ -61,7 +61,7 @@
     "id": "lab_geek_book_wormhole",
     "type": "GENERIC",
     "name": { "str": "lab journal - Worm", "str_pl": "lab journals - Worm" },
-    "description": "An extremely well maintained and organized lab journal detailing research into both wormholes and the black blob threat the military was so worried about. By the end of the journal the author is so deep in theoretical technical language and potentially world ending scenarios that they can't help but rave themself mad. You do notice something about that black slime having an effect on 'spiral creatures,' whatever that means.",
+    "description": "An extremely well maintained and organized lab journal detailing research into both wormholes and the black blob threat the military was so worried about. It's somehow longer than it should be, each page seems to disappear into another space when you turn it. By the end of the journal the author is so deep in theoretical technical language and potentially world ending scenarios that they can't help but rave themself mad. You do notice something about that black slime having an effect on 'spiral creatures,' whatever that means.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "?",
@@ -88,6 +88,7 @@
       "mod_targets": [ "acidhead" ],
 	  "damage_modifier": { "damage_type": "acid", "amount": 3 },
 	  "loudness_modifier": 2, 
+	  "range_modifier": 5,
       "mode_modifier": [ [ "semi-auto", "auto", 5 ] ]
     },
     "symbol": "?",
@@ -126,7 +127,7 @@
   },
   {
     "id": "peace_officer_book",
-    "type": "GENERIC",
+    "type": "TOOL",
     "name": { "str": "palm tattoo", "str_pl": "palm tattoos" },
     "description": "A dismembered hand with a bar code on the palm. This once denoted someone as a peace officer.",
     "weight": "1 g",
@@ -134,6 +135,8 @@
     "symbol": "?",
     "color": "magenta",
 	"looks_like": "gloves_golf",
+	"flags": [ "PLANTABLE_SEED" ], 
+	"qualities": [ [ "LAW", 2 ] ],
 	"seed_data": { "plant_name": "gestating peace officer", "fruit": "peace_officer_egg", "seeds": false, "byproducts": [ "meat_tainted" ], "grow": "7 days", "required_terrain_flag": "CLONING" },
     "use_action": [
 	{

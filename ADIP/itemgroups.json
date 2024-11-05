@@ -165,7 +165,7 @@
 	  { "item": "guntrinket_flare", "prob": 7 },
 	  { "item": "guntrinket_lightning", "prob": 7 },
 	  { "item": "guntrinket_bounce", "prob": 5 },
-	  { "item": "guntrinket_laser", "prob": 7 },
+	  { "item": "guntrinket_plasma", "prob": 7 },
 	  { "item": "guntrinket_nogib", "prob": 9 },
 	  { "item": "guntrinket_no_item_damage", "prob": 7 }
     ]
@@ -303,70 +303,6 @@
   },
   {
     "type": "item_group",
-    "id": "sopmod",
-	"subtype": "collection", 
-    "items": [
-      [ "rail_heat", 10 ],
-	  [ "rail_cold", 10 ],
-	  [ "rail_electric", 10 ],
-	  [ "rail_acid", 10 ],
-	  [ "rail_biological", 10 ],
-	  [ "rail_handling", 10 ],
-	  [ "rail_weight", 10 ],
-	  [ "rail_range", 10 ],
-	  [ "rail_reload", 10 ],
-	  [ "rail_burst", 10 ],
-	  [ "rail_dispersion", 10 ],
-	  [ "grip_heat", 10 ],
-	  [ "grip_cold", 10 ],
-	  [ "grip_electric", 10 ],
-	  [ "grip_acid", 10 ],
-	  [ "grip_biological", 10 ],
-	  [ "grip_handling", 10 ],
-	  [ "grip_weight", 10 ],
-	  [ "grip_range", 10 ],
-	  [ "grip_reload", 10 ],
-	  [ "grip_burst", 10 ],
-	  [ "grip_dispersion", 10 ],
-	  [ "underbarrel_magic_bayonet", 10 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "sopmod_2",
-	"subtype": "distribution",
-    "items": [
-      [ "muzzle_brake_heat", 10 ],
-	  [ "muzzle_brake_cold", 10 ],
-	  [ "muzzle_brake_electric", 10 ],
-	  [ "muzzle_brake_acid", 10 ],
-	  [ "muzzle_brake_biological", 10 ],
-	  [ "muzzle_brake_handling", 10 ],
-	  [ "muzzle_brake_weight", 10 ],
-	  [ "muzzle_brake_range", 10 ],
-	  [ "muzzle_brake_reload", 10 ],
-	  [ "muzzle_brake_burst", 10 ],
-	  [ "muzzle_brake_dispersion", 10 ],
-	  [ "heat_sight_1", 10 ],
-	  [ "heat_sight_2", 10 ],
-	  [ "cold_sight_1", 10 ],
-	  [ "cold_sight_2", 10 ],
-	  [ "acid_sight_1", 10 ],
-	  [ "acid_sight_2", 10 ],
-	  [ "electric_sight_1", 10 ],
-	  [ "electric_sight_2", 10 ],
-	  [ "biological_sight_1", 10 ],
-	  [ "biological_sight_2", 10 ],
-	  [ "holo_sight_weight", 10 ],
-	  [ "holo_sight_handling", 10 ],
-	  [ "holo_sight_range", 10 ],
-	  [ "holo_sight_reload", 10 ],
-	  [ "holo_sight_burst", 10 ],
-	  [ "holo_sight_dispersion", 10 ]
-    ]
-  },
-  {
-    "type": "item_group",
     "id": "infantry_common_gear",
 	"subtype": "collection",
     "items": [
@@ -407,6 +343,7 @@
 	  { "item": "razorclaw_caviar", "prob": 5 },
 	  { "item": "hemor_seed", "prob": 1 },
 	  { "item": "leadbelly", "prob": 1 },
+	  { "item": "duxelle", "prob": 1 },
 	  { "item": "ground_wandwood", "prob": 1 }
     ]
   },
@@ -416,6 +353,7 @@
     "subtype": "distribution",
     "items": [
       { "item": "divine_clementine_jam", "prob": 20 },
+	  { "item": "new_england_sushi", "prob": 20 },
 	  { "item": "divine_jam_str", "prob": 10 },
 	  { "item": "divine_jam_dex", "prob": 10 },
 	  { "item": "divine_jam_per", "prob": 10 },
@@ -424,7 +362,7 @@
 	  { "item": "stamina_regen_potion_1", "prob": 10 },
 	  { "item": "stamina_regen_potion_2", "prob": 5 },
 	  { "item": "stamina_regen_potion_3", "prob": 3 },
-	  { "item": "jabberwock_jam", "prob": 10 },
+	  { "item": "jabberwock_jam", "prob": 5 },
 	  { "item": "jabberwock_jamboree", "prob": 5 },
 	  { "item": "jabberwock_jambalaya", "prob": 1 },
 	  { "item": "detoxified_leech_flower", "prob": 3 },
@@ -435,7 +373,7 @@
 	  { "item": "robust_brandy", "prob": 1 },
 	  { "item": "sedge_mead", "prob": 1 },
 	  { "item": "finger_sandwich", "prob": 1 },
-	  { "item": "chitin_charcuterie", "prob": 1 },
+	  { "item": "chitin_charcuterie", "prob": 5 },
 	  { "item": "chitin_charcuterie_heat", "prob": 1 },
 	  { "item": "chitin_charcuterie_cold", "prob": 1 },
 	  { "item": "chitin_charcuterie_acid", "prob": 1 },
@@ -449,7 +387,29 @@
 	  { "item": "hot_sticks", "prob": 1 },
 	  { "item": "slime_spaghetti", "prob": 1 },
 	  { "item": "steak_pizzaiola", "prob": 25 },
-	  { "item": "naranjachinchi", "prob": 1 }
+	  { "item": "naranjachinchi", "prob": 1 },
+	  { "item": "monster_meat_pie", "prob": 1 },
+	  { "item": "mandrake_wellington", "prob": 1 },
+	  { "item": "pink_leopard", "prob": 1 },
+	  { "item": "zen_brains", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "ascended_comestibles",
+    "subtype": "distribution",
+    "items": [
+      { "item": "ascended_atsukan", "prob": 5 },
+	  { "item": "ascended_naranjachinchi", "prob": 5 },
+	  { "item": "finger_sandwich_ascended", "prob": 10 },
+	  { "item": "ascended_meat_pie", "prob": 1 },
+	  { "item": "ascended_wellington", "prob": 1 },
+	  { "item": "ascended_leopard", "prob": 1 },
+	  { "item": "ascended_brains", "prob": 1 },
+	  { "item": "ascended_jam_int", "prob": 20 },
+	  { "item": "ascended_jam_per", "prob": 20 },
+	  { "item": "ascended_jam_dex", "prob": 20 },
+	  { "item": "ascended_jam_str", "prob": 20 }
     ]
   },
   {
@@ -540,7 +500,7 @@
     "type": "item_group",
     "id": "exotic_books",
     "items": [
-      [ "paradise_cooking", 25 ],
+      [ "paradise_cooking", 15 ],
 	  [ "vergery", 10 ]
     ]
   },
@@ -572,7 +532,7 @@
     "type": "item_group",
     "id": "homebooks",
     "items": [
-      [ "paradise_cooking", 15 ],
+      [ "paradise_cooking", 5 ],
 	  [ "vergery", 1 ]
     ]
   },
@@ -580,7 +540,7 @@
     "type": "item_group",
     "id": "tailor_books",
     "items": [
-	  [ "vergery", 15 ]
+	  [ "vergery", 5 ]
     ]
   },
   {
@@ -596,23 +556,28 @@
   },
   {
     "type": "item_group",
-    "id": "mut_lab",
-    "items": [
-      [ "ascended_seed", 1 ],
-	  [ "rubber_shrub", 10 ]
-    ]
-  },
-  {
-    "type": "item_group",
     "id": "chem_lab",
     "items": [
       { "group": "divine_fruits", "prob": 1 },
 	  { "group": "holo_bots", "prob": 10 },
 	  { "group": "adip_holobags", "prob": 10 },
 	  { "item": "ascended_seed", "prob": 1 },
+	  { "item": "pocket_doc", "prob": 1 },
+	  { "item": "omnigas_recipe", "prob": 5 },
 	  { "item": "peace_officer_egg", "prob": 10 },
 	  { "item": "rubber_shrub", "prob": 10 },
 	  { "item": "spiral_stone", "prob": 3 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "science",
+    "items": [
+	  { "group": "holo_bots", "prob": 1 },
+	  { "item": "pocket_doc", "prob": 1 },
+	  { "item": "omnigas_recipe", "prob": 1 },
+	  { "item": "peace_officer_egg", "prob": 1 },
+	  { "item": "rubber_shrub", "prob": 1 }
     ]
   },
   {
@@ -636,8 +601,50 @@
     "id": "produce_fresh",
 	"subtype": "distribution", 
     "items": [
-      { "group": "ingredients_paradise", "prob": 1 },
-	  { "group": "divine_fruits", "prob": 1 }
+      { "group": "ingredients_paradise", "prob": 1 }
+    ]
+  },
+  {
+    "id": "nested_g28",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "g28", "ammo-group": "on_hand_308", "charges": [ 0, 20 ] },
+      { "group": "nested_hk417_13_mag" },
+      { "group": "nested_hk417_13_mag", "prob": 50 },
+      { "group": "on_hand_308" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare",
+    "items": [
+      { "group": "nested_g28", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_milspec",
+    "items": [
+      { "group": "nested_g28", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_bank_vault",
+    "items": [
+      { "group": "nested_g28", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rare",
+    "items": [
+      { "group": "cooked_comestibles", "prob": 10 },
+	  { "group": "adip_holobags", "prob": 10 },
+	  { "group": "illusory_clothing", "prob": 1 }
     ]
   },
   {
@@ -658,6 +665,23 @@
     "items": [
       { "item": "material_soil", "count": [ 32, 40 ] },
 	  { "item": "leadbelly", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "illusory_clothing",
+    "subtype": "distribution",
+    "items": [
+      { "item": "illusory_straw_hat", "prob": 10 },
+	  { "item": "illusory_motorcycle_helmet", "prob": 10 },
+	  { "item": "illusory_knit_hat", "prob": 10 },
+	  { "item": "illusory_rm13_combat_armor", "prob": 10 },
+	  { "item": "illusory_blanket", "prob": 10 },
+	  { "item": "illusory_ski_mask", "prob": 10 },
+	  { "item": "illusory_rain_coat", "prob": 10 },
+	  { "item": "illusory_cowboy_hat", "prob": 10 },
+	  { "item": "illusory_duster", "prob": 10 },
+	  { "item": "illusory_fedora", "prob": 10 }
     ]
   }
 ]

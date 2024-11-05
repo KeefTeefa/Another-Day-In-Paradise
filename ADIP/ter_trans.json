@@ -2,6 +2,23 @@
   {
     "type": "ter_furn_transform",
     "id": "ter_trans_rine_stone",
+	"furniture": [ { "result": "f_null"} ],
     "terrain": [ { "result": "t_tree_young" } ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "ter_trans_tentacle_summon",
+	"furniture": [ { "result": "f_null" } ],
+    "terrain": [ { "result": "t_water_dp" } ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "ter_trans_pocket_doc_couch",
+	"furniture": [ { "result": "f_autodoc_couch" } ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "ter_trans_pocket_doc_comp",
+	"furniture": [ { "result": "f_autodoc" } ]
   }
 ]

@@ -181,7 +181,7 @@
   },
   {
     "type": "recipe",
-    "result": "guntrinket_laser",
+    "result": "guntrinket_plasma",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "fabrication",
@@ -1856,189 +1856,20 @@
     ]
   },
   {
-    "result": "switch_wandwood",
     "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-    "difficulty": 6,
-	"book_learn": [ [ "vergery", 1 ] ],
-    "time": "3 h",
-	"reversible": true,
-    "autolearn": [ [ "tailor", 6 ] ],
-	"qualities": [
-      { "id": "RUBBER", "level": 2 }
+    "result": "gas_omni",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "cooking",
+    "skills_required": [ "cooking", 5 ],
+    "difficulty": 5,
+    "time": "5 m",
+    "batch_time_factors": [ 80, 5 ],
+    "book_learn": [
+      [ "omnigas_recipe", 1 ]
     ],
-    "components": [ [ [ "wandwood_branch", 1 ] ] ]
-  },
-  {
-    "result": "wandwood_heat",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "HEAT", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "wandwood_cold",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "COLD", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "wandwood_acid",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "ACID", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "wandwood_bio",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "BIOLOGICAL", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "wandwood_elec",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "ELECTRICAL", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 3 ] ],
-    "components": [ [ [ "wandwood_branch", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "switch_heat",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "HEAT", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "switch_cold",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "COLD", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "switch_acid",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "ACID", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "switch_elec",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "ELECTRICAL", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "result": "switch_bio",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_OTHER",
-    "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 3,
-    "time": "3 h",
-	"reversible": true,
-	"qualities": [
-      { "id": "BIOLOGICAL", "level": 1 },
-	  { "id": "SEW_CURVED", "level": 1 }
-    ],
-    "autolearn": [ [ "tailor", 6 ] ],
-    "components": [ [ [ "switch_wandwood", 1 ] ], [ [ "sinew", 10 ] ] ]
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "RUBBER", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
+    "components": [ [ [ "insecticide", 100 ], [ "gas_chloramine", 100 ] ], [ [ "bleach", 100 ] ] ]
   }
 ]

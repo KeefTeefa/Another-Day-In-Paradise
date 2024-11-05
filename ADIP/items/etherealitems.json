@@ -785,6 +785,7 @@
       "ONLY_ONE",
       "TRADER_AVOID",
       "NONCONDUCTIVE",
+	  "PLANTABLE_SEED",
       "POWERARMOR_COMPATIBLE"
     ]
   },
@@ -811,6 +812,34 @@
       ]
     },
     "covers": [ "torso" ],
+    "flags": [
+      "AURA",
+      "SEMITANGIBLE",
+      "OVERSIZE",
+      "ONLY_ONE",
+      "TRADER_AVOID",
+      "NO_TAKEOFF",
+      "NONCONDUCTIVE",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "new_england_sushi_aura",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": { "str": "massachusetts roll", "str_pl": "massachusetts rolls" },
+    "description": "You ate some new england sushi, also called a masschusetts roll, which will allow you to swap places with something one time.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "34 USD",
+    "price_postapoc": "10 USD",
+    "material": "flesh",
+    "symbol": ".",
+    "color": "red",
+	"use_action": [ { "type": "cast_spell", "spell_id": "mandrake_teleport", "no_fail": true, "need_worn": true, "level": 10 } ],
+	"armor_data": {
+      "covers": [ "torso" ]
+    },
     "flags": [
       "AURA",
       "SEMITANGIBLE",

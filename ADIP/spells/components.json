@@ -12,20 +12,16 @@
   {
     "id": "spell_components_clone_tattoo",
     "type": "requirement",
-    "tools": [
-      [
-        [ "peace_officer_book", 1 ]
-      ]
+    "qualities": [
+	  { "id": "LAW", "level": 2 }
     ]
   },
   {
     "id": "spell_components_shield",
     "type": "requirement",
-	"components": [ [ [ "blood", 1 ] ] ],
-    "tools": [
-      [
-        [ "peace_officer_book", 1 ], [ "id_military", 1 ]
-      ]
+	"components": [ [ [ "blood", 1 ], [ "pmc_dogtag", 1 ] ] ],
+    "qualities": [
+	  { "id": "LAW", "level": 1 }
     ]
   },
   {
