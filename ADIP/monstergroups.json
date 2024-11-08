@@ -160,6 +160,8 @@
     "monsters": [
 	  { "monster": "mon_hemor", "freq": 35, "cost_multiplier": 1 },
 	  { "monster": "mon_wandwood_brush", "freq": 1, "cost_multiplier": 1, "starts": 3000 },
+	  { "monster": "mon_cockatrice", "freq": 5, "cost_multiplier": 1 },
+	  { "monster": "mon_rattlesnake_giant", "freq": 1, "cost_multiplier": 1 },
 	  { "monster": "mon_divine_elk", "freq": 5, "cost_multiplier": 1, "ends": 720 },
 	  { "monster": "mon_divine_elk", "freq": 1, "cost_multiplier": 1, "starts": 720 },
 	  { "monster": "mon_divine_elk_calf", "freq": 1, "cost_multiplier": 1, "conditions": [ "SUMMER" ] },	
@@ -203,6 +205,9 @@
 	  { "monster": "mon_human_snail", "freq": 5, "cost_multiplier": 1, "starts": 1440 },
 	  { "monster": "mon_twisted_body", "freq": 5, "cost_multiplier": 1, "starts": 1440 },
 	  { "monster": "mon_vortex", "freq": 1, "cost_multiplier": 1, "starts": 1440 },
+	  { "monster": "mon_cockatrice", "freq": 10, "cost_multiplier": 1 },
+	  { "monster": "mon_rattlesnake_giant", "freq": 5, "cost_multiplier": 1 },
+	  { "monster": "mon_jabberwock", "freq": 1, "cost_multiplier": 1 },
       { "monster": "mon_accursed_tree", "freq": 30, "cost_multiplier": 5 },
 	  { "monster": "mon_accursed_elk", "freq": 5, "cost_multiplier": 1 },
 	  { "monster": "mon_accursed_elk", "freq": 5, "cost_multiplier": 1, "starts": 720  },
@@ -282,7 +287,8 @@
     "name": "GROUP_PARK_SCENIC",
     "type": "monstergroup",
     "monsters": [
-      { "monster": "mon_psycho_circus", "freq": 1, "cost_multiplier": 10 }
+      { "monster": "mon_psycho_circus", "freq": 1, "cost_multiplier": 10 },
+	  { "monster": "mon_hemor", "freq": 10, "cost_multiplier": 10 }
     ]
   },
   {
@@ -493,7 +499,7 @@
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE",
     "monsters": [
-	  { "monster": "mon_walker", "freq": 25, "cost_multiplier": 10, "pack_size": [ 25, 40 ] },
+	  { "monster": "mon_walker", "freq": 25, "cost_multiplier": 5, "pack_size": [ 25, 40 ] },
 	  { "monster": "mon_human_snail", "freq": 1, "cost_multiplier": 1, "starts": 1440 },
 	  { "monster": "mon_twisted_body", "freq": 1, "cost_multiplier": 1, "starts": 1440 },
 	  { "monster": "mon_vortex", "freq": 1, "cost_multiplier": 1, "starts": 3660 },

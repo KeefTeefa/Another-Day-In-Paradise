@@ -35,6 +35,17 @@
     "pre_terrain": "t_pit_shallow",
     "post_furniture": "f_rubber_shrub"
   },
+  {
+    "type": "construction",
+    "id": "constr_rubber_shrub_planter",
+    "group": "plant_rubber_shrub",
+    "category": "OTHER",
+    "required_skills": [ [ "survival", 1 ] ],
+    "time": "5 m",
+    "components": [ [ [ "rubber_shrub", 1 ] ] ],
+    "pre_furniture": "f_planter",
+    "post_furniture": "f_rubber_shrub"
+  },
 {
     "type": "construction",
     "id": "constr_divine_tree",
@@ -43,7 +54,7 @@
     "required_skills": [ [ "survival", 2 ] ],
     "time": "30 m",
     "qualities": [ [ { "id": "AXE", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ], [ { "id": "DIG", "level": 2 } ] ],
-    "components": [ [ [ "chunk_sulfur", 100 ] ], [ [ "hemor_seed", 1 ] ] ],
+    "components": [ [ [ "water_clean", 100 ] ], [ [ "hemor_seed", 1 ] ], [ [ "chunk_sulfur", 10 ] ] ],
     "pre_terrain": "t_tree_young",
     "post_furniture": "f_divine_tree"
   },

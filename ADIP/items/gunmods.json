@@ -709,12 +709,12 @@
     "id": "underbarrel_magic_bayonet",
     "type": "GUNMOD",
     "name": { "str": "L.A.N.C.E" },
-    "description": "The Long Arms Near Combat Enhancer is a carbon fiber, magitech-enhanced bayonet that simply outperforms a normal bayonet in every way due to it's patented vortex design. It is lightweight and projects a holographic spike in order to extend it's melee range even further than a normal bayonet.",
+    "description": "The Long Arms Near Combat Enhancer is a carbon fiber, magitech-enhanced bayonet that simply outperforms a normal bayonet in every way due to it's patented vortex design. It is lightweight and projects a holographic spike in order to extend it's melee range without additional weight.",
     "weight": "1 g",
-    "volume": "250 ml",
+    "volume": "1 ml",
     "price": "40 USD",
     "price_postapoc": "5 USD",
-    "to_hit": -1,
+    "to_hit": 1,
     "cutting": 10,
     "material": [ "steel" ],
     "symbol": ":",
@@ -723,7 +723,7 @@
     "location": "underbarrel",
     "mode_modifier": [ [ "REACH", "bayonet", 3, [ "MELEE", "REACH_ATTACK" ] ] ],
     "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ], [ "BUTCHER", -18 ] ],
-    "flags": [ "STAB" ]
+    "flags": [ "STAB", "PUMP_RAIL_COMPATIBLE" ]
   },
   {
     "id": "grip_heat",

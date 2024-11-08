@@ -79,6 +79,7 @@
 	  { "item": "guntrinket_range", "prob": 9 },
 	  { "item": "guntrinket_reload", "prob": 9 },
 	  { "item": "guntrinket_burst", "prob": 9 },
+	  { "item": "guntrinket_blinds_eyes", "prob": 1 },
 	  { "item": "guntrinket_dispersion", "prob": 9 }
     ]
   },
@@ -344,6 +345,8 @@
 	  { "item": "hemor_seed", "prob": 1 },
 	  { "item": "leadbelly", "prob": 1 },
 	  { "item": "duxelle", "prob": 1 },
+	  { "item": "giant_rattlesnake_gland", "prob": 5 },
+	  { "item": "egg_cockatrice", "prob": 3 },
 	  { "item": "ground_wandwood", "prob": 1 }
     ]
   },
@@ -391,6 +394,7 @@
 	  { "item": "monster_meat_pie", "prob": 1 },
 	  { "item": "mandrake_wellington", "prob": 1 },
 	  { "item": "pink_leopard", "prob": 1 },
+	  { "item": "moonsilver", "prob": 1 },
 	  { "item": "zen_brains", "prob": 1 }
     ]
   },
@@ -406,6 +410,7 @@
 	  { "item": "ascended_wellington", "prob": 1 },
 	  { "item": "ascended_leopard", "prob": 1 },
 	  { "item": "ascended_brains", "prob": 1 },
+	  { "item": "ascended_moonsilver", "prob": 1 },
 	  { "item": "ascended_jam_int", "prob": 20 },
 	  { "item": "ascended_jam_per", "prob": 20 },
 	  { "item": "ascended_jam_dex", "prob": 20 },
@@ -562,6 +567,7 @@
 	  { "group": "holo_bots", "prob": 10 },
 	  { "group": "adip_holobags", "prob": 10 },
 	  { "item": "ascended_seed", "prob": 1 },
+	  { "item": "moonsilver", "prob": 1 },
 	  { "item": "pocket_doc", "prob": 1 },
 	  { "item": "omnigas_recipe", "prob": 5 },
 	  { "item": "peace_officer_egg", "prob": 10 },
@@ -682,6 +688,14 @@
 	  { "item": "illusory_cowboy_hat", "prob": 10 },
 	  { "item": "illusory_duster", "prob": 10 },
 	  { "item": "illusory_fedora", "prob": 10 }
+    ]
+  },
+  {
+    "id": "survivor_bashing",
+    "type": "item_group",
+    "items": [
+      [ "buckler_riot", 15 ],
+      [ "buckler_ballistic", 5 ]
     ]
   }
 ]

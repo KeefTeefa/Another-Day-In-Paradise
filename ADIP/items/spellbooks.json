@@ -19,14 +19,14 @@
   },
   {
     "id": "iceman_book",
-    "copy-from": "abstractmap",
     "type": "GENERIC",
     "name": { "str": "frozen memories" },
     "description": "A block of black ice with a core of dark water that spirals infintely into itself. Holding this ice is knowing yourself as something, or maybe someone, else. The brass told you to face death itself, thing that are still maddenning just to envision. They were invaders on American Soil, and this is what you had signed up for. When the voices in your head told you to abandon ship, you didn't question it. When they told you to let the creatures pass, or to shoot the same brass that gave you useless guns, you just did as you were told.",
-    "color": "blue",
+    "color": "black",
     "volume": "10 ml",
     "weight": "10 g",
 	"looks_like": "grapes",
+	"symbol": ".", 
 	"seed_data": { "plant_name": "frosted growth", "fruit": "divine_fruit_frost", "seeds": false, "grow": "14 days", "required_terrain_flag": "RUBBER" },
 	"flags": [ "PLANTABLE_SEED" ],
     "use_action": {
@@ -61,7 +61,7 @@
     "id": "lab_geek_book_wormhole",
     "type": "GENERIC",
     "name": { "str": "lab journal - Worm", "str_pl": "lab journals - Worm" },
-    "description": "An extremely well maintained and organized lab journal detailing research into both wormholes and the black blob threat the military was so worried about. It's somehow longer than it should be, each page seems to disappear into another space when you turn it. By the end of the journal the author is so deep in theoretical technical language and potentially world ending scenarios that they can't help but rave themself mad. You do notice something about that black slime having an effect on 'spiral creatures,' whatever that means.",
+    "description": "An extremely well maintained and organized lab journal detailing research into both wormholes and the black blob threat the military was so worried about. It's somehow longer than it should be, each page seems to disappear into another space when you turn it. By the end of the journal the author is so deep in theoretical meteorology and potentially world ending scenarios that they can't help but rave themself mad. You do notice something about that black slime having an effect on 'spiral creatures,' whatever that means.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "?",
@@ -71,6 +71,7 @@
       "type": "learn_spell",
       "spells": [
         "wormhole_symbiosis",
+		"wormhole_desertion",
 		"lab_geek_slime_trap"
       ]
     }

@@ -26,7 +26,7 @@
     "id": "void_call_aura",
     "type": "ARMOR",
     "name": { "str": "void's call", "str_pl": "void's calls" },
-    "description": "You feel like you could easily drift into sleep.",
+    "description": "You feel something calling you into the realm of dreams.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "o",
@@ -803,7 +803,7 @@
 	"use_action": [ { "type": "cast_spell", "spell_id": "spiral_fruit_spell", "no_fail": true, "need_worn": true, "level": 10 } ],
 	"relic_data": {
       "passive_effects": [
-	    { "has": "WORN", "condition": "ALWAYS", "hit_me_effect": [ { "id": "wormhole_symbiosis", "hit_self": true, "once_in": 3 } ] },
+	    { "has": "WORN", "condition": "ALWAYS", "hit_me_effect": [ { "id": "wormhole_symbiosis_random", "hit_self": true, "once_in": 3 } ] },
         {
           "has": "WORN",
           "condition": "ALWAYS",
@@ -1162,6 +1162,90 @@
           "values": [ 
 		  { "value": "ARMOR_BULLET", "add": -25 }
 		  ]
+        }
+      ]
+    },
+    "covers": [ "torso" ],
+    "flags": [
+      "AURA",
+      "SEMITANGIBLE",
+      "OVERSIZE",
+      "ONLY_ONE",
+      "TRADER_AVOID",
+      "NO_TAKEOFF",
+      "NONCONDUCTIVE",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "cockatrice_aura",
+    "type": "ARMOR",
+    "name": { "str": "petrified", "str_pl": "petrifieds" },
+    "description": "You are petrified and can't move or take any real damage.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "o",
+    "color": "blue",
+	"material": [ "lightceramic" ], 
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+		  { "value": "ARMOR_BULLET", "add": -500 },
+		  { "value": "ARMOR_BASH", "add": -500 },
+		  { "value": "ARMOR_STAB", "add": -500 },
+		  { "value": "ARMOR_CUT", "add": -500 },
+          { "value": "ARMOR_HEAT", "add": -500 },
+		  { "value": "ARMOR_COLD", "add": -500 },
+		  { "value": "ARMOR_ELEC", "add": -500 },
+		  { "value": "ARMOR_ACID", "add": -500 },
+		  { "value": "ARMOR_BIO", "add": -500 }		  
+		  ]
+        }
+      ]
+    },
+    "covers": [ "torso" ],
+    "flags": [
+      "AURA",
+      "SEMITANGIBLE",
+      "OVERSIZE",
+      "ONLY_ONE",
+      "TRADER_AVOID",
+      "NO_TAKEOFF",
+      "NONCONDUCTIVE",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "moonsilver_aura",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "lycanthropy", "str_pl": "lycanthropy" },
+    "description": "You are moonsilver incarnate, the aspect of the Wolf. You embody it in every way, stronger and faster than you thought possible. Additionally, your attacks are faster and you heal from attacking.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "o",
+    "color": "blue",
+	"material": [ "lightceramic" ], 
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+		  "hit_you_effect": [ { "id": "moonsilver_heal", "hit_self": true, "once_in": 3 } ],
+		  "values": [ 
+		  { "value": "STRENGTH", "add": 4 },
+		  { "value": "DEXTERITY", "add": 2 },
+		  { "value": "ARMOR_STAB", "add": -5 },
+		  { "value": "ARMOR_CUT", "add": -5 },
+          { "value": "ARMOR_BASH", "add": -5 },
+		  { "value": "BONUS_DODGE", "add": 2 },
+		  { "value": "STAMINA_REGEN", "multiply": 2 },
+          { "value": "SPEED", "add": 10 },
+          { "value": "ATTACK_COST", "add": -30 }
+		  ],
+          "mutations": [ "PAWS_LARGE", "GROWL", "SHOUT3", "GOODCARDIO2", "GOURMAND", "KILLER", "PRETTY", "ANIMALDISCORD", "NIGHTVISION2", "FANGS", "LUPINE_FUR", "PADDED_FEET", "STRONG_LEGS", "TAIL_FLUFFY", "LUPINE_EARS", "MUZZLE", "PERSISTENCE_HUNTER2"  ]
         }
       ]
     },

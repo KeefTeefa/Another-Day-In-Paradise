@@ -28,8 +28,8 @@
 	"final_casting_time": 100,
     "casting_time_increment": -5,
     "energy_source": "STAMINA",
-    "base_energy_cost": 2500,
-	"final_energy_cost": 2000, 
+    "base_energy_cost": 4500,
+	"final_energy_cost": 4000, 
 	"energy_increment": -50
   },
   {

@@ -185,10 +185,10 @@
     "id": "mon_divine_elk_calf",
     "type": "MONSTER",
     "name": { "str_sp": "divine calf" },
-    "description": "A baby elk with little wooden antlers getting ready to shoot out of the top of it's head. It has a thin layer of leaves all over it's body, which it shakes off on to your carpet every once in a while. Still, it gets bigger and more majestic every day.",
+    "description": "A baby elk with little wooden antlers getting ready to shoot out of the top of it's head. It has a thin layer of bark all over it's body, which it shakes off on to your carpet every once in a while. Still, it gets bigger and more majestic every day.",
     "default_faction": "herbivore",
     "bodytype": "quadruped",
-	"looks_like": "mon_zoose_thorny",
+	"looks_like": "mon_moose",
     "categories": [ "WILDLIFE" ],
     "species": [ "MAMMAL" ],
     "volume": "133000 ml",
@@ -1560,6 +1560,7 @@
       "BASHES",
 	  "CAN_BE_ORDERED", 
       "GROUP_BASH",
+	  "NO_BREATHE",
       "HUMAN",
 	  "CLIMBS"
     ]
@@ -1608,7 +1609,7 @@
   "harvest": "walker",
   "grab_strength": 10,
   "special_attacks": [
-    { "type": "bite", "cooldown": 3 }, [ "GRAB", 2 ], [ "scratch", 15 ]
+    { "type": "bite", "cooldown": 3 }, [ "GRAB", 1 ], [ "scratch", 5 ]
   ],
   "death_drops": "everyday_gear",
   "burn_into": "mon_zombie_scorched",
@@ -1655,10 +1656,11 @@
     "armor_bullet": 22,
     "armor_acid": 5,
     "vision_day": 35,
-    "vision_night": 35,
+    "vision_night": 25,
 	"regenerates": 1, 
 	"regeneration_modifiers": [ { "effect": "blind", "base_mod": -1 } ],
     "harvest": "human_maybe_survivalist_bionics",
+	"path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
     "starting_ammo": { "45_acp": 30, "bot_flashbang_hack": 3 },
 	"regen_morale": true,
     "special_attacks": [
@@ -1726,10 +1728,11 @@
     "armor_bullet": 22,
     "armor_acid": 5,
     "vision_day": 35,
-    "vision_night": 35,
+    "vision_night": 25,
 	"regenerates": 1, 
 	"regeneration_modifiers": [ { "effect": "blind", "base_mod": -1 } ],
     "harvest": "human_maybe_survivalist_bionics",
+	"path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
     "starting_ammo": { "45_acp": 30, "bot_flashbang_hack": 3 },
 	"regen_morale": true,
     "special_attacks": [
@@ -1797,8 +1800,9 @@
     "armor_bullet": 22,
     "armor_acid": 5,
     "vision_day": 35,
-    "vision_night": 35,
+    "vision_night": 25,
     "harvest": "human_maybe_survivalist_bionics",
+	"path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
 	"regenerates": 1, 
 	"regeneration_modifiers": [ { "effect": "blind", "base_mod": -1 } ],
     "starting_ammo": { "shot_he": 8, "bot_flashbang_hack": 3 },
@@ -1868,8 +1872,9 @@
     "armor_bullet": 22,
     "armor_acid": 5,
     "vision_day": 35,
-    "vision_night": 35,
+    "vision_night": 25,
     "harvest": "human_maybe_survivalist_bionics",
+	"path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
 	"regenerates": 1, 
 	"regeneration_modifiers": [ { "effect": "blind", "base_mod": -1 } ],
     "starting_ammo": { "300blk": 30, "bot_flashbang_hack": 3 },
@@ -1939,8 +1944,9 @@
     "armor_bullet": 22,
     "armor_acid": 5,
     "vision_day": 35,
-    "vision_night": 35,
+    "vision_night": 25,
     "harvest": "human_maybe_survivalist_bionics",
+	"path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
 	"regenerates": 1, 
 	"regeneration_modifiers": [ { "effect": "blind", "base_mod": -1 } ],
     "starting_ammo": { "300blk": 30 },
@@ -2089,6 +2095,7 @@
     "armor_acid": 5,
     "vision_day": 50,
     "vision_night": 50,
+	"path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
 	"regenerates": 2, 
 	"regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1 } ],
     "harvest": "human_maybe_survivalist_bionics",
@@ -2132,5 +2139,68 @@
       "PATH_AVOID_DANGER_1"
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "STALK" ]
+  },
+  {
+    "id": "mon_rattlesnake_giant",
+	"copy-from": "mon_rattlesnake_giant",
+    "type": "MONSTER",
+    "name": { "str": "giant rattlesnake" },
+    "description": "A mutated timber rattlesnake, about three times as large as the norm.  While it isn't big enough to regard humans as potential prey, it is more aggressive and dangerous compared to a normal rattler.",
+    "default_faction": "animal",
+    "bodytype": "snake",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "REPTILE" ],
+    "diff": 2,
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 48,
+    "speed": 100,
+	"attack_effs": [
+      { "id": "venom_weaken", "duration": 33 },
+	  { "id": "venom_weaken", "duration": 33 },
+	  { "id": "venom_weaken", "duration": 33 },
+	  { "id": "venom_weaken", "duration": 33 }
+    ],
+	"special_attacks": [
+      [ "RATTLE", 6 ],
+      {
+        "type": "bite",
+        "cooldown": 5,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.7 } ]
+      }
+    ],
+    "harvest": "giant_rattlesnake_harvest"
+  },
+  {
+    "id": "mon_cockatrice",
+    "type": "MONSTER",
+    "name": { "str": "cockatrice" },
+	"copy-from": "mon_cockatrice",
+    "description": "This strange mutant bird gains its name from its odd appearance. In the newly found Paradise, these birds have grown to five times their pre-Cataclysm ancestor's size. A murderous gleam glows in the reptilian eyes, it's beak and rooster's claws dripping with a paralyzing poison. At least somebody is doing well.",
+    "default_faction": "small_animal",
+	"mountable_weight_ratio": 0.1,
+    "bodytype": "bird",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "BIRD" ],
+    "volume": "3750 ml",
+    "weight": "5 kg",
+    "hp": 80,
+    "speed": 130,
+	"morale": 10,
+    "material": [ "flesh" ],
+	"fear_triggers": [ "FIRE" ], 
+	"anger_triggers": [ "PLAYER_CLOSE", "STALK" ], 
+    "symbol": "v",
+    "color": "red",
+    "looks_like": "mon_cockatrice",
+    "aggression": 100,
+	"attack_effs": [
+      { "id": "paralyzepoison", "duration": 33 },
+	  { "id": "paralyzepoison", "duration": 33 },
+	  { "id": "paralyzepoison", "duration": 33 }
+    ],
+    "reproduction": { "baby_egg": "egg_cockatrice", "baby_count": 3, "baby_timer": 5 },
+	"petfood": { "food": [ "BIRDFOOD" ], "feed": "The %s seems to like you! It lets you pat its head and seems friendly." },
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "PET_MOUNTABLE" ]
   }
 ]

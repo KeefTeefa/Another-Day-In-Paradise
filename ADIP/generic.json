@@ -101,7 +101,7 @@
     "skills": [ { "name": "cooking", "level": 7 } ],
     "items": {
       "both": {
-        "items": [ "hat_chef", "jacket_chef", "smart_phone", "pants_checkered", "socks", "dress_shoes", "paradise_cooking", "mbag", "mandrake_root", "brineweed", "sedge_buds", "divine_clementine", "wandwood_branch" ],
+        "items": [ "hat_chef", "jacket_chef", "smart_phone", "pants_checkered", "socks", "dress_shoes", "paradise_cooking", "mbag", "mandrake_root", "brineweed", "sedge_buds", "divine_clementine", "wandwood_branch", "scalpel" ],
         "entries": [ { "item": "knife_butcher", "container-item": "sheath" } ]
       },
       "male": [ "briefs" ],
@@ -494,7 +494,7 @@
     "weight": "10 g",
     "use_action": {
       "type": "reveal_map",
-      "radius": 120,
+      "radius": 180,
       "message": "You add the alien outposts to your map.",
       "terrain": [
         "mi-go_camp1",
@@ -510,7 +510,8 @@
   },
   {
     "id": "ice_badge",
-    "type": "ARMOR",
+    "type": "TOOL_ARMOR",
+	"copy-from": "abstractmap",
     "name": { "str": "I.C.E badge", "str_pl": "I.C.E badges" },
     "description": "An official badge of office for Immigrations and Customs Enforcement.",
     "weight": "1 g",
@@ -520,8 +521,8 @@
     "color": "magenta",
 	"use_action": {
       "type": "reveal_map",
-      "radius": 3000,
-      "message": "You flip up the badge and the I.C.E badge reveals itself to be a tracking beacon. You look over the history to see solely military outposts with one lone... subway station? The log ends there.",
+      "radius": 180,
+      "message": "You flip up the badge and the I.C.E badge reveals itself to be a tracking beacon. You look over the history to see solely military outposts and subway stations. The log ends there.",
       "terrain": [
         "outpost",
 		"microlab_sub_station",
@@ -544,8 +545,8 @@
 	"looks_like": "paper",
 	"use_action": {
       "type": "reveal_map",
-      "radius": 1000,
-      "message": "",
+      "radius": 180,
+      "message": "You commit the addresses to memory.",
       "terrain": [
         "municipal_reactor",
 		"municipal_reactor_ware",
@@ -856,16 +857,17 @@
     "name": { "str": "Cook's Book", "str_pl": "copies of Cook's Book" },
     "description": "A classic, the true to life tale of the explorer who discovered America written in the style of a cookbook. Inside, they document a culinary rollercoaster as they navigate the poisonous landscape! From circling fish in a mountainside pond to chasing down mandrake root in the swamps of what would be Florida. How about nearly drowning while picking brineweed barnacle out of the Mississippi? That's to say nothing of Cook's greatest discovery, an ancient blood-red tree growing over a hot spring that would come to be known as 'divine.' He used this tree as an energy source, and created what's now known as a 'rubber shrub.' He was able to produce his infamous 'jungle juice,' solidifying America's position as a superpower before it was ever even a country. It's all just another day in paradise.",
     "volume": "1750 ml",
+	"weight": "8000 g",
     "price": "90 USD",
 	"looks_like": "base_book",
     "price_postapoc": "20 USD",
     "bashing": 7,
     "color": "light_green",
     "skill": "cooking",
-    "required_level": 6,
+    "required_level": 1,
     "max_level": 10,
-    "intelligence": 10,
-    "time": "30 m",
+    "intelligence": 6,
+    "time": "2 h",
     "fun": 12
   },
   {
@@ -998,8 +1000,19 @@
   {
     "id": "omnigas_recipe",
     "type": "BOOK",
-    "name": { "str": "omnigas formula", "str_pl": "omnigas formula" },
+    "name": { "str": "omnigas formula", "str_pl": "omnigas formulas" },
     "description": "A scrap of paper with a chemical formula for something called 'Omnigas.'",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "?",
+	"looks_like": "paper",
+    "color": "magenta"
+  },
+  {
+    "id": "moonsilver_recipe",
+    "type": "BOOK",
+    "name": { "str": "moonsilver formula", "str_pl": "moonsilver formulas" },
+    "description": "A scrap of paper with a chemical formula for something called 'Moonsilver.'",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "?",
@@ -1056,5 +1069,50 @@
     "color": "red",
 	"use_action": { "type": "cast_spell", "spell_id": "place_pocket_doc_computer", "no_fail": true, "level": 10 },
     "flags": [ "NUTRIENT_OVERRIDE", "INEDIBLE" ]
+  },
+  {
+    "id": "buckler_ballistic",
+    "type": "ARMOR",
+    "name": { "str": "ballistic buckler" },
+    "description": "A heavy composite shield used by SWAT teams and other armed forces. This one has been cut down to reduce encumberance and allow use of both hands while worn. It can handle the occasional pistol bullet, but only covers about half an arm.",
+    "weight": "5 kg",
+    "volume": "3 L",
+    "price": "1000 USD",
+    "price_postapoc": "50 USD",
+    "to_hit": -3,
+    "bashing": 12,
+    "material": [ "ceramic", "kevlar_rigid" ],
+    "repairs_like": "shield_banded_large",
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "arm_either", "hand_either" ],
+    "coverage": 50,
+    "encumbrance": 15,
+    "material_thickness": 5,
+    "environmental_protection": 2,
+    "techniques": [ "WBLOCK_2" ],
+    "flags": [ "OVERSIZE", "BELTED", "BLOCK_WHILE_WORN", "POWERARMOR_COMPATIBLE" ]
+  },
+  {
+    "id": "buckler_riot",
+    "type": "ARMOR",
+    "name": { "str": "riot buckler" },
+    "description": "A light plastic shield, originally designed for riot police officers and then chopped down to size. You can use both hands while it's worn, but it only covers about half an arm. Not too encumbering, but designed for fending off thrown rocks rather than bullets.",
+    "weight": "2500 g",
+    "volume": "5 L",
+    "price": "200 USD",
+    "price_postapoc": "25 USD",
+    "to_hit": -1,
+    "bashing": 4,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "arm_either", "hand_either" ],
+    "coverage": 50,
+    "encumbrance": 5,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "techniques": [ "WBLOCK_3" ],
+    "flags": [ "OVERSIZE", "BELTED", "BLOCK_WHILE_WORN", "POWERARMOR_COMPATIBLE" ]
   }
 ]

@@ -5,18 +5,52 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 2,
+    "difficulty": 3,
     "skills_required": [ "cooking", 5 ],
     "time": "60 m",
     "autolearn": [ [ "cooking", 5 ] ],
-	"contained": false,  
     "book_learn": [
 	  [ "paradise_cooking", 1 ],
 	  [ "isherwood_herbal_remedies", 1 ]
     ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "components": [ [ [ "chunk_sulfur", 1 ] ], [ [ "blood", 1 ] ], [ [ "veggy", 1 ] ], [ [ "effervescent_genetics", 1 ] ] ]
+    "components": [ [ [ "chem_sulphuric_acid", 10 ] ], [ [ "chem_muriatic_acid", 1 ] ], [ [ "chem_ammonium_nitrate_pellets", 1 ] ], [ [ "effervescent_genetics", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "accursed_tree_seed",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PARADISE",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "skills_required": [ "cooking", 8 ],
+    "time": "60 m",
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [
+	  [ "paradise_cooking", 1 ],
+	  [ "recipe_serum", 1 ]
+    ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
+    "components": [ [ [ "chem_sulphuric_acid", 10 ] ], [ [ "chem_manganese_dioxide", 1 ] ], [ [ "chem_anfo", 1 ] ], [ [ "effervescent_genetics", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "biohazard_book",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PARADISE",
+    "skill_used": "cooking",
+    "difficulty": 10,
+    "skills_required": [ "cooking", 10 ],
+    "time": "12 h",
+    "autolearn": [ [ "cooking", 10 ] ],
+    "book_learn": [
+	  [ "recipe_serum", 1 ]
+    ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 3 }, { "id": "DISTILL", "level": 1 }, { "id": "RUBBER", "level": 2 } ],
+    "tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "chem_sulphuric_acid", 100 ] ], [ [ "blood", 100 ] ], [ [ "heavy_atomic_battery_cell", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -415,7 +449,7 @@
 	[ [ "effervescent_genetics", 1 ], [ "meat_frond", 3 ], [ "detoxified_leech_flower", 1 ] ],
 	[ [ "water_clean", 1 ] ],
 	[ [ "tallow", 1 ] ],
-	[ [ "ant_egg", 1 ], [ "egg_dragonfly", 1 ], [ "egg_wasp", 1 ] ], 
+	[ [ "ant_egg", 1 ], [ "egg_dragonfly", 1 ], [ "egg_wasp", 1 ], [ "egg_cockatrice", 1 ] ], 
 	  [
 		[ "offals_cooked", 1, "LIST" ],
 		[ "boiled_chitin", 1 ],
@@ -562,7 +596,7 @@
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
     "difficulty": 2, 
-    "time": "5 m",
+    "time": "30 m",
 	"charges": 1, 
     "autolearn": [ [ "cooking", 2 ] ],
 	"contained": false,  
@@ -570,7 +604,7 @@
     "qualities": [ { "id": "BOIL", "level": 1 } ],
 	"tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [ 
-	[ [ "chitin_piece", 1 ] ], 
+	[ [ "chitin_piece", 1 ], [ "scute_piece", 1 ] ], 
 	[ [ "seasoning_mild", 10, "LIST" ] ]
 	]
   },
@@ -687,7 +721,7 @@
     "components": [ 
 	[ [ "shock_jock_book", 1 ], [ "detoxified_leech_flower", 1 ] ], 
 	[ [ "chocolate", 10 ], [ "brineweed", 1 ] ], 
-	[ [ "mandrake_root", 10 ], [ "horseradish", 10 ], [ "chunk_sulfur", 10 ], [ "ground_wandwood", 10 ] ],
+	[ [ "mandrake_root", 10 ], [ "horseradish", 10 ], [ "chunk_sulfur", 10 ], [ "ground_wandwood", 10 ], [ "giant_rattlesnake_gland", 1 ] ],
 	[ [ "sugar", 10 ] ]
 	]
   },
@@ -697,15 +731,15 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 5, 
+    "difficulty": 1, 
     "time": "10 m",
 	"charges": 1, 
-    "autolearn": [ [ "cooking", 5 ] ],
+    "autolearn": [ [ "cooking", 3 ] ],
     "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook", 1 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
     "components": [ 
-	[ [ "fish_cooked_seasoned", 1 ], [ "meat_cooked_seasoned", 1 ] ], 
+	[ [ "meat_red_cooked", 1, "LIST" ] ],
 	[ [ "cheese_any", 1, "LIST" ] ],
 	[ [ "jam_fruit", 10 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -725,7 +759,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "HEAT", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ],
+	[ [ "meat_red_cooked", 1, "LIST" ] ], 
     [ [ "cheese_any", 1, "LIST" ] ],	
 	[ [ "divine_jam_dex", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -745,7 +779,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "COLD", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
+	[ [ "meat_red_cooked", 1, "LIST" ] ],  
     [ [ "cheese_any", 1, "LIST" ] ],	
 	[ [ "divine_jam_per", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -765,7 +799,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "ACID", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
+	[ [ "meat_red_cooked", 1, "LIST" ] ], 
     [ [ "cheese_any", 1, "LIST" ] ],	
 	[ [ "divine_jam_int", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -785,7 +819,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "BIOLOGICAL", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
+	[ [ "meat_red_cooked", 1, "LIST" ] ], 
 	[ [ "cheese_any", 1, "LIST" ] ],
 	[ [ "divine_clementine_jam", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -805,7 +839,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "ELECTRICAL", "level": 1 } ],
     "components": [ 
-	[ [ "fish_smoked", 1 ], [ "meat_smoked", 1 ] ], 
+	[ [ "meat_red_cooked", 1, "LIST" ] ],
 	[ [ "cheese_any", 1, "LIST" ] ],
 	[ [ "divine_jam_str", 1 ] ], 
 	[ [ "boiled_chitin", 1 ] ]
@@ -871,11 +905,11 @@
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
     "time": "5 m",
-	"difficulty": 5,
+	"difficulty": 3,
     "autolearn": [ [ "cooking", 5 ] ],
 	"book_learn": [  [ "paradise_cooking", 3 ], [ "cookbook_human", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "bread_sandwich", 2, "LIST" ] ], [ [ "cheese_any", 1, "LIST" ] ], [ [ "divine_jam_int", 1 ], [ "razorclaw_caviar", 1 ] ], [ [ "smoked_palm", 1 ] ], [ [ "mayonnaise", 1 ], [ "ketchup", 1 ], [ "mustard", 1 ], [ "horseradish", 1 ] ] ]
+    "components": [ [ [ "bread_sandwich", 2, "LIST" ] ], [ [ "cheese_any", 1, "LIST" ] ], [ [ "divine_jam_int", 1 ], [ "razorclaw_caviar", 1 ] ], [ [ "smoked_palm", 1 ], [ "tailors_fingers", 1 ] ], [ [ "mayonnaise", 1 ], [ "ketchup", 1 ], [ "mustard", 1 ], [ "horseradish", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -989,13 +1023,13 @@
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
     "time": "2 h",
-	"difficulty": 5,
+	"difficulty": 3,
     "autolearn": [ [ "cooking", 5 ] ],
     "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "BOIL", "level": 1 }, { "id": "COOK", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
-    "components": [ [ [ "carrot", 1 ], [ "mandrake_root", 1 ], [ "bee_sting", 1 ] ], [ [ "sedge_buds", 1 ] ] ]
+    "components": [ [ [ "carrot", 1 ], [ "mandrake_root", 1 ], [ "bee_sting", 1 ], [ "giant_rattlesnake_gland", 1 ], [ "wandwood_branch", 1 ], [ "leadbelly", 1 ] ], [ [ "sedge_buds", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -1020,7 +1054,7 @@
     "autolearn": [ [ "cooking", 5 ] ],
     "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ] ],
 	"tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "components": [ [ [ "chitin_charcuterie_heat", 1 ] ], [ [ "sedge_sticks", 1 ] ], [ [ "bee_sting", 1 ] ] ]
+    "components": [ [ [ "chitin_charcuterie_heat", 1 ] ], [ [ "sedge_sticks", 1 ] ], [ [ "bee_sting", 1 ], [ "giant_rattlesnake_gland", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -1392,7 +1426,7 @@
     "tools": [ [ [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
       [ [ "yinyang_koi_egg", 1 ] ],
-      [ [ "garlic_clove", 2 ] ],
+      [ [ "garlic_clove", 2 ], [ "giant_rattlesnake_gland", 1 ] ],
       [ [ "brain", 4 ] ],
       [ [ "batter", 4, "LIST" ] ],
       [ [ "onion", 1 ], [ "irradiated_onion", 1 ] ],
@@ -1417,7 +1451,7 @@
     "tools": [ [ [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
       [ [ "yinyang_koi_egg", 1 ] ],
-      [ [ "garlic_clove", 2 ] ],
+      [ [ "garlic_clove", 2 ], [ "giant_rattlesnake_gland", 1 ] ],
       [ [ "brain", 4 ] ],
       [ [ "batter", 4, "LIST" ] ],
       [ [ "divine_fruit_ascension", 1 ] ],
@@ -1595,7 +1629,7 @@
     "tools": [ [ [ "food_processor", 20 ] ] ],
     "components": [ 
 	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "animal_blood_concentrate", 9 ] ]
+	[ [ "animal_blood_concentrate", 9 ], [ "moonsilver", 1 ] ]
 	]
   },
   {

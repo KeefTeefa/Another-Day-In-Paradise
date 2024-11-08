@@ -61,7 +61,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "name": { "str": "brineweed", "str_pl": "brineweeds" },
-    "description": "A spiny bristling plant covered in barnacles that contain a delicious salty brine. The plant itself has a suprisingly sweet undertone that compliments the brine.",
+    "description": "A spiny bristling plant covered in barnacles that contain a delicious salty brine. The plant itself has a suprisingly sweet undertone that compliments the brine. It's flopping around like a fish, completely filled to the brim with life. Must be something in the water.",
     "weight": "6 g",
     "volume": "10 ml",
     "price": "34 USD",
@@ -71,7 +71,7 @@
     "material": "flesh",
     "symbol": ".",
     "color": "red",
-	"seed_data": { "plant_name": "budding brineweed", "fruit": "brineweed", "seeds": true, "byproducts": [ "brineweed" ], "grow": "7 days", "required_terrain_flag": "SHALLOW_WATER" },
+	"seed_data": { "plant_name": "budding brineweed", "fruit": "brineweed", "seeds": true, "byproducts": [ "brineweed" ], "grow": "9 days", "required_terrain_flag": "DIVINE" },
     "fun": 10,
 	"use_action": {
       "type": "consume_drug",
@@ -922,5 +922,39 @@
       "skills": [ "speech" ]
     },
     "flags": [ "NUTRIENT_OVERRIDE", "NPC_SAFE", "INEDIBLE", "LIGHT_10" ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "giant_rattlesnake_gland",
+    "name": "giant rattlesnake venom gland",
+    "weight": "24 g",
+    "color": "red",
+    "spoils_in": "30 days",
+    "comestible_type": "FOOD",
+    "symbol": "o",
+    "quench": 4,
+    "healthy": -50,
+    "calories": 34,
+    "description": "The venom gland of a giant rattlesnake, much more potent than a normal rattlesnake venom gland. Once cooked it loses potency, taking on a unique aromatic spiciness. It probably wouldn't kill you as is, but anything in your stomach won't like it. Might shock the snot out of you too.",
+    "price": "50 cent",
+    "price_postapoc": "1 USD",
+    "material": "egg",
+    "volume": "25 ml",
+    "stack_size": 1,
+	"use_action": {
+      "type": "consume_drug",
+      "activation_message": "You ate the venom gland raw.",
+      "effects": [ { "id": "venom_weaken", "duration": "1 hour" }, { "id": "venom_dmg", "duration": "1 minute" }, { "id": "cureall_lesser", "duration": "1 second" } ]
+    },
+    "fun": -10,
+    "flags": [ "RAW" ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_cockatrice",
+    "name": "cockatrice egg",
+	"spoils_in": "30 days", 
+	"use_action": { "type": "cast_spell", "spell_id": "eat_cockatrice_egg", "no_fail": true, "level": 10 },
+    "copy-from": "egg_cockatrice"
   }
 ]

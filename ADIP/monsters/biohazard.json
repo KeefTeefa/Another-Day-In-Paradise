@@ -167,8 +167,8 @@
 	"looks_like": "mon_crawler", 
     "volume": "62500 ml",
     "weight": "81500 g",
-    "hp": 600,
-    "speed": 80,
+    "hp": 1300,
+    "speed": 100,
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "dark_gray_yellow",
@@ -187,7 +187,7 @@
 	"upgrades": { "half_life": 365, "into": "mon_ascended" },
 	"starting_ammo": { "bolt_cf_biohazard": 9 },
 	"emit_fields": [
-	  { "emit_id": "emit_nuke_gas", "delay": "10 s" }
+	  { "emit_id": "emit_nuke_gas", "delay": "5 s" }
     ],
     "special_attacks": [ 
 	[ "GRAB", 7 ], [ "RANGED_PULL", 20 ], [ "ZOMBIE_FUSE", 80 ], [ "FLESH_GOLEM", 10 ], [ "ABSORB_MEAT", 9 ], [ "FEAR_PARALYZE", 8 ], [ "RESURRECT", 11 ], [ "PARROT_AT_DANGER", 6 ],
