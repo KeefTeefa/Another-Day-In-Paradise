@@ -362,8 +362,8 @@
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
-    "difficulty": 8,
+	"book_learn": [ [ "vergery", 5 ] ],
+    "difficulty": 7,
     "time": "8 h",
 	"qualities": [
       { "id": "RUBBER", "level": 2 },
@@ -373,8 +373,8 @@
 	  { "id": "KNIT", "level": 1 },
 	  { "id": "LEATHER_AWL", "level": 2 }
     ],
-    "autolearn": [ [ "tailor", 8 ] ],
-    "components": [ [ [ "wandwood_branch", 10 ] ], [ [ "blood", 100 ] ], [ [ "sinew", 1000 ] ] ]
+    "autolearn": [ [ "tailor", 7 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "blood", 100 ] ], [ [ "wandwood_branch", 10 ] ], [ [ "sinew", 1000 ] ] ]
   },
   {
     "result": "tailors_fingers",
@@ -382,7 +382,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_OTHER",
     "skill_used": "tailor",
-	"book_learn": [ [ "vergery", 1 ] ],
+	"book_learn": [ [ "vergery", 10 ] ],
     "difficulty": 10,
     "time": "8 h",
 	"qualities": [
@@ -394,7 +394,139 @@
 	  { "id": "LEATHER_AWL", "level": 2 }
     ],
     "autolearn": [ [ "tailor", 10 ] ],
-    "components": [ [ [ "wandwood_branch", 100 ] ], [ [ "pheromone", 1000 ] ], [ [ "sinew", 1000 ] ] ]
+    "components": [ [ [ "wandwood_branch", 100 ], [ "cured_barkskin", 100 ] ], [ [ "pheromone", 1000 ] ], [ [ "sinew", 1000 ] ] ]
+  },
+  {
+    "result": "wandwood_branch",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 3 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+	"qualities": [
+      { "id": "ACCURSED", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 5 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "sinew", 100 ] ] ]
+  },
+  {
+    "result": "barkskin_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 3 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+	"qualities": [
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 7 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "nomex_suit", 1 ] ] ]
+  },
+  {
+    "result": "flameskin_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 5 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+	"qualities": [
+	  { "id": "HEAT", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 7 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "nomex_suit", 1 ] ] ]
+  },
+  {
+    "result": "iceskin_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 5 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+	"qualities": [
+	  { "id": "COLD", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 7 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "nomex_suit", 1 ] ] ]
+  },
+  {
+    "result": "chargeskin_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 5 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+	"qualities": [
+	  { "id": "ELECTRICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 7 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "nomex_suit", 1 ] ] ]
+  },
+  {
+    "result": "corroskin_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 5 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+	"qualities": [
+	  { "id": "ACID", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 7 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "nomex_suit", 1 ] ] ]
+  },
+  {
+    "result": "lifeskin_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+	"book_learn": [ [ "vergery", 5 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+	"qualities": [
+	  { "id": "BIOLOGICAL", "level": 1 },
+	  { "id": "SEW_CURVED", "level": 1 },
+	  { "id": "SEW", "level": 4 },
+	  { "id": "KNIT", "level": 1 },
+	  { "id": "LEATHER_AWL", "level": 2 }
+    ],
+    "autolearn": [ [ "tailor", 7 ] ],
+    "components": [ [ [ "cured_barkskin", 10 ] ], [ [ "nomex_suit", 1 ] ] ]
   },
   {
     "result": "illusory_duster",

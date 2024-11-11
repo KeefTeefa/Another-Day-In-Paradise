@@ -956,5 +956,28 @@
 	"spoils_in": "30 days", 
 	"use_action": { "type": "cast_spell", "spell_id": "eat_cockatrice_egg", "no_fail": true, "level": 10 },
     "copy-from": "egg_cockatrice"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "barkskin",
+    "category": "spare_parts",
+    "name": "barkskin",
+    "weight": "114 g",
+    "volume": "170 ml",
+    "color": "brown",
+    "spoils_in": "14 day 12 hours",
+    "comestible_type": "FOOD",
+    "symbol": ",",
+    "quench": 20,
+    "healthy": 5,
+    "calories": 350,
+    "description": "A carefully folded raw skin harvested from a creature of living bark.  It still has some leaves attached.  You can cure it for storage and tanning, or eat it if you're desperate enough.",
+    "price": "330 cent",
+    "price_postapoc": "1 USD",
+    "material": [ "barkskin", "veggy" ],
+    "flags": [ "NO_SALVAGE", "TRADER_AVOID", "SMOKABLE" ],
+    "smoking_result": "cured_barkskin",
+    "stack_size": 1,
+    "fun": 24
   }
 ]

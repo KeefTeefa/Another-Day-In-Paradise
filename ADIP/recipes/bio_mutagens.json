@@ -1,0 +1,363 @@
+[
+{
+    "type": "recipe",
+    "result": "iv_mutagen",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "mutagen", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_plant",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "biollante_bud", 1 ], [ "datura_seed", 16 ], [ "barkskin", 10 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_spider",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "spider_egg", 1 ], [ "chitin_piece", 4 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_slime",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "sewage", 3 ], [ "slime_scrap", 3 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_fish",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "fish", 2 ], [ "can_sardine", 1 ], [ "can_tuna", 1 ], [ "can_salmon", 1 ], [ "can_herring", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_rat",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "blood_tainted_concentrate", 9 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_beast",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "animal_blood_concentrate", 9 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_feline",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "animal_blood_concentrate", 9 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_lupine",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "animal_blood_concentrate", 9 ], [ "moonsilver", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_cattle",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "animal_blood_concentrate", 9 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_cephalopod",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "can_chowder", 1 ], [ "can_clams", 1 ], [ "blood_tainted_concentrate", 9 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_lizard",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "egg_reptile", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_troglobite",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "animal_blood_concentrate", 9 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_medical",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[
+        [ "heroin", 5 ],
+        [ "oxycodone", 10 ],
+        [ "tramadol", 15 ],
+        [ "diazepam", 15 ],
+        [ "codeine", 20 ],
+        [ "poppy_pain", 20 ]
+      ],
+      [
+        [ "lsd", 5 ],
+        [ "prozac", 10 ],
+        [ "thorazine", 10 ],
+        [ "adderall", 10 ],
+        [ "xanax", 10 ],
+        [ "pills_sleep", 10 ],
+        [ "poppy_sleep", 15 ]
+      ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_alpha",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "mutagen_slime", 2 ], [ "iv_mutagen_slime", 1 ] ],
+    [ [ "mutagen_plant", 2 ], [ "iv_mutagen_plant", 1 ] ],
+    [ [ "mutagen_bird", 2 ], [ "iv_mutagen_bird", 1 ] ],
+    [ [ "purifier", 4 ], [ "iv_purifier", 2 ], [ "jabberwock_jam", 3 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_elfa",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "mutagen_slime", 2 ], [ "iv_mutagen_slime", 1 ] ], [ [ "mutagen_plant", 1 ] ], [ [ "mutagen_bird", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_chimera",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "mutagen_lizard", 1 ] ], [ [ "mutagen_bird", 1 ] ], [ [ "mutagen_beast", 1 ] ], [ [ "mutagen_cattle", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_raptor",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "difficulty": 8, 
+    "time":  "10 m",
+	"charges": 1, 
+    "autolearn": [ [ "cooking", 8 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ 
+	[ [ "biohazard_book", 1 ] ], 
+	[ [ "mutagen_lizard", 1 ] ], [ [ "mutagen_bird", 1 ] ], [ [ "purifier", 1 ], [ "jabberwock_jam", 1 ] ]
+	]
+  }
+]

@@ -159,6 +159,7 @@
     "type": "monstergroup",
     "monsters": [
 	  { "monster": "mon_hemor", "freq": 35, "cost_multiplier": 1 },
+	  { "monster": "mon_scav_hunter", "freq": 10, "cost_multiplier": 1 },
 	  { "monster": "mon_wandwood_brush", "freq": 1, "cost_multiplier": 1, "starts": 3000 },
 	  { "monster": "mon_cockatrice", "freq": 5, "cost_multiplier": 1 },
 	  { "monster": "mon_rattlesnake_giant", "freq": 1, "cost_multiplier": 1 },
@@ -201,6 +202,8 @@
     "type": "monstergroup",
     "monsters": [ 
 	  { "monster": "mon_hemor", "freq": 60, "cost_multiplier": 1 },
+	  { "monster": "mon_scav_hunter", "freq": 1, "cost_multiplier": 1 },
+	  { "monster": "mon_scav_hunter", "freq": 10, "cost_multiplier": 1, "starts": 1500 },
 	  { "monster": "mon_wandwood_brush", "freq": 3, "cost_multiplier": 1, "starts": 1500 },
 	  { "monster": "mon_human_snail", "freq": 5, "cost_multiplier": 1, "starts": 1440 },
 	  { "monster": "mon_twisted_body", "freq": 5, "cost_multiplier": 1, "starts": 1440 },
@@ -250,6 +253,7 @@
     "type": "monstergroup",
     "monsters": [ 
 	  { "monster": "mon_secret_sedge", "freq": 300, "cost_multiplier": 1 },
+	  { "monster": "mon_scav_hunter", "freq": 300, "cost_multiplier": 1 },
 	  { "monster": "mon_psycho_werewolf", "freq": 100, "cost_multiplier": 5 }
     ]
   },
@@ -535,11 +539,8 @@
 	  { "monster": "mon_biohazard", "freq": 5, "cost_multiplier": 5, "starts": 1080 },
 	  { "monster": "mon_feral_labsecurity_9mm", "freq": 10, "cost_multiplier": 1 },
 	  { "monster": "mon_feral_labsecurity_flashlight", "freq": 10, "cost_multiplier": 1 },
-	  { "monster": "mon_feral_fancy_crossbow", "freq": 10, "cost_multiplier": 1 },
 	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1 },
-	  { "monster": "mon_feral_fancy_crossbow", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ] },
 	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "conditions": [ "NIGHT" ] },
-	  { "monster": "mon_feral_fancy_crossbow", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
 	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "starts": 1080 },
 	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "starts": 2160, "pack_size": [ 1, 2 ] },
 	  { "monster": "mon_feral_militia", "freq": 10, "cost_multiplier": 1, "starts": 3600, "pack_size": [ 1, 3 ] },

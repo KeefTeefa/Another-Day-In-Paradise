@@ -287,18 +287,6 @@
     "type": "item_group",
     "id": "military",
     "items": [
-      [ "guntrinket_heat", 10 ],
-	  [ "guntrinket_cold", 10 ],
-	  [ "guntrinket_electric", 10 ],
-	  [ "guntrinket_acid", 10 ],
-	  [ "guntrinket_biological", 10 ],
-	  [ "guntrinket_handling", 10 ],
-	  [ "guntrinket_weight", 10 ],
-	  [ "guntrinket_range", 10 ],
-	  [ "guntrinket_reload", 10 ],
-	  [ "guntrinket_burst", 10 ],
-	  [ "guntrinket_dispersion", 10 ],
-	  [ "divine_clementine", 1 ], 
 	  [ "stamina_regen_potion_1", 5 ]
     ]
   },
@@ -307,7 +295,7 @@
     "id": "infantry_common_gear",
 	"subtype": "collection",
     "items": [
-      { "group": "adip_gunmods_tier1and2", "prob": 10 },
+      { "group": "adip_gunmods_tier1and2", "prob": 5 },
 	  { "item": "stamina_regen_potion", "prob": 5 },
 	  { "item": "stamina_regen_potion_1", "prob": 1 }
     ]

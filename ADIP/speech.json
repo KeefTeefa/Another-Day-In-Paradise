@@ -1279,6 +1279,42 @@
   },
   {
     "type": "speech",
+    "speaker": "mon_scav_hunter",
+    "sound": "the crunch of a branch.",
+    "volume": 25
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_scav_hunter",
+    "sound": "\"Mmmm...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_scav_hunter",
+    "sound": "\"Hungry...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_scav_hunter",
+    "sound": "\"Gotta eat somethin'...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_scav_hunter",
+    "sound": "\"Eeeeeeat...\"",
+    "volume": 15
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_scav_hunter",
+    "sound": "a bird's call that's just slightly off pitch.",
+    "volume": 40
+  },
+  {
+    "type": "speech",
     "speaker": [ "mon_scav_pistol", "mon_scav_smg", "mon_scav_shotgun", "mon_scav_rifle", "mon_scav_clone" ],
     "sound": "\"Is that a cap?? No, that ain't a cap.\"",
     "volume": 20

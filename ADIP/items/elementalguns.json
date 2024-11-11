@@ -171,6 +171,7 @@
     "recoil": 30,
     "durability": 8,
     "reload": 100,
+	"qualities": [ [ "BIOLOGICAL", 1 ] ],
     "valid_mod_locations": [ [ "sling", 1 ], [ "dampening", 1 ], [ "accessories", 1 ], [ "sights", 1 ] ]
   },
   {

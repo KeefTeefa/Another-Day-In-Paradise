@@ -10,8 +10,8 @@
     "time": "60 m",
     "autolearn": [ [ "cooking", 5 ] ],
     "book_learn": [
-	  [ "paradise_cooking", 1 ],
-	  [ "isherwood_herbal_remedies", 1 ]
+	  [ "paradise_cooking", 3 ],
+	  [ "isherwood_herbal_remedies", 5 ]
     ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
@@ -28,12 +28,12 @@
     "time": "60 m",
     "autolearn": [ [ "cooking", 8 ] ],
     "book_learn": [
-	  [ "paradise_cooking", 1 ],
-	  [ "recipe_serum", 1 ]
+	  [ "paradise_cooking", 8 ],
+	  [ "recipe_serum", 8 ]
     ],
-    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 } ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 2 }, { "id": "DISTILL", "level": 1 }, { "id": "RUBBER", "level": 2 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "components": [ [ [ "chem_sulphuric_acid", 10 ] ], [ [ "chem_manganese_dioxide", 1 ] ], [ [ "chem_anfo", 1 ] ], [ [ "effervescent_genetics", 1 ] ] ]
+    "components": [ [ [ "chem_sulphuric_acid", 10 ] ], [ [ "hemor_seed", 1 ] ], [ [ "effervescent_genetics", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -43,14 +43,14 @@
     "skill_used": "cooking",
     "difficulty": 10,
     "skills_required": [ "cooking", 10 ],
-    "time": "12 h",
+    "time": "8 h",
     "autolearn": [ [ "cooking", 10 ] ],
     "book_learn": [
-	  [ "recipe_serum", 1 ]
+	  [ "recipe_serum", 10 ]
     ],
-    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 3 }, { "id": "DISTILL", "level": 1 }, { "id": "RUBBER", "level": 2 } ],
-    "tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "chem_sulphuric_acid", 100 ] ], [ [ "blood", 100 ] ], [ [ "heavy_atomic_battery_cell", 1 ] ] ]
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 3 }, { "id": "DISTILL", "level": 1 }, { "id": "BIOLOGICAL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 100, "LIST" ] ] ],
+    "components": [ [ [ "chem_sulphuric_acid", 10 ], [ "chem_nitric_acid", 10 ], [ "chem_muriatic_acid", 10 ] ], [ [ "chem_thermite", 1 ], [ "chem_rocket_fuel", 1 ] ], [ [ "ether", 10 ], [ "chem_saltpetre", 10 ] ], [ [ "blood", 500 ], [ "hemor_seed", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -64,29 +64,11 @@
     "autolearn": [ [ "tailor", 10 ] ],
 	"contained": false,  
     "book_learn": [
-	  [ "vergery", 1 ]
+	  [ "vergery", 10 ]
     ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 1 }, { "id": "SEW_CURVED", "level": 1 }, { "id": "RUBBER", "level": 2 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
     "components": [ [ [ "chunk_sulfur", 10 ] ], [ [ "pheromone", 10 ] ], [ [ "sinew", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "accursed_tree_seed",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 7,
-    "skills_required": [ "cooking", 8 ],
-    "time": "60 m",
-    "autolearn": [ [ "cooking", 9 ] ],
-	"contained": false,  
-    "book_learn": [
-	  [ "paradise_cooking", 1 ]
-    ],
-    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "RUBBER", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
-    "components": [ [ [ "hemor_seed", 1 ] ], [ [ "blood", 1 ] ] ]
   },
 {
     "type": "recipe",
@@ -125,14 +107,14 @@
     "autolearn": [ [ "cooking", 4 ] ],
 	"contained": false,  
     "book_learn": [
-      [ "pocket_survival", 1 ],
-      [ "survival_book", 1 ],
-      [ "textbook_survival", 1 ],
-      [ "manual_survival", 1 ],
-      [ "mag_survival", 1 ],
-	  [ "paradise_cooking", 1 ],
-	  [ "isherwood_herbal_remedies", 1 ],
-      [ "family_cookbook", 1 ]
+      [ "pocket_survival", 2 ],
+      [ "survival_book", 2 ],
+      [ "textbook_survival", 2 ],
+      [ "manual_survival", 2 ],
+      [ "mag_survival", 2 ],
+	  [ "paradise_cooking", 2 ],
+	  [ "isherwood_herbal_remedies", 2 ],
+      [ "family_cookbook", 2 ]
     ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
@@ -150,10 +132,10 @@
     "autolearn": [ [ "cooking", 6 ] ],
 	"contained": false,  
     "book_learn": [
-      [ "survival_book", 1 ],
-      [ "textbook_survival", 1 ],
-	  [ "paradise_cooking", 8 ],
-      [ "family_cookbook", 1 ]
+      [ "survival_book", 3 ],
+      [ "textbook_survival", 3 ],
+	  [ "paradise_cooking", 3 ],
+      [ "family_cookbook", 3 ]
     ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
@@ -171,9 +153,9 @@
     "time": "240 m",
     "autolearn": [ [ "cooking", 8 ] ],
     "book_learn": [
-      [ "survival_book", 1 ],
-	  [ "paradise_cooking", 1 ],
-	  [ "adv_chemistry", 1 ]
+      [ "survival_book", 4 ],
+	  [ "paradise_cooking", 4 ],
+	  [ "adv_chemistry", 4 ]
     ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CHEM", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
@@ -199,9 +181,9 @@
       [ "atomic_survival", 8 ],
       [ "reference_cooking", 8 ],
 	  [ "paradise_cooking", 8 ],
-      [ "recipe_maiar", 7 ],
-      [ "recipe_serum", 7 ],
-      [ "recipe_labchem", 7 ]
+      [ "recipe_maiar", 8 ],
+      [ "recipe_serum", 8 ],
+      [ "recipe_labchem", 8 ]
     ],
     "using": [ [ "mutagen_production_standard", 25 ] ],
     "components": [
@@ -232,7 +214,7 @@
     "book_learn": [
       [ "sweets_book", 8 ],
 	  [ "paradise_cooking", 8 ],
-      [ "family_cookbook", 7 ]
+      [ "family_cookbook", 8 ]
     ],
     "components": [
       [
@@ -252,7 +234,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 3 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "sweets_book", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 3 ], [ "sweets_book", 3 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "HAMMER", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
@@ -337,7 +319,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 9 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 9 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
     "tools": [ [ [ "food_processor", 20 ] ] ],
@@ -354,7 +336,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 9 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 9 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
     "tools": [ [ [ "food_processor", 20 ] ] ],
@@ -371,7 +353,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 9 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 9 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
     "tools": [ [ [ "food_processor", 20 ] ] ],
@@ -388,7 +370,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 9 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 9 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
     "tools": [ [ [ "food_processor", 20 ] ] ],
@@ -405,7 +387,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 3 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "recipe_animal", 1 ], [ "offalcooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 2 ], [ "recipe_animal", 2 ], [ "offalcooking", 2 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
@@ -422,7 +404,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 5 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "recipe_animal", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 5 ], [ "recipe_animal", 5 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
@@ -439,7 +421,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 7 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "recipe_animal", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 7 ], [ "recipe_animal", 7 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "BOIL", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
@@ -485,7 +467,7 @@
     "batch_time_factors": [ 50, 3 ],
 	"contained": false,  
     "autolearn": [ [ "cooking", 10 ] ],
-    "book_learn": [ [ "paradise_cooking", 2 ] ],
+    "book_learn": [ [ "paradise_cooking", 8 ] ],
     "qualities": [ { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 }, { "id": "DIVINE", "level": 1 }, { "id": "CUT", "level": 2 } ],
     "tools": [ [ [ "water_boiling_heat", 21, "LIST" ] ] ],
     "components": [ [ [ "worthy_wine", 3, "LIST" ] ], [ [ "effervescent_genetics", 1 ] ], [ [ "sedge_buds", 5 ] ], [ [ "divine_clementine", 1 ] ], [ [ "iceman_book", 1 ] ] ]
@@ -501,7 +483,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 7 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 7 ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT_FINE", "level": 2 }, { "id": "CUT", "level": 1 }, { "id": "BUTCHER", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [ 
@@ -530,7 +512,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 7 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 7 ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT_FINE", "level": 2 }, { "id": "CUT", "level": 1 }, { "id": "BUTCHER", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 30 ] ] ],
     "components": [ 
@@ -553,7 +535,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 7 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 7 ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT_FINE", "level": 2 }, { "id": "CUT", "level": 1 }, { "id": "BUTCHER", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [ 
@@ -582,7 +564,7 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 3 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 3 ], [ "cookbook_daintydishes", 3 ] ],
     "qualities": [ { "id": "PRY", "level": 2 }, { "id": "CUT_FINE", "level": 2 }, { "id": "CONTAIN", "level": 1 } ],
     "components": [ 
 	[ [ "razorclaw_roe", 1 ] ], 
@@ -600,11 +582,11 @@
 	"charges": 1, 
     "autolearn": [ [ "cooking", 2 ] ],
 	"contained": false,  
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 2 ], [ "cookbook", 2 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
 	"tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [ 
-	[ [ "chitin_piece", 1 ], [ "scute_piece", 1 ] ], 
+	[ [ "chitin_piece", 1 ], [ "scute_piece", 1 ], [ "barkskin", 1 ] ], 
 	[ [ "seasoning_mild", 10, "LIST" ] ]
 	]
   },
@@ -618,7 +600,7 @@
     "time": "3 h",
 	"charges": 1, 
     "autolearn": [ [ "cooking", 6 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_foodfashions", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 6 ], [ "cookbook_foodfashions", 6 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 }, { "id": "SEPARATE", "level": 1 }, { "id": "ELECTRICAL", "level": 1 } ],
 	"tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "food_processor", 10 ] ] ],
     "components": [ 
@@ -634,11 +616,11 @@
     "difficulty": 3, 
     "time": "3 h",
 	"charges": 1, 
-    "autolearn": [ [ "cooking", 3 ], [ "mag_cooking", 1 ] ],
+    "autolearn": [ [ "cooking", 3 ], [ "mag_cooking", 3 ], [ "paradise_cooking", 3 ] ],
 	"contained": false,
     "book_learn": [ [ "paradise_cooking", 1 ] ],
     "qualities": [ { "id": "PULL", "level": 2 }, { "id": "CUT_FINE", "level": 1 }, { "id": "BOIL", "level": 1 }  ],
-	"tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ] ],
+	"tools": [ [ [ "water_boiling_heat", 10, "LIST" ] ], [ [ "pastaextruder", -1 ] ] ],
     "components": [ 
 	[ [ "leadbelly", 1 ] ]
 	]
@@ -669,7 +651,7 @@
     "time": "2 h",
 	"charges": 1, 
     "autolearn": [ [ "cooking", 7 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_foodfashions", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 7 ], [ "cookbook_foodfashions", 7 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "LOVE", "level": 1 }, { "id": "CUT_FINE", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 50, "LIST" ] ] ],
@@ -692,7 +674,7 @@
     "time": "2 h",
 	"charges": 10, 
     "autolearn": [ [ "cooking", 7 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_foodfashions", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 7 ], [ "cookbook_foodfashions", 7 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "LOVE", "level": 1 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
@@ -714,14 +696,14 @@
     "time": "15 m",
 	"charges": 10, 
     "autolearn": [ [ "cooking", 4 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_foodfashions", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 4 ], [ "cookbook_foodfashions", 4 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "LOVE", "level": 1 }, { "id": "COOK", "level": 3 }, { "id": "CUT_FINE", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "components": [ 
 	[ [ "shock_jock_book", 1 ], [ "detoxified_leech_flower", 1 ] ], 
-	[ [ "chocolate", 10 ], [ "brineweed", 1 ] ], 
-	[ [ "mandrake_root", 10 ], [ "horseradish", 10 ], [ "chunk_sulfur", 10 ], [ "ground_wandwood", 10 ], [ "giant_rattlesnake_gland", 1 ] ],
+	[ [ "chocolate", 10 ], [ "brineweed", 10 ] ], 
+	[ [ "mandrake_root", 10 ], [ "barkskin", 10 ], [ "chunk_sulfur", 10 ], [ "ground_wandwood", 10 ], [ "giant_rattlesnake_gland", 1 ] ],
 	[ [ "sugar", 10 ] ]
 	]
   },
@@ -835,7 +817,7 @@
     "time": "10 m",
 	"charges": 1, 
     "autolearn": [ [ "cooking", 5 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "ELECTRICAL", "level": 1 } ],
     "components": [ 
@@ -856,7 +838,7 @@
 	"contained": false,
     "batch_time_factors": [ 50, 4 ],
     "autolearn": [ [ "cooking", 6 ] ],
-    "book_learn": [ [ "brewing_cookbook", 3 ], [ "paradise_cooking", 3 ] ],
+    "book_learn": [ [ "brewing_cookbook", 6 ], [ "paradise_cooking", 6 ] ],
     "components": [
       [ [ "water", 3 ], [ "water_clean", 3 ] ],
       [ [ "sedge_buds", 1 ] ],
@@ -874,7 +856,7 @@
 	"contained": false,
     "batch_time_factors": [ 50, 4 ],
     "autolearn": [ [ "cooking", 10 ] ],
-    "book_learn": [  [ "paradise_cooking", 3 ] ],
+    "book_learn": [  [ "paradise_cooking", 1 ] ],
 	"tools": [ [ [ "food_processor", 20 ] ] ],
     "components": [
       [ [ "sedge_mead", 1 ] ],
@@ -920,7 +902,7 @@
     "time": "5 m",
 	"difficulty": 5,
     "autolearn": [ [ "cooking", 5 ] ],
-	"book_learn": [ [ "paradise_cooking", 3 ] ],
+	"book_learn": [ [ "paradise_cooking", 5 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "finger_sandwich", 1 ] ], [ [ "divine_fruit_ascension", 1 ] ] ]
   },
@@ -930,11 +912,11 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 7, 
+    "difficulty": 1, 
     "time": "30 m",
 	"charges": 1, 
 	"contained": false,
-    "autolearn": [ [ "cooking", 7 ] ],
+    "autolearn": [ [ "cooking", 1 ] ],
     "book_learn": [ [ "paradise_cooking", 1 ], [ "family_cookbook", 1 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "BOIL", "level": 1 } ],
@@ -957,12 +939,12 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 8, 
+    "difficulty": 3, 
     "time": "2 h",
 	"charges": 1, 
 	"contained": false,
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "family_cookbook", 1 ] ],
+    "autolearn": [ [ "cooking", 3 ] ],
+    "book_learn": [ [ "paradise_cooking", 3 ], [ "family_cookbook", 3 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
@@ -983,7 +965,7 @@
     "time": "20 m",
     "charges": 1,
     "batch_time_factors": [ 80, 5 ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_italian", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 4 ], [ "cookbook_italian", 4 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "components": [
@@ -1013,7 +995,7 @@
     "time": "2 m",
 	"difficulty": 5,
     "autolearn": [ [ "cooking", 5 ] ],
-	"book_learn": [  [ "paradise_cooking", 3 ], [ "cookbook_eatyrway", 1 ] ],
+	"book_learn": [  [ "paradise_cooking", 5 ], [ "cookbook_eatyrway", 5 ] ],
     "components": [ [ [ "johnnycake", 6 ] ], [ [ "razorclaw_caviar", 1 ] ], [ [ "icecream_custard", 1 ], [ "divine_jam_per", 1 ] ]  ]
   },
   {
@@ -1025,7 +1007,7 @@
     "time": "2 h",
 	"difficulty": 3,
     "autolearn": [ [ "cooking", 5 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 3 ], [ "cookbook_daintydishes", 3 ] ],
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "BOIL", "level": 1 }, { "id": "COOK", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
@@ -1038,9 +1020,9 @@
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
     "time": "1 s",
-	"difficulty": 5,
-    "autolearn": [ [ "cooking", 5 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ] ],
+	"difficulty": 3,
+    "autolearn": [ [ "cooking", 3 ] ],
+    "book_learn": [ [ "paradise_cooking", 3 ], [ "cookbook_daintydishes", 3 ] ],
     "components": [ [ [ "divine_jam_str", 1 ] ], [ [ "sedge_sticks", 1 ] ] ]
   },
   {
@@ -1050,9 +1032,9 @@
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
     "time": "1 s",
-	"difficulty": 5,
-    "autolearn": [ [ "cooking", 5 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ] ],
+	"difficulty": 3,
+    "autolearn": [ [ "cooking", 3 ] ],
+    "book_learn": [ [ "paradise_cooking", 3 ], [ "cookbook_daintydishes", 3 ] ],
 	"tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "chitin_charcuterie_heat", 1 ] ], [ [ "sedge_sticks", 1 ] ], [ [ "bee_sting", 1 ], [ "giant_rattlesnake_gland", 1 ] ] ]
   },
@@ -1066,7 +1048,7 @@
 	"difficulty": 7,
 	"contained": false,
     "autolearn": [ [ "cooking", 7 ] ],
-	"book_learn": [  [ "paradise_cooking", 3 ] ],
+	"book_learn": [  [ "paradise_cooking", 7 ] ],
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CUT_FINE", "level": 1 }, { "id": "BOIL", "level": 1 } ],
 	"tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "divine_fruit_ascension", 1 ] ], [ [ "naranjachinchi", 10 ] ], [ [ "sedge_mead", 2 ] ] ]
@@ -1081,8 +1063,8 @@
 	"difficulty": 7,
 	"contained": false,
     "autolearn": [ [ "cooking", 9 ] ],
-	"book_learn": [  [ "paradise_cooking", 3 ] ],
-    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
+	"book_learn": [  [ "paradise_cooking", 7 ] ],
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "COLD", "level": 1 } ],
 	"tools": [ [ [ "food_processor", 20 ] ] ],
     "components": [ [ [ "ascended_jam_per", 1 ] ], [ [ "divine_fruit_frost", 1 ] ], [ [ "yoghurt", 1 ] ], [ [ "granola", 1 ], [ "toastem", 1 ], [ "toastem2", 1 ], [ "toastem3", 1 ] ] ]
   },
@@ -1096,8 +1078,8 @@
 	"difficulty": 7,
 	"contained": false,
     "autolearn": [ [ "cooking", 9 ] ],
-	"book_learn": [  [ "paradise_cooking", 3 ] ],
-    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "BOIL", "level": 1 } ],
+	"book_learn": [  [ "paradise_cooking", 7 ] ],
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "BOIL", "level": 1 }, { "id": "HEAT", "level": 1 } ],
 	"tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "ascended_jam_dex", 1 ] ], [ [ "divine_fruit_flame", 1 ] ], [ [ "sake", 1 ] ] ]
   },
@@ -1107,11 +1089,11 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "20 m",
     "charges": 1,
     "batch_time_factors": [ 80, 5 ],
-	"autolearn": [ [ "cooking", 3 ] ],
+	"autolearn": [ [ "cooking", 1 ] ],
     "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_italian", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
@@ -1138,12 +1120,12 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 6,
+    "difficulty": 3,
     "time": "20 m",
-	"autolearn": [ [ "cooking", 6 ] ],
+	"autolearn": [ [ "cooking", 3 ] ],
     "charges": 1,
     "batch_time_factors": [ 80, 5 ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_sushi", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 3 ], [ "cookbook_sushi", 3 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
       [ [ "mandrake_egg", 1 ] ],
@@ -1165,7 +1147,7 @@
 	"contained": false,
 	"autolearn": [ [ "cooking", 4 ] ],
     "batch_time_factors": [ 50, 3 ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_liverforkids", 1 ], [ "offalcooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 4 ], [ "cookbook_liverforkids", 4 ], [ "offalcooking", 4 ] ],
     "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "components": [
@@ -1211,13 +1193,13 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 4,
+    "difficulty": 8,
     "charges": 1,
     "time": "35 m",
 	"contained": false,
-	"autolearn": [ [ "cooking", 4 ] ],
+	"autolearn": [ [ "cooking", 8 ] ],
     "batch_time_factors": [ 50, 3 ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_liverforkids", 1 ], [ "offalcooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 8 ], [ "cookbook_liverforkids", 8 ], [ "offalcooking", 8 ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT_FINE", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "components": [
@@ -1269,7 +1251,7 @@
     "time": "5 m",
 	"autolearn": [ [ "cooking", 4 ] ],
     "batch_time_factors": [ 50, 3 ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "cookbook_daintydishes", 1 ], [ "family_cookbook", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 4 ], [ "cookbook_daintydishes", 4 ], [ "family_cookbook", 4 ] ],
     "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
     "components": [
@@ -1289,7 +1271,7 @@
 	"contained": false,
 	"autolearn": [ [ "cooking", 4 ] ],
     "batch_time_factors": [ 50, 3 ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "scots_cookbook", 1 ], [ "offalcooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 4 ], [ "scots_cookbook", 4 ], [ "offalcooking", 4 ] ],
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CUT_FINE", "level": 1 }],
     "tools": [ [ [ "surface_heat", 12, "LIST" ] ] ],
     "components": [
@@ -1320,13 +1302,13 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 4,
+    "difficulty": 8,
     "charges": 1,
     "time": "2 h",
 	"contained": false,
-	"autolearn": [ [ "cooking", 4 ] ],
+	"autolearn": [ [ "cooking", 8 ] ],
     "batch_time_factors": [ 50, 3 ],
-    "book_learn": [ [ "paradise_cooking", 1 ], [ "scots_cookbook", 1 ], [ "offalcooking", 1 ] ],
+    "book_learn": [ [ "paradise_cooking", 8 ], [ "scots_cookbook", 8 ], [ "offalcooking", 8 ] ],
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CUT_FINE", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 12, "LIST" ] ] ],
     "components": [
@@ -1361,6 +1343,7 @@
     "autolearn": [ [ "cooking", 4 ] ],
 	"contained": false,
     "batch_time_factors": [ 50, 3 ],
+	"book_learn": [ [ "paradise_cooking", 4 ], [ "sweets_book", 4 ] ],
     "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
     "components": [
       [ [ "milk_substitute_standard", 1, "LIST" ] ],
@@ -1390,8 +1373,9 @@
     "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
     "time": "12 m 30 s",
-	"difficulty": 4, 
-    "autolearn": [ [ "cooking", 4 ] ],
+	"difficulty": 8, 
+    "autolearn": [ [ "cooking", 8 ] ],
+	"book_learn": [ [ "paradise_cooking", 8 ], [ "sweets_book", 8 ] ],
 	"contained": false,
     "batch_time_factors": [ 50, 3 ],
 	"qualities": [ { "id": "CUT_FINE", "level": 1 } ],
@@ -1415,13 +1399,13 @@
     "type": "recipe",
     "result": "zen_brains",
     "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
     "difficulty": 4,
     "time": "35 m",
     "batch_time_factors": [ 80, 5 ],
     "charges": 3,
-    "book_learn": [ [ "offalcooking", 2 ], [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "offalcooking", 4 ], [ "paradise_cooking", 4 ] ],
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
@@ -1440,13 +1424,13 @@
     "type": "recipe",
     "result": "ascended_brains",
     "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "subcategory": "CSC_FOOD_PARADISE",
     "skill_used": "cooking",
-    "difficulty": 4,
+    "difficulty": 8,
     "time": "35 m",
     "batch_time_factors": [ 80, 5 ],
     "charges": 3,
-    "book_learn": [ [ "offalcooking", 2 ], [ "paradise_cooking", 1 ] ],
+    "book_learn": [ [ "offalcooking", 8 ], [ "paradise_cooking", 8 ] ],
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "CUT_FINE", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
@@ -1460,366 +1444,5 @@
       [ [ "pepper", 3 ] ],
       [ [ "milk_standard", 1, "LIST" ] ]
     ]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "mutagen", 1 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_plant",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "veggy", 3 ], [ "biollante_bud", 1 ], [ "datura_seed", 16 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_spider",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "spider_egg", 1 ], [ "chitin_piece", 4 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_slime",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "sewage", 3 ], [ "slime_scrap", 3 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_fish",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "fish", 2 ], [ "can_sardine", 1 ], [ "can_tuna", 1 ], [ "can_salmon", 1 ], [ "can_herring", 1 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_rat",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "blood_tainted_concentrate", 9 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_beast",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "animal_blood_concentrate", 9 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_feline",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "animal_blood_concentrate", 9 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_lupine",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "animal_blood_concentrate", 9 ], [ "moonsilver", 1 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_cattle",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "animal_blood_concentrate", 9 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_cephalopod",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "can_chowder", 1 ], [ "can_clams", 1 ], [ "blood_tainted_concentrate", 9 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_lizard",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "egg_reptile", 1 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_troglobite",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "animal_blood_concentrate", 9 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_medical",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[
-        [ "heroin", 5 ],
-        [ "oxycodone", 10 ],
-        [ "tramadol", 15 ],
-        [ "diazepam", 15 ],
-        [ "codeine", 20 ],
-        [ "poppy_pain", 20 ]
-      ],
-      [
-        [ "lsd", 5 ],
-        [ "prozac", 10 ],
-        [ "thorazine", 10 ],
-        [ "adderall", 10 ],
-        [ "xanax", 10 ],
-        [ "pills_sleep", 10 ],
-        [ "poppy_sleep", 15 ]
-      ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_alpha",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "mutagen_slime", 2 ], [ "iv_mutagen_slime", 1 ] ],
-    [ [ "mutagen_plant", 2 ], [ "iv_mutagen_plant", 1 ] ],
-    [ [ "mutagen_bird", 2 ], [ "iv_mutagen_bird", 1 ] ],
-    [ [ "purifier", 4 ], [ "iv_purifier", 2 ], [ "jabberwock_jam", 3 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_elfa",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "mutagen_slime", 2 ], [ "iv_mutagen_slime", 1 ] ], [ [ "mutagen_plant", 1 ] ], [ [ "mutagen_bird", 1 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_chimera",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "mutagen_lizard", 1 ] ], [ [ "mutagen_bird", 1 ] ], [ [ "mutagen_beast", 1 ] ], [ [ "mutagen_cattle", 1 ] ]
-	]
-  },
-  {
-    "type": "recipe",
-    "result": "iv_mutagen_raptor",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PARADISE",
-    "skill_used": "cooking",
-    "difficulty": 8, 
-    "time":  "10 m",
-	"charges": 1, 
-    "autolearn": [ [ "cooking", 8 ] ],
-    "book_learn": [ [ "paradise_cooking", 1 ] ],
-    "batch_time_factors": [ 80, 5 ],
-    "qualities": [ { "id": "CONTAIN", "level": 2 }, { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
-    "components": [ 
-	[ [ "divine_fruit_bio", 1 ] ], 
-	[ [ "mutagen_lizard", 1 ] ], [ [ "mutagen_bird", 1 ] ], [ [ "purifier", 1 ], [ "jabberwock_jam", 1 ] ]
-	]
   }
 ]

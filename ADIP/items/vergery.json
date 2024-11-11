@@ -569,12 +569,12 @@
     "id": "vergists_weave",
     "type": "ARMOR",
     "name": { "str": "vergist's weave" },
-    "description": "A flowing weave of black sinew, blood still flowing in the tissues. While it only provides small amounts of protection, objects made of wandwood are attracted to it. They can be drawn with ease.",
+    "description": "A flowing weave of barkskin and black sinew, blood still flowing in the tissues. While it only provides small amounts of protection, objects made of wandwood are attracted to it. Up to seven can be hold, and they can be drawn with ease.",
     "weight": "1320 g",
     "volume": "3 L",
     "price": "200 USD",
     "price_postapoc": "20 USD",
-    "material": [ "flesh" ],
+    "material": [ "flesh", "barkskin" ],
     "symbol": "[",
     "looks_like": "tool_belt",
     "color": "light_gray",
@@ -591,6 +591,207 @@
       "flags": [ "WANDWOOD" ]
     },
     "flags": [ "BELTED", "COMPACT" ]
+  },
+  {
+    "id": "barkskin_suit",
+    "type": "ARMOR",
+    "name": { "str": "barkskin suit" },
+    "description": "A snug body suit made from thin and lightweight Nomex fire-resistant fabric weaved with barkskin to provide enhanced protection againt physical attacks.  Tough yet breathable, it is light and comfortable to wear under clothing.",
+    "weight": "688 g",
+    "volume": "1500 ml",
+    "price": "130 USD",
+    "price_postapoc": "750 cent",
+    "to_hit": -5,
+    "material": [ "nomex", "barkskin" ],
+    "symbol": "[",
+    "looks_like": "jumpsuit",
+    "color": "light_gray",
+    "covers": [ "legs", "torso", "arms" ],
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+		  { "value": "ARMOR_BULLET", "add": -5 },
+		  { "value": "ARMOR_BASH", "add": -5 },
+		  { "value": "ARMOR_STAB", "add": -5 },
+		  { "value": "ARMOR_CUT", "add": -5 }	  
+		  ]
+        }
+      ]
+    },
+    "coverage": 100,
+    "encumbrance": 5,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
+  },
+  {
+    "id": "flameskin_suit",
+    "type": "ARMOR",
+    "name": { "str": "flameskin suit" },
+    "description": "A snug body suit made from thin and lightweight Nomex fire-resistant fabric weaved with heat-enchanted barkskin to provide enhanced protection againt flames.  Tough yet breathable, it is light and comfortable to wear under clothing.",
+    "weight": "688 g",
+    "volume": "1500 ml",
+    "price": "130 USD",
+    "price_postapoc": "750 cent",
+    "to_hit": -5,
+    "material": [ "nomex", "barkskin" ],
+    "symbol": "[",
+    "looks_like": "jumpsuit",
+    "color": "light_gray",
+    "covers": [ "legs", "torso", "arms" ],
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+          { "value": "ARMOR_HEAT", "add": -10 }	  
+		  ]
+        }
+      ]
+    },
+    "coverage": 100,
+    "encumbrance": 5,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
+  },
+  {
+    "id": "iceskin_suit",
+    "type": "ARMOR",
+    "name": { "str": "iceskin suit" },
+    "description": "A snug body suit made from thin and lightweight Nomex fire-resistant fabric weaved with cold-enchanted barkskin to provide enhanced protection againt cold.  Tough yet breathable, it is light and comfortable to wear under clothing.",
+    "weight": "688 g",
+    "volume": "1500 ml",
+    "price": "130 USD",
+    "price_postapoc": "750 cent",
+    "to_hit": -5,
+    "material": [ "nomex", "barkskin" ],
+    "symbol": "[",
+    "looks_like": "jumpsuit",
+    "color": "light_gray",
+    "covers": [ "legs", "torso", "arms" ],
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+          { "value": "ARMOR_COLD", "add": -10 }	  
+		  ]
+        }
+      ]
+    },
+    "coverage": 100,
+    "encumbrance": 5,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
+  },
+  {
+    "id": "chargeskin_suit",
+    "type": "ARMOR",
+    "name": { "str": "chargeskin suit" },
+    "description": "A snug body suit made from thin and lightweight Nomex fire-resistant fabric weaved with shock-enchanted barkskin to provide enhanced protection againt electricity.  Tough yet breathable, it is light and comfortable to wear under clothing.",
+    "weight": "688 g",
+    "volume": "1500 ml",
+    "price": "130 USD",
+    "price_postapoc": "750 cent",
+    "to_hit": -5,
+    "material": [ "nomex", "barkskin" ],
+    "symbol": "[",
+    "looks_like": "jumpsuit",
+    "color": "light_gray",
+    "covers": [ "legs", "torso", "arms" ],
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+          { "value": "ARMOR_ELEC", "add": -10 }	  
+		  ]
+        }
+      ]
+    },
+    "coverage": 100,
+    "encumbrance": 5,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
+  },
+  {
+    "id": "corroskin_suit",
+    "type": "ARMOR",
+    "name": { "str": "corroskin suit" },
+    "description": "A snug body suit made from thin and lightweight Nomex fire-resistant fabric weaved with acid-enchanted barkskin to provide enhanced protection againt acidic corrosion.  Tough yet breathable, it is light and comfortable to wear under clothing.",
+    "weight": "688 g",
+    "volume": "1500 ml",
+    "price": "130 USD",
+    "price_postapoc": "750 cent",
+    "to_hit": -5,
+    "material": [ "nomex", "barkskin" ],
+    "symbol": "[",
+    "looks_like": "jumpsuit",
+    "color": "light_gray",
+    "covers": [ "legs", "torso", "arms" ],
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+          { "value": "ARMOR_ACID", "add": -10 }	  
+		  ]
+        }
+      ]
+    },
+    "coverage": 100,
+    "encumbrance": 5,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
+  },
+  {
+    "id": "lifeskin_suit",
+    "type": "ARMOR",
+    "name": { "str": "lifeskin suit" },
+    "description": "A snug body suit made from thin and lightweight Nomex fire-resistant fabric weaved with biological-enchanted barkskin to provide enhanced protection againt biological attacks.  Tough yet breathable, it is light and comfortable to wear under clothing.",
+    "weight": "688 g",
+    "volume": "1500 ml",
+    "price": "130 USD",
+    "price_postapoc": "750 cent",
+    "to_hit": -5,
+    "material": [ "nomex", "barkskin" ],
+    "symbol": "[",
+    "looks_like": "jumpsuit",
+    "color": "light_gray",
+    "covers": [ "legs", "torso", "arms" ],
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ 
+          { "value": "ARMOR_BIO", "add": -10 }	  
+		  ]
+        }
+      ]
+    },
+    "coverage": 100,
+    "encumbrance": 5,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
   },
   {
     "id": "illusory_duster",

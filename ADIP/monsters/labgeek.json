@@ -282,7 +282,7 @@
     "species": [ "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
-    "hp": 100,
+    "hp": 300,
     "speed": 250,
     "attack_cost": 100,
     "material": [ "flesh" ],
@@ -314,14 +314,14 @@
     }
     ],
     "special_attacks": [ 
-	[ "GRENADIER", 25 ],
+	[ "GRENADIER", 15 ],
 	[ "PARROT_AT_DANGER", 6 ],
 	{ "type": "bite", "cooldown": 5 },
-	[ "GENE_STING", 100 ],
+	[ "GENE_STING", 50 ],
 	{ "type": "spell", "spell_data": { "id": "lab_geek_slime_trap_mon_spell", "min_level": 10 }, "cooldown": 20, "monster_message": "A wormhole opens and slime comes pouring out!" },
 	{
         "type": "gun",
-        "cooldown": 15,
+        "cooldown": 10,
         "move_cost": 150,
         "gun_type": "acidhead",
         "ammo_type": "paintball",

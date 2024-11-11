@@ -107,7 +107,7 @@
   {
     "type": "furniture",
     "id": "f_brass_bed_seed",
-    "name": "brass bed",
+    "name": "brass bed (seed)",
     "looks_like": "t_shrub_hydrangea_harvested",
     "description": "A brass bed with a casing buried in it like a seed.",
     "symbol": "#",
@@ -129,7 +129,7 @@
   {
     "type": "furniture",
     "id": "f_brass_bed_seedling",
-    "name": "brass bed",
+    "name": "brass bed (seedling)",
     "looks_like": "t_shrub_hydrangea_harvested",
     "description": "A brass bed with a little bit of brass poking up like a seedling.",
     "symbol": "#",
@@ -151,7 +151,7 @@
   {
     "type": "furniture",
     "id": "f_brass_bed_mature",
-    "name": "brass bed",
+    "name": "brass bed (maturing)",
     "looks_like": "t_shrub_hydrangea_harvested",
     "description": "A brass bed with some casings poking maturely out of the dirt.",
     "symbol": "#",
@@ -173,7 +173,7 @@
   {
     "type": "furniture",
     "id": "f_brass_bed_harvest",
-    "name": "rubber shrub",
+    "name": "brass bed (harvestable)",
     "looks_like": "t_shrub_hydrangea",
     "description": "A brass bed with some brass ready to be harvested.",
     "symbol": "#",
@@ -217,7 +217,7 @@
   {
     "type": "furniture",
     "id": "f_rubber_shrub_seed",
-    "name": "rubber shrub",
+    "name": "rubber shrub (seed)",
     "looks_like": "t_shrub_hydrangea_harvested",
     "description": "A shrub made of rubber that's so realistic it's surreal. It even has that earthy smell. The flowers bud into tiny spirals that swirl forever inward as you watch.",
     "symbol": "#",
@@ -240,7 +240,7 @@
   {
     "type": "furniture",
     "id": "f_rubber_shrub_seedling",
-    "name": "rubber shrub",
+    "name": "rubber shrub (seedling)",
     "looks_like": "t_shrub_hydrangea_harvested",
     "description": "A rubber shrub with something growing out of one of it's many spirals.",
     "symbol": "#",
@@ -263,7 +263,7 @@
   {
     "type": "furniture",
     "id": "f_rubber_shrub_mature",
-    "name": "rubber shrub",
+    "name": "rubber shrub (maturing)",
     "looks_like": "t_shrub_hydrangea_harvested",
     "description": "A rubber shrub with something growing out of one of it's many spirals.",
     "symbol": "#",
@@ -286,7 +286,7 @@
   {
     "type": "furniture",
     "id": "f_rubber_shrub_harvest",
-    "name": "rubber shrub",
+    "name": "rubber shrub (harvestable)",
     "looks_like": "t_shrub_hydrangea",
     "description": "A rubber shrub with something growing out of one of it's many spirals.",
     "symbol": "#",

@@ -107,7 +107,7 @@
     "id": "biohazard_book",
     "type": "COMESTIBLE",
     "name": { "str": "radioactive goo", "str_pl": "radioactive goo" },
-    "description": "A single piece of the mass of flesh and goo that was once a 'biohazard,' the military's nuclear option if things went truly south. This looks to be the DNA used to 'start the engine.' A few brave soldiers would sacrifice their lives to become a living ball of never-ending death, hopefully powerful enough to combat the coming threat. A few became too many, and now this is what's left of them. It's still pulsating, giving off who knows what kind of energy and a yeast, fermentable smell.",
+    "description": "A single piece of the mass of flesh and goo that was once a 'biohazard,' the military's nuclear option if things went truly south. This looks to be the DNA used to 'start the engine.' A few brave soldiers would sacrifice their lives to become a living ball of never-ending death, hopefully powerful enough to combat the coming threat. A few became too many, and now this is what's left of them. It's still pulsating, giving off who knows what kind of energy and a yeasty, fermentable smell.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "?",
