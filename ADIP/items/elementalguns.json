@@ -25,6 +25,7 @@
     },
     "color": "green",
     "covers": [ "torso", "arms" ],
+	"qualities": [ [ "HEAT", 1 ] ],
 	"seed_data": { "plant_name": "flaming growth", "fruit": "divine_fruit_flame", "seeds": false, "grow": "14 days", "required_terrain_flag": "RUBBER" },
     "coverage": 50,
     "encumbrance": 20,

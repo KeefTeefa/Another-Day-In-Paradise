@@ -1,6 +1,79 @@
 [
 {
     "type": "recipe",
+    "result": "mag_chamber",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_caseless", 4 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "HOLO", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "mag_chute",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_caseless", 4 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "FRACTAL", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "processor", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "mag_sleeve",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_caseless", 4 ] ],
+    "qualities": [ { "id": "RUBBER", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "slime_scrap", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "mag_lever",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_caseless", 4 ] ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "ai_module", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "mag_rubber",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": [ [ "gun", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_caseless", 4 ] ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "rubber_shrub", 1 ] ] ]
+  },
+{
+    "type": "recipe",
     "result": "guntrinket_wide",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
@@ -115,7 +188,7 @@
     "autolearn": [ [ "gun", 8 ] ],
     "qualities": [ { "id": "ACCURSED", "level": 1 }, { "id": "FRACTAL", "level": 1 } ],
     "components": [ 
-	[ [ "pmc_dogtag", 25 ] ],
+	[ [ "pmc_dogtag", 50 ] ],
     [ [ "guntrinket_tangle", 1 ] ]
 	]
   },
@@ -175,7 +248,7 @@
     "autolearn": [ [ "gun", 8 ] ],
     "qualities": [ { "id": "ACCURSED", "level": 1 }, { "id": "FRACTAL", "level": 1 } ],
     "components": [ 
-	[ [ "pmc_dogtag", 25 ] ],
+	[ [ "pmc_dogtag", 50 ] ],
     [ [ "guntrinket_burst", 1 ] ]
 	]
   },
@@ -235,7 +308,7 @@
     "autolearn": [ [ "gun", 8 ] ],
     "qualities": [ { "id": "ACCURSED", "level": 1 }, { "id": "FRACTAL", "level": 2 } ],
     "components": [ 
-	[ [ "pmc_dogtag", 100 ] ],
+	[ [ "pmc_dogtag", 250 ] ],
 	[ [ "mininuke", 1 ] ],
 	[ [ "guntrinket_wide", 1 ] ],
     [ [ "hazardous_reactor", 1 ] ] 	
@@ -1726,16 +1799,30 @@
     "components": [ [ [ "sinew", 25 ] ], [ [ "wandwood_branch", 1 ] ] ]
   },
   {
-    "result": "holo_ruck",
+    "result": "holo_case",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_STORAGE",
     "skill_used": "tailor",
     "difficulty": 8,
+    "time": "1 h",
+    "autolearn": [ [ "tailor", 8 ] ],
+	"qualities": [ { "id": "HOLO", "level": 2 }, { "id": "FRACTAL", "level": 2 } ],
+	"book_learn": [ [ "vergery", 7 ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "components": [ [ [ "briefcase", 1 ] ], [ [ "holo_space", 10 ] ] ]
+  },
+  {
+    "result": "holo_ruck",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 5,
     "time": "3 h",
     "autolearn": [ [ "tailor", 5 ] ],
 	"qualities": [ { "id": "HOLO", "level": 2 } ],
-	"book_learn": [ [ "vergery", 2 ] ],
+	"book_learn": [ [ "vergery", 5 ], [ "tailor_portfolio", 5 ] ],
     "using": [ [ "sewing_standard", 100 ] ],
     "components": [ [ [ "holo_mbag", 1 ] ] ]
   },
@@ -1769,10 +1856,9 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
-	  { "id": "CONCENTRATE", "level": 1 },
-	  { "id": "CHROMATOGRAPHY", "level": 1 },
 	  { "id": "EXTRACT", "level": 1 },
-	  { "id": "DISTILL", "level": 1 },
+	  { "id": "HOLO", "level": 1 },
+	  { "id": "FINE_DISTILL", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 }
     ],
     "components": [
@@ -1804,7 +1890,7 @@
     "skills_required": [ [ "electronics", 5 ], [ "mechanics", 5 ] ],
     "difficulty": 9,
     "time": "12 h",
-    "book_learn": [ [ "recipe_lab_elec", 5 ] ],
+    "book_learn": [ [ "recipe_lab_elec", 5 ], [ "textbook_robots", 5 ] ],
 	"autolearn": [ [ "electronics", 9 ] ],
 	"tools": [ [ [ "electrolysis_kit", 750 ] ] ],
     "using": [ [ "soldering_standard", 50 ], [ "welding_standard", 25 ] ],
@@ -1813,9 +1899,9 @@
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
 	  { "id": "ANALYSIS", "level": 1 },
-	  { "id": "CHROMATOGRAPHY", "level": 1 },
+	  { "id": "FRACTAL", "level": 1 },
 	  { "id": "FILTER", "level": 1 },
-	  { "id": "FINE_DISTILL", "level": 1 },
+	  { "id": "CONCENTRATE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 }
     ],
     "components": [
@@ -1824,7 +1910,7 @@
 	  [ [ "ai_module", 3 ] ],
       [ [ "sensor_module", 1 ] ],
 	  [ [ "omnicamera", 3 ] ],
-	  [ [ "fetus", 1 ] ],
+	  [ [ "fetus", 1 ], [ "yinyang_koi_egg", 1 ], [ "effervescent_genetics", 1 ] ],
 	  [ [ "RAM", 36 ] ],
       [ [ "processor", 4 ] ],
 	  [ [ "pathfinding_module", 1 ] ],
@@ -1881,14 +1967,14 @@
     "skill_used": "electronics",
     "skills_required": [ "electronics", 5 ],
     "difficulty": 5,
-    "time": "15 m",
+    "time": "2 h",
     "batch_time_factors": [ 80, 5 ],
 	"autolearn": [ [ "electronics", 7 ] ],
     "book_learn": [
       [ "recipe_lab_elec", 5 ]
     ],
     "qualities": [ { "id": "FRACTAL", "level": 1 }, { "id": "HOLO", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [ [ [ "peace_glasses", 9 ] ] ]
+    "components": [ [ [ "peace_glasses", 1 ] ], [ [ "plut_cell", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -1968,6 +2054,9 @@
     "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
+	"book_learn": [
+      [ "paradise_cooking", 1 ]
+    ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
       [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ],
@@ -1986,8 +2075,92 @@
     "time": "20 m",
     "batch_time_factors": [ 80, 1 ],
     "autolearn": true,
+	"book_learn": [
+      [ "paradise_cooking", 1 ]
+    ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "char_smoker", 5 ] ] ],
     "components": [ [ [ "barkskin", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_hand_mirror",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "15 m",
+	"book_learn": [
+      [ "recipe_lab_elec", 5 ],
+	  [ "textbook_robots", 1 ]
+    ],
+    "autolearn": true,
+    "qualities": [ { "id": "HOLO", "level": 1 }, { "id": "CHISEL", "level": 1 }  ],
+    "components": [ [ [ "mirror", 1 ] ], [ [ "magnifying_glass", 1 ] ], [ [ "lens", 1 ] ], [ [ "lens_small", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "fractal_abacus",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "1 h",
+	"book_learn": [
+      [ "recipe_lab_elec", 5 ],
+	  [ "textbook_robots", 1 ]
+    ],
+    "autolearn": true,
+    "qualities": [ { "id": "FRACTAL", "level": 1 } ],
+    "components": [ [ [ "fetus", 1 ], [ "effervescent_genetics", 1 ], [ "hemor_seed", 1 ], [ "blood", 100 ] ], [ [ "pathfinding_module", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "holo_sandbag",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "time": "15 m",
+	"book_learn": [
+      [ "recipe_lab_elec", 5 ],
+	  [ "textbook_robots", 1 ]
+    ],
+    "autolearn": true,
+    "qualities": [ { "id": "HOLO", "level": 1 } ],
+	"using": [ [ "soldering_standard", 5 ] ],
+    "components": [ [ [ "camera_pro", 1 ], [ "holo_sandbag", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "fractal_blueprint",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "time": "2 h",
+	"book_learn": [
+      [ "recipe_lab_elec", 5 ],
+	  [ "textbook_robots", 1 ]
+    ],
+    "autolearn": true,
+    "qualities": [ { "id": "FRACTAL", "level": 1 }, { "id": "CUT_FINE", "level": 1 } ],
+	"tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "psycho_mask", 1 ], [ "raw_hleather", 100 ], [ "peace_officer_book", 1 ], [ "fractal_blueprint", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "biohazard_book",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": "12 h",
+	"book_learn": [
+      [ "recipe_lab_elec", 10 ]
+    ],
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M", "level": 2 } ],
+    "components": [ [ [ "hazardous_reactor", 1 ] ] ]
   }
 ]

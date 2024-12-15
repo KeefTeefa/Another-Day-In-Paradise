@@ -33,6 +33,7 @@
     "color": "blue",
     "covers": [ "eyes" ],
 	"material": [ "lightceramic" ], 
+	"stackable": true,
 	"relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "EASYSLEEPER" ]
     } ] },
@@ -707,12 +708,13 @@
     "id": "slime_spaghetti_aura",
     "type": "ARMOR",
     "name": { "str": "slime spaghetti", "str_pl": "slime spaghetto" },
-    "description": "You ate slime spaghetti and your limbs are like slimy spaghetti. This is really burning a lot of calories. You can produce a web like slime to traverse terrain.",
+    "description": "You ate slime spaghetti and your limbs are like slimy spaghetti. This is really burning a lot of calories. Activate this to produce a web like slime to traverse terrain.",
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "o",
     "color": "blue",
 	"material": [ "lightceramic" ], 
+	"use_action": [ { "type": "cast_spell", "spell_id": "activate_slime_spaghetti", "no_fail": true, "need_worn": true, "level": 10 } ],
 	"relic_data": {
       "passive_effects": [
           {
@@ -1248,6 +1250,31 @@
           "mutations": [ "PAWS_LARGE", "GROWL", "SHOUT3", "GOODCARDIO2", "GOURMAND", "KILLER", "PRETTY", "ANIMALDISCORD", "NIGHTVISION2", "FANGS", "LUPINE_FUR", "PADDED_FEET", "STRONG_LEGS", "TAIL_FLUFFY", "LUPINE_EARS", "MUZZLE", "PERSISTENCE_HUNTER2"  ]
         }
       ]
+    },
+    "covers": [ "torso" ],
+    "flags": [
+      "AURA",
+      "SEMITANGIBLE",
+      "OVERSIZE",
+      "ONLY_ONE",
+      "TRADER_AVOID",
+      "NO_TAKEOFF",
+      "NONCONDUCTIVE",
+      "POWERARMOR_COMPATIBLE"
+    ]
+  },
+  {
+    "id": "architects_aura",
+    "type": "ARMOR",
+    "name": { "str": "architect's eye", "str_pl": "architect's eye" },
+    "description": "You seem to ",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "o",
+    "color": "blue",
+	"material": [ "lightceramic" ], 
+	"relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "debug_clairvoyance", "intensity": 1 } ] } ]
     },
     "covers": [ "torso" ],
     "flags": [

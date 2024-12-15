@@ -21,8 +21,23 @@
   },
   {
     "type": "construction_group",
-    "id": "magitech",
-    "name": "Magitech"
+    "id": "cloning",
+    "name": "Cloning"
+  },
+  {
+    "type": "construction_group",
+    "id": "fracholo",
+    "name": "Fractal/Holographic"
+  },
+  {
+    "type": "construction_group",
+    "id": "brass",
+    "name": "Brass Garden"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_mirror",
+    "name": "Build Mirror"
   },
   {
     "type": "construction",
@@ -154,73 +169,75 @@
 	"using": [ [ "soldering_standard", 20 ] ],
     "components": [ [ [ "plant_fibre", 100 ] ], [ [ "cable", 5 ] ], [ [ "recharged_leech_blossom", 1 ] ] ],
     "pre_furniture": "f_divine_tree",
-    "post_furniture": "f_divine_tree_acid"
+    "post_furniture": "f_divine_tree_electric"
   },
   {
     "type": "construction",
     "id": "constr_NMR_cloning",
-    "group": "magitech",
+    "group": "cloning",
     "category": "OTHER",
     "required_skills": [ [ "electronics", 7 ] ],
     "time": "60 m",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
-    "components": [ [ [ "effervescent_genetics", 1 ], [ "ascended_seed", 1 ] ], [ [ "solder_wire", 20 ] ], [ [ "bionic_scanner", 1 ] ], [ [ "analytical_set_basic", 1 ] ] ],
+	"using": [ [ "soldering_standard", 20 ] ],
+    "components": [ [ [ "effervescent_genetics", 1 ], [ "ascended_seed", 1 ] ], [ [ "bionic_scanner", 1 ] ], [ [ "analytical_set_basic", 1 ] ] ],
     "pre_furniture": "f_3d_printer",
     "post_furniture": "f_NMR_cloning"
   },
   {
     "type": "construction",
     "id": "constr_NMR_cloning_vat",
-    "group": "magitech",
+    "group": "cloning",
     "category": "OTHER",
     "required_skills": [ [ "electronics", 7 ] ],
     "time": "10 m",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
-    "components": [ [ [ "solder_wire", 20 ] ], [ [ "bionic_scanner", 1 ] ] ],
+	"using": [ [ "soldering_standard", 20 ] ],
+    "components": [  [ [ "bionic_scanner", 1 ] ] ],
     "pre_terrain": "t_vat",
     "post_furniture": "f_NMR_cloning"
   },
   {
     "type": "construction",
     "id": "constr_fracholo_mirror",
-    "group": "magitech",
+    "group": "fracholo",
     "category": "OTHER",
     "required_skills": [ [ "tailor", 5 ] ],
-    "time": "30 h",
-    "components": [ [ [ "glass_shard", 500 ] ], [ [ "superglue", 5 ] ] ],
+    "time": "8 h",
+    "components": [ [ [ "glass_shard", 100 ] ], [ [ "superglue", 5 ] ] ],
     "pre_furniture": "f_bigmirror_b",
     "post_furniture": "f_fracholo_mirror"
   },
   {
     "type": "construction",
     "id": "constr_holographic_synthesizer",
-    "group": "magitech",
+    "group": "fracholo",
     "category": "OTHER",
     "required_skills": [ [ "electronics", 8 ] ],
     "time": "30 m",
     "qualities": [ [ { "id": "SCREW_FINE", "level": 1 } ] ],
     "using": [ [ "soldering_standard", 20 ] ],
-    "components": [ [ [ "holographic_synthesizer", 1 ] ], [ [ "cable", 5 ] ], [ [ "power_supply", 1 ] ] ],
+    "components": [ [ [ "holographic_synthesizer", 1 ] ] ],
     "pre_special": "check_empty",
     "post_furniture": "f_holographic_synthesizer"
   },
   {
     "type": "construction",
     "id": "constr_fractal_simulation_apparatus",
-    "group": "magitech",
+    "group": "fracholo",
     "category": "OTHER",
     "required_skills": [ [ "electronics", 8 ] ],
     "time": "30 m",
     "qualities": [ [ { "id": "SCREW_FINE", "level": 1 } ] ],
     "using": [ [ "soldering_standard", 20 ] ],
-    "components": [ [ [ "fractal_simulation_apparatus", 1 ] ], [ [ "cable", 5 ] ], [ [ "power_supply", 1 ] ] ],
+    "components": [ [ [ "fractal_simulation_apparatus", 1 ] ] ],
     "pre_special": "check_empty",
     "post_furniture": "f_fractal_simulation_apparatus"
   },
   {
     "type": "construction",
     "id": "constr_brass_bed",
-    "group": "magitech",
+    "group": "brass",
     "category": "OTHER",
     "required_skills": [ [ "survival", 3 ] ],
     "time": "15 m",
@@ -229,5 +246,17 @@
     "components": [ [ [ "leadbelly", 1 ], [ "blood", 25 ] ], [ [ "chunk_sulfur", 1 ] ] ],
     "pre_terrain": "t_dirtmound",
     "post_furniture": "f_brass_bed"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mirror",
+    "group": "build_mirror",
+    "category": "OTHER",
+    "required_skills": [ [ "fabrication", 3 ] ],
+    "time": "15 m",
+	"qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ], [ { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 6 ] ], [ [ "glass_sheet", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_furniture": "f_bigmirror"
   }
 ]

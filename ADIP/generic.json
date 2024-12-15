@@ -27,21 +27,21 @@
   {
     "type": "MONSTER_FACTION",
     "name": "everyday_psycho",
-	"neutral": [ "shock_jock", "zombie", "pmc" ]
+	"friendly": [ "shock_jock" ],
+	"neutral": [ "zombie", "pmc" ]
   },
   {
     "type": "MONSTER_FACTION",
     "name": "psycho",
-	"hate": [ "zombie", "pmc" ], 
-	"neutral": [ "shock_jock" ], 
-	"friendly": [ "vergist" ], 
+	"hate": [ "zombie" ], 
+	"friendly": [ "vergist", "friendly", "pmc", "shock_jock" ], 
 	"base_faction": "everyday_psycho"
   },
   {
     "type": "MONSTER_FACTION",
     "name": "superpsycho",
 	"friendly": [ "vergist" ], 
-	"hate": [ "pmc", "psycho", "everyday_psycho", "shock_jock" ], 
+	"hate": [ "pmc", "psycho", "everyday_psycho" ], 
 	"base_faction": "zombie"
   },
   {
@@ -56,7 +56,8 @@
     "type": "MONSTER_FACTION",
     "name": "pmc",
 	"hate": [ "contract_killer" ], 
-	"neutral": [ "shock_jock", "zombie" ]
+	"friendly": [ "shock_jock" ], 
+	"neutral": [ "zombie", "pmc" ]
   },
   {
     "type": "MONSTER_FACTION",
@@ -67,7 +68,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "shock_jock",
-	"friendly": [ "pmc", "psycho", "everyday_psycho", "vergist" ], 
+	"friendly": [ "pmc", "psycho", "everyday_psycho", "vergist", "jabberwock", "science", "military", "superpsycho" ], 
 	"base_faction": "military"
   },
   {
@@ -76,27 +77,41 @@
     "friendly": [ "mutant", "nether" ]
   },
   {
+    "id": "teleporter",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "teleporter" },
+	"copy-from": "teleporter", 
+	"qualities": [ [ "TELEPORTER", 1 ] ],
+    "description": "This is an experimental device that will teleport you a short distance when activated."
+  },
+  {
+    "id": "touristmap",
+    "copy-from": "touristmap",
+    "type": "GENERIC",
+    "name": { "str": "tourist guide" },
+    "description": "This is glossy printed pamphlet for tourists that details local hotels and attractions.",
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 180,
+      "terrain": [ "hiway", "road", "bridge", "hotel_tower", "s_restaurant", "cathedral", "s_restaurant_fast", "megastore", "museum", "mall_a_1" ],
+      "message": "You add roads and tourist attractions to your map."
+    }
+  },
+  {
     "type": "GENERIC",
     "id": "id_military",
 	"copy-from": "id_military",
     "symbol": ",",
-    "color": "green",
     "name": { "str": "military ID card" },
-    "description": "This ID card once belonged to a military officer.  The reverse side describes protocol for using it; this could grant access at one control panel, if you can find one.",
-    "price": "1200 USD",
-    "price_postapoc": "5 USD",
-    "material": "plastic",
-	"qualities": [ [ "LAW", 1 ] ],
-    "weight": "6 g",
-    "volume": "5 ml",
-    "to_hit": -3
+    "description": "This ID card once belonged to a military officer.  The reverse side describes protocol for using it; this could grant access at one control panel, if you can find one."
   },
   {
     "type": "profession",
     "id": "cook",
     "name": "Cook",
     "description": "You were a cook, a true culinary artist. With your trusty cookbook, you're sure to eat your way through the cataclysm.",
-    "points": 3,
+    "points": 1,
 	"traits": [ "GOURMAND" ],
     "skills": [ { "name": "cooking", "level": 7 } ],
     "items": {
@@ -115,11 +130,11 @@
     "description": "You recover peacefully, and probably often.",
     "effect": "target_attack",
     "valid_targets": [ "self", "ally" ],
-    "flags": [ "SILENT", "NO_EXPLOSION_VFX" ],
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "RANDOM_DAMAGE" ],
     "min_range": 1,
     "max_range": 1,
 	"min_damage": -5, 
-	"max_damage": -5,  
+	"max_damage": -7,  
 	"damage_type": "bullet", 
     "max_level": 10,
     "difficulty": -10,
@@ -198,7 +213,7 @@
     "name": "Private Military Contractor",
     "description": "You always worked for the highest bidder. Your last job left you holding nothing but your rifle and a blood-red fruit. Now, you have to bid on yourself in order to survive. It's a dog eat dog world out there...",
     "points": 5,
-	"traits": [ "GOODCARDIO", "PARKOUR", "PSYCHOPATH" ],
+	"traits": [ "GOODCARDIO", "PARKOUR" ],
     "skills": [
       { "level": 5, "name": "gun" },
       { "level": 5, "name": "rifle" },
@@ -235,8 +250,10 @@
 		  { "group": "on_hand_308" },
 		  { "group": "cooked_comestibles" },
 		  { "group": "infantry_medical_gear" },
+		  { "item": "divine_blood_fruit" },
 		  { "item": "grenade" },
 		  { "item": "grenade" },
+		  { "item": "shield_book" },
 		  { "item": "bot_flashbang_hack" },
 		  { "item": "bot_flashbang_hack" },
 		  { "item": "light_plus_battery_cell", "ammo-item": "battery", "charges": 150, "container-item": "goggles_nv" },
@@ -250,7 +267,7 @@
             "item": "g28",
             "ammo-item": "762_51",
             "charges": 20,
-            "contents-item": [ "holo_sight_burst", "shoulder_strap", "grip_dispersion", "guntrinket_weight", "guntrinket_weight", "guntrinket_weight", "guntrinket_weight", "suppressor" ]
+            "contents-item": [ "heat_sight_2", "shoulder_strap", "grip_dispersion", "guntrinket_weight", "guntrinket_weight", "guntrinket_weight", "guntrinket_weight", "suppressor" ]
           },
           { "item": "fn57", "ammo-item": "57mm", "charges": 20, "contents-item": [ "suppressor_compact", "guntrinket_burst", "rail_handling", "red_dot_sight" ] }
         ]
@@ -277,33 +294,27 @@
       "both": {
         "items": [ "wristwatch", "molotov" ],
         "entries": [
-          { "item": "undershirt", "damage": [ 1, 3 ] },
-          { "item": "jacket_evac", "damage": [ 1, 3 ] },
-          { "item": "pants_army", "damage": [ 1, 3 ] },
-          { "item": "kevlar", "damage": [ 1, 3 ] },
-          { "item": "socks", "damage": [ 1, 3 ] },
+          { "item": "undershirt", "damage": [ 1, 2 ] },
+          { "item": "jacket_evac", "damage": [ 1, 2 ] },
+          { "item": "pants_army", "damage": [ 1, 2 ] },
+          { "item": "kevlar", "damage": [ 1, 2 ] },
+          { "item": "socks", "damage": [ 1, 2 ] },
 		  { "item": "psycho_mask" },
-          { "item": "sneakers", "damage": [ 1, 3 ] },
-          { "item": "mask_ski", "damage": [ 1, 3 ] },
-          { "item": "helmet_motor", "damage": [ 1, 3 ] },
+          { "item": "sneakers", "damage": [ 1, 2 ] },
+          { "item": "mask_ski", "damage": [ 1, 2 ] },
+          { "item": "helmet_motor", "damage": [ 1, 2 ] },
 		  { "item": "scav_signal_code" },
 		  { "item": "roadmap" },
-          { "item": "runner_bag", "damage": [ 1, 3 ] },
+          { "item": "runner_bag", "damage": [ 1, 2 ] },
 		  { "group": "ingredients_paradise" },
-		  { "item": "crowbar", "damage": [ 1, 3 ] },
-          { "item": "webbing_belt", "damage": [ 1, 3 ], "contents-item": "knife_combat" },
-		  {
-            "item": "makarov",
-            "ammo-item": "9x18mm",
-            "charges": [ 1, 8 ]
-          },
-          {
-            "item": "ak47",
-            "ammo-item": "762_m43",
-            "charges": [ 25, 30 ],
-            "contents-item": [ "shoulder_strap", "acog_scope", "crafted_suppressor" ],
-            "custom-flags": [ "auto_wield" ]
-          }
+		  { "group": "psycho_profession_guns" },
+		  { "group": "guns_pistol_common" },
+		  { "item": "shield_book", "damage": [ 1, 4 ] },
+		  { "item": "crowbar", "damage": [ 1, 2 ] },
+		  { "item": "shoulder_strap" },
+		  { "item": "improve_sights" },
+		  { "item": "crafted_suppressor" },
+          { "item": "webbing_belt", "damage": [ 1, 2 ], "contents-item": "knife_combat" }
         ]
       },
       "male": { "entries": [ { "item": "boxer_shorts", "damage": [ 0, 3 ] } ] },
@@ -456,14 +467,49 @@
     "id": "holographic_synthesizer",
     "type": "TOOL",
     "category": "tools",
-    "name": "holographic synthesizer",
-    "description": "A holographic synthesizer, a highly technical machine about the size of an old computer. It's capable of synthesizing holographic light matrices and creating 3-dimensional object overlays. Essentially, it prints holograms.",
+    "name": "holographic synthesizer (off)",
+    "description": "A holographic synthesizer, a highly technical machine about the size of an old computer. It's capable of synthesizing holographic light matrices and creating 3-dimensional object overlays. Essentially, it prints holograms. Can be installed in a grid or powered directly via UPS.",
     "symbol": ",",
     "color": "dark_gray",
     "material": [ "plastic", "aluminum" ],
+	"flags": [ "USE_UPS" ], 
     "weight": "2721 g",
     "volume": "2500 ml",
     "price": 75000,
+	"use_action": {
+      "type": "transform",
+      "msg": "The holographic synthesizer clicks and whirs as it begins to project light.",
+      "target": "holographic_synthesizer_on",
+      "active": true,
+      "need_charges": 20,
+      "need_charges_msg": "You don't have enough UPS charges to turn on the %s"
+    },
+    "price_postapoc": 250,
+    "bashing": 6
+  },
+  {
+    "id": "holographic_synthesizer_on",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "holographic synthesizer (on)",
+    "description": "A holographic synthesizer, a highly technical machine about the size of an old computer. It's capable of synthesizing holographic light matrices and creating 3-dimensional object overlays. Essentially, it prints holograms. Can be installed in a grid or powered directly via UPS.",
+    "symbol": ",",
+    "color": "dark_gray",
+    "material": [ "plastic", "aluminum" ],
+	"flags": [ "USE_UPS" ], 
+    "weight": "2721 g",
+    "volume": "2500 ml",
+    "price": 75000,
+	"power_draw": 20000000,
+    "revert_to": "holographic_synthesizer",
+	"use_action": {
+      "type": "transform",
+      "msg": "The holographic synthesizer drums out.",
+      "target": "holographic_synthesizer",
+      "active": true,
+      "need_charges": 20,
+      "need_charges_msg": "You don't have enough UPS charges to turn on the %s"
+    },
     "price_postapoc": 250,
     "bashing": 6
   },
@@ -471,14 +517,49 @@
     "id": "fractal_simulation_apparatus",
     "type": "TOOL",
     "category": "tools",
-    "name": "fractal simulation apparatus",
-    "description": "A fractal simulation apparatus, a box about the size of an ant farm. It's capable of taking real-time data and parsing it through fractal simulations. Essentially, it predicts the future.",
+    "name": "fractal simulation apparatus (off)",
+    "description": "A fractal simulation apparatus, a box about the size of an ant farm. It's capable of taking real-time data and parsing it through fractal simulations. Essentially, it predicts the future. Can be installed in a grid or powered directly via UPS.",
     "symbol": ",",
     "color": "dark_gray",
     "material": [ "plastic", "aluminum" ],
     "weight": "2721 g",
     "volume": "2500 ml",
+	"flags": [ "USE_UPS" ], 
     "price": 75000,
+	"use_action": {
+      "type": "transform",
+      "msg": "The fractal simulation apparatus chimes an earthy tone as it springs to life.",
+      "target": "fractal_simulation_apparatus_on",
+      "active": true,
+      "need_charges": 20,
+      "need_charges_msg": "You don't have enough UPS charges to turn on the %s"
+    },
+    "price_postapoc": 250,
+    "bashing": 6
+  },
+  {
+    "id": "fractal_simulation_apparatus_on",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "fractal simulation apparatus (on)",
+    "description": "A fractal simulation apparatus, a box about the size of an ant farm. It's capable of taking real-time data and parsing it through fractal simulations. Essentially, it predicts the future. Can be installed in a grid or powered directly via UPS.",
+    "symbol": ",",
+    "color": "dark_gray",
+    "material": [ "plastic", "aluminum" ],
+    "weight": "2721 g",
+    "volume": "2500 ml",
+	"flags": [ "USE_UPS" ], 
+    "price": 75000,
+	"power_draw": 20000000,
+    "revert_to": "fractal_simulation_apparatus",
+	"use_action": {
+      "type": "transform",
+      "msg": "The fractal simulation apparatus seems to sigh as it clicks off.",
+      "target": "fractal_simulation_apparatus",
+      "active": true,
+      "need_charges": 20,
+      "need_charges_msg": "You don't have enough UPS charges to turn on the %s"
+    },
     "price_postapoc": 250,
     "bashing": 6
   },
@@ -667,12 +748,35 @@
     "bashing": 6
   },
   {
+    "id": "holo_case",
+    "type": "ARMOR",
+    "name": { "str": "holo-case" },
+    "description": "A sleek case that fractal-holographically calculates the most efficient pattern of holographic storage, maximizing weight capacity in the storage space.",
+    "weight": "1 g",
+    "volume": "1 L",
+    "price": "200 USD",
+    "price_postapoc": "25 USD",
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "rucksack",
+    "color": "black",
+    "covers": [ "torso" ],
+    "coverage": 0,
+    "rigid": false,
+    "encumbrance": 0,
+	"max_encumbrance": 0,
+    "storage": "100 L",
+	"weight_capacity_bonus": "200 kg",
+    "material_thickness": 2,
+    "flags": [ "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_COMPATIBLE", "SEMITANGIBLE", "AURA" ]
+  },
+  {
     "id": "holo_ruck",
     "type": "ARMOR",
-    "name": { "str": "holoruck" },
-    "description": "A holobag that's been fractal-holographically expanded to allow for even more storage.",
-    "weight": "3539 g",
-    "volume": "21 L",
+    "name": { "str": "holo-ruck" },
+    "description": "A holo-bag that's been holographically expanded to allow for even more storage.",
+    "weight": "1 g",
+    "volume": "1 L",
     "price": "200 USD",
     "price_postapoc": "25 USD",
     "material": [ "leather" ],
@@ -685,18 +789,17 @@
     "encumbrance": 0,
 	"max_encumbrance": 0,
     "storage": "80 L",
-    "warmth": 10,
 	"weight_capacity_bonus": "50 kg",
     "material_thickness": 2,
-    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_COMPATIBLE", "SEMITANGIBLE", "AURA" ]
+    "flags": [ "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_COMPATIBLE", "SEMITANGIBLE", "AURA" ]
   },
   {
     "id": "holo_mbag",
     "repairs_like": "backpack",
     "type": "ARMOR",
-    "name": { "str": "holobag" },
+    "name": { "str": "holo-bag" },
     "description": "A bag that's been holographically constructed around a wandwood or barkskin lattice. Light and easy to wear, but doesn't offer much storage.",
-    "weight": "760 g",
+    "weight": "1 g",
     "volume": "1 L",
     "price": "79 USD",
     "price_postapoc": "250 cent",
@@ -712,10 +815,8 @@
     "encumbrance": 0,
     "max_encumbrance": 0,
     "storage": "6 L",
-    "material_thickness": 1,
 	"weight_capacity_bonus": "25 kg",
-    "valid_mods": [ "resized_large" ],
-    "flags": [ "BELTED", "COMPACT", "WATER_FRIENDLY", "ONLY_ONE", "POWERARMOR_COMPATIBLE", "SEMITANGIBLE", "AURA" ]
+    "flags": [ "COMPACT", "WATER_FRIENDLY", "ONLY_ONE", "POWERARMOR_COMPATIBLE", "SEMITANGIBLE", "AURA" ]
   },
   {
     "id": "psycho_mask",
@@ -749,7 +850,7 @@
       ]
     },
     "valid_mods": [ "steel_padded", "alloy_padded", "resized_large" ],
-    "flags": [ "WATER_FRIENDLY", "STURDY", "NO_TAKEOFF", "ONLY_ONE", "PLANTABLE_SEED" ]
+    "flags": [ "WATER_FRIENDLY", "STURDY", "NO_TAKEOFF", "ONLY_ONE", "PLANTABLE_SEED", "SKINTIGHT", "POWERARMOR_COMPATIBLE" ]
   },
   {
     "id": "eyepatch",
@@ -1068,7 +1169,7 @@
     "material": "flesh",
     "symbol": ".",
     "color": "red",
-	"use_action": { "type": "cast_spell", "spell_id": "place_pocket_doc_computer", "no_fail": true, "level": 10 },
+	"use_action": { "type": "cast_spell", "spell_id": "place_pocket_doc_comp", "no_fail": true, "level": 10 },
     "flags": [ "NUTRIENT_OVERRIDE", "INEDIBLE" ]
   },
   {
@@ -1160,5 +1261,75 @@
       { "fuel": 3, "smoke": 1, "burn": 0.03 }
     ],
     "burn_products": [ [ "ash", 0.018 ] ]
+  },
+  {
+    "type": "TOOL",
+    "id": "holo_hand_mirror",
+    "symbol": "o",
+    "color": "light_cyan",
+    "name": { "str": "holographic mirrorscope" },
+    "description": "An apparatus of descending lenses held together by a holographic matrix. The lenses have been chiselled to reverse-refract light from the matrix, creating new matrices at the user's discretion.",
+    "price": "150 USD",
+    "price_postapoc": "10 cent",
+    "material": "glass",
+    "weight": "300 g",
+    "volume": "750 ml",
+	"qualities": [ [ "HOLO", 1 ] ],
+    "bashing": 2,
+    "to_hit": -3
+  },
+  {
+    "type": "TOOL",
+    "id": "fractal_abacus",
+    "symbol": "o",
+    "color": "light_cyan",
+    "name": { "str": "fractal abacus" },
+    "description": "A device that can be used to run fractal simulations manually. A pre-supposed fractal network is tattoed in blood on a module capable of keeping it in a state of constant fractal exploration.",
+    "price": "150 USD",
+    "price_postapoc": "10 cent",
+    "material": "glass",
+    "weight": "300 g",
+    "volume": "750 ml",
+	"qualities": [ [ "FRACTAL", 1 ] ],
+    "bashing": 2,
+    "to_hit": -3
+  },
+  {
+    "type": "TOOL",
+    "id": "holo_sandbag",
+    "symbol": "o",
+    "color": "light_cyan",
+    "name": { "str": "'holo-sandbag'" },
+    "description": "Popularized as the wars of Man really started kicking off, this small handheld device projects a holographic half-wall when activated. After the holographic wall has been released, the image will need to be recaptured via some form of holographic synthesis.",
+    "price": "150 USD",
+    "price_postapoc": "10 cent",
+    "material": "glass",
+    "weight": "233 g",
+    "volume": "111 ml",
+	"max_charges": 1, 
+	"initial_charges": 1, 
+	"charges_per_use": 1, 
+	"use_action": { "type": "cast_spell", "spell_id": "place_holo_wall", "no_fail": true, "level": 10, "need_wielding": true },
+    "bashing": 2,
+    "to_hit": -3
+  },
+  {
+    "type": "TOOL",
+    "id": "fractal_blueprint",
+    "symbol": "o",
+    "color": "light_cyan",
+    "name": { "str": "'fractal blueprint'" },
+    "description": "An organic material that has been implanted with a set of DNA capable of making fractal calculations at above-quantum speed. You could use the blueprint to calculate the future, but you would need to replace the DNA seed afterwards.",
+    "price": "150 USD",
+    "price_postapoc": "10 cent",
+    "material": "flesh",
+    "weight": "300 g",
+    "volume": "750 ml",
+	"max_charges": 1, 
+	"initial_charges": 1, 
+	"charges_per_use": 1, 
+	"use_action": { "type": "cast_spell", "spell_id": "spawn_architects_aura", "no_fail": true, "level": 10, "need_wielding": true },
+    "bashing": 2,
+    "to_hit": -3
   }
 ]

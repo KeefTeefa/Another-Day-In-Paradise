@@ -863,6 +863,7 @@
     "required_str": -1,
 	"flags": [ "TRANSPARENT", "FLAT", "CLONING", "PLANTABLE", "PLACE_ITEM" ],
 	"plant_data": { "transform": "f_NMR_cloning_seed" },
+	"examine_action": "dirtmound",
     "looks_like": "f_MRI",
     "deconstruct": {
       "items": [
@@ -898,6 +899,7 @@
     "type": "furniture",
     "id": "f_fracholo_mirror",
     "name": "fractal/holographic mirror",
+	"looks_like": "bigmirror",
     "description": "A mirror that was broken beyond repair and was resurrected from the dead. Each piece of glass is painstakingly placed by an expert hand to form refractions capable of inefficiently interacting with the fractal-holographic matrix.",
     "symbol": "{",
     "color": "light_gray",
@@ -951,19 +953,9 @@
     },
     "deconstruct": {
       "items": [
-        { "item": "processor", "count": [ 2, 4 ] },
-        { "item": "RAM", "count": [ 8, 16 ] },
-        { "item": "cable", "charges": [ 8, 12 ] },
-        { "item": "small_lcd_screen", "count": [ 2, 4 ] },
-        { "item": "e_scrap", "count": [ 10, 16 ] },
-        { "item": "circuit", "count": [ 6, 10 ] },
-        { "item": "power_supply", "count": [ 2, 4 ] },
-        { "item": "amplifier", "count": [ 2, 4 ] },
-        { "item": "plastic_chunk", "count": [ 10, 12 ] },
-        { "item": "scrap", "count": [ 6, 8 ] },
-        { "item": "motor_small", "count": [ 0, 1 ] }
-      ]
-    }
+        { "item": "holographic_synthesizer"}
+		]
+	}
   },
   {
     "type": "furniture",
@@ -1010,19 +1002,9 @@
     },
     "deconstruct": {
       "items": [
-        { "item": "processor", "count": [ 2, 4 ] },
-        { "item": "RAM", "count": [ 8, 16 ] },
-        { "item": "cable", "charges": [ 8, 12 ] },
-        { "item": "small_lcd_screen", "count": [ 2, 4 ] },
-        { "item": "e_scrap", "count": [ 10, 16 ] },
-        { "item": "circuit", "count": [ 6, 10 ] },
-        { "item": "power_supply", "count": [ 2, 4 ] },
-        { "item": "amplifier", "count": [ 2, 4 ] },
-        { "item": "plastic_chunk", "count": [ 10, 12 ] },
-        { "item": "scrap", "count": [ 6, 8 ] },
-        { "item": "motor_small", "count": [ 0, 1 ] }
-      ]
-    }
+        { "item": "holographic_synthesizer"}
+		]
+	}
   },
   {
     "type": "furniture",
@@ -1060,19 +1042,9 @@
     },
     "deconstruct": {
       "items": [
-        { "item": "processor", "count": [ 2, 4 ] },
-        { "item": "RAM", "count": [ 8, 16 ] },
-        { "item": "cable", "charges": [ 8, 12 ] },
-        { "item": "small_lcd_screen", "count": [ 2, 4 ] },
-        { "item": "e_scrap", "count": [ 10, 16 ] },
-        { "item": "circuit", "count": [ 6, 10 ] },
-        { "item": "power_supply", "count": [ 2, 4 ] },
-        { "item": "amplifier", "count": [ 2, 4 ] },
-        { "item": "plastic_chunk", "count": [ 10, 12 ] },
-        { "item": "scrap", "count": [ 6, 8 ] },
-        { "item": "motor_small", "count": [ 0, 1 ] }
-      ]
-    }
+        { "item": "fractal_simulation_apparatus"}
+		]
+	}
   },
   {
     "type": "furniture",
@@ -1119,19 +1091,9 @@
     },
     "deconstruct": {
       "items": [
-        { "item": "processor", "count": [ 2, 4 ] },
-        { "item": "RAM", "count": [ 8, 16 ] },
-        { "item": "cable", "charges": [ 8, 12 ] },
-        { "item": "small_lcd_screen", "count": [ 2, 4 ] },
-        { "item": "e_scrap", "count": [ 10, 16 ] },
-        { "item": "circuit", "count": [ 6, 10 ] },
-        { "item": "power_supply", "count": [ 2, 4 ] },
-        { "item": "amplifier", "count": [ 2, 4 ] },
-        { "item": "plastic_chunk", "count": [ 10, 12 ] },
-        { "item": "scrap", "count": [ 6, 8 ] },
-        { "item": "motor_small", "count": [ 0, 1 ] }
-      ]
-    }
+        { "item": "fractal_simulation_apparatus"}
+		]
+	}
   },
   {
     "type": "terrain",
@@ -1178,6 +1140,37 @@
       "ter_set": "t_dirt",
       "items": [ { "item": "wandwood_branch", "count": [ 1, 1 ] }, { "item": "splinter", "count": [ 10, 25 ] } ],
       "ranged": { "reduction": [ 40, 80 ], "destroy_threshold": 180 }
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_holo_wall",
+    "name": "holographic wall",
+	"looks_like": "f_sandbag_half", 
+    "symbol": "#",
+    "bgcolor": "brown",
+    "description": "A holographic barricade, typically used for blocking bullets.  Stand next to it to fire past it unimpeded.",
+    "move_cost_mod": -1,
+    "coverage": 60,
+    "required_str": -1,
+    "flags": [
+      "CLIMB_SIMPLE",
+      "TRANSPARENT",
+      "MOUNTABLE",
+      "BLOCKSDOOR",
+      "SHORT",
+      "EASY_DECONSTRUCT",
+      "THIN_OBSTACLE",
+      "CLIMBABLE",
+      "PERMEABLE"
+    ],
+    "examine_action": "chainfence",
+    "bash": {
+      "str_min": 12,
+      "str_max": 60,
+      "sound": "crrrack!",
+      "sound_fail": "tink.",
+      "ranged": { "reduction": [ 100, 100 ], "destroy_threshold": 100, "block_unaimed_chance": "50%" }
     }
   }
 ]

@@ -2,18 +2,23 @@
   {
     "id": "effervescent_genetics",
     "type": "COMESTIBLE",
-	"comestible_type": "DRINK", 
-	"phase": "liquid", 
-	"container": "flask_glass", 
     "name": { "str": "effervescent genetics", "str_pl": "effervescent genetics" },
     "description": "Bubbling, frothing blood that has been distilled down to only the most active, life-affirming code. It forms a spiralling pool in your palm.",
     "weight": "1 g",
-    "volume": "1 ml",
+    "volume": "250 ml",
 	"looks_like": "blood", 
     "symbol": "?",
-    "flags": [ "NUTRIENT_OVERRIDE", "PLANTABLE_SEED" ], 
-	"brewable": { "time": "14 days", "results": [ "effervescent_genetics", "effervescent_genetics" ] },
-	"use_action": [ { "type": "cast_spell", "spell_id": "mutate_self_free", "no_fail": true, "level": 10 } ],
+    "flags": [ "NUTRIENT_OVERRIDE", "PLANTABLE_SEED" ],
+	"use_action": [ 
+	{ "type": "cast_spell", "spell_id": "mutate_self_free", "no_fail": true, "level": 10 },
+	{
+      "type": "learn_spell",
+      "spells": [
+        "living_fusion",
+		"ecdysis"
+      ]
+    } 
+	],
 	"seed_data": { "plant_name": "effervescent fruit", "fruit": "divine_fruit_bio", "seeds": false, "grow": "7 days", "required_terrain_flag": "RUBBER" },
     "color": "magenta"
   },
@@ -503,7 +508,7 @@
 	"effect_str": "ter_trans_rind_stone", 
 	"extra_effects": [ { "id": "mutate_self_ichor2", "hit_self": true}, { "id": "pain_split_adip", "hit_self": true} ],
     "valid_targets": [ "ground" ],
-    "flags": [ "LOUD", "NO_EXPLOSION_VFX", "PERMANENT" ],
+    "flags": [ "LOUD", "NO_EXPLOSION_VFX" ],
     "min_range": 3,
     "max_range": 3,
 	"min_damage": 1, 
@@ -784,8 +789,8 @@
     "comestible_type": "MED",
     "name": { "str": "hibernating peace officer", "str_pl": "hibernating peace officer" },
     "description": "A person with grey skin in a black suit with sunglasses on, curled around a p90 that they're clutching like a child clutches a favorite stuffed animal. They're asleep, but you could try and wake them up if you think you can.",
-    "weight": "10000 g",
-    "volume": "10 L",
+    "weight": "5000 g",
+    "volume": "5 L",
     "price": "34 USD",
 	"spoils_in": "365 days",
 	"rot_spawn": "GROUP_PEACE_OFFICER",

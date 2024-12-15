@@ -25,6 +25,13 @@
     ]
   },
   {
+    "id": "teleporter_components",
+    "type": "requirement",
+    "qualities": [
+	  { "id": "TELEPORTER", "level": 1 }
+    ]
+  },
+  {
     "id": "spell_components_catalyst",
     "type": "requirement",
     "components": [ [ [ "blood", 300 ], [ "effervescent_genetics", 1 ] ] ]

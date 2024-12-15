@@ -2,23 +2,26 @@
   {
     "type": "ter_furn_transform",
     "id": "ter_trans_rine_stone",
-	"furniture": [ { "result": "f_null"} ],
-    "terrain": [ { "result": "t_tree_young" } ]
+    "terrain": [ { "result": "t_tree_young", "valid_terrain": [ "t_null" ], "message": "A young tree springs to life." } ]
   },
   {
     "type": "ter_furn_transform",
     "id": "ter_trans_tentacle_summon",
-	"furniture": [ { "result": "f_null" } ],
-    "terrain": [ { "result": "t_water_dp" } ]
+    "terrain": [ { "result": "t_water_dp", "valid_terrain": [ "t_null" ], "message": "A fissure of water opens from the deep!" } ]
   },
   {
     "type": "ter_furn_transform",
     "id": "ter_trans_pocket_doc_couch",
-	"furniture": [ { "result": "f_autodoc_couch" } ]
+    "furniture": [ { "result": "f_autodoc_couch", "valid_furniture": [ "f_null" ], "message": "An autodoc couch pops out of the capsule." } ]
   },
   {
     "type": "ter_furn_transform",
     "id": "ter_trans_pocket_doc_comp",
-	"furniture": [ { "result": "f_autodoc" } ]
+	"furniture": [ { "result": "f_autodoc", "valid_furniture": [ "f_null" ], "message": "An autodoc computer pops out of the capsule." } ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "ter_trans_holo_wall",
+	"furniture": [ { "result": "f_holo_wall", "valid_furniture": [ "f_null" ], "message": "A holographic wall forms." } ]
   }
 ]

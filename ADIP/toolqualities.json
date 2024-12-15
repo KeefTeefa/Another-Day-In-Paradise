@@ -68,5 +68,10 @@
     "type": "tool_quality",
     "id": "LAW",
     "name": { "str": "law" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "TELEPORTER",
+    "name": { "str": "teleportation" }
   }
 ]

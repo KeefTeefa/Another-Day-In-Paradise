@@ -167,7 +167,7 @@
 	"looks_like": "mon_crawler", 
     "volume": "62500 ml",
     "weight": "81500 g",
-    "hp": 1300,
+    "hp": 2500,
     "speed": 100,
     "material": [ "flesh" ],
     "symbol": "Z",
@@ -187,11 +187,10 @@
 	"upgrades": { "half_life": 365, "into": "mon_ascended" },
 	"starting_ammo": { "bolt_cf_biohazard": 9 },
 	"emit_fields": [
-	  { "emit_id": "emit_nuke_gas", "delay": "5 s" }
+	  { "emit_id": "emit_nuke_gas", "delay": "3 s" }
     ],
     "special_attacks": [ 
 	[ "GRAB", 7 ], [ "RANGED_PULL", 20 ], [ "ZOMBIE_FUSE", 80 ], [ "FLESH_GOLEM", 10 ], [ "ABSORB_MEAT", 9 ], [ "FEAR_PARALYZE", 8 ], [ "RESURRECT", 11 ], [ "PARROT_AT_DANGER", 6 ],
-	{ "type": "spell", "spell_data": { "id": "ecdysis_mon_version", "min_level": 10 }, "cooldown": 20, "monster_message": "Pieces of your flesh are suddenly attracted to the biohazard like a magnet, tearing them off and turning them into walls of flesh." },
     {
         "type": "gun",
         "cooldown": 45,
@@ -225,7 +224,6 @@
 	  "BIOPROOF", 
 	  "LOUDMOVES", 
 	  "NO_BREATHE", 
-	  "FLIES", 
 	  "DESTROYS", 
       "POISON",
       "BILE_BLOOD",

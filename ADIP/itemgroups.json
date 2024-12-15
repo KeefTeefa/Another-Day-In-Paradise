@@ -1,4 +1,49 @@
 [
+{
+    "type": "item_group",
+    "id": "adip_gunmods_nodam",
+    "subtype": "distribution",
+    "items": [
+      { "item": "guntrinket_handling", "prob": 50 },
+	  { "item": "guntrinket_weight", "prob": 50 },
+	  { "item": "guntrinket_range", "prob": 50 },
+	  { "item": "guntrinket_reload", "prob": 50 },
+	  { "item": "guntrinket_burst", "prob": 50 },
+	  { "item": "guntrinket_blinds_eyes", "prob": 50 },
+	  { "item": "guntrinket_dispersion", "prob": 50 },
+	  { "item": "guntrinket_aim_speed", "prob": 50 },
+	  { "item": "rail_handling", "prob": 25 },
+	  { "item": "rail_weight", "prob": 25 },
+	  { "item": "rail_range", "prob": 25 },
+	  { "item": "rail_reload", "prob": 25 },
+	  { "item": "rail_burst", "prob": 25 },
+	  { "item": "rail_dispersion", "prob": 25 },
+	  { "item": "rail_aim_speed", "prob": 25 },
+	  { "item": "grip_handling", "prob": 10 },
+	  { "item": "grip_weight", "prob": 10 },
+	  { "item": "grip_range", "prob": 10 },
+	  { "item": "grip_reload", "prob": 10 },
+	  { "item": "grip_burst", "prob": 10 },
+	  { "item": "grip_dispersion", "prob": 10 },
+	  { "item": "grip_aim_speed", "prob": 10 },
+	  { "group": "adip_gunmods_specials", "prob": 10 },
+	  { "item": "muzzle_brake_handling", "prob": 5 },
+	  { "item": "muzzle_brake_weight", "prob": 5 },
+	  { "item": "muzzle_brake_range", "prob": 5 },
+	  { "item": "muzzle_brake_reload", "prob": 5 },
+	  { "item": "muzzle_brake_burst", "prob": 5 },
+	  { "item": "muzzle_brake_dispersion", "prob": 5 },
+	  { "item": "muzzle_brake_aim_speed", "prob": 5 },
+	  { "item": "holo_sight_handling", "prob": 1 },
+	  { "item": "holo_sight_weight", "prob": 1 },
+	  { "item": "holo_sight_range", "prob": 1 },
+	  { "item": "holo_sight_reload", "prob": 1 },
+	  { "item": "holo_sight_burst", "prob": 1 },
+	  { "item": "holo_sight_dispersion", "prob": 1 },
+	  { "item": "holo_sight_aim_speed", "prob": 1 },
+	  { "group": "adip_gunmods_effects", "prob": 1 }
+    ]
+  },
   {
     "type": "item_group",
     "id": "adip_gunmods_heat",
@@ -80,7 +125,8 @@
 	  { "item": "guntrinket_reload", "prob": 9 },
 	  { "item": "guntrinket_burst", "prob": 9 },
 	  { "item": "guntrinket_blinds_eyes", "prob": 1 },
-	  { "item": "guntrinket_dispersion", "prob": 9 }
+	  { "item": "guntrinket_dispersion", "prob": 9 },
+	  { "item": "guntrinket_aim_speed", "prob": 9 }
     ]
   },
   {
@@ -98,7 +144,8 @@
 	  { "item": "rail_range", "prob": 9 },
 	  { "item": "rail_reload", "prob": 9 },
 	  { "item": "rail_burst", "prob": 9 },
-	  { "item": "rail_dispersion", "prob": 9 }
+	  { "item": "rail_dispersion", "prob": 9 },
+	  { "item": "rail_aim_speed", "prob": 9 }
     ]
   },
   {
@@ -116,7 +163,9 @@
 	  { "item": "grip_range", "prob": 9 },
 	  { "item": "grip_reload", "prob": 9 },
 	  { "item": "grip_burst", "prob": 9 },
-	  { "item": "grip_dispersion", "prob": 9 }
+	  { "item": "grip_dispersion", "prob": 9 },
+	  { "item": "grip_aim_speed", "prob": 9 },
+	  { "group": "adip_gunmods_specials", "prob": 1 }
     ]
   },
   {
@@ -124,7 +173,27 @@
     "id": "adip_gunmods_tier4",
     "subtype": "distribution",
     "items": [
-      { "item": "heat_sight_1", "prob": 9 },
+      { "item": "muzzle_brake_acid", "prob": 9 },
+	  { "item": "muzzle_brake_heat", "prob": 9 },
+	  { "item": "muzzle_brake_cold", "prob": 9 },
+	  { "item": "muzzle_brake_biological", "prob": 9 },
+	  { "item": "muzzle_brake_electric", "prob": 9 },
+	  { "item": "muzzle_brake_handling", "prob": 9 },
+	  { "item": "muzzle_brake_weight", "prob": 9 },
+	  { "item": "muzzle_brake_range", "prob": 9 },
+	  { "item": "muzzle_brake_reload", "prob": 9 },
+	  { "item": "muzzle_brake_burst", "prob": 9 },
+	  { "item": "muzzle_brake_dispersion", "prob": 9 },
+	  { "item": "muzzle_brake_aim_speed", "prob": 9 },
+	  { "group": "adip_gunmods_effects", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "adip_gunmods_tier5",
+    "subtype": "distribution",
+    "items": [
+	  { "item": "heat_sight_1", "prob": 9 },
 	  { "item": "cold_sight_1", "prob": 9 },
 	  { "item": "electric_sight_1", "prob": 9 },
 	  { "item": "acid_sight_1", "prob": 9 },
@@ -134,19 +203,13 @@
 	  { "item": "holo_sight_range", "prob": 9 },
 	  { "item": "holo_sight_reload", "prob": 9 },
 	  { "item": "holo_sight_burst", "prob": 9 },
-	  { "item": "holo_sight_dispersion", "prob": 9 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "adip_gunmods_tier5",
-    "subtype": "distribution",
-    "items": [
-      { "item": "heat_sight_2", "prob": 20 },
-	  { "item": "cold_sight_2", "prob": 20 },
-	  { "item": "electric_sight_2", "prob": 20 },
-	  { "item": "acid_sight_2", "prob": 20 },
-	  { "item": "acid_sight_2", "prob": 20 }
+	  { "item": "holo_sight_dispersion", "prob": 9 },
+	  { "item": "holo_sight_aim_speed", "prob": 9 },
+      { "item": "heat_sight_2", "prob": 9 },
+	  { "item": "cold_sight_2", "prob": 9 },
+	  { "item": "electric_sight_2", "prob": 9 },
+	  { "item": "acid_sight_2", "prob": 9 },
+	  { "item": "acid_sight_2", "prob": 9 }
     ]
   },
   {
@@ -173,12 +236,25 @@
   },
   {
     "type": "item_group",
+    "id": "adip_gunmods_specials",
+    "subtype": "distribution",
+    "items": [
+      { "item": "mag_chamber", "prob": 20 },
+	  { "item": "mag_chute", "prob": 20 },
+	  { "item": "mag_sleeve", "prob": 20 },
+	  { "item": "mag_lever", "prob": 20 },
+	  { "item": "mag_rubber", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "adip_gunmods_tier1and2",
     "subtype": "distribution",
     "items": [
       { "group": "adip_gunmods_tier1", "prob": 66 },
-	  { "group": "adip_gunmods_tier2", "prob": 33 },
-	  { "group": "adip_gunmods_tier3", "prob": 1 }
+	  { "group": "adip_gunmods_tier2", "prob": 23 },
+	  { "group": "adip_gunmods_specials", "prob": 10 },
+	  { "group": "adip_gunmods_tier2and3", "prob": 1 }
     ]
   },
   {
@@ -189,7 +265,7 @@
       { "group": "adip_gunmods_tier2", "prob": 66 },
 	  { "group": "adip_gunmods_tier3", "prob": 23 },
 	  { "group": "adip_gunmods_effects", "prob": 10 },
-	  { "group": "adip_gunmods_tier4", "prob": 1 }
+	  { "group": "adip_gunmods_tier3and4", "prob": 1 }
     ]
   },
   {
@@ -199,7 +275,6 @@
     "items": [
       { "group": "adip_gunmods_tier3", "prob": 66 },
 	  { "group": "adip_gunmods_tier4", "prob": 33 },
-	  { "item": "guntrinket_mininuke_mod", "prob": 1 },
 	  { "group": "adip_gunmods_tier5", "prob": 1 }
     ]
   },
@@ -207,11 +282,11 @@
     "type": "item_group",
     "id": "gunmod_common",
     "items": [
-      [ "guntrinket_heat", 10 ],
-	  [ "guntrinket_cold", 10 ],
-	  [ "guntrinket_electric", 10 ],
-	  [ "guntrinket_acid", 10 ],
-	  [ "guntrinket_biological", 10 ],
+      [ "guntrinket_heat", 5 ],
+	  [ "guntrinket_cold", 5 ],
+	  [ "guntrinket_electric", 5 ],
+	  [ "guntrinket_acid", 5 ],
+	  [ "guntrinket_biological", 5 ],
 	  [ "guntrinket_handling", 10 ],
 	  [ "guntrinket_weight", 10 ],
 	  [ "guntrinket_range", 10 ],
@@ -297,6 +372,7 @@
     "items": [
       { "group": "adip_gunmods_tier1and2", "prob": 5 },
 	  { "item": "stamina_regen_potion", "prob": 5 },
+	  { "item": "holo_sandbag", "prob": 1 },
 	  { "item": "stamina_regen_potion_1", "prob": 1 }
     ]
   },
@@ -321,18 +397,19 @@
     "id": "ingredients_paradise",
     "subtype": "distribution",
     "items": [
-      { "item": "mandrake_root", "prob": 20 },
+      { "item": "mandrake_root", "prob": 25 },
 	  { "item": "brineweed", "prob": 15 },
 	  { "item": "sedge_buds", "prob": 10 },
 	  { "item": "divine_clementine", "prob": 10 },
 	  { "item": "yinyang_koi_egg", "prob": 5 },
-	  { "item": "boiled_chitin", "prob": 30 },
+	  { "item": "boiled_chitin", "prob": 50 },
 	  { "item": "detoxified_leech_flower", "prob": 3 },
 	  { "item": "smoked_palm", "prob": 5 },
-	  { "item": "razorclaw_caviar", "prob": 5 },
+	  { "item": "razorclaw_caviar", "prob": 3 },
 	  { "item": "hemor_seed", "prob": 1 },
 	  { "item": "leadbelly", "prob": 1 },
 	  { "item": "duxelle", "prob": 1 },
+	  { "item": "jabberwock_heart", "prob": 1 },
 	  { "item": "giant_rattlesnake_gland", "prob": 5 },
 	  { "item": "egg_cockatrice", "prob": 3 },
 	  { "item": "ground_wandwood", "prob": 1 }
@@ -523,9 +600,17 @@
   },
   {
     "type": "item_group",
-    "id": "homebooks",
+    "id": "manuals",
     "items": [
       [ "paradise_cooking", 5 ],
+	  [ "vergery", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "homebooks",
+    "items": [
+      [ "paradise_cooking", 10 ],
 	  [ "vergery", 1 ]
     ]
   },
@@ -543,6 +628,7 @@
     "items": [
       { "item": "holo_frame", "prob": 25 },
 	  { "item": "holo_space", "prob": 25 },
+	  { "item": "holo_case", "prob": 1 },
 	  { "item": "holo_ruck", "prob": 10 },
 	  { "item": "holo_mbag", "prob": 40 }
     ]
@@ -553,10 +639,12 @@
     "items": [
       { "group": "divine_fruits", "prob": 1 },
 	  { "group": "holo_bots", "prob": 10 },
-	  { "group": "adip_holobags", "prob": 10 },
+	  { "item": "holo_case", "prob": 10 },
 	  { "item": "ascended_seed", "prob": 1 },
 	  { "item": "moonsilver", "prob": 1 },
 	  { "item": "pocket_doc", "prob": 1 },
+	  { "item": "holographic_synthesizer", "prob": 1 },
+	  { "item": "fractal_simulation_apparatus", "prob": 1 },
 	  { "item": "omnigas_recipe", "prob": 5 },
 	  { "item": "peace_officer_egg", "prob": 10 },
 	  { "item": "rubber_shrub", "prob": 10 },
@@ -568,9 +656,12 @@
     "id": "science",
     "items": [
 	  { "group": "holo_bots", "prob": 1 },
-	  { "item": "pocket_doc", "prob": 1 },
+	  { "item": "holo_hand_mirror", "prob": 1 },
+	  { "item": "fractal_abacus", "prob": 1 },
+	  { "item": "holo_sandbag", "prob": 10 },
+	  { "item": "fractal_blueprint", "prob": 10 },
 	  { "item": "omnigas_recipe", "prob": 1 },
-	  { "item": "peace_officer_egg", "prob": 1 },
+	  { "item": "peace_officer_egg", "prob": 5 },
 	  { "item": "rubber_shrub", "prob": 1 }
     ]
   },
@@ -580,14 +671,6 @@
 	"subtype": "distribution", 
     "items": [
       { "group": "cooked_comestibles", "prob": 1 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "produce",
-	"subtype": "distribution", 
-    "items": [
-      { "group": "ingredients_paradise", "prob": 1 }
     ]
   },
   {
@@ -684,6 +767,23 @@
     "items": [
       [ "buckler_riot", 15 ],
       [ "buckler_ballistic", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "psycho_profession_guns",
+    "subtype": "distribution",
+    "items": [
+      { "group": "guns_rare", "prob": 1 },
+	  { "group": "archery_hunting", "prob": 5 },
+	  { "group": "guns_hunting", "prob": 5 },
+	  { "group": "guns_cop", "prob": 5 },
+	  { "group": "guns_survival", "prob": 25 },
+	  { "group": "guns_improvised", "prob": 10 },
+	  { "group": "guns_pistol_common", "prob": 5 },
+      { "group": "guns_rifle_common", "prob": 25 },
+      { "group": "guns_smg_common", "prob": 25 },
+      { "group": "guns_shotgun_common", "prob": 25 }
     ]
   }
 ]
